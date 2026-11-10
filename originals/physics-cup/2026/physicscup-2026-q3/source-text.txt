@@ -1,0 +1,25 @@
+Source: https://physicscup.ee/?page_id=6478
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Jaan Kalda
+At time
+t=0
+, a constant voltage
+V\equiv V_0
+is applied between nodes
+A
+and
+B
+of the infinite circuit shown below. All inductors have inductance
+L
+, and all capacitors have capacitance
+C
+. Find the input current
+I(t)
+as a function of time.
+Please submit the solution to this problem
+via e-mail to physcs.cup@gmail.com.
+After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

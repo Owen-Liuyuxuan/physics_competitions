@@ -1,0 +1,189 @@
+Source: https://physicscup.ee/2021-p3-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 3 – Oscillating octagon
+By 25th April 2021, there are 1026 registered participants from 71 countries. In total, 61 solutions were submitted for problem 3, out of which 20  were correct.
+As usual, when selecting the best solutions, preference has been given to those solutions which have been submitted before the publication of the first hint. Overall, there were eight such solutions: from Zhening Li, Huiyuan Wang, Yuechen Zhu, Lotus Chen, Nikita Semenin, Oliwier Urbański, Eddie Chen, Qian Lin.
+There were several solutions with a brute force approach, with the full Lagrangian written down and using a computer-aided algebraic approach to solve the system. These solutions do not provide much insight, and as such, were not considered as candidates for the best solutions. However, it is also useful to know how to use brute force when needed, and this is why we provide here the solution of
+Huiyuan Wang
+.
+Requirements for the best solutions are creative techniques, clear and concise math, clear documentation of what and why was done, reader-friendly (e.g. typeset in LaTeX). Keeping these requirements in mind, there were three solutions that were clearly better than the other submissions: by
+Zhening Li
+,
+Nikita Semenin
+, and
+Eddie Chen
+. Out of these, the paper of Zhening Li gave slightly more insight about why and what was done, so Zhening will get 40% of the bonus while Nikita and Eddie will both get 30%.
+Here are two more solutions which were submitted later, but might be helpful for readers to learn about different approaches:
+Sebastián Andrés Arévalo Aguirre
+who derived a useful formula to find the displacements of the centers of the bars in terms of rotation angles, to facilitate the calculation of the kinetic energy;
+Timothy Ho
+who provided nice and detailed documentation of the solution following all the hints.
+Final results for Problem 3
+Pre-university students
+First Name
+Surname
+Country
+School
+Date
+Time
+Bonus
+Score
+Zhening
+Li
+Canada
+Sir John A. Macdonald Secondary School
+28/02/21
+20:37
+1.49
+3.869
+Eddie
+Chen
+United States
+West-Windsor Plainsboro High School North
+06/03/21
+2:05
+1.35
+2.630
+Lotus
+Chen
+China
+No.2 High School Shijiazhuang
+01/03/21
+15:39
+2.299
+Oliwier
+Urbański
+Poland
+Liceum Ogólnokształcące nr 7 w Poznaniu
+02/03/21
+14:11
+2.063
+Antonia
+Ghita
+Romania
+International Computer High School of Bucharest
+17/03/21
+8:43
+1.555
+Jie
+Wang
+China
+Zhangjiakou No.1 Middle School
+24/03/21
+3:11
+1.256
+Ameya Vikrama
+Singh
+India
+FIITJEE Junior College
+25/03/21
+8:20
+1.054
+Sebastián Andrés
+Arévalo Aguirre
+El Salvador
+Instituto Emiliani
+07/04/21
+22:36
+1.10
+0.847
+Vuk
+Hip
+Serbia
+Mathematical grammar school
+01/04/21
+14:35
+0.839
+Dušan
+Beguš
+Serbia
+Mathematical Grammar School
+06/04/21
+21:36
+0.743
+Timothy
+Ho
+Singapore
+Gap Year
+09/04/21
+14:15
+1.10
+0.676
+Alexandar
+Roussev
+Bulgaria
+First Language School
+18/04/21
+11:37
+0.599
+Ashmit
+Dutta
+United States
+Wayzata High School
+16/04/21
+22:55
+0.539
+University students
+First Name
+Surname
+Country
+University
+Date
+Time
+Bonus
+Score
+Nikita
+Semenin
+Russia
+Moscow Insitute of Physics and Technology
+01/03/21
+17:56
+1.35
+2.894
+Huiyuan
+Wang
+China
+University of Cambridge
+01/03/21
+8:56
+1.10
+2.853
+Yuechen
+Zhu
+China
+Peking University
+01/03/21
+15:22
+2.240
+Qian
+Lin
+China
+University of Oxford
+11/03/21
+23:47
+1.754
+Yanjun
+Zhou
+United Kingdom
+University of Oxford
+16/03/21
+6:26
+1.435
+Jaroslav
+Herman
+Czechia
+Charles University, Prague
+14/04/21
+22:23
+0.949
+Pieter
+Van Steenweghen
+Belgium
+Imperial College London
+03/04/21
+23:02
+0.740
+Participating countries:
+Algeria, Azerbaijan, Australia, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Bolivia, Brazil, Bulgaria, Cambodia, Canada, China, Croatia, Czechia, Egypt, El Salvador, Estonia, Finland, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Korea, Kyrgyzstan, Latvia, Lebanon, Lithuania, Macedonia, Malaysia, Mexico, Moldova, Mongolia, Nepal, Nigeria, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Turkmenistan, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

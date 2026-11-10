@@ -1,0 +1,204 @@
+Source: https://physicscup.ee/__trashed/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 3
+In total, 88 solutions were submitted for problem 3, of which 29 were correct. Congratulations to everyone who successfully solved it!
+There were 13 correct solutions submitted before the first hint was published, and only those were considered as candidates for the best solution awards.
+The award winners are as follows.
+Alon Hart
+(bonus: 0.4 pts) combines circuit duality with superposition of two rotated excitations. This establishes the relation between the original and dual input impedances, giving the answer with very little algebra.
+Artyom Eryomin
+(bonus: 0.4 pts) introduces an auxiliary excitation whose phase advances by a quarter-cycle between successive terminals. This clever use of rotational symmetry reduces the infinite circuit to two scalar equations; superposing opposite phase sequences then recovers the required excitation.
+Joshua Wang
+(bonus: 0.1 pts) replaces the infinite four-terminal tail by a square network with edge and diagonal impedances. The two unknown impedances combine into a single quantity, allowing self-similarity to determine the input impedance directly.
+Shaocong Sun
+(bonus: 0.1 pts) expresses rotational symmetry through a cyclic-shift matrix and obtains a compact equation for the full terminal admittance matrix. Its simple symmetry modes reveal the frequency-independent response and provide a generalisation to arbitrary terminal excitations.
+Final results for Problem
+3
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P3 date time
+DD/MM/YY 00:00:00
+P3 Score
+Artyom
+Eryomin
+Lyceum №23
+28/12/25 17:50
+2.4
+Lee
+SinHyeok
+South Korea
+Seoul Science High School
+29/12/25 11:28
+1.9
+Kanad
+Bhattacharya
+India
+Deeksha STEM
+4/1/26 08:23
+1.8
+Antonia
+Radu
+Romania
+Colegiul National “Mihai Viteazul” Ploiesti
+9/1/26 21:31
+1.7
+Kwonheon
+Lee
+South Korea
+Seoul Science Highschool
+11/1/26 12:17
+1.6
+Siddhaarth
+Dharani
+Singapore
+Gap Year
+15/1/26 16:48
+1.31
+Qingxiang
+Liao
+China
+Shenzhen College of International Education
+25/1/26 01:10
+1.12
+Artem
+Nikitin
+SESC NSU
+25/1/26 11:55
+1.1
+Chetan
+Malviya
+India
+Narayana e-Techno School, Andheri
+1/2/26 11:57
+0.9
+Svarit
+Joshi
+India
+Khyati World School
+8/2/26 08:58
+0.7
+Haoze
+Li
+United Kingdom
+Winchester College
+8/2/26 11:22
+0.6
+Luka
+Smiljanic
+Serbia
+Mathematical Grammar School
+1/3/26 11:26
+0.5
+Ivan
+Ermolaev
+School 2044, Moscow
+5/3/26 19:34
+0.5
+University students:
+First name
+Surname
+Country
+School/University
+P3 date time
+DD/MM/YY 00:00:00
+P3 Score
+Vaibhav
+V
+India
+United Institute of Technology
+28/12/25 18:10
+2.0
+Joshua
+Wang
+United States
+MIT
+30/12/25 12:03
+2.0
+Wang
+Yixi
+China
+Hangzhou Dianzi University
+1/1/26 10:45
+1.8
+Alon
+Hart
+Israel
+Hebrew University of Jerusalem
+6/1/26 13:20
+1.7
+Guy
+Ginzberg
+Israel
+Open University of Israel
+2/1/26 12:11
+1.6
+Ashmit
+Dutta
+USA
+UIUC
+3/1/26 07:25
+1.6
+Vinícius
+Ferreira Rodrigues
+Brazil
+University of Iowa
+4/1/26 00:18
+1.5
+Shaocong
+Sun
+China
+Peking University
+4/1/26 04:28
+1.5
+Erik
+Kaniewski
+Estonia
+Taltech
+14/1/26 16:27
+1.01
+Jonathan
+Burger
+Germany
+Karlsruher Institut für Technologie
+16/1/26 08:49
+0.91
+Igor
+Kravchenko
+KubSAU
+3/2/26 10:26
+0.6
+Francesco
+Gariglio
+Italy
+Università degli Studi di Torino
+8/2/26 09:43
+0.6
+Alessandro
+D’Orazio
+Italy
+University of Pisa
+27/1/26 14:11
+0.567
+Adrian
+Rewkowski
+Belarus
+Jagiellonian University
+27/1/26 16:54
+0.567
+Nikhil
+Kodali
+United States
+UC Irvine
+1/2/26 20:42
+0.54
+Larrance
+Xing
+United States
+University of Chicago
+22/2/26 07:18
+0.45

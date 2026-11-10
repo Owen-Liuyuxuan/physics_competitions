@@ -1,0 +1,505 @@
+Source: https://physicscup.ee/pc2025-p4-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 4 – Axis of a lens
+In total, 93 solutions were submitted for problem 4, of which 79 were correct. Congratulations to everyone who successfully solved it!
+There were 31 correct solutions submitted before the first hint was published, and only those were considered as candidates for the best solution awards. Additionally, while handwritten solutions are generally not considered  (due to the fact that recently, a dominating majority of the submissions had been excellently typeset in LaTeX), an exception was made this time for two solutions that demonstrated exceptionally short construction paths. The key criterion for this problem was construction efficiency combined with mathematical elegance—solutions that recognized the most direct geometric insights to minimize the number of construction steps required.
+A dominating majority of the 31 correct solutions were based on homothety. More specifically, while it is very difficult to find the exact position of the original circle, one can easily draw its homothety relative to
+O
+; if we further limit ourselves only to those construction elements that undergo the same homothety, the exact location of the circle will not matter. There were only five solutions that used a different approach: Dhruv Shah, Alexandra Stefanova-Razumnaya and Qirui He smartly used angle bisectors to directly determine the lens’s plane, and two submissions constructed an auxiliary hyperbola to find the main focus.
+Most homothety-based solutions follow a standard pattern: they construct the focal plane closer to the ellipse by identifying the convergence points of initially parallel rays, either by finding first the image of the circle’s center (reducing the problem thereby to Physics Cup 2017 Problem 4), or by finding alternative ways of identifying pairs of initially parallel rays. However, Joshua Wang and Emerson Franzua employ distinctly different strategies: Wang finds the focal plane closer to the circle rather than the ellipse, while Emerson constructs the lens plane directly, bypassing focal plane construction. The third solution that deviates from the mainstream within this class of solutions is that of Sim Hui Xiang who makes use of inversion theory.
+The award winners are as follows.
+Alexandra Stefanova-Razumnaya
+(
+.ggb
+),
+Dhruv Shah
+(
+.ggb
+), and
+Qirui He
+(
+.ggb
+) share the main prize, with Alexandra and Dhruv receiving slightly smaller bonuses (0.21) than Qirui He (0.3) due to their handwritten format. All three solutions (15-16 construction steps) demonstrate the key insight of using the intended-solution’s  bisector method, avoiding the need for auxiliary circles and homothety arguments. A small comment to Qirui He’s solution that might help in understanding: his construction of the angle α is based on the fact that α is the inscribed angle of the arc AD in his Fig. 2, and as such, can be expressed in terms of the angle between the tangents of the ellipse drawn from the point
+O
+.
+Joshua Wang
+(
+.ggb
+) and
+Emerson Franzua Aldana Gavarrete
+(
+.ggb
+) receive honorable mentions (0.14 pts each). They share the shortest construction sequence among the homothety-based solutions, with 20-steps, and both employ ideas not found in the other  homothety-based solutions.
+Other published solutions are:
+Siddhaarth Dharani
+(
+.ggb
+), whose systematic tabular methodology and progressive GeoGebra documentation exemplify clear pedagogical presentation in standard homothety-based constructions, and
+Moritz Rohner
+(
+.ggb
+), who provides theoretical rigor by proving the independence of circle choice in homothety methods. Both of them use 22 steps to reach their goal; with that, they 6th and 7th place in the length ranking.
+Teo Kai Wen
+‘s solution (
+.ggb
+; 25 steps) merits publication for a clear presentation with pedagogically useful structuring. Next,
+Sim Hui Xiang
+‘s solution (
+.ggb
+) merits publication not because of its length (32 steps), but because of educational merit of showing how to use the inversion theory.
+Eric Wang
+(
+.ggb
+; 34 steps) demonstrates how to use the concept of cross-ratio and the theory of projective geometry, as well as how to keep rigor and clarity through mathematical lemmas. Finally, the solution of
+Francesco Gariglio
+(
+.ggb
+; 41 steps) represents the third type of solutions that reaches the goal via constructing first the locus of the main focus in the form of an hyperbola.
+Finally, here is
+my own (JK) solution
+(11 steps).
+Final results for Problem 4
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P4 date time
+DD/MM/YY 00:00:00
+P4 Score
+Robertas
+Juknevičius
+Lithuania
+Kaunas University of Technology Gymnasium
+26/1/25 17:55
+2.0
+Andrei
+Vila
+Romania
+International Computer High School Bucharest
+26/1/25 18:04
+1.85
+Grigorii
+Grechkin
+Russia
+School CPM
+26/1/25 21:49
+1.8
+Kai Wen
+Teo
+Singapore
+Raffles Institution
+27/1/25 03:25
+1.7
+Darius
+Graur
+Moldova
+Liceul Teoretic Orizont
+26/1/25 22:17
+1.7
+Joshua
+Wang
+United States
+Brookfield Central High School
+27/1/25 07:29
+1.54
+Badekai Vishruth Krishna
+Ramachandra Bhat
+India
+Maa Bharati Senior Secondary School
+27/1/25 05:34
+1.45
+Siddhaarth
+Dharani
+Singapore
+NUS High School
+27/1/25 14:02
+1.4
+Alexandra
+Stefanova-Razumnaya
+Russia
+239
+2/2/25 12:05
+1.21
+Alexandru
+Bordei
+Moldova
+LT “Orizont” Durlesti
+27/1/25 14:25
+1.2
+Moritz
+Rohner
+Luxembourg
+Lycée de Garçons Esch (LGE)
+28/1/25 07:35
+1.1
+Francesco
+Gariglio
+Italy
+IIS Majorana Moncalieri
+8/2/25 15:19
+1.1
+Kanishk
+Jain
+India
+ALLEN Kota
+27/1/25 19:12
+1.1
+Tomas
+Razbadauskas
+Lithuania
+Kaunas University of Technology Gymnasium
+2/2/25 19:47
+1.0
+Alex
+Secrieru
+Moldova
+LT “Orizont”
+30/1/25 08:47
+1.0
+Damjan
+Stojanov
+North Macedonia
+Yahya Kemal Skopje
+31/1/25 21:24
+1.0
+Shresth
+Suraiya
+India
+Narayana School
+29/1/25 07:30
+1.0
+Pavel
+Bulanov
+Russia
+School #533
+1/2/25 19:15
+1.0
+Owen
+Zhou
+United States
+Basis Scottsdale
+28/1/25 06:13
+0.95
+Zander
+Li
+Canada
+Laurel Heights Secondary School
+9/2/25 18:58
+0.9
+Enej
+Jauk
+Slovenia
+Gimnazija Bežigrad
+16/2/25 11:33
+0.9
+Daniils
+Koselevs
+Latvia
+Jauno Lideru Vidusskola
+15/2/25 21:38
+0.9
+Amrit
+Raj
+India
+Maa Bharti Sr. Sec. School
+16/2/25 06:28
+0.9
+Saurya
+Shrestha
+Nepal
+St. Xavier’s College, Nepal
+15/2/25 21:28
+0.9
+Aljaž
+Erman
+Slovenia
+Gimnazija Kranj
+1/2/25 21:34
+0.9
+Zeyneb
+Mehemmedli
+Azerbaijan
+TTEL
+15/2/25 21:58
+0.9
+Luca
+Gâlea
+Romania
+National College Iasi
+10/2/25 21:46
+0.9
+Artyom
+Eryomin
+Russia
+Lyceum №23
+8/2/25 16:42
+0.9
+Kai Xin
+Chen
+China
+GuangDong ShiYan middle school – ShenZhen High school.
+11/2/25 14:19
+0.9
+Mikhail
+Lazarev
+Russia
+Letovo School
+15/2/25 09:15
+0.9
+Ilya
+Pavlov
+Russia
+ПФМЛ №239
+12/2/25 22:14
+0.855
+Chetan
+Malviya
+INDIA
+Narayana e-Techno School – Mumbai
+10/2/25 07:52
+0.81
+Mahammad
+Jafarli
+Azerbaijan
+Technical-Humanitarian Lyceum
+22/2/25 10:40
+0.8
+Oytun
+Er
+Türkiye
+Kadıköy Anatolian Highschool
+28/2/25 18:38
+0.7
+Subhanshu
+Yadav
+India
+FIITJEE
+23/2/25 20:57
+0.7
+Tuncay
+Amiraslanli
+Azerbaijan
+Sumgait school N23
+2/3/25 11:06
+0.7
+Tanay
+Tekade
+India
+School of Scholars
+1/3/25 08:22
+0.7
+Ilya
+Shpakov
+Russia
+Kapitza lyceum
+1/3/25 23:43
+0.7
+Rahul
+Nandi
+Bangladesh
+Chattogram College
+2/3/25 12:57
+0.665
+Yisi
+Liu
+China
+The First High School of Changsha
+22/2/25 16:23
+0.648
+Alp
+Terliksiz
+Türkiye
+Enka Science and Technology Highschool
+24/2/25 11:51
+0.63
+Raiq Babazade
+Murad Khalil, Ibrahim Valehli
+Azerbaijan
+Physics, Mathematics and Informatics lyceum
+28/2/25 18:58
+0.63
+Tejas Penugonda
+Talha Ashraf
+India/Pakistan
+Nixor College
+1/3/25 19:15
+0.63
+Carlo
+Di Lorenzo
+Italy
+Liceo Newton Chivasso
+8/3/25 17:30
+0.6
+Maxim
+Osatskiy
+Russia
+LETOVO School
+3/3/25 20:00
+0.6
+Saskia
+Põldmaa
+Estonia
+Tallinn Secondary School of Sciences
+9/3/25 10:46
+0.57
+Darsh
+Sikka
+India
+DPS RK Puram
+30/3/25 11:44
+0.5
+Aditya
+Das Jitu
+Bangladesh
+Chattogram College
+10/3/25 17:39
+0.5
+Italo
+Vidaurre
+El Salvador
+Programa Jovenes Talento
+14/3/25 18:20
+0.5
+Aryan
+Prakash Verma
+India
+allen
+28/3/25 20:57
+0.5
+Luis Edgar
+Sánchez Henríquez
+El Salvador
+Programa Jovenes Talentos
+30/3/25 22:20
+0.45
+University students:
+Age Group
+First name
+Surname
+Country
+School/University
+P4 date time
+DD/MM/YY 00:00:00
+P4 Score
+University
+Dženan
+Midžić
+Bosnia and Herzegovina
+University of Rijeka
+26/1/25 14:34
+2.0
+University
+Guy
+Ginzberg
+Israel
+The Open University of Israel
+26/1/25 15:58
+1.85
+University
+Qirui
+HE
+Hong Kong
+Chinese University of Hong Kong
+28/1/25 03:03
+1.8
+University
+Ilan Mihelja
+Ivan Hegedić
+Croatia
+University of Zagreb, EPFL
+26/1/25 16:53
+1.8
+University
+Iaroslav
+Pozdniak
+Russia
+Moscow Institute of Physics and Technology
+27/1/25 01:32
+1.7
+University
+Adrian, Bruno, Daniel
+Serrano Capatina, Pontecorvo, Gonzalez Filipov
+Switzerland
+École Polytechnique Fédérale de Lausanne
+27/1/25 16:55
+1.6
+University
+Dhruv
+Shah
+India
+Massachusetts Institute of Technology
+2/2/25 16:27
+1.51
+University
+Eric
+Wang
+United States
+Massachusetts Institute of Technology
+30/1/25 00:45
+1.5
+University
+Emerson Franzua
+Aldana Gavarrete
+Honduras
+Universidad Nacional Autónoma de Honduras
+7/2/25 01:35
+1.34
+University
+Hui Xiang
+Sim
+Singapore
+National University of Singapore
+7/2/25 04:53
+1.1
+University
+Konstantin
+Rodionenko
+Russia
+ITMO University
+23/2/25 12:50
+0.8
+University
+Štěpán
+Plass
+Czech Republic
+Univerzita Karlova
+25/2/25 18:25
+0.7
+University
+Marco
+Altamura
+Italy
+Università di Padova
+23/2/25 12:56
+0.7
+University
+Sifat Ahmed
+Tushar
+Bangladesh
+University of Dhaka
+5/3/25 17:22
+0.6
+University
+Michał
+Kołodziejczyk
+Poland
+Warsaw University of Technology
+22/3/25 20:26
+0.5
+University
+Larrance
+Xing
+United States
+University of Chicago
+15/3/25 04:43
+0.5
+University
+Marinus
+Lehmann
+Germany
+University of Potsdam
+15/3/25 16:29
+0.5

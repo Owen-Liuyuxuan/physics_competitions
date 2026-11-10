@@ -1,0 +1,721 @@
+Source: https://physicscup.ee/2021-p2-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 2 – Comet’s orbit
+By 7th March 2021, there are 992 registered participants from 71 countries (the list of countries is given below). During the five weeks, 151 solutions were submitted for problem 2, out of which 95 were correct.
+This problem was clearly a big success as there was a big number of correct solutions with completely different approaches which showed that the problem was a great source of inspiration for the contestants. As usual, the main contenders for the best solutions were the solutions submitted before the publication of the first hint – there were 65 such solutions. Out of those 65 solutions, I picked 11 well-documented not-too-long solutions which demonstrated different approaches. The ranking list gives preference to the shortest solutions and to creative ideas.
+Lotus Chen
+, 45% of the bonus – by far the shortest solution, not surprisingly based on the eccentricity vector.
+Eddie Chen
+, 25% of the bonus – also a very short solution, bypasses the eccentricity vector, mostly geometrical.
+Sangyul Lee
+,
+15% of the bonus  – an analytical solution based on the formula of the ellipse in Cartesian coordinates and generalizing the result.
+Nguyen Manh Quan
+, 15% of the bonus – a solution bypassing the eccentricity vector and using a series of clever geometrical constructions, and application of Apollonian circles.
+Apart from these, there are solutions that are also very interesting and deserve publication, hence earning the publication bonus factor of 1.1.
+Jianzheng Deng
+and
+Oliwier Urbanski
+– solutions that start with the eccentricity vector and then make use of clever geometry.
+Yu Lu
+– a mostly analytical solution based on the formula of the ellipse in polar coordinates and making use of the Lagrange multiplier.
+Absur Khan Siam
+and
+Fang Tzu, Hsu
+– solutions making use of the fact that the locus of the intersection point of two mutually perpendicular tangents to an ellipse is a circle.
+Arhaan Ahmad
+–  a solution making use of the fact that the locus of the intersection point of a tangent to an ellipse with its perpendicular drawn through a focus is a circle.
+Ricards Kristers Knipsis
+–
+a nicely written solution based on the fact that the hodograph is a circle (which, as a matter of fact, has been used in many solutions and follows immediately from the eccentricity vector, here proved in a different way).
+Finally, we are publishing here the solutions by the author of the problem,
+Thomas Foster
+, and by the academic head of Physics Cup,
+Jaan Kalda
+.
+Final results for Problem 2
+Pre-university students
+First name
+Surname
+Country
+School
+Date
+Time
+Score
+Eddie
+Chen
+United States
+West-Windsor Plainsboro High School North
+31.01.21
+14:41
+2.752
+Manh Quan
+Nguyen
+Vietnam
+Hanoi – Amsterdam High School for the Gifted
+31.01.21
+14:39
+2.740
+Thanadis
+Charoenrujijin
+Thailand
+Suankularb Wittayalai School
+31.01.21
+13:59
+2.594
+Bayram Alp
+Şahin
+Turkey
+Ankara Science HS
+31.01.21
+14:56
+1.949
+Arhaan
+Ahmad
+India
+Krishna Public School
+31.01.21
+16:27
+1.949
+Zhening
+Li
+Canada
+Sir John A. Macdonald Secondary School
+31.01.21
+17:45
+1.611
+Lotus
+Chen
+China
+No.2 High School Shijiazhuang
+01.02.21
+6:22
+1.568
+Cristiana Andreea
+Murgoci
+Romania
+International Computer Highschool of Bucharest
+31.01.21
+17:49
+1.464
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Informatics High School
+31.01.21
+18:54
+1.331
+Absur Khan
+Siam
+Bangladesh
+Notre Dame College
+31.01.21
+20:03
+1.331
+Vuk
+Hip
+Serbia
+Mathematical grammar school
+31.01.21
+23:21
+1.100
+Jianzheng
+Deng
+China
+Shenzhen Senior High School
+02.02.21
+2:52
+1.100
+Yu
+Lu
+China
+Suzhou High School of Jiangsu Province
+03.02.21
+15:12
+1.100
+Oliwier
+Urbański
+Poland
+Liceum Ogólnokształcące nr 7 w Poznaniu
+03.02.21
+12:23
+1.045
+Dušan
+Beguš
+Serbia
+Mathematical Grammar School
+31.01.21
+23:44
+1.000
+Wesley Antonio
+Machado Andrade de Aguiar
+Brazil
+Military School of Manaus
+01.02.21
+3:59
+1.000
+Jiaxi
+Su
+China
+NO.1 Middle School attached to Central China Normal University
+01.02.21
+9:21
+1.000
+Minh
+Trang Dao
+Vietnam
+Hus highschool for gifted students
+01.02.21
+10:07
+1.000
+Ameya
+Deshmukh
+India
+St. Joseph’s Convent High School
+01.02.21
+15:11
+1.000
+Anant
+Lunia
+India
+Delhi Public School RK Puram
+01.02.21
+21:56
+1.000
+Joshua
+Teo
+Singapore
+NUS High School
+02.02.21
+8:28
+1.000
+Anastasia
+Pozharkova
+Russia
+MBOU “Gymnasium 91 named after M. V. Lomonosov”
+02.02.21
+11:36
+1.000
+Xuanyu
+Lin
+China
+Shenzhen Foreign Languages School
+02.02.21
+14:53
+1.000
+Pritesh
+Mehta
+India
+Allen
+04.02.21
+18:04
+1.000
+József
+Gurzó
+Hungary
+Budapesti Fazekas Mihály Gyakorló Általános Iskola és Gimnázium
+04.02.21
+19:17
+1.000
+M. Subhi
+Abo Rdan
+Syria
+Knowledge private schools
+05.02.21
+18:45
+1.000
+Arturo Francisco Ruiz
+Mercado
+Bolivia
+Hno. Felipe Palazón
+05.02.21
+21:27
+1.000
+Balázs
+Kovács
+Hungary
+Hatvani Bajza József Gimnázium
+05.02.21
+22:30
+1.000
+Deng
+Jinqiu
+China
+Guangdong Experimental High School
+06.02.21
+10:58
+1.000
+Dmitry
+Khvatov
+Russia
+Lyceum “Vorobyovy gory”
+06.02.21
+18:21
+1.000
+Martin
+Vassilev
+Bulgaria
+SMG “Paisii Hilendarski”
+07.02.21
+9:52
+1.000
+Adam
+Džavoronok
+Slovakia
+Gymnázium Poštová 9
+07.02.21
+19:18
+1.000
+Cristian
+Ardeleanu
+Romania
+International Computer High School Bucharest
+09.02.21
+15:24
+1.000
+Sebastián Andrés
+Arévalo Aguirre
+El Salvador
+Instituto Emiliani
+10.02.21
+13:37
+1.000
+Abdullah
+AlHussni
+Syria
+Al Saade HS, Syria
+11.02.21
+22:30
+1.000
+Timothy
+Ho
+Singapore
+Gap Year
+13.02.21
+15:06
+1.000
+Nithesh
+Sanjeevi Saravanan
+Singapore
+In gap year
+13.02.21
+17:30
+1.000
+Phatthanon
+Pattanakanvijit
+Thailand
+Suankularb Wittayalai School
+13.02.21
+18:41
+1.000
+Gigi
+Tsirekidze
+Georgia
+LEPL Kutaisi Phys. Math. Public School N41
+13.02.21
+18:50
+1.000
+Abdalazeez
+Jerby
+Syria
+Al-Basel high school
+14.02.21
+0:35
+1.000
+Gyan Seah;
+TJ Wei & P Seow
+Singapore
+NUS High School of Mathematics and Science
+14.02.21
+8:48
+1.000
+Je Qin
+Chooi
+Malaysia
+Kolej Tuanku Ja’afar
+02.02.21
+2:43
+0.950
+Gia Hiển
+Nguyễn
+Vietnam
+HUS High School for Gifted Students
+04.02.21
+12:33
+0.950
+Duta
+Kartvelishvili
+Georgia
+LEPL KUTAISI ANDRIA RAZMADZE PHYSICS AND MATHEMATICAL PUBLIC SCHOOL N41
+10.02.21
+16:09
+0.950
+Sarthak
+panda
+India
+Fiitjee Bhubaneswar
+14.02.21
+5:00
+0.950
+Caio Augusto
+Siqueira da Silva
+Brazil
+Colégio Objetivo Integrado
+12.02.21
+4:46
+0.900
+Antonia
+Ghita
+Romania
+International Computer High School of Bucharest
+14.02.21
+12:15
+0.900
+Alessandro
+Menegon
+Brazil
+Colégio Objetivo Integrado
+16.02.21
+18:34
+0.900
+Jiuyun
+Cheung
+China
+Huaiyin Middle School
+19.02.21
+16:11
+0.900
+Lan
+Tianyi
+China
+Beijing Academy
+20.02.21
+1:45
+0.900
+Evan
+Kim
+United States
+Tesla STEM High School
+21.02.21
+9:11
+0.900
+Minh Hoàng
+Lê
+Vietnam
+HUS High School for Gifted Students
+15.02.21
+3:06
+0.810
+Jie
+Wang
+China
+Zhangjiakou No.1 Middle School
+16.02.21
+13:42
+0.810
+Alexandar
+Roussev
+Bulgaria
+First Language School
+17.02.21
+10:32
+0.810
+Ameya Vikrama
+Singh
+India
+FIITJEE Junior College
+19.02.21
+13:25
+0.810
+Huy Phuong
+Dang
+Vietnam
+High School for Gifted Students
+25.02.21
+0:01
+0.800
+Jozef
+Csipes
+Slovakia
+Gymnázium, Grösslingová 18, Bratislava
+27.02.21
+16:37
+0.800
+Golam
+Ishtiak
+Bangladesh
+Kushtia Government College
+15.02.21
+8:51
+0.729
+Ashmit
+Dutta
+United States
+Wayzata High School
+20.02.21
+20:30
+0.729
+郑智豪
+Zhihao Zheng
+China
+Huaiyin High School
+23.02.21
+7:03
+0.720
+Jeffrey
+Shi
+United States
+Phillips Academy Andover
+06.03.21
+23:13
+0.700
+Vinícius
+Ferreira Rodrigues
+Brazil
+Colégio Master
+06.03.21
+23:59
+0.665
+幻夜
+Zhuang Yicheng
+China
+Urumqi No.1 Senior High School
+04.03.21
+17:55
+0.630
+Chin Peng
+Tan
+Malaysia
+Kolej Matrukulasi Melaka
+04.03.21
+18:21
+0.630
+Tasnimul
+Jishan
+Bangladesh
+Notre Dame College, Dhaka
+06.03.21
+11:12
+0.630
+Divyansh
+Pandey
+India
+KV Picket
+26.02.21
+4:26
+0.583
+Dženan
+Midžić
+Bosnia and Herzegovina
+JU Gimnazija “Bihać”
+06.03.21
+18:34
+0.567
+University students
+First name
+Surname
+Country
+University
+Date
+Time
+Score
+Nikita
+Semenin
+Russia
+Moscow Insitute of Physics and Technology
+31.01.21
+14:29
+2.594
+Huiyuan
+Wang
+China
+University of Cambridge
+31.01.21
+22:48
+2.358
+Pieter
+Van Steenweghen
+Belgium
+Imperial College London
+31.01.21
+23:18
+2.144
+Fang Tzu
+Hsu
+Taiwan
+National Taiwan University
+01.02.21
+1:36
+2.144
+Yuechen
+Zhu
+China
+Peking University
+01.02.21
+10:41
+1.683
+Janis
+Huns
+Latvia
+University of Cambridge
+01.02.21
+11:16
+1.611
+Qian
+Lin
+China
+University of Oxford
+01.02.21
+22:39
+1.464
+Sangyul
+Lee
+Korea
+Seoul National University
+03.02.21
+18:42
+1.406
+Batuhan
+Keskin
+Turkey
+Boğazici University
+03.02.21
+18:03
+1.331
+Prakhar
+Singh
+India
+IIT Kanpur
+04.02.21
+7:07
+1.100
+Ricards
+Knipsis
+Latvia
+University of Manchester
+13.02.21
+14:11
+1.100
+Tevž
+Lotrič
+Slovenia
+University of Oxford
+04.02.21
+9:27
+1.000
+Vineet
+Guleria
+India
+Sri Chaitanya
+10.02.21
+21:08
+1.000
+Elio
+Moreau
+Italy
+École Polytechnique Fédérale de Lausanne (EPFL)
+12.02.21
+16:58
+1.000
+Alessandro
+Rezzi
+Italy
+University of Padova
+13.02.21
+11:51
+1.000
+Jaroslav
+Herman
+Czechia
+Charles University, Prague
+13.02.21
+22:02
+1.000
+Hugo
+Bäckman
+Sweden
+Chalmers University
+09.02.21
+22:15
+0.900
+Daoxin
+Zhong
+Singapore
+University of Oxford
+15.02.21
+0:12
+0.900
+James
+Walkling
+United Kingdom
+University of Cambridge
+15.02.21
+10:40
+0.900
+Masuk Ridwan
+Saumo
+Bangladesh
+Bangladesh University of Engineering and Technology
+15.02.21
+11:39
+0.900
+Phung
+Minh Hiep
+Viet Nam
+THPT Chuyên Vĩnh Phúc
+15/02/21
+12:38
+0.900
+星宇 姜
+Xingyu Jiang
+China
+Tongji University
+20.02.21
+3:45
+0.855
+Leonardo
+Wimmer
+Japan
+Osaka University
+22.02.21
+14:09
+0.800
+Nguyen
+Tan
+VietNam
+Hong Kong University of Science and Technology
+24.02.21
+7:16
+0.800
+YiChen
+Zhu
+China
+Nanjing University
+27.02.21
+11:58
+0.720
+Luo
+Long
+China
+University College London
+28.02.21
+14:31
+0.700
+Yanjun
+Zhou
+United Kingdom
+University of Oxford
+01.03.21
+20:21
+0.700
+Alfian
+Gunawan
+Indonesia
+Universitas Indonesia
+06.03.21
+22:03
+0.700
+Participating countries
+: Algeria, Azerbaijan, Australia, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Bolivia, Brazil, Bulgaria, Cambodia, Canada, China, Croatia, Czechia, Egypt, El Salvador, Estonia, Finland, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Korea, Kyrgyzstan, Latvia, Lebanon, Lithuania, Macedonia, Malaysia, Mexico, Moldova, Mongolia, Nepal, Nigeria, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Turkmenistan, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

@@ -1,0 +1,38 @@
+Source: https://physicscup.ee/?page_id=5177
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Jaan Kalda
+(TalTech).
+A water pipe of length
+L
+and of internal radius
+r
+runs under ground and is surrounded over its entire length by soil at temperature
+T_0
+. The specific heat of the soil is
+c
+, the density is
+\rho
+, and the heat conductance is
+\kappa
+. The characteristics of the pipe walls are identical to those of the soil. A boiler supplying water at a constant temperature
+T_1>T_0
+is attached to the inlet of the pipe, and at the moment of time
+t=0
+, a tap is opened at the outlet of the pipe. The water in pipe starts flowing at a constant speed
+v
+. How long one has to wait for the water flowing out of the tap to become warm if it is known that this waiting time is significantly bigger than
+L/v
+? We call water warm if its temperature is higher than
+\frac 12(T_0+T_1)
+. Only an estimate of the answer is required: you need to provide the correct functional dependence of the waiting time while estimating the magnitude of its parameters. The specific heat of water is
+c_w
+, and its density is
+\rho_w
+; the water flow in the pipe is turbulent so that the water temperature can be assumed to be constant over a cross-section of the pipe.
+Please submit the solution of this problem
+via e-mail to physcs.cup@gmail.com.
+First intermediate results and the first hint will be published on 21st April, 13:00 GMT. After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

@@ -1,0 +1,220 @@
+Source: https://physicscup.ee/2022-p2-best-solutions-and-final-results
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 2 – Fastest lap
+By 27th February 2022, there are 1111 registered participants from 80 countries. In total, 122 solutions were submitted for problem 2, out of which 38  were correct.
+Congratulations to everyone who managed to solve this problem!
+As usual, when selecting the best solutions, preference has been given to those solutions which have been submitted before the publication of the first hint. Things were relatively simple this time as there were only 4 such solutions. There were two types of solutions: the intended solution using a hodograph and catenary, and a brute-force-approach using the calculus of variations and/or a Lagrangian. There is nothing wrong if you have advanced skills and are able to apply a brute-force-approach successfully. Furthermore, with this problem, applying the calculus of variations successfully was not an easy task, probably many participants have been trying to do that unsuccessfully. However, the hodograph-based solution is, in my opinion, more elegant and keeps the required skills within the IPhO Syllabus. Because of that, the  hodograph-based solutions will get slightly higher bonus points.
+The best solution awards:
+Eddie Chen and Zhening Li
+– 35% of the bonus. A really nicely written solution based on hodograph with a thorough analysis.
+Shofar Sno
+– 30% of the bonus. A well-written solution based on hodograph. The solution is still less thorough than the one above, and is hand-written.
+Vlad-Stefan Oros
+– 20% of the bonus. A really nice and thorough solution based on the calculus of variations, with a generalization to regular polygons.
+Jinqiu Deng
+– 15% of the bonus. A well-written solution, but explanations are not as detailed as in the solutions above. Similarly to the intended solution, it is using the velocity space; uses a Lagrangian to derive the catenary shape.
+Finally, here is a simulation made by Taavet Kalda comparing two runners: one who is running along the optimal trajectory, and one who is running along a circle: left animation shows motion in x-y-space, middle one – the hodograph, right one, in the acceleration space.
+Final results for Problem
+2
+University students
+First name
+Surname
+Country
+School/University
+P2 Score
+Zhening Li
+Eddie Chen
+Canada/United States
+Massachusetts Institute of Technology
+3.681
+Shofar
+Sno
+Suriname
+Anton de Kom University of Suriname
+2.749
+Deng
+Jinqiu
+China
+Beijing University of Aeronautics and Astronautics
+2.466
+Alessandro
+Rezzi
+Italy
+University of Padova
+1.754
+Jaroslav
+Herman
+Czech Republic
+Charles University
+1.594
+Ameya Vikrama
+Singh
+India
+Indian Institute of Technology Bombay
+1.449
+Kevin
+You
+United States
+Carnegie Mellon University
+1.065
+Isaac
+Wu
+Australia
+University of Melbourne
+0.949
+Yuechen
+Zhu
+China
+Peking University
+0.847
+Felix
+Schwarzfischer
+Germany
+Technical University Munich
+0.700
+Ziyue
+Wang
+China
+Hebei University of Technology
+0.693
+Qian
+Lin
+China
+University of Oxford
+0.630
+Ameya
+Deshmukh
+India
+IIT Bombay
+0.600
+Yun
+Gu
+CHINA
+Tianjin University
+0.600
+Erik
+Sünderhauf
+Germany
+Technical University of Munich
+0.500
+Yanjun
+Zhou
+China
+University of Oxford
+0.500
+Soumyadeep
+Sarma
+India
+Indian Institute of Science
+0.368
+Simon
+Selg
+Estonia
+Tartu Ülikool
+0.368
+Pre-university students
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Theoretical High School
+3.010
+Luca
+Milanese
+Italy
+Liceo “Leonardo da Vinci”, Terracina
+1.910
+Wang
+Quanquan
+China
+Tianjin Yaohua High School
+1.501
+Sebastián
+Arévalo
+El Salvador
+Instituto Emiliani
+1.364
+Yehyun
+Choi
+United States
+Westlake High School
+1.240
+Vuk
+Hip
+Serbia
+Mathematical Grammar School
+0.966
+Adam
+Džavoronok
+Slovakia
+Gymnázium Poštová 9
+0.922
+Balázs Csaba
+Kovács
+Hungary
+Hatvani Bajza József Gimnázium
+0.799
+Absur Khan
+Siam
+Bangladesh
+Gap Year
+0.726
+Sarthak
+Panda
+India
+FIITJEE Bhubaneswar
+0.535
+Alexandar
+Roussev
+Bulgaria
+First Language School
+0.500
+Gigi
+Tsirekidze
+Georgia
+LEPL Kutaisi Andria Razmadze physics and mathematical public school N41
+0.500
+Miguel Isaías
+Doradea Meléndez
+El Salvador
+Insituto Emiliani
+0.500
+Azimuddin
+Sheikh
+India
+FIITJEE
+0.500
+Emerson Franzua
+Aldana Gavarrete
+Honduras
+School
+0.486
+Rhythm
+Kedia
+India
+Lord Buddha Public school
+0.450
+Filip
+Vučić
+Croatia
+I. gymnasium Zagreb
+0.405
+Felix
+Yew
+Malaysia
+National Junior College, Singapore
+0.405
+Yijun
+Lin
+China
+High School Attached to Herbin Normal University
+0.368
+Mayank
+Anand
+India
+FIITJEE
+0.368
+Submission times for P2
+Participating countries:
+Algeria, Azerbaijan, Australia, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Bolivia, Brazil, Bulgaria, Cambodia, Canada, China, Croatia, Czechia, Egypt, El Salvador, Estonia, Finland, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Korea, Kyrgyzstan, Latvia, Lebanon, Lithuania, Macedonia, Malaysia, Mexico, Moldova, Mongolia, Nepal, Nigeria, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Turkmenistan, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

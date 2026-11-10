@@ -1,0 +1,483 @@
+Source: https://physicscup.ee/pc2025-p1-best-solutions-and-final-results
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 1 –  Interaction force
+In total, 233 solutions were submitted for problem 1, of which 63 were correct. Congratulations to everyone who managed to solve it!
+There were 41 correct solutions submitted before the first hint was published, and only those were considered as candidates for the best solution awards. Additionally, since there were so many well-written solutions to choose from, hand-written solutions were not considered this time, sorry about that!
+A vast majority of solutions were based on Legendre polynomials expansion of the Laplace equation solution in spherical coordinates. That was definitely not the intended solution, but nevertheless a valid brute-force approach. If you can solve by brute-force, why waste time trying to figure out something trickier! Still, since Physics Cup is by intention were you show off your creativity, such brute force solutions did not warrant a best solution award per se; still, below are also linked some examples of well-written solutions using Legendre polynomials.
+While there were no intended solutions (the one
+written by me – JK – can be found here
+), there were solutions without Legendre polynomials. These were using the fact that the solution to the boundary value problem (electrostatic potential on the ball’s surface takes the values dictated by the electric field inside the sphere) outside the sphere is unique, and by guessing – and verifying – that this condition is satisfied by the field provided by an ideal quadrupole at the centre of the ball. These were the solutions provided by
+Ethan Lu
+,
+Hui Xiang Sim
+, and
+Siddhaarth Dharani
+.
+There were very few of the contestants who figured out the reason for giving the strong inequality in the problem statement. Among those who were considered as candidates for the best solution award, only
+Ilan Mihelja with Hegedić
+,
+Eric Wang
+,
+Kai Wen Teo
+,
+Ethan Lu
+,
+and
+Moritz Rohner
+did that.
+Finally,
+Enej Jauk
+did what no-one else did, he checked if relativistic effects could be relevant by studying the properties of different materials.
+The total bonus of 1 pts is evenly distributed between these eight contestants.
+Apart from that, here are two nicely written solutions with Legendre polynomials, one studying the potential magnetic forces in case of non-magnetic materials, and the other – providing useful figures, by
+Abhiram Cherukupalli
+and
+Aljaž Erman
+, respectively.
+Final results for Problem 1
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P1 date time
+DD/MM/YY 00:00:00
+P1 Score
+Mihkel
+Rannut
+Estonia
+Tallinna Reaalkool
+13/10/24 19:27
+2.0
+Alp
+Terliksiz
+Türkiye
+Enka Science and Technology Highschool
+15/10/24 10:49
+1.9
+Darius
+Graur
+Moldova
+Liceul Teoretic Orizont
+15/10/24 15:44
+1.8
+Enej
+Jauk
+Slovenia
+Gimnazija Bežigrad
+15/10/24 21:12
+1.725
+Saskia
+Põldmaa
+Estonia
+Tallinn Secondary School of Sciences
+15/10/24 17:32
+1.7
+Kai Wen
+Teo
+Singapore
+Raffles Institution
+16/10/24 06:46
+1.625
+Tomas
+Razbadauskas
+Lithuania
+Kaunas University of Technology Gymnasium
+16/10/24 12:35
+1.4
+Daniils
+Koselevs
+Latvia
+Jauno Lideru Vidusskola
+16/10/24 14:43
+1.3
+Jingyang James
+He
+Singapore
+Raffles Institution
+17/10/24 09:00
+1.2
+Aljaž
+Erman
+Slovenia
+Gimnazija Kranj
+22/10/24 11:57
+1.1
+Yisi
+Liu
+China
+The First High School of Changsha
+19/10/24 12:09
+1.1
+Moritz
+Rohner
+Luxembourg
+Lycée de Garçons Esch (LGE)
+27/10/24 11:35
+1.025
+Siddhaarth
+Dharani
+Singapore
+NUS High School
+23/10/24 16:19
+1.025
+Nikhil
+Kodali
+United States
+Cupertino High School
+23/10/24 22:01
+1.0
+Raiq Babazade
+Murad Khalil, Ibrahim Valehli
+Azerbaijan
+Physics, Mathematics and Informatics lyceum
+22/10/24 14:27
+1.0
+Owen
+Zhou
+United States
+Basis Scottsdale
+26/10/2024 22:40:00
+1.0
+Richard
+Yang
+United States
+Iowa City West High School
+26/10/2024 14:54:00
+1.0
+Bahaa Aldeen
+Melhem
+Syria
+Gap year
+20/10/2024 11:09:00
+1.0
+Saurya
+Shrestha
+Nepal
+St. Xavier’s College, Nepal
+26/10/24 20:42
+1.0
+Mohammed
+Alarfaj
+Saudi Arabia
+Dhahran Ahliyya Schools
+26/10/24 22:02
+1.0
+Grigorii
+Grechkin
+School CPM
+26/10/24 21:08
+1.0
+Mahammad
+Jafarli
+Azerbaijan
+Technical-Humanitarian Lyceum
+1/11/24 17:23
+0.9
+Matías
+Páez
+Argentina
+E. E. S. N°6
+28/10/24 11:32
+0.9
+Zeyneb
+Mehemmedli
+Azerbaijan
+TTEL
+21/10/2024 12:21:00
+0.9
+Lukas
+Gabriel
+Austria
+Albertus Magnus Gymnasium
+03/11/2024 03:48:00
+0.9
+Alex
+Secrieru
+Moldova
+LT “Orizont”
+27/10/24 17:35
+0.855
+Rahul
+Nandi
+Bangladesh
+Chattogram College
+10/11/24 12:09
+0.8
+trocin
+ruslan
+Moldova
+lPLT Orizont
+06/11/2024 08:08:00
+0.8
+Ogtay
+Latifli
+Azerbaijan
+Republican Physics-Mathematics and Informatics lyceum
+07/11/2024 19:02:00
+0.8
+Mert Andac
+Karan
+Türkiye
+Bahcesehir High School for Science and Technology
+9/11/24 09:04
+0.72
+Joris
+Boruta
+Lithuania
+KTU gymnasium
+10/11/24 12:42
+0.72
+Federico
+Roccaforte
+Italy
+IIS Concetto Marchesi
+14/11/2024 15:38:00
+0.7
+Kanishk
+Jain
+India
+ALLEN Kota
+10/11/24 22:49
+0.665
+Oytun
+Er
+Türkiye
+Kadıköy Anatolian Highschool
+11/11/24 17:47
+0.63
+Tejas Penugonda
+Talha Ashraf
+India/Pakistan
+Nixor College
+23/11/24 20:34
+0.57
+Doğan
+Önal
+Türkiye
+İstanbul Atatürk High School of Science
+10/11/24 19:42
+0.567
+Guangyuan
+Chen
+Singapore
+Gap Year
+17/11/24 14:31
+0.54
+Andrei
+Vila
+Romania
+International Computer High School Bucharest
+22/12/24 09:17
+0.5
+Amrit
+Raj
+India
+Maa Bharti Sr. Sec. School
+1/12/24 09:47
+0.5
+Luis Edgar
+Sanchez Henriquez
+El Salvador
+Programa Jovenes Talentos
+9/2/25 08:01
+0.5
+Francesco
+Gariglio
+Italy
+IIS Majorana Moncalieri
+15/12/24 10:45
+0.5
+Luca
+Gâlea
+Romania
+National College Iasi
+8/12/24 10:04
+0.5
+Italo
+Vidaurre
+El Salvador
+Programa Jovenes Talento
+15/12/25 21:49
+0.5
+Matthew
+Chen
+United States
+Cupertino High School
+01/12/2024 02:42:00
+0.5
+Kai Xin
+Chen
+China
+GuangDong ShiYan middle school – ShenZhen High school.
+19/1/25 06:36
+0.45
+University students:
+University
+Ilan Mihelja
+Ivan Hegedić
+Croatia
+University of Zagreb, EPFL
+15/10/24 15:36
+2.025
+University
+Adrian, Bruno, Daniel
+Serrano Capatina, Pontecorvo, Gonzalez Filipov
+Switzerland
+École Polytechnique Fédérale de Lausanne
+14/10/24 22:31
+2.0
+University
+Eric
+Wang
+United States
+Massachusetts Institute of Technology
+16/10/24 22:41
+1.825
+University
+Karlo
+Maksimović
+Croatia
+University of Zagreb
+16/10/24 19:15
+1.75
+University
+Guy
+Ginzberg
+Israel
+The Open University of Israel
+17/10/24 09:26
+1.6
+University
+Sifat Ahmed
+Tushar
+Bangladesh
+University of Dhaka
+17/10/24 15:14
+1.5
+University
+Ethan
+Lu
+United States
+Ohio State University
+18/10/24 00:36
+1.425
+University
+Dhruv
+Shah
+India
+Massachusetts Institute of Technology
+17/10/24 15:37
+1.4
+University
+Hui Xiang
+Sim
+Singapore
+National University of Singapore
+18/10/24 01:53
+1.275
+University
+Yaroslav
+Kondrachuk
+Ukraine
+National University of Singapore
+18/10/24 14:31
+1.1
+University
+Abhiram
+Cherukupalli
+United States
+California Institute of Technology
+20/10/24 18:18
+1.1
+University
+Emerson Franzua
+Aldana Gavarrete
+Honduras
+Universidad Nacional Autónoma de Honduras
+26/10/2024 15:47:00
+1.0
+University
+Iaroslav
+Pozdniak
+Moscow Institute of Physics and Technology
+20/10/24 14:37
+1.0
+University
+Federico
+Mastroforti
+Italy
+University of Bologna
+18/10/24 20:12
+1.0
+University
+Štěpán
+Plass
+Czech Republic
+Univerzita Karlova
+22/10/24 22:35
+0.95
+University
+Animesh
+Pradhan
+India
+Indian Institute of Science(IISc), Bengaluru
+3/11/24 07:11
+0.9
+University
+Bayram Alp
+Şahin
+Türkiye
+Boğaziçi University
+20/10/24 00:06
+0.9
+University
+Jia Xuan
+Tan
+Singapore
+University of Cambridge
+45598.81111
+0.9
+University
+Armen
+Gazazyan
+Armenia
+Yerevan State University
+17/11/24 20:29
+0.54
+University
+Ravan
+Najafli
+Azerbaijan
+KAIST(Korean Advanced Institute of Science and Technology)
+23/11/24 21:44
+0.54
+University
+Michał
+Kołodziejczyk
+Poland
+Warsaw University of Technology
+20/12/2024 19:22:00
+0.5
+University
+Kenneth
+Luo
+Canada
+University of Toronto
+14/12/24 23:41
+0.5
+University
+Konstantin
+Rodionenko
+ITMO University
+07/12/2024 20:00:00
+0.5
+University
+Marinus
+Lehmann
+Germany
+University of Potsdam
+15/12/24 21:49
+0.5

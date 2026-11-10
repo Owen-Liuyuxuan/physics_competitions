@@ -1,0 +1,841 @@
+Source: https://physicscup.ee/pc2025-p2-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 2 –  Tetrahedral flock of birds
+In total, 256 solutions were submitted for problem 2, of which 111 were correct. Congratulations to everyone who managed to solve it!
+There were 61 correct solutions submitted before the first hint was published, and only those were considered as candidates for the best solution awards. Additionally, since there were so many well-written solutions to choose from, the 17 handwritten solutions were not considered this time, sorry about that!
+All the solutions can be divided into three categories: (a) those that parameterized the problem through the side lengths of the cuboid defined by the diagonals AB and CD of its opposite faces (or almost equivalent variations of this); (b) those that parameterized the problem through the side lengths of the tetrahedron AB and AC; (c) brute force approach integrating the set of 12 differential equations, either simplifying it by using symmetry, or solving it as is. Note that the hints suggested approach (b).
+In each category, the quality of the solution was assessed using the following criteria:
+clarity
+, i.e. how easy it is for a reader to follow the solution (useful figures increased the rating in this category);
+simplicity
+: solutions that involved simpler math had higher rating;
+rigor
+, i.e. any important aspects were left out from the discussions (typos decreased this rating, but very obvious and simple typos were overlooked;
+insight
+: if there were useful discussions of the analysis and results that went beyond what was asked explicitly.
+In category (a), the best solutions were the ones submitted by
+Bruno Machado Feltran
+(0.4 pts) and by
+Alexandru Bordei
+(0.15 pts). In category (b), the best solution was submitted by
+Eric Wang
+(0.3 pts). In category (c), the best solution was submitted jointly by
+Adrian Serrano Capatina, Bruno Pontecorvo, and Daniel Gonzalez
+Filipov
+(0.15 pts).
+The reason a brute force approach got awarded this time is that this particular brute-force solution has its own beauty and additional benefits: it utilizes symmetry to simplify calculations, and enables the analytical determination of bird trajectories. It could have been even better if the symmetry had been exploited fully and if there were no inaccuracies, as explained below. The solution starts with putting the starting point of the birds A, B, C, and D, respectively, to (1,1,1), (1,-1,-1), (-1,1,-1), and (-1,-1,1). They notice that if we rotate this system around the
+y
+-axis, mirror in the
+x-z
+plane (mirroring was dropped out from the solution), and re-label cyclically the birds, the initial situation is restored. Hence,
+x_A=z_D;\; x_B=z_A;\; x_c=z_B;\;x_D=z_C
+, for any subsequent moment of time. They also notice that if this symmetry transformation is applied twice, we can conclude that
+y_A=y_c;\; y_B=y_D.
+However, they fail to notice that the symmetry allows us to establish several additional equalities: everything can be described by three functions of time:
+y_A=y_C=-y_B=-y_D\equiv \eta(t);
+x_A=z_D=-x_C=-z_B\equiv \xi(t);
+x_B=z_A=-x_D=-z_C\equiv \xi(t).
+Instead, they derive the additional equalities in a more complicated way.
+There are additional excellent solutions published here for various reasons. First, type-(a) solutions by
+Robertas Juknevičius
+(nice induction-based proof that the birds will remain forming a cuboid),
+Karlo Maksimović
+(python-generated plot of trajectories),
+Ilan Mihelja with Ivan Hegedić
+(efficient use of cylindrical coordinates and professional calculation of the integral),
+Teo Kai Wen
+(very good discussion of symmetries and simulations with a
+movie
+). Second, type-(b) solutions by
+Kanishk Jain
+(clean and efficient solution with the only downside that it is not shown how the differential equation is solved);
+Zander Li
+(clean solution with clear figure and full step-by-step mathematical calculations);
+Gleb Grachev
+(clean solution with full step-by-step mathematical calculations);
+Enej Jauk
+(clean solution with useful figures and graphs).
+Final results for Problem 2
+Pre-university students:
+Age Group
+First name
+Surname
+Country
+School/University
+P2 date time
+DD/MM/YY 00:00:00
+P2 Score
+Pre-university
+Kanishk
+Jain
+India
+ALLEN Kota
+17/11/24 13:51
+2.1
+Pre-university
+Darius
+Graur
+Moldova
+Liceul Teoretic Orizont
+17/11/24 17:25
+1.9
+Pre-university
+Prabhudutta
+Prusti
+India
+KIIT International School
+17/11/24 19:21
+1.8
+Pre-university
+Alexandru
+Bordei
+Moldova
+LT “Orizont” Durlesti
+17/11/24 21:57
+1.8
+Pre-university
+Federico
+Roccaforte
+Italy
+IIS Concetto Marchesi
+17/11/24 22:01
+1.6
+Pre-university
+Owen
+Zhou
+United States
+Basis Scottsdale
+18/11/24 01:25
+1.5
+Pre-university
+Bruno
+Machado Feltran
+Brazil
+Colégio Etapa
+23/11/24 19:13
+1.4
+Pre-university
+Vijay
+Lehto
+United Kingdom
+Queen Elizabeth’s School
+18/11/24 07:14
+1.4
+Pre-university
+Jingyang James
+He
+Singapore
+Raffles Institution
+18/11/24 11:03
+1.3
+Pre-university
+Raiq Babazade
+Murad Khalil, Ibrahim Valehli
+Azerbaijan
+Physics, Mathematics and Informatics lyceum
+18/11/24 11:41
+1.2
+Pre-university
+Gleb
+Grachev
+SBGEI School № 1543
+19/11/24 06:24
+1.1
+Pre-university
+Zander
+Li
+Canada
+Laurel Heights Secondary School
+1/12/24 04:08
+1.1
+Pre-university
+Enej
+Jauk
+Slovenia
+Gimnazija Bežigrad
+20/11/24 13:46
+1.1
+Pre-university
+Harik
+Sodhi
+United Kingdom
+Queen Elizabeth’s School, Barnet
+18/11/24 15:15
+1.1
+Pre-university
+Robertas
+Juknevičius
+Lithuania
+Kaunas University of Technology Gymnasium
+21/11/24 19:42
+1.1
+Pre-university
+Mert Andac
+Karan
+Türkiye
+Bahcesehir High School for Science and Technology
+21/11/24 16:59
+1.0
+Pre-university
+Moritz
+Rohner
+Luxembourg
+Lycée de Garçons Esch (LGE)
+19/11/24 19:59
+1.0
+Pre-university
+Tomas
+Razbadauskas
+Lithuania
+Kaunas University of Technology Gymnasium
+18/11/24 16:17
+1.0
+Pre-university
+Nikhil
+Kodali
+United States
+Cupertino High School
+24/11/24 08:46
+1.0
+Pre-university
+Mircea
+Rebengiuc
+Romania
+“Tudor Vianu” National High School
+18/11/24 21:09
+1.0
+Pre-university
+Mahammad
+Jafarli
+Azerbaijan
+Technical-Humanitarian Lyceum
+22/11/2024 15:13:00
+1.0
+Pre-university
+Kai Wen
+Teo
+Singapore
+Raffles Institution
+30/11/24 12:55
+1.0
+Pre-university
+Richard
+Yang
+United States
+Iowa City West High School
+1/12/24 05:15
+1.0
+Pre-university
+Yi Quan
+Tan
+Singapore
+NUS High School of Mathematics and Science
+24/11/24 15:15
+1.0
+Pre-university
+Agastya
+Goel
+United States
+Henry M. Gunn High School
+19/11/24 04:20
+1.0
+Pre-university
+Saurya
+Shrestha
+Nepal
+St. Xavier’s College, Nepal
+23/11/24 18:48
+1.0
+Pre-university
+Leander
+Gabriël
+Belgium
+Voskenslaan
+20/11/24 21:44
+1.0
+Pre-university
+Zeyneb
+Mehemmedli
+Azerbaijan
+TTEL
+27/11/24 19:46
+1.0
+Pre-university
+Luca
+Gâlea
+Romania
+National College Iasi
+22/11/24 22:19
+1.0
+Pre-university
+Artyom
+Eryomin
+Lyceum №23
+21/11/2024 18:00
+1.0
+Pre-university
+Alp
+Terliksiz
+Türkiye
+Enka Science and Technology Highschool
+20/11/2024 19:03:00
+0.95
+Pre-university
+Alex
+Secrieru
+Moldova
+LT “Orizont”
+24/11/24 11:24
+0.95
+Pre-university
+Anton
+Trubitsyn
+Lyceum №239
+24/11/24 15:05
+0.95
+Pre-university
+Saskia
+Põldmaa
+Estonia
+Tallinn Secondary School of Sciences
+29/11/24 18:31
+0.95
+Pre-university
+Tejas Penugonda
+Talha Ashraf
+India/Pakistan
+Nixor College
+18/11/24 21:49
+0.95
+Pre-university
+Siddhaarth
+Dharani
+Singapore
+NUS High School
+19/11/24 15:04
+0.95
+Pre-university
+Mihkel
+Rannut
+Estonia
+Tallinna Reaalkool
+19/11/24 15:10
+0.95
+Pre-university
+Piyush
+Falke
+India
+Unacademy
+28/11/24 15:05
+0.9
+Pre-university
+Oytun
+Er
+Türkiye
+Kadıköy Anatolian Highschool
+6/12/24 18:05
+0.9
+Pre-university
+Darsh
+Sikka
+India
+DPS RK Puram
+25/11/24 12:02
+0.9
+Pre-university
+Rahul
+Nandi
+Bangladesh
+Chattogram College
+1/12/24 11:28
+0.9
+Pre-university
+Francesco
+Gariglio
+Italy
+IIS Majorana Moncalieri
+8/12/24 11:01
+0.9
+Pre-university
+Aljaž
+Erman
+Slovenia
+Gimnazija Kranj
+24/11/24 21:01
+0.9
+Pre-university
+Yisi
+Liu
+China
+The First High School of Changsha
+1/12/24 09:30
+0.9
+Pre-university
+Darshil
+Srivastava
+India
+allen lajpat nagar
+4/12/24 14:39
+0.9
+Pre-university
+William
+Zhao
+United States
+Dougherty Valley High School
+8/12/24 04:25
+0.9
+Pre-university
+Chinmaya Shankara
+Shastry
+India
+Allen hebbal
+5/1/25 14:33
+0.9
+Pre-university
+Amrit
+Raj
+India
+Maa Bharti Sr. Sec. School
+6/12/24 17:50
+0.81
+Pre-university
+Subhanshu
+Yadav
+India
+FIITJEE
+2/12/24 14:22
+0.81
+Pre-university
+Grigorii
+Grechkin
+School CPM
+7/12/24 22:02
+0.81
+Pre-university
+Ogtay
+Latifli
+Azerbaijan
+Republican Physics-Mathematics and Informatics lyceum
+2/12/24 14:14
+0.81
+Pre-university
+Məhəmməd
+Umarlı
+Azerbaijan
+FRITL
+14/12/24 08:31
+0.8
+Pre-university
+Aditya
+Das Jitu
+Bangladesh
+Chattogram College
+9/12/24 05:01
+0.8
+Pre-university
+Aryan
+Prakash Verma
+India
+allen
+8/12/24 13:42
+0.8
+Pre-university
+SOURADEEP
+SHARMILA MANDAL
+INDIA
+ALLEN JAYANAGAR BENGALURU
+10/12/24 11:47
+0.8
+Pre-university
+Yun-Chieh
+Su
+Taiwan
+Taipei Fuhsing private school
+8/12/24 10:38
+0.7695
+Pre-university
+Andrei
+Calarasu
+Romania
+“Tudor Vianu” National High School of Computer Science
+10/12/24 18:45
+0.72
+Pre-university
+Andrei
+Vila
+Romania
+International Computer High School Bucharest
+9/12/24 14:36
+0.72
+Pre-university
+Daniils
+Koselevs
+Latvia
+Jauno Lideru Vidusskola
+15/12/24 11:59
+0.72
+Pre-university
+Shresth
+Suraiya
+India
+Narayana School
+10/12/24 16:43
+0.72
+Pre-university
+Matthew
+Chen
+United States
+Cupertino High School
+15/12/24 22:36
+0.7
+Pre-university
+Vadim
+Arhip
+Moldova
+Alexandru Ioan Cuza
+20/12/24 14:55
+0.63
+Pre-university
+Aarav
+Gupta
+India
+ALLEN Marathahalli
+18/12/24 07:22
+0.63
+Pre-university
+Janos
+Simon
+Hungary
+Career Academy South Bend
+25/12/24 22:18
+0.6
+Pre-university
+Badekai Vishruth Krishna
+Ramachandra Bhat
+India
+Maa Bharati Senior Secondary School
+22/12/24 18:03
+0.6
+Pre-university
+Aryan
+Ragupathy
+India
+Allen Career Institute
+24/12/24 11:27
+0.6
+Pre-university
+Mohammed
+Alarfaj
+Saudi Arabia
+Dhahran Ahliyya Schools
+5/1/25 09:40
+0.5
+Pre-university
+Alexandra
+Stefanova-Razumnaya
+239
+12/1/25 11:56
+0.5
+Pre-university
+Italo
+Vidaurre
+El Salvador
+Programa Jovenes Talento
+16/1/25 02:22
+0.5
+Pre-university
+Tuncay
+Amiraslanli
+Azerbaijan
+Sumgait school N23
+19/1/25 08:05
+0.5
+Pre-university
+Ziru
+Chen
+China
+Qingdao Academy
+11/1/25 15:41
+0.5
+Pre-university
+Tanay
+Tekade
+India
+School of Scholars
+19/1/25 09:16
+0.5
+Pre-university
+Kai Xin
+Chen
+China
+GuangDong ShiYan middle school – ShenZhen High school.
+22/12/24 15:44
+0.486
+Pre-university
+Luis Edgar
+Sánchez Henríquez
+El Salvador
+Programa Jovenes Talentos
+19/1/25 16:00
+0.45
+Pre-university
+Shaswat
+Banerjee
+India
+Bodhicariya
+12/1/25 16:44
+0.45
+Pre-university
+Ashwindh
+Ramesh
+United States
+Campbell high school
+6/1/25 00:54
+0.405
+University students:
+Age Group
+First name
+Surname
+Country
+School/University
+P2 date time
+DD/MM/YY 00:00:00
+P2 Score
+University
+Eric
+Wang
+United States
+Massachusetts Institute of Technology
+17/11/24 21:15
+2.3
+University
+Ilan Mihelja
+Ivan Hegedić
+Croatia
+University of Zagreb, EPFL
+17/11/24 22:25
+1.95
+University
+Adrian, Bruno, Daniel
+Serrano Capatina, Pontecorvo, Gonzalez Filipov
+Switzerland
+École Polytechnique Fédérale de Lausanne
+18/11/24 00:16
+1.9
+University
+Iaroslav
+Pozdniak
+Moscow Institute of Physics and Technology
+18/11/24 00:24
+1.7
+University
+Štěpán
+Plass
+Czech Republic
+Univerzita Karlova
+18/11/24 12:42
+1.6
+University
+Dhruv
+Shah
+India
+Massachusetts Institute of Technology
+18/11/24 19:42
+1.5
+University
+Federico
+Mastroforti
+Italy
+University of Bologna
+18/11/24 23:12
+1.4
+University
+Ethan
+Lu
+United States
+Ohio State University
+19/11/24 07:49
+1.25
+University
+Tornike
+Tsadzikidze
+Georgia
+Free University of Tbilisi
+19/11/24 15:59
+1.2
+University
+Marinus
+Lehmann
+Germany
+University of Potsdam
+19/11/24 16:17
+1.05
+University
+Sifat Ahmed
+Tushar
+Bangladesh
+University of Dhaka
+19/11/24 19:15
+1.0
+University
+Hui Xiang
+Sim
+Singapore
+National University of Singapore
+20/11/24 06:54
+1.0
+University
+Yaroslav
+Kondrachuk
+Ukraine
+National University of Singapore
+22/11/24 16:40
+1.0
+University
+Karlo
+Maksimović
+Croatia
+University of Zagreb
+27/11/24 06:20
+1.0
+University
+Felix
+Schwarzfischer
+Germany
+Ludwig Maximilians Universität
+20/11/24 21:28
+1.0
+University
+Jakub
+Kliment
+Czech Republic
+Charles University
+24/11/24 03:25
+1.0
+University
+Emerson Franzua
+Aldana Gavarrete
+Honduras
+Universidad Nacional Autónoma de Honduras
+21/11/24 17:34
+0.95
+University
+Bayram Alp
+Şahin
+Türkiye
+Boğaziçi University
+20/11/24 17:00
+0.95
+University
+Guy
+Ginzberg
+Israel
+The Open University of Israel
+29/11/24 13:15
+0.9
+University
+Filippo
+Schelfi
+Italy
+University of Trento
+27/11/24 15:55
+0.9
+University
+Marian
+Hariton
+Moldova
+Technical University Of Moldova
+9/12/24 18:15
+0.8
+University
+Larrance
+Xing
+United States
+University of Chicago
+8/12/24 07:25
+0.729
+University
+Konstantin
+Rodionenko
+ITMO University
+8/12/24 08:40
+0.729
+University
+Qirui
+HE
+Hong Kong
+Chinese University of Hong Kong
+15/12/24 12:51
+0.72
+University
+Sriraj
+Chandra
+India
+Indian Institute of Science
+09/12/2024 12:16:00
+0.72
+University
+Abhiram
+Cherukupalli
+United States
+California Institute of Technology
+16/12/24 02:37
+0.7
+University
+Ayaan
+Maan
+India
+IIT Delhi
+18/12/24 13:59
+0.7
+University
+Mainak
+Chandra
+India
+Indian Institute of Science
+21/12/24 19:35
+0.7
+University
+Michał
+Kołodziejczyk
+Poland
+Warsaw University of Technology
+27/12/24 00:54
+0.6
+University
+Kenneth
+Luo
+Canada
+University of Toronto
+17/12/24 03:23
+0.567
+University
+Armen
+Gazazyan
+Armenia
+Yerevan State University
+18/12/24 19:39
+0.567
+University
+Jia Xuan
+Tan
+Singapore
+University of Cambridge
+14/1/25 05:13
+0.5
+University
+Gokul
+Krishnan
+India
+Indian Institute of Technology Madras
+1/1/25 23:05
+0.5
+University
+Dženan
+Midžić
+Bosnia and Herzegovina
+University of Rijeka
+10/3/25 09:35
+0.45

@@ -1,0 +1,231 @@
+Source: https://physicscup.ee/pc2026-p2-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 2
+In total, 144 solutions were submitted for problem 2, of which 33 were correct. Congratulations to everyone who successfully solved it!
+There were 5 correct solutions submitted before the first hint was published, and only those were considered as candidates for the best solution awards.
+The award winners are as follows.
+Alon Hart
+(bonus: 0.3 pts) gives a clear physical explanation of how distinct velocity peaks develop and how collisions can erase them. Counting the particles encountered by an incoming molecule provides an economical collision estimate, while explicit checks establish the validity of the expansion used.
+Vaibhav V
+(bonus: 0.3 pts) obtains the result with exceptional economy. Balancing thermal spreading against the cubic deformation of the flow identifies the relevant initial gas segment; its column density then gives the collision probability without needing to follow the growing local density.
+Joshua Wang
+(bonus: 0.3 pts) directly connects the evolving velocity distribution to the required peak-to-valley contrast and checks the approximations used. Comparing the short timescale of peak formation with the local collision time completes a compact analytical solution.
+Francesco Gariglio
+(bonus: 0.1 pts) relates the required peak contrast to the initial interval from which molecules can arrive with few collisions. Helpful figures illustrate the compression, and the discussion distinguishes the regimes in which the small-distance approximation applies.
+Final results for Problem
+2
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P2 date time
+DD/MM/YY 00:00:00
+P2 Score
+Sudipto Sen
+Tawhid Bin Omar
+Bangladesh
+St. Joseph Higher Secondary School
+8/12/25 16:38
+1.729
+Siddhaarth
+Dharani
+Singapore
+Gap Year
+9/12/25 17:04
+1.629
+Qingxiang
+Liao
+China
+Shenzhen College of International Education
+10/12/25 15:31
+1.529
+Aryan
+Lalwani
+India
+Gap Year
+13/12/25 16:00
+1.51
+Dominik
+Erdélyi
+Hungary
+Budapesti Fazekas Mihály Gimnázium
+13/12/25 17:59
+1.41
+Luka
+Smiljanic
+Serbia
+Mathematical Grammar School
+13/12/25 18:05
+1.31
+Nithilan
+Ravikumar
+India
+Nil
+18/12/25 08:00
+1.048
+Kwonheon
+Lee
+South Korea
+Seoul Science Highschool
+21/12/25 06:38
+1.02
+Kai Wen
+Teo
+Singapore
+Gap year
+1/1/26 15:48
+0.64
+Davi
+Pinheiro Tsuchie
+Brazil
+Objetivo Integrado
+28/12/25 23:37
+0.6374
+Lee
+SinHyeok
+South Korea
+Seoul Science High School
+3/1/26 05:21
+0.486
+Vaiibhav
+G
+India
+Chinar Public School
+10/1/26 06:29
+0.45
+Antonia
+Radu
+Romania
+“Mihai Viteazul” High School Ploiesti
+15/1/26 20:30
+0.3645
+University students:
+First name
+Surname
+Country
+School/University
+P2 date time
+DD/MM/YY 00:00:00
+P2 Score
+Alon
+Hart
+Israel
+Hebrew University of Jerusalem
+23/11/25 18:08
+2.3
+Joshua
+Wang
+United States
+MIT
+30/11/25 08:50
+2.1
+Vaibhav
+V
+India
+United Institute of Technology
+3/12/25 07:18
+1.9
+Francesco
+Gariglio
+Italy
+Università degli Studi di Torino
+6/12/25 09:18
+1.7
+Guy
+Ginzberg
+Israel
+The Open University of Israel
+29/11/25 17:15
+1.56
+Md Mustakim Bin
+Alam
+Novosibirsk State University
+7/12/25 15:20
+1.31
+Vinícius
+Ferreira Rodrigues
+Brazil
+University of Iowa
+7/12/25 21:53
+1.21
+Alessandro
+D’Orazio
+Italy
+University of Pisa
+9/12/25 14:04
+1.2
+uravg
+gamer
+Taiwan
+Kshewan University
+14/12/25 11:10
+1.01
+Ethan
+Lu
+United States
+Ohio State University
+14/12/25 17:13
+0.8
+Kadyrberdi
+Yazdurdiev
+Turkmenistan
+Magtymguly Turkmen State University
+20/12/25 07:39
+0.8
+Samuel
+Altman
+Indonesia
+Jakuma State Collegium
+21/12/25 11:54
+0.8
+Erik
+Kaniewski
+Estonia
+Taltech
+15/12/25 02:03
+0.72
+Kushal
+Thaman
+India
+Stanford University
+15/12/25 18:43
+0.72
+Arslan Jumayev
+Davut Alybayev
+Turkmenistan
+Magtymguly Turkmen State University
+24/12/25 10:50
+0.7
+Jonathan
+Burger
+Germany
+Karlsruher Institut für Technologie
+14/12/25 14:57
+0.6832
+Davut
+Alybayev
+Turkmenistan
+Magtymguly Turkmen State University
+11/1/26 10:15
+0.45
+Sathya
+Nistri
+Italy
+Università di Pisa
+30/12/25 10:32
+0.4374
+Larrance
+Xing
+United States
+University of Chicago
+18/1/26 08:24
+0.3645
+Adrian
+Rewkowski
+Belarus
+Jagiellonian University
+17/1/26 12:40
+0.35

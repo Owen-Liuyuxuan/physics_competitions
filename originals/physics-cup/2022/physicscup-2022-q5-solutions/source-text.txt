@@ -1,0 +1,165 @@
+Source: https://physicscup.ee/2022-p5-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 5 – Satellite
+By the end of the competition, there were 1146 registered participants from 80 countries. In total, 55 solutions were submitted for problem 5, out of which 28 were correct.
+As usual, when selecting the best solutions, preference has been given to those solutions which have been submitted before the publication of the first hint. Overall, there were 14 such solutions. Out of those, the pre-screening passed those whose were either typeset digitally or written with clear legible handwriting – most of the solutions passed this pre-screening. The next criterion was how well it was motivated that both emissivities need to be equal to 1. In many solutions, it was done numerically which was not optimal, because showing it analytically was not that difficult. As a result, only six solutions were left. Actually, out of those six, in two solutions it was somewhat sloppy how they handled the emissivity of the hot side; those two solutions (By EFAG and SS) are, however, still included in the list of the best solutions, because each of them had their own additional merits, see below. All the bonus scores are equal to 1/6.
+Vlad-Stefan Oros
+Zhening Li & Eddie Chen
+Shofar Sno
+– solved analytically 4th order algebraic equation!
+Emerson Franzua Aldana Gavarrete
+– found the numerical solution by hand-computing
+Dženan Midžić
+Sebastián Arévalo
+Final results for Problem 5
+University students
+First name
+Surname
+Country
+School/University
+P5 Score
+Zhening Li
+Eddie Chen
+Canada/United States
+Massachusetts Institute of Technology
+3.0641
+Bayram Alp
+Sahin
+Turkey
+Bogazici University
+2.3579
+Shofar
+Sno
+Suriname
+Anton de Kom University of Suriname
+2.187
+Marinus
+Lehmann
+Germany
+University of Potsdam
+2.1436
+Ricardo
+Ochel
+Germany
+Heidelberg University
+1.7716
+Ziyue
+Wang
+China
+Hebei University of Technology
+1.53
+Isaac
+Wu
+Australia
+University of Melbourne
+1.331
+Alessandro
+Rezzi
+Italy
+University of Padova
+1.3177
+Jaroslav
+Herman
+Czech Republic
+Charles University
+1.21
+Yuechen
+Zhu
+China
+Peking University
+0.99
+Ricards
+Knipsis
+Latvia
+University of Manchester
+0.9
+Kevin
+You
+United States
+Carnegie Mellon University
+0.9
+Qian
+Lin
+China
+University of Oxford
+0.9
+Ameya Vikrama
+Singh
+India
+Indian Institute of Technology Bombay
+0.8
+Soumyadeep
+Sarma
+India
+Indian Institute of Science
+0.63
+Cheng Wei
+Lin
+Taiwan
+National Cheng Kung University
+0.45
+Pre-university students
+First name
+Surname
+Country
+School/University
+P5 Score
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Theoretical High School
+3.0641
+Dženan
+Midžić
+Bosnia and Herzegovina
+JU Gimnazija “Bihać”
+2.7856
+Emerson Franzua
+Aldana Gavarrete
+Honduras
+School
+2.5324
+Sebastián
+Arévalo
+El Salvador
+Instituto Emiliani
+2.0929
+Luca
+Milanese
+Italy
+Liceo “Leonardo da Vinci”, Terracina
+1.9487
+Gigi
+Tsirekidze
+Georgia
+LEPL Kutaisi Andria Razmadze physics and mathematical public school N41
+1.3177
+Chengkai
+Yu
+China
+The High School Affiliated to Renmin University of China
+1.3045
+Sarthak
+Panda
+India
+FIITJEE Bhubaneswar
+1.0648
+Vuk
+Hip
+Serbia
+Mathematical Grammar School
+0.8712
+Miguel Isaías
+Doradea Meléndez
+El Salvador
+Insituto Emiliani
+0.5
+Filip
+Vučić
+Croatia
+I. gymnasium Zagreb
+0.495
+Participating countries:
+Algeria, Azerbaijan, Australia, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Bolivia, Brazil, Bulgaria, Cambodia, Canada, China, Croatia, Czechia, Egypt, El Salvador, Estonia, Finland, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Korea, Kyrgyzstan, Latvia, Lebanon, Lithuania, Macedonia, Malaysia, Mexico, Moldova, Mongolia, Nepal, Nigeria, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Turkmenistan, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

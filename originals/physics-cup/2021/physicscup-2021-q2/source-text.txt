@@ -1,0 +1,33 @@
+Source: https://physicscup.ee/physics-cup-taltech-2021-problem-2/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Thomas Foster
+(University of Oxford).
+At two different points in its orbit, a comet has velocities
+\vec v_1
+and
+\vec v_2
+. If:
+(i)
+\vec v_1
+and
+\vec v_2
+are orthogonal and
+(ii)
+|\vec v_1|=2|\vec v_2|,
+what is the smallest possible eccentricity of the orbit?
+Hint 1
+,
+Hint 2
+,
+Hint 3
+,
+Best solutions and final results
+Chinese translation of problem 2
+(中文)
+Please submit the solution of this problem
+via e-mail to physcs.cup@gmail.com.
+For full regulations, see the
+“Participate” tab
+.

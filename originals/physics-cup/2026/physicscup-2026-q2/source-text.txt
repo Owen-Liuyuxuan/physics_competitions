@@ -1,0 +1,33 @@
+Source: https://physicscup.ee/physics-cup-taltech-2026-problem-2/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Jaan Kalda
+Consider a gas with initial number density
+n
+and temperature
+T
+. At the initial moment, the gas is spatially uniform, while the macroscopic velocity is parallel to the
+x
+-axis with a profile given by
+v_x(x)=v_0 \sin(kx)
+. The molecules can be treated as rigid spheres of mass
+m
+and radius
+r
+.
+What condition for
+v_0
+must be satisfied so that, at a certain moment and location, a multi-stream flow arises? A flow is considered “multi-stream” at a point
+x
+if the local velocity distribution function
+f(v_x)
+has at least two local maxima, where each maximum is at least twice the value of the local minimum between them.
+Assume that
+v_0\gg \sqrt {k_BT/m}
+. It is sufficient to estimate the answer to an order of magnitude; exact numerical prefactors are not required.
+Please submit the solution to this problem
+via e-mail to physcs.cup@gmail.com.
+After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

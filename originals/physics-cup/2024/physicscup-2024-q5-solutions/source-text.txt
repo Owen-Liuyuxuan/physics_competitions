@@ -1,0 +1,95 @@
+Source: https://physicscup.ee/pc2024-p5-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 5 – Water pipe
+In total, 27 solutions were submitted for problem 5, of which 10 were correct. Congratulations to everyone who managed to solve it!
+There were no correct solutions before the first hint was published, only one solution before the second hint was published, and three more solutions before the fourth hint was published. The best solutions were selected out of those four submissions. Three of them were explained in detail and reader-friendly (also typeset in LaTeX) – well deserving bonus points. The bonus breakdown was determined based on the time of submission (one hint is noticeably better than three hints!) and on how well the solution was explained: the bonus of 0.6 goes to
+Lukas Schicht
+, 0.25 – to
+Luka Passek-Kumerički
+, and 0.15 – to
+Konstantin Rodionenko
+.
+Since the problem appeared to be very difficult, I wrote again
+a solution myself (JK)
+. That solution has two parts: a fast and simple solution, and a more advanced one attempting to obtain as precise an answer as possible.
+Final results for Problem 5
+Pre-university students:
+First name
+Surname
+Country
+School
+P5 date time
+DD/MM/YY 00:00:00
+P5 Score
+Mohamad Eid
+Al-aktaa
+Syria
+Al saadeh school
+14/5/24 15:25
+1.3306
+Bahaa Aldeen
+Melhem
+Syria
+Albasel Mixed High School
+19/5/24 16:15
+1.12
+Ilan Mihelja
+Ivan Hegedić
+Croatia
+XV. gymnasium Zagreb, V. gymnasium Zagreb
+21/5/24 17:05
+1.0718
+Guy
+Ginzberg
+Israel
+Ort Irony Dalet Modiin
+2/6/24 20:44
+0.8769
+University students:
+First name
+Surname
+Country
+University
+P5 date time
+DD/MM/YY 00:00:00
+P5 Score
+Lukas
+Schicht
+Germany
+Eberhard Karls Universität Tübingen
+22/4/24 18:15
+4.2535
+Luka
+Passek-Kumerički
+Croatia
+University of Zagreb
+5/5/24 12:54
+2.2019
+Dhruv
+Shah
+India
+Indian Institute of Science
+2/5/24 06:05
+1.6977
+Konstantin
+Rodionenko
+Russia
+ITMO University
+12/5/24 12:17
+1.2837
+Karlo
+Maksimović
+Croatia
+University of Zagreb
+12/5/24 21:10
+1.0629
+Marinus
+Lehmann
+Germany
+University of Potsdam
+23/6/24 12:36
+0.6523
+The list of countries:
+Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Cameroon, Canada, China, Croatia, Cuba, Czech Republic, Ecuador, Egypt, El Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Honduras, Hong Kong, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Kosovo, Kyrgyzstan, Latvia, Lithuania, Macau, Malaysia, Mexico, Moldova, Montenegro, Nepal, Netherlands, Nigeria, North Korea, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Rwanda, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Thailand, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

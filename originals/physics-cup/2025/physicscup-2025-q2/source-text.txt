@@ -1,0 +1,47 @@
+Source: https://physicscup.ee/?page_id=5652
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Kaarel Hänni
+.
+Initially, four birds, labeled
+A
+,
+B
+,
+C
+, and
+D
+, are positioned at the vertices of a regular tetrahedron with side length
+a
+. At time
+t=0
+, all birds begin flying. For all
+t>0
+, each bird flies directly toward another bird in the following pattern:
+A
+flies toward
+B
+,
+B
+flies toward
+C
+,
+C
+flies toward
+D
+, and
+D
+flies toward
+A
+. For any
+t>0
+, the speeds of all the birds are equal.
+Calculate the total distance traveled by bird
+A
+from the start until all birds meet at a single point.
+Please submit the solution of this problem
+via e-mail to physcs.cup@gmail.com.
+After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

@@ -1,0 +1,573 @@
+Source: https://physicscup.ee/pc2024-p2-best-solutions-and-final-results
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 2 – Image of a circle
+In total, 106 solutions were submitted for problem 2, of which 80 were correct. This turned out to be the easiest problem among all the PC-2024 problems, but that doesn’t mean it was a simple problem. Congratulations to everyone who managed to solve it!
+The Best Solution Awards were selected from the 50 submissions sent before the first hint was published. Selecting a few solutions from such a large number, most of which were written exceptionally well, was a difficult task. Overall, the submitted solutions can be divided into three categories:
+(A) Solutions where the following elements were constructed:
+(i) the focal plane, with two points on it where parallel beams converge;
+(ii) the optical axis as a perpendicular to the focal plane through the main focus;
+(iii) either a circle through the two points on the focal plane (method A-1), or a line drawn at 45° with respect to the focal plane (A-2).
+(B) Solutions using homothety that transforms the diameter of the original circle, the one parallel to the focal plane, into the line connecting the points
+A'
+and
+C'
+, where the tangents drawn from the focus touch the ellipse. The steps are as follows:
+(i) drawing the tangents and marking the points
+A'
+,
+C'
+, and the midpoint
+O'
+of
+A'C'
+;
+(ii) drawing a circle around
+O'
+with
+A'C'
+as the diameter;
+(iii) drawing a perpendicular to
+A'C'
+through
+O'
+and marking its intersection points
+B'
+and
+D'
+with the circle;
+(iv) noticing that
+B'
+and
+D'
+are the homotheties of the points on the original circle, respectively farthest and closest to the lens. So, the center of the lens can be found as the intersection point of the lines connecting the images of
+B
+and
+D
+with their homotheties.
+(C) Solutions using the thin lens equation to express the focal length
+f
+, and devising a method to construct
+f
+geometrically.
+What I originally had in mind when publishing the problem was the (B)-type approach, but I liked approach (A) very much because homothety is not often used in geometrical optics problems. There is an unlimited number of ways to implement approach (C), but overall, it is less elegant as algebra is used for a geometrical problem.
+The Best Solution Award is shared this time between four solutions—the best examples of approaches (A) and (B), with good documentation and insight. Forty percent of the award goes to
+Andrei Vila
+‘s B-type solution
+(
+here is .ggb
+), which provides a lot of additional insight, particularly proofs that everything can be done with a straightedge and compass. The A-1-type solutions of
+Bayram Alp
+Sahin
+(
+here is .ggb
+),
+Lukas Schicht
+(
+here is .ggb
+), and
+Val Karan
+(
+here is .ggb
+) each receive 20%. Finally, the best C-type solutions receive a publication bonus:
+Aditya
+(
+here is .ggb
+),
+Guy Ginzberg
+(
+here is .ggb
+),
+Ziyue Wang
+(
+here is .ggb
+); the same applies to the A-2-type solution of
+Konrad Wołczański-Zub
+(
+here is .ggb
+).
+Final results for Problem 2
+Pre-university students:
+Andrei
+Vila
+Romania
+International Computer High School Bucharest
+3/12/23 14:59
+3.8694
+Tornike
+Tsadzikidze
+Georgia
+komarovi Physics-Mathematics school
+3/12/23 23:46
+2.3579
+Aditya
+.
+INDIA
+FIITJEE
+4/12/23 08:35
+2.1537
+Ilan Mihelja
+Ivan Hegedić
+Croatia
+XV. gymnasium Zagreb, V. gymnasium Zagreb
+4/12/23 05:56
+2.0364
+Guy
+Ginzberg
+Israel
+Ort Irony Dalet Modiin
+4/12/23 09:23
+1.9579
+Ionut Gabriel
+Stan
+Romania
+International Computer Highschool of Bucharest
+4/12/23 15:24
+1.6105
+Ralf Robert
+Paabo
+Estonia
+Hugo Treffneri Gümnaasium
+4/12/23 19:43
+1.4641
+Mendel
+Mendelsohn
+Romania
+International Computer Highschool of Bucharest
+4/12/23 21:37
+1.331
+Val
+Karan
+Croatia
+XV. Gimnazija Zagreb
+7/12/23 23:52
+1.2214
+Anton
+Trubitsyn
+Russia
+FML №239
+4/12/23 22:07
+1.21
+Ruicheng
+Ma
+China
+High School Affiliated to Harbin Teachers College
+5/12/23 17:36
+1.1
+Vsevolod
+Shadrin
+Russia
+Phystech Lyceum named after Kapitsa
+10/12/23 15:42
+1.0
+Felix
+Yew
+Malaysia
+National Junior College, Singapore
+9/12/23 13:30
+1.0
+Hari
+Sheth
+India
+Disha Delphi Public School
+8/12/23 09:34
+1.0
+Rares Felix
+Tudose
+Romania
+Liceul Teoretic Internațional de Informatică București
+9/12/23 17:50
+1.0
+Panini
+–
+India
+Lakshya International Academy
+6/12/23 17:38
+1.0
+Marinescu
+Rareș Theodor
+Romania
+International Computer High School of Bucharest
+11/12/23 15:36
+1.0
+Kutay
+Kulbak
+Turkey
+Bahcesehir High School for Science and Technology
+16/12/23 23:44
+1.0
+Saskia
+Põldmaa
+Estonia
+Tallinna Reaalkool
+5/12/23 17:46
+1.0
+Benedek
+Bencz
+Hungary
+Baár-Madas Reformed High School
+17/12/23 11:46
+1.0
+Jagrav
+Garg
+India
+FIITJEE
+10/12/23 20:07
+1.0
+Kaustubh
+Kaka
+India
+ALLEN
+7/12/23 17:55
+1.0
+Egor
+Potapov
+Russia
+Kapitza lyceum
+10/12/23 17:57
+1.0
+Mihkel
+Rannut
+Estonia
+Tallinna Reaalkool
+16/12/23 21:42
+1.0
+Kaining Liu
+Xingyan He
+China
+Tianjin Nankai High School
+9/12/23 10:35
+1.0
+Sucheng
+Zhang
+china
+Chongqing Bashu Middle School
+10/12/23 05:03
+1.0
+Daksh
+Tayalia
+India
+SRGS OMR BLR
+8/12/23 08:43
+0.95
+Parth
+Khurana
+Singapore
+Global Indian International School
+31/12/23 10:50
+0.72
+Mohamad Eid
+Al-aktaa
+Syria
+Al saadeh school
+5/1/24 04:02
+0.7
+Bahaa Aldeen
+Melhem
+Syria
+Albasel Mixed High School
+6/1/24 20:32
+0.63
+Luca
+Gâlea
+Romania
+National College Iasi
+11/1/24 02:22
+0.6
+Cheng-You
+Ho
+Taiwan
+Chiayi Senior High School
+7/1/24 13:56
+0.6
+Tomas
+Razbadauskas
+Lithuania
+Kaunas University of Technology Gymnasium
+07/01/2024 18:40:00
+0.6
+Animesh
+Pradhan
+India
+Modern Delhi International School
+14/1/24 12:39
+0.6
+Oytun
+Er
+Turkey
+Kadıköy Anatolian Highschool
+12/1/24 18:09
+0.6
+Egor
+Kuznetsov
+Russia
+AESC MSU
+8/1/24 18:18
+0.6
+Arda
+Ünver
+Turkey
+Kocaeli Gebze Bahçeşehir High School for Science and Technology
+7/1/24 18:47
+0.54
+Jumadurdy
+Nuryyev
+Turkmenistan
+Specialized Comprehensive Boarding School named after Saparmyrat Turkmenbashy in the city of Ashgabat
+3/2/24 20:09
+0.5
+Joris
+Boruta
+Lithuania
+KTU gimnazija
+28/1/24 00:58
+0.5
+Halil İbrahim
+Yenitürk
+Turkey
+Ankara High School of Science
+3/2/24 07:04
+0.5
+Matej
+Gelev
+North Macedonia
+Yahja Kemal
+27/1/24 22:11
+0.5
+Affan
+Kaknjo
+Bosnia and Herzegovina
+JU Prva gimnazija u Zenici
+3/2/24 17:53
+0.5
+Tomasz
+Banaszczyk
+Poland
+I LO im. Bolesława Chrobrego in Piotrków Trybunalski
+29/2/24 14:43
+0.5
+Hung-Yu
+Shih
+Taiwan
+Tainan First Senior High School
+25/4/24 01:29
+0.5
+Zeyneb
+Mehemmedli
+Azerbaijan
+TTEL
+27/1/24 06:07
+0.475
+Chenni
+Wang
+China
+Nanjing Foreign Language School
+12/2/24 13:04
+0.45
+Rapolas
+Žygus
+Lithuania
+Klaipeda lyceum
+7/2/24 12:56
+0.4275
+University students:
+Bayram Alp
+Sahin
+Turkey
+Bogazici University
+3/12/23 14:36
+3.168
+Lukas
+Schicht
+Germany
+Eberhard Karls Universität Tübingen
+3/12/23 14:48
+2.88
+Tomas
+Babelis
+Lithuania
+École Polytechnique
+3/12/23 14:53
+2.1436
+Michał
+Kołodziejczyk
+Poland
+Warsaw University of Technology
+3/12/23 16:57
+1.9487
+Kai-Hsiang
+Tu
+Taiwan
+National Taiwan University
+4/12/23 05:56
+1.7716
+Adam
+Džavoronok
+Slovakia
+Charles University
+4/12/23 08:56
+1.6105
+Eliseu Antonio
+Kloster Filho
+Brazil
+Northwestern University
+4/12/23 12:40
+1.4641
+YUAN
+FEI
+Hong Kong
+The Hong Kong Polytechnic University
+5/12/23 11:24
+1.331
+Fan
+Rozen
+China
+Tsinghua University
+5/12/23 14:17
+1.21
+Ziyue
+Wang
+China
+Hebei University of Technology
+5/12/23 14:56
+1.1549
+Konrad
+Wołczański-Zub
+Poland
+AGH University of Technology Kraków
+9/12/23 23:00
+1.1052
+Marinus
+Lehmann
+Germany
+University of Potsdam
+10/12/23 12:36
+1.0
+Dženan
+Midžić
+Bosnia and Herzegovina
+University of Rijeka
+5/12/23 17:13
+1.0
+Nick
+Hartmann
+Germany
+RWTH Aachen
+15/12/23 17:54
+1.0
+Konstantin
+Rodionenko
+Russia
+ITMO University
+10/12/23 19:37
+1.0
+Prodromos
+Fotiadis
+Greece
+University of Crete
+5/12/23 16:04
+1.0
+Elias Koschier
+Michail Ognyanov
+Austria
+–
+6/12/23 19:31
+1.0
+Larrance
+Xing
+United States
+University of Michigan Ann Arbor
+8/12/23 07:47
+1.0
+Viktor
+Vuković
+Croatia
+University of Zagreb
+16/12/23 22:34
+1.0
+Qirui
+HE
+Hong Kong
+The Chinese University of Hong Kong
+10/12/23 13:30
+1.0
+Wenhao
+Dou
+China
+Hebei University of Technology
+9/12/23 05:19
+1.0
+Lin
+DongHui
+China
+Sichuan University
+6/12/23 17:21
+1.0
+Luka
+Passek-Kumerički
+Croatia
+University of Zagreb
+8/12/23 13:30
+1.0
+Adrian, Bruno, Daniel
+Serrano Capatina, Pontecorvo, Gonzalez Filipov
+Switzerland
+EPFL
+19/12/2023 10:22:00
+0.9
+Karlo
+Maksimović
+Croatia
+University of Zagreb
+20/12/23 14:50
+0.9
+Kerim
+Cherkezov
+Turkmenistan
+Magtymguly Turkmen State University
+25/12/23 18:17
+0.8
+Manjaree
+India
+Indian Institute of Science, Bengaluru
+31/12/23 06:19
+0.8
+SIfat Ahmed
+Tushar
+Bangladesh
+University of Dhaka
+7/1/24 19:22
+0.6
+Md. Badhan
+Mridha
+Bangladesh
+University of Dhaka
+13/1/24 17:50
+0.6
+Mayank
+Kumar
+India
+Indian Institute of Science
+14/1/24 10:10
+0.54
+Dhruv
+Shah
+India
+Indian Institute of Science
+29/2/24 10:35
+0.5
+Konstantin
+Tripunovski
+North Macedonia
+University of Ljubljana – Faculty of Medicine
+4/3/24 17:14
+0.5
+Musa
+Artykov
+Turkmenistan
+Magtymguly Turkmen State University
+28/1/24 12:07
+0.5
+The list of countries:
+Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Cameroon, Canada, China, Croatia, Cuba, Czech Republic, Ecuador, Egypt, El Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Honduras, Hong Kong, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Kosovo, Kyrgyzstan, Latvia, Lithuania, Macau, Malaysia, Mexico, Moldova, Montenegro, Nepal, Netherlands, Nigeria, North Korea, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Rwanda, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Thailand, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

@@ -1,0 +1,13 @@
+Source: https://physicscup.ee/?page_id=6652&preview_id=6652
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+A crystal ball contains a tiny sphere of fluorescent dye adjacent to its inner surface. The ball is illuminated from behind with ultraviolet light, and as a result, the dye radiates visible light isotropically. The surface of the ball has an anti-reflection coating, so there are no partial reflections. However, there are microscopic impurities inside the ball that scatter light weakly. The figure shows the image seen on a screen placed in front of the ball; the length of the white line segment equals the diameter
+d
+of the ball. Find which fraction of the light energy emitted by the fluorescent dye departs the ball as scattered light. You may take length measurements from the figure. Neglect any light absorption inside the ball. You should aim to have two correct digits in your answer.
+Note: the dim regions of the image are greatly enhanced.
+Please submit the solution of this problem
+via e-mail to physcs.cup@gmail.com.
+After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

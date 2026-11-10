@@ -1,0 +1,147 @@
+Source: https://physicscup.ee/archive/physics-cup-taltech-2019/physics-cup-2019-problem-1/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 1
+Problem 1 with the first hint anf intermediate results
+Problem 1 with two hints and intermediate results
+Problem 1 with three hints and intermediate results
+Problem 1 with four hints and intermediate results
+Problem 1 with five hints and intermediate results
+Results and best solutions
+This problem was supposed to be difficult, and it turned out to be difficult. However, the number of correct solutions submitted during the first week exceeded considerably what I was expecting. Hence, we can conclude that the level of the contestants is very high this year. Many students demonstrated advanced skills (such as fluency in vector calculus) which were actually not part of the intended solution. High school students used mathematical skills taught typically during the 2nd or 3rd year of undergraduate studies…
+As usual, the best solution awards go to the simplest and most creative ones. If the physical creativity of two solutions is more or less equal, preference is given to solutions which are (a) submitted prior to the publication of additional hints, (b) better documented, and (c) reader-friendly (i.e. digitally typeset and illustrated with sketches, if needed).
+The award for the best solution of Problem 1 is shared equally between
+Thomas Foster
+and
+Johanes Suhardjo
+. Suhardjo submitted his initial solution during the first week, i.e. without using the hints; a few days later, he submitted a revised file which had the same solution as before, but additionally, included an alternative approach. Suhardjo’s first solution is almost identical to the intended one; his second method differs in being based on the calculation of the fluid momentum (instead of the kinetic energy). If there is something what could be improved in his solution then it is not really caring to explain in details, why the polarized metallic body can be considered as if a body with a constant electrical polarization density (this is where we need to make use of the fact that a dielectric body of the same shape has a homogeneous electric field inside).
+The solution of Thomas Foster follows otherwise the intended solution, but is based on the fluid momentum. Length-wise, both methods (fluid momentum and kinetic energy ones) are fairly similar, but the method based on kinetic energy would benefit from the Gauss-Ostrogradsky theorem. Foster demonstrates first how the volume integral representing the total momentum can be taken by avoiding this theorem: he is using a triple integral and integration by parts, instead. After that, he shows also how the Gauss-Ostrogradsky theorem can be used to obtain the same result in a shorter way. Foster points out correctly that the velocity field around the body corresponds to the electric field when the permittivity of the body is zero; this is not a mandatory part of the solution, but a fun fact, anyway.
+Other well-documented solutions which represent a useful reading are listed below.
+Oliver Lindström
+– another solution which is very close to the intended one. Mapping between the v-field and the E-field is somewhat sloppy: equations are written for v, but not for E. Also, as IPhO Syllabus does not include vector calculus, it would have been preferable to avoid vector calculus in equations (1) and (2) by writing these conditions in integral form. Mapping between the velocity and the electric fields is done by defining a D-field based on the v-field; it is a nice way, but algebraic calculations become slightly more difficult than needed.
+Ivan Ridkokasha
+– somewhat similar to Lindström’s solution, with two figures to aid reader.
+Felix Christensen
+– a solution which makes a heavier use of the vector calculus than the previous ones, but is still relatively simple. NB! Christensen was the only contestant who cared to analyse if the denominator could become zero or negative.
+Gabriel Trigo
+– a solution which is definitely more difficult than needed. But who cares – as long as there are no mistakes and the result is obtained! If you take your time, you’ll learn useful things while reading this solution.
+Yunus Emre Parmaksız
+– the fastest solution! It is based heavily on vector calculus, is more complicated than needed, and not an easy reading as explanations are sometimes missing. You can use this solution as an exercise when learning vector calculus.
+Results for Problem 1, university students
+name
+school
+country
+solved
+score
+Thomas Foster
+University of Oxford
+UK
+10 Dec. 2018,	16:36
+4.28
+Johanes Suhardjo
+Hong Kong Univ Sci & Tech
+Indonesia
+16 Dec. 2018, 7:44
+3.89
+Ivan Ridkokasha
+Shevchenko University Kyiv
+Ukraine
+16 Dec. 2018, 21:25
+2.36
+Felix Christensen
+University of Oxford
+Germany
+19 Dec. 2018, 0:19
+2.14
+Samarth Hawaldar
+Indian Institute of Science
+India
+25 Dec. 2018,	22:02
+1.59
+Results for Problem 1, high school students
+name
+school
+country
+solved
+score
+Yunus Emre Parmaksız
+Bahcesehir HS Sci & Tech
+Turkey
+10 Dec. 2018, 9:36
+2.85
+Gabriel Trigo
+Colegio ETAPA, Valinhos
+Brazil
+12 Dec. 2018,	21:03
+2.36
+Ionel-Emilian Chiosa
+Intern Computer HS Bucharest
+Romania
+11 Dec. 2018,	18:35
+2.24
+Oliver Lindström
+Minervagymnasium
+Sweden
+13 Dec. 2018,	1:00
+2.14
+Tùng Trần
+HN-Amsterdam
+Vietnam
+19 Dec. 2018, 17:37
+1.77
+Maria Amcique
+Comprehensive Sch Emile Zola
+France
+19 Dec. 2018, 21:49
+1.61
+Mateusz Kapusta
+Secondary Sch No 3, Wroclaw
+Poland
+20 Dec. 2018, 18:56
+1.46
+Vladislav Polyakov
+School No 239, St Petersburg
+Russia
+21 Dec. 2018, 16:36
+1.33
+Farhan Husain
+Kharisma Bangsa Senior HS
+Indonesia
+24 Dec. 2018	7:00
+1.21
+Oliwier Urbański
+Szkoła Nr 28 w Poznaniu
+Poland
+29 Dec. 2018,	11:31
+1
+Morteza Mudrick
+SMA Negeri 1 Surakarta
+Indonesia
+31 Dec. 2018,	3:23
+1
+Stefan Dolteanu
+Intern Computer HS Bucharest
+Romania
+06 Jan. 2019,	12:23
+1
+Eduard  Burlacu
+Intern Computer HS Bucharest
+Romania
+12 Jan. 2019,	23:04
+1
+Gusti P S G Atmaja
+Kesatuan Bangsa Senior HS
+Indonesia
+13 Jan. 2019,	4:56
+1
+Roberto Marín Delgado
+Colegio Científico San Carlos
+Costa Rica
+02 Jan. 2019,	14:31
+0.9
+Mustafa Tugtekin
+Bahcesehir HS Sci & Tech
+Turkey
+25 Dec. 2018,	22:02
+0.88

@@ -1,0 +1,18 @@
+Source: https://physicscup.ee/?page_id=4761
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Jaan Kalda
+(TalTech).
+An assortment of scrap iron is scattered on a wooden table. The scrap consists of small pieces of thin sheet (with a thickness much smaller than their diameter) and tiny spherical balls. To remove the scrap, a spherical permanent magnet is used, approaching it from above with the magnetisation vector pointing downwards. The plates are lifted when the height of the centre of the magnet from the table surface is
+a
+. What is the height
+b
+at which the magnet lifts the spheres? It is assumed that the dimensions of the scrap particles are significantly smaller than
+a
+. The iron from which the scrap is made of is a soft ferromagnetic with a negligible width of the hysteresis loop; its relative permeability is much greater than one. The interaction between neighbouring scrap particles can be neglected.
+Please submit the solution of this problem
+via e-mail to physcs.cup@gmail.com.
+First intermediate results will be published on 21st January, 13:00 GMT. After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

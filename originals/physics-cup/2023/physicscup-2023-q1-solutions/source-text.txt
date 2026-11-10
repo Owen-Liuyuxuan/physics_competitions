@@ -1,0 +1,465 @@
+Source: https://physicscup.ee/pc2023-p1-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 1 – Sinking cylinder
+In total, 290 solutions were submitted for problem 1, out of which 70  were correct.
+Congratulations to everyone who managed to solve this problem!
+The Best Solution Awards
+were selected from the 18 submissions sent before any of the hints were published. This time, the Best Solution Award was divided into four equal parts of one quarter each [corresponding to the bonus factor exp(1/4)]. The winners are as follows.
+Luka Passek-Kumerički
+– very thoroughly written analysis including estimates of the added mass and discussion of why the velocity field is potential, i.e. has zero vorticity.
+Eyal Walach
+– shows that the square root of the distance from the bottom performs half a period of an harmonic oscillation.
+Chung Wang Lam
+and
+礼中 付
+– improved accuracy of the result by no longer neglecting the inertia of the cylinder.
+Apart from these, there were many more solutions worth publishing, so here is a selection [everyone listed below gets a publication bonus of exp(0.1)].
+Vlad-Stefan Oros
+– well written, good analysis of the process, including the analysis of the added mass.
+Guglielmo Di Grazia
+– well written, includes a discussion of the vorticity of the velocity field, and of the added mass.
+Luca Milanese
+– a minimalist solutions for those who prefer short texts.
+Liao Haoding
+– a solution based on the Euler equation and calculation of the pressure distribution. Although a handwritten text, a useful read if you want to know how to solve this problem correctly using Newton’s second law and the pressure force.
+Final results for Problem 1
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P1 date time
+DD/MM/YY 00:00:00
+P1 Score
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Theoretical High School
+13/11/2022 13:46:00
+2.8665
+Guglielmo
+Di Grazia
+Italy
+Liceo Lorenzini Pescia
+13/11/2022 20:08:00
+2.6059
+Chung Wang
+Lam
+Hong Kong
+St. Paul’s Co-educational College
+20/11/2022 05:34:00
+2.2747
+Adam
+Džavoronok
+Slovakia
+Gymnázium, Poštová 9
+17/11/2022 10:36:00
+2.1436
+Aditya
+–
+India
+FIITJEE
+18/11/2022 07:23:00
+1.9487
+Andrei-Darius
+Dragomir
+Romania
+International Computer Highschool of Bucharest (ICHB)
+20/11/2022 12:59:00
+1.6105
+Liao
+Haoding
+China
+Chongqing Bashu Middle School
+23/11/2022 03:22:00
+1.4563
+Rhythm
+Kedia
+India
+MB International
+23/11/2022 14:21:00
+1.1979
+Zilang
+Shu
+China
+Beijing National Day School
+25/11/2022 08:26:00
+1.1495
+Alexandra
+Curea
+Romania
+Theoretical National High School
+27/11/2022 10:21:00
+1.1
+Ahmet Bahadır
+Trabzon
+Turkey
+Kabataş Erkek High School
+29/11/2022 14:27:00
+0.9
+Matvey Kuklin
+Fyodor Chulyov
+Russia
+AESC MSU
+03/12/2022 19:12:00
+0.9
+Archit
+Hari
+India
+FIITJEE
+30/11/2022 13:38:00
+0.9
+Filip
+Vučić
+Croatia
+I. gymnasium Zagreb
+29/11/2022 16:49:00
+0.855
+Ilan, Ivan (Team)
+Mihelja, Hegedić
+Croatia
+XV. gymnasium Zagreb, V. gymnasium Zagreb
+03/12/2022 20:07:00
+0.8123
+Tomas
+Babelis
+Lithuania
+Vilniaus jėzuitų gimnazija
+10/12/2022 21:01:00
+0.8
+Reeshabh
+Kotecha
+India
+Mprakash Institute
+09/12/2022 06:55:00
+0.8
+Eppu
+Leinonen
+Finland
+Munkkiniemen yhteiskoulu
+04/12/2022 13:58:00
+0.76
+Jingyang James
+He
+Singapore
+Raffles Institution
+11/12/2022 00:09:00
+0.722
+Guangyuan
+Chen
+Singapore
+Raffles Institution
+10/12/2022 07:30:00
+0.72
+Alexandar
+Roussev
+Bulgaria
+–
+08/12/2022 09:35:00
+0.72
+Michael
+Georgievski
+North Macedonia
+High School Gimnazija Dobri Daskalov
+13/12/2022 09:36:00
+0.7
+Arda
+Ünver
+Turkey
+Kocaeli Bahcesehir High School of Science and Technology
+15/12/2022 18:22:00
+0.7
+Puneeth
+A
+India
+Allen Carrer Institute
+18/12/2022 05:53:00
+0.7
+Golam
+Ishtiak
+Bangladesh
+Kushtia Government College
+13/12/2022 16:40:00
+0.7
+Matej
+Gelev
+North Macedonia
+Yahja Kemal
+13/12/2022 20:59:00
+0.665
+Baiyu
+Zhu
+United States
+California High School
+12/12/2022 18:44:00
+0.6484
+Mateusz
+Kamiński
+Poland
+VI High School in Cracow
+23/12/2022 19:36:00
+0.6
+Rares-Felix
+Tudose
+Romania
+Liceul Teoretic Internațional de Informatică București
+01/01/2023 14:50:00
+0.6
+Viktor
+Krstevski
+North Macedonia
+SUGS “Rade Jovcevski- Korcagin”
+30/12/2022 21:18:00
+0.57
+Peter
+Andolšek
+Slovenia
+Gimnazija Bežigrad
+23/12/2022 21:47:00
+0.57
+Jaiveer
+Singh
+India
+LBS Senior Secondary School
+19/12/2022 17:09:00
+0.57
+JAGRAV
+GARG
+INDIA
+FIITJEE
+31/12/2022 19:38:00
+0.57
+Panini
+–
+India
+Lakshya International Academy
+24/12/2022 14:13:00
+0.5415
+Alptürk
+Eski
+Turkey
+Erbakır Science High School
+14/12/2022 13:20:00
+0.5387
+Žan
+Ambrožič
+Slovenia
+Gimnazija Kranj
+14/12/2022 12:22:00
+0.5387
+Dženan
+Midžić
+Bosnia and Herzegovina
+JU Gimnazija “Bihać”
+02/01/2023 14:50:00
+0.5144
+Elias Koschier
+Michail Ognyanov
+Austria
+ERG Donaustadt
+01/01/2023 04:15:00
+0.5144
+Filip
+Baciak
+Poland
+1 LO w Chrzanowie
+29/12/2022 08:55:00
+0.5144
+Vishesh
+Sehrawat
+India
+FIITJEE
+22/12/2022 10:10:00
+0.4374
+Ruicheng
+Ma
+China
+Harbin Normal University High School
+01/01/2023 06:08:00
+0.3959
+University students:
+First name
+Surname
+Country
+University
+P1 date time
+DD/MM/YY 00:00:00
+P1 Score
+Luca
+Milanese
+Italy
+Scuola Normale Superiore di Pisa
+13/11/2022 13:52:00
+2.8665
+Bayram Alp
+Şahin
+Turkey
+Bogazici University
+13/11/2022 15:10:00
+2.3579
+Eyal
+Walach
+Israel
+Bar-Ilan University
+15/11/2022 22:26:00
+2.161
+Zhanshuo (展硕)
+Tang (汤)
+China
+Tsinghua University
+14/11/2022 13:43:00
+1.9292
+Luka
+Passek-Kumerički
+Croatia
+University of Zagreb
+23/11/2022 13:41:00
+1.8799
+Bowen
+Tan
+China
+Jilin Normal University
+15/11/2022 10:55:00
+1.8513
+礼中
+付
+China
+University of Science and Technology of China
+26/11/2022 14:59:00
+1.709
+Nianqing
+Wan
+China
+Shanghai University
+20/11/2022 08:08:00
+1.6105
+Ronald
+Dobos
+Slovakia
+University of Cambridge
+29/11/2022 06:22:00
+1.089
+Yeswanth Narayana
+Patnana
+India
+IIT Madras
+04/12/2022 18:30:00
+0.88
+Duta
+Kartvelishvili
+Georgia
+Free University Of Tbilisi
+11/12/2022 12:59:00
+0.8
+Tejas
+Acharya
+India
+University of Oxford
+05/12/2022 10:22:00
+0.78
+Kerim
+Cherkezov
+Turkmenistan
+Turkmen State University
+06/12/2022 06:47:00
+0.72
+Juan Francisco
+Lorusso Notaro Francesco
+United Kingdom
+Cambridge University
+16/12/2022 14:37:00
+0.7
+Gil
+Ronen
+Israel
+Hebrew University of Jerusalem
+16/12/2022 15:34:00
+0.7
+Marinus
+Lehmann
+Germany
+University of Potsdam
+18/12/2022 10:53:00
+0.7
+Kien
+Trung Pham
+Vietnam
+Hanoi University of Science and Technology
+11/12/2022 15:59:00
+0.665
+Ziyue
+Wang
+China
+Hebei University of Technology
+11/12/2022 03:28:00
+0.6498
+Anindya
+Guria
+India
+Indian Institute of Science
+11/12/2022 14:36:00
+0.63
+Absur Khan
+Siam
+Bangladesh
+Korea Advanced Institute of Science & Technology (KAIST)
+25/12/2022 08:37:00
+0.6
+Jaroslav
+Herman
+Czech Republic
+Charles University
+25/12/2022 12:32:00
+0.6
+Lukas
+Schicht
+Germany
+University of Rostock
+22/12/2022 19:23:00
+0.6
+Ricardo
+Ochel
+Germany
+Universität Heidelberg
+26/12/2022 12:57:00
+0.6
+Simon
+Selg
+Estonia
+University of Tartu
+29/12/2022 12:07:00
+0.57
+Soumyadeep
+Sarma
+India
+Indian Institute of Science
+18/12/2022 13:40:00
+0.57
+Daniel
+Schiller
+Germany
+Ruprecht-Karls-Universität Heidelberg
+22/12/2022 22:03:00
+0.54
+Jerzy
+Gamdzyk
+Poland
+University of Warsaw
+01/01/2023 10:39:00
+0.5144
+Kaarel
+Paal
+Estonia
+TalTech
+31/12/2022 15:22:00
+0.5144
+Konstantin
+Tripunovski
+North Macedonia
+University of Ljubljana – Medical Faculty
+30/12/2022 21:58:00
+0.4874
+The list of countries:
+Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Cameroon, Canada, China, Croatia, Cuba, Czech Republic, Ecuador, Egypt, El Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Honduras, Hong Kong, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Kosovo, Kyrgyzstan, Latvia, Lithuania, Macau, Malaysia, Mexico, Moldova, Montenegro, Nepal, Netherlands, Nigeria, North Korea, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Rwanda, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Thailand, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam

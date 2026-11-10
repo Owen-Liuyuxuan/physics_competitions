@@ -1,0 +1,466 @@
+Source: https://physicscup.ee/pc2025-p3-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 3 – Oscillating piston
+In total, 159 solutions were submitted for problem 3, of which 60 were correct. Congratulations to everyone who successfully solved it!
+There were 25 correct solutions submitted before the first hint was published, and only those were considered as candidates for the best solution awards. Additionally, since there were so many well-written solutions to choose from, the eight handwritten solutions were not considered this time. Sorry about that! Finally, it was important to consider the thermalization time and show that, based on the strong inequalities given, it is shorter than the characteristic temperature growth time; only those 9 solutions that included this discussion were considered as the contenders. All these were thorough studies with high-quality presentation, but some of them dropped out from the list of award-winners and otherwise published solutions because of sub-optimal mathematical procedures that resulted in longer-than-needed calculations.
+The award winners are as follows. First,
+Siddhaarth Dharani
+(0.5 pts), for a solution that considers the probabilities of hitting the approaching versus the receding piston; mathematical simplification arises from the key insight that the expected energy gain per collision is independent of the molecule’s speed. Second,
+Iaroslav Pozdniak
+and
+Teo Kai Wen
+share the prize (0.25 pts each). Iaroslav Pozdniak is recognized for a unique justification of the uniform temperature model, in which he applies heat conduction theory, complemented by a highly efficient kinetic theory calculation for the net energy transfer. Teo Kai Wen is recognized for providing a comprehensive analysis with first-principles derivations for all model assumptions, including a derivation of the thermal diffusion time from a random walk model.
+Other published solutions are:
+Emerson Franzua
+, who (similarly to S. Dharani) makes use of probabilities by averaging over time, calculating an average power that remains dependent on the molecule’s speed, thus requiring a final integration;
+Adrian, Bruno, and Daniel
+, who effectively use the Taylor expansion of the Maxwell distribution to elegantly calculate the net energy transfer;
+Eric Wang
+, who provides a very complete and rigorously justified solution overall, notable for its comprehensive appendices; and
+Alexandru Bordei
+, whose solution is distinguished by its pedagogical structure and detailed explanations, making it particularly clear and instructive.
+Finally, here is
+my own (JK) solution
+that is similar to that of S. Dharani, but simplifies calculations by noticing that making calculations for the full ensemble of molecules is equivalent to considering the expected round-trip time of a single molecule, from the piston to the other end of the cylinder and back, in the absence of inter-molecule collisions.
+Final results for Problem 3
+Pre-university students:
+Age Group
+First name
+Surname
+Country
+School/University
+P3 date time
+DD/MM/YY 00:00:00
+P3 Score
+Pre-university
+Kai Wen
+Teo
+Singapore
+Raffles Institution
+23/12/24 05:23
+2.0
+Pre-university
+Kanishk
+Jain
+India
+ALLEN Kota
+22/12/24 14:17
+2.0
+Pre-university
+Tomas
+Razbadauskas
+Lithuania
+Kaunas University of Technology Gymnasium
+22/12/24 20:30
+1.9
+Pre-university
+Grigorii
+Grechkin
+School CPM
+23/12/24 21:36
+1.7
+Pre-university
+Oytun
+Er
+Türkiye
+Kadıköy Anatolian Highschool
+24/12/24 10:57
+1.6
+Pre-university
+Enej
+Jauk
+Slovenia
+Gimnazija Bežigrad
+25/12/24 23:03
+1.5
+Pre-university
+Siddhaarth
+Dharani
+Singapore
+NUS High School
+1/1/25 03:23
+1.355
+Pre-university
+Alp
+Terliksiz
+Türkiye
+Enka Science and Technology Highschool
+27/12/24 14:45
+1.35
+Pre-university
+Owen
+Zhou
+United States
+Basis Scottsdale
+29/12/24 19:26
+1.2
+Pre-university
+Darius
+Graur
+Moldova
+Liceul Teoretic Orizont
+29/12/24 23:31
+1.1
+Pre-university
+Mert Andac
+Karan
+Türkiye
+Bahcesehir High School for Science and Technology
+5/1/25 06:36
+1.0
+Pre-university
+Amrit
+Raj
+India
+Maa Bharti Sr. Sec. School
+30/12/24 18:29
+1.0
+Pre-university
+Alexandru
+Bordei
+Moldova
+LT “Orizont” Durlesti
+31/12/24 23:12
+1.0
+Pre-university
+Saurya
+Shrestha
+Nepal
+St. Xavier’s College, Nepal
+5/1/25 10:24
+1.0
+Pre-university
+Yisi
+Liu
+China
+The First High School of Changsha
+5/1/25 04:08
+1.0
+Pre-university
+Kai Xin
+Chen
+China
+GuangDong ShiYan middle school – ShenZhen High school.
+11/1/25 15:37
+0.9
+Pre-university
+Alex
+Secrieru
+Moldova
+LT “Orizont”
+14/1/25 12:25
+0.8
+Pre-university
+Artyom
+Eryomin
+Lyceum №23
+8/1/25 12:30
+0.729
+Pre-university
+Pavel
+Bulanov
+School #533
+13/1/25 20:04
+0.72
+Pre-university
+Joshua
+Wang
+United States
+Brookfield Central High School
+25/1/25 04:38
+0.7
+Pre-university
+Anton
+Trubitsyn
+Lyceum №239
+19/1/25 19:07
+0.63
+Pre-university
+Aljaž
+Erman
+Slovenia
+Gimnazija Kranj
+25/1/25 20:49
+0.63
+Pre-university
+Mahammad
+Jafarli
+Azerbaijan
+Technical-Humanitarian Lyceum
+19/2/25 17:33
+0.6
+Pre-university
+Luis Edgar
+Sánchez Henríquez
+El Salvador
+Programa Jovenes Talentos
+2/2/25 03:58
+0.6
+Pre-university
+Moritz
+Rohner
+Luxembourg
+Lycée de Garçons Esch (LGE)
+30/1/25 21:46
+0.54
+Pre-university
+Janos
+Simon
+Hungary
+Career Academy South Bend
+26/1/25 19:36
+0.54
+Pre-university
+Bartosz
+Łakomy
+Poland
+Uniwersyteckie Liceum Ogólnokształcące w Toruniu
+6/2/25 16:54
+0.5
+Pre-university
+Darsh
+Sikka
+India
+DPS RK Puram
+6/2/25 10:34
+0.5
+Pre-university
+Məhəmməd
+Umarlı
+Azerbaijan
+FRITL
+21/2/25 14:11
+0.5
+Pre-university
+Yifan
+Jin
+China
+No.2 High School Of East China Normal University（Putuo campus）
+6/2/25 05:03
+0.5
+Pre-university
+Italo
+Vidaurre
+El Salvador
+Programa Jovenes Talento
+2/2/25 17:20
+0.5
+Pre-university
+Ogtay
+Latifli
+Azerbaijan
+Republican Physics-Mathematics and Informatics lyceum
+17/2/25 15:55
+0.5
+Pre-university
+Mikhail
+Lazarev
+Letovo School
+23/2/25 14:44
+0.5
+Pre-university
+Raiq Babazade
+Murad Khalil, Ibrahim Valehli
+Azerbaijan
+Physics, Mathematics and Informatics lyceum
+9/2/25 12:23
+0.45
+Pre-university
+Saskia
+Põldmaa
+Estonia
+Tallinn Secondary School of Sciences
+16/2/25 10:10
+0.45
+Pre-university
+Aditya
+Das Jitu
+Bangladesh
+Chattogram College
+7/3/25 14:22
+0.45
+Pre-university
+Zeyneb
+Mehemmedli
+Azerbaijan
+TTEL
+22/2/25 21:00
+0.45
+Pre-university
+Nithilan
+Ravikumar
+India
+Delhi Public School Bangalore East
+17/2/25 05:42
+0.45
+Pre-university
+Ashutosh
+Gupta
+India
+Allen Career Institute Pvt. Ltd.
+2/3/25 14:00
+0.45
+Pre-university
+Robertas
+Juknevičius
+Lithuania
+Kaunas University of Technology Gymnasium
+23/2/25 09:07
+0.4275
+Pre-university
+Rahul
+Nandi
+Bangladesh
+Chattogram College
+3/3/25 03:18
+0.405
+Pre-university
+Shresth
+Suraiya
+India
+Narayana School
+15/2/25 16:54
+0.405
+Pre-university
+Tanay
+Tekade
+India
+School of Scholars
+23/2/25 14:30
+0.405
+Pre-university
+Tejas Penugonda
+Talha Ashraf
+India/Pakistan
+Nixor College
+22/2/25 20:45
+0.3645
+Pre-university
+Aryan
+Prakash Verma
+India
+allen
+22/2/25 08:19
+0.35
+University students:
+First name
+Surname
+Country
+School/University
+P3 date time
+DD/MM/YY 00:00:00
+P3 Score
+Iaroslav
+Pozdniak
+Moscow Institute of Physics and Technology
+22/12/24 20:24
+2.25
+Emerson Franzua
+Aldana Gavarrete
+Honduras
+Universidad Nacional Autónoma de Honduras
+23/12/24 00:32
+2.0
+Abhiram
+Cherukupalli
+United States
+California Institute of Technology
+23/12/24 06:16
+1.8
+Dhruv
+Shah
+India
+Massachusetts Institute of Technology
+23/12/24 16:18
+1.7
+Ilan Mihelja
+Ivan Hegedić
+Croatia
+University of Zagreb, EPFL
+23/12/24 21:03
+1.55
+Hui Xiang
+Sim
+Singapore
+National University of Singapore
+24/12/24 08:41
+1.5
+Eric
+Wang
+United States
+Massachusetts Institute of Technology
+24/12/24 23:33
+1.5
+Adrian, Bruno, Daniel
+Serrano Capatina, Pontecorvo, Gonzalez Filipov
+Switzerland
+École Polytechnique Fédérale de Lausanne
+29/12/24 19:18
+1.3
+Marian
+Hariton
+Moldova
+Technical University Of Moldova
+2/1/25 13:31
+1.2
+Štěpán
+Plass
+Czech Republic
+Univerzita Karlova
+2/1/25 17:00
+1.0
+Sifat Ahmed
+Tushar
+Bangladesh
+University of Dhaka
+11/1/25 12:07
+0.729
+Qirui
+HE
+Hong Kong
+Chinese University of Hong Kong
+2/2/25 10:11
+0.54
+Michał
+Kołodziejczyk
+Poland
+Warsaw University of Technology
+23/2/25 09:19
+0.5
+Konstantin
+Tripunovski
+North Macedonia
+University of Ljubljana – Faculty of Medicine
+9/3/25 12:44
+0.45
+Konstantin
+Rodionenko
+ITMO University
+23/2/25 10:32
+0.45
+Vinícius
+Ferreira Rodrigues
+Brazil
+Universidade de São Paulo (IFSC USP)
+23/2/25 15:40
+0.405
+Marinus
+Lehmann
+Germany
+University of Potsdam
+23/2/25 18:58
+0.3645
+Federico
+Mastroforti
+Italy
+University of Bologna
+21/2/25 21:59
+0.35
+Guy
+Ginzberg
+Israel
+The Open University of Israel
+21/2/25 12:21
+0.35

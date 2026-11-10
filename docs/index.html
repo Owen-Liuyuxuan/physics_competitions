@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="以竞赛题为入口，探索物理模型、数学方法与研究问题。">
+  <title>物理模型图鉴 · Physics Atlas</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="reader.css">
+  <script defer src="data.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳至内容</a>
+<aside class="sidebar">
+ <a class="brand" href="#"><span class="brand-symbol">φ</span><span>PHYSICS<br><b>ATLAS</b></span></a>
+ <div class="edition" id="edition"></div>
+ <p class="side-label">研究导航 / WORKSPACE</p>
+ <nav aria-label="主要导航">
+  <button data-view="library" class="nav active"><span>▤</span> 资料索引 <i id="nav-count"></i></button>
+  <button data-view="problems" class="nav"><span>⌘</span> 逐题探索 <i id="question-count"></i></button>
+  <button data-view="coverage" class="nav"><span>▦</span> 年度覆盖</button>
+  <button data-view="guide" class="nav"><span>◈</span> 分类与学习</button>
+ </nav>
+ <div class="side-note"><span class="tiny-orbit">◎</span><h3>从现象到模型</h3><p>题目是入口，<br>物理机制才是目的地。</p></div>
+ <footer><span class="status-dot"></span> 来源可追溯 · 状态透明<br><small id="updated"></small></footer>
+</aside>
+<main id="main">
+ <header class="topbar"><span>物理竞赛 / 建模与研究</span><span class="access" id="access"></span></header>
+ <section class="hero">
+  <div><p class="eyebrow">A FIELD GUIDE TO PHYSICAL THINKING</p><h1>从一道题，<br>走进一个<span>物理世界。</span></h1><p class="intro">连接高中竞赛、大学物理与开放研究。<br>按模型寻找问题，沿着问题理解物理。</p></div>
+  <div class="orbit-art" aria-hidden="true"><div class="axis x"></div><div class="axis y"></div><div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div><span class="core"></span><span class="particle p1"></span><span class="particle p2"></span><span class="formula">𝓛 = T − V</span><span class="art-caption">OBSERVE. MODEL. UNDERSTAND.</span></div>
+ </section>
+ <section class="stats" id="stats" aria-label="资料统计"></section>
+ <section id="catalog-view">
+  <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="view-title">资料索引</h2></div><div class="tools"><button id="export" class="outline">导出索引 ↓</button></div></div>
+  <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="搜索资料" placeholder="搜索题目、竞赛、物理模型…"><kbd>/</kbd></div>
+  <div class="filters" id="filters">
+   <label>竞赛<select id="contest"><option value="">全部竞赛</option></select></label>
+   <label>年份<select id="year"><option value="">全部年份</option></select></label>
+   <label>物理类型<select id="topic"><option value="">全部类型</option></select></label>
+   <label>难度<select id="difficulty"><option value="">全部难度</option><option value="pending">待评估</option><option>D1</option><option>D2</option><option>D3</option><option>D4</option><option>D5</option></select></label>
+   <label>资料类型<select id="role"><option value="">全部资料</option><option value="problem">题目</option><option value="solution">解答</option><option value="combined">题目与解答</option></select></label>
+   <label>排序<select id="sort"><option value="new">年份：新到旧</option><option value="old">年份：旧到新</option><option value="title">题目名称</option></select></label>
+  </div>
+  <div class="result-bar"><p id="result-count" role="status" aria-live="polite"></p><button id="clear">清除筛选 ↺</button></div>
+  <p class="notice" id="catalog-notice"></p>
+  <div id="results" class="results"></div>
+  <button id="more" class="load-more" hidden>加载更多</button>
+ </section>
+ <section id="coverage-view" hidden></section>
+ <section id="guide-view" hidden></section>
+ <footer class="page-footer"><b>PHYSICS ATLAS</b><span>独立学习索引，非赛事官方网站。题目与解答版权归原作者及主办方。</span><span id="footer-mode"></span></footer>
+</main>
+<dialog id="reader" aria-labelledby="reader-title">
+ <div class="reader-header"><div><p id="reader-meta" class="eyebrow"></p><h2 id="reader-title"></h2></div><button id="close-reader" aria-label="关闭阅读器">×</button></div>
+ <div class="reader-toolbar" id="reader-toolbar"></div>
+ <div class="reader-tabs" id="reader-tabs"></div>
+ <div id="reader-content"></div>
+</dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+</body></html>

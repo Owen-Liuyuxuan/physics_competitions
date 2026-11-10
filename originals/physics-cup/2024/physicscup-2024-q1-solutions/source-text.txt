@@ -1,0 +1,160 @@
+Source: https://physicscup.ee/pc2024-p1-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 1 – Diving cylinder
+In total, 136 solutions were submitted for problem 1, out of which 22 were correct. This problem turned out to be one of the most difficult ones of all time, so
+congratulations to everyone who still managed to solve this problem!
+The first two hints were very subtle while the third hint mentioned the most important keyword, added mass. Thus,
+the Best Solution Awards
+were selected from the two submissions sent before the third hint was published.  These were the solutions of
+Val Karan
+and
+Guy Ginzberg
+. [Although this was not considered as a demerit when deciding bonuses, G.G’s solution does not follow here and there typographical standards, such as: all symbols denoting physical quantities should be in italic while operator names (such as “sin”), the differential symbols “d”, mathematical constants such as e=2.718… and imaginary unit “i” should be upright; also, LaTeX gives much more professional look than Word.] Both of them later updated their solutions with alternative approaches; what are linked here are their final submissions. Both of them have written the theoretical analysis really well, but in both cases, the data analysis part is a little lacking, with Val Karan being slightly better in this department. That’s why Val Karan gets 0.5 of the bonus, and Guy Ginzberg – 0.3 The remaining 0.2 goes to the solution with the best data analysis, submitted by
+Michał
+Kołodziejczyk
+. (Since the discussion of data analysis in the hints was minimal, no time limit was used when choosing the solution with the best data analysis.)  Additionally, solutions of
+Karlo Maksimović
+and
+Nick Hartmann
+show a good theoretical and data analysis parts and are therefore also published, earning both of them 0.1 bonus.
+To celebrate the 50th Problem of Physics Cup,
+here is my own solution
+.
+Final results for Problem 5
+Pre-university students:
+Val
+Karan
+Croatia
+XV. Gimnazija Zagreb
+5/11/23 11:41
+3.8487
+Guy
+Ginzberg
+Israel
+Ort Irony Dalet Modiin
+17/11/23 11:33
+2.7214
+Saskia
+Põldmaa
+Estonia
+Tallinna Reaalkool
+3/12/23 00:38
+1.3641
+Felix
+Yew
+Malaysia
+National Junior College, Singapore
+27/11/2023 01:32:00
+1.2829
+Mihkel
+Rannut
+Estonia
+Tallinna Reaalkool
+9/12/23 20:20
+0.9663
+Ruicheng
+Ma
+China
+High School Affiliated to Harbin Teachers College
+8/12/23 19:16
+0.9566
+Mohamad Eid
+Al-aktaa
+Syria
+Al Saadeh School
+5/1/24 17:39
+0.6588
+Ilan Mihelja
+Ivan Hegedić
+Croatia
+XV. Gymnasium Zagreb, V. Gymnasium Zagreb
+18/02/2024 12:55:00
+0.594
+Bahaa Aldeen
+Melhem
+Syria
+Albasel Mixed High School
+28/1/24 11:00
+0.5445
+Rapolas
+Žygus
+Lithuania
+Klaipeda lyceum
+21/1/24 11:59
+0.5121
+University students:
+Elias Koschier
+Michail Ognyanov
+Austria
+–
+26/11/23 17:41
+1.7248
+SIfat Ahmed
+Tushar
+Bangladesh
+University of Dhaka
+2/12/23 22:35
+1.568
+Larrance
+Xing
+United States
+University of Michigan Ann Arbor
+4/12/23 05:26
+1.1575
+Yuan
+Fei
+Hong Kong
+The Hong Kong Polytechnic University
+17/12/23 12:50
+0.9744
+Kerim
+Cherkezov
+Turkmenistan
+Magtymguly Turkmen State University
+24/12/23 09:10
+0.8858
+Michał
+Kołodziejczyk
+Poland
+Warsaw University of Technology
+24/12/23 11:04
+0.8852
+Karlo
+Maksimović
+Croatia
+University of Zagreb
+27/12/23 12:08
+0.809
+Nick
+Hartmann
+Germany
+RWTH Aachen
+27/1/24 13:27
+0.6686
+Konstantin
+Rodionenko
+ITMO University
+30/12/23 21:13
+0.6655
+Musa
+Artykov
+Turkmenistan
+Magtymguly Turkmen State University
+16/2/24 05:13
+0.5225
+Dhruv
+Shah
+India
+Indian Institute of Science
+2/3/24 21:34
+0.5
+Lukas
+Schicht
+Germany
+Eberhard Karls Universität Tübingen
+26/2/24 13:57
+0.45
+The list of countries:
+Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Cameroon, Canada, China, Croatia, Cuba, Czech Republic, Ecuador, Egypt, El Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Honduras, Hong Kong, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Kosovo, Kyrgyzstan, Latvia, Lithuania, Macau, Malaysia, Mexico, Moldova, Montenegro, Nepal, Netherlands, Nigeria, North Korea, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Rwanda, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Thailand, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

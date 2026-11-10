@@ -1,0 +1,56 @@
+Source: https://physicscup.ee/problem-1-best-solutions/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+I considered all the solutions from the first two weeks as candidates for the best solutions, as the first hint was very subtle, and did not spoil too much the problem. Meanwhile, with equally well written solutions, I gave preference to the solutions submitted during the first week.
+The best solution award is shared with four solutions, listed below in the submission time order. Each of these authors will receive a bonus factor of exp(1/4).
+The fastest correct solution
+arrived 4 hours and 5 minutes after the problem was published, and it was a good one; the author is
+Dobrica Jovanović
+from Serbia. The solution has all the required components including the derivation of the polarizability of a sphere (in the same way as I prefer to derive it), noticing that interaction between the balls cannot lead to a torque, and calculating the second correction to the induced dipole moment. Furthermore, it is well documented, and therefore deserves to be one of the best solutions.
+The second fastest
+was
+Đức Huy  Trần
+from Vietnam, with  15 hours and 43 minutes (keep in mind that in Vietnam, the problem was published very late at night, so this these 15 hours include also sleeping time). His solution is very good, too: it has all the same features as the Dobrica’s solution, plus it is written in LaTeX, so it is easy to read, and qualifies as one of the best! (By the way, writing in LaTeX definitely increases the chances of getting the best solution award, and LaTeX skills will become handy later in life, when you write research papers, thesis, or technical reports. The Physics Cup format is specifically designed so that anyone can first submit the answer, to claim the speed, and then take time to document  the solution nicely in LaTeX.)
+The fourth fastest
+was
+Oliver Lindström
+from Sweden. His solution is also written in LaTeX, and I really liked how he treated the higher order corrections to the induced dipole moment. However, a warning is required here: while his approach may seem to be precise (automatically giving not just the second order, but all the higher order corrections), in reality it isn’t. This is because the higher order corrections are dipoles which, strictly speaking, are not positioned at the centre of the balls, but slightly displaced from the centre (this issue is discussed by Johanes Suhardjo, see below). Nevertheless, his efforts at taking into account not just the second correction, but also the higher order ones, justifies giving him a best solution award.
+Finally, there is
+the solution of Johanes Suhardjo
+who was not among the very fastest, but still submitted the solution within the second week, and had a very nice discussion about which approximations can be made, and which cannot be made. In particular, he is discussing if the displacement of image dipoles from the centres of the spheres needs to be taken into account. With these discussions, he  well  deserves a best solution award.
+Apart from these “best solutions”, there are
+a few other solutions which deserve to be published
+here, all of which will earn a bonus factor of 1.1.
+Tung Linh
+from Vietnam was the third fastest, just one hour slower than  Đức Huy  Trần. His solution is fairly short and has less explanations than the “best solutions”, so it doesn’t get the best solution award. However,
+his solution
+deserves to be published, to show that a good solution doesn’t need to be long.
+Zhu Yuechen
+from China was the first one to submit
+his solution
+after the first hint. His solution is using mathematically advanced concepts (e.g. expressing the solutions of Laplace equation in terms of Legendre polynomials – a definitely valid approach, but for the current purpose, there are more intuitive ways based on less advanced mathematical concepts), and might be an interesting reading for mathematically inclined minds. The main reason I am publishing his solution here is that he has also calculated the torque arising from the fact that there is a non-axial force acting on the dipole due to the inhomogeneous electric field of the other dipole. While this calculation is really not needed as there are other and easier ways of showing that the torques due the interaction of the two dipoles cancel out (cf. the first hint and the solutions above), it is nevertheless a useful exercise. Finding the dipole-dipole interaction force is not a trivial task, either, and is most easily done using vector calculus  (also the approach of Zhu Yuechen), so if you are not fluent with that, you may want to skip this solution…
+Finally, in the Hint 2, I mentioned that “there is actually a simple reason why those incomplete calculations yield a correct answer”.
+Jiakai Chen
+from Singapore wrote down what I had in mind, and proved that the torque exerted on one dipole by the electric field of the other dipole equals to the net torque exerted on the dipole by the external field, see below.
+Due to the electric dipole field of the other dipole, at each orientation of the rod, each dipole will have a slight angular displacement from the direction parallel to the E field, such that the torque due to the other dipole is equal and opposite to the torque provided by the external electric field. The torque must be equal since the dipole,
+p
+, is oriented parallel to the sum of electric field,
+E
+, of the external field and
+E’
+, of the dipole field. Hence
+p
+x (
+E + E’
+)=0 , hence
+p x E=-p x E’
+.
+As L>>R, the angular displacement of
+p
+away from
+E
+tends to 0, hence the net torque on the system, which is due to the external electric field only, is equal and opposite to the dipole-dipole interaction torque when the dipoles are parallel to
+E
+, hence will give the same energy expression as that in the incomplete solution, hence the equation of motion and the period of oscillation is the same as that calculated in the incomplete solution.
+Jaan Kalda

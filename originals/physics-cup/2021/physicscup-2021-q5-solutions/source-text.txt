@@ -1,0 +1,97 @@
+Source: https://physicscup.ee/2021-p5-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 5 – Nonlinear circular resonator
+Best solutions of Problem 5:
+Nikita Semenin
+(1/3 of the full bonus) – a correct solution made at the first try and the only one submitted during the first week; a well written and solid solution which is somewhat different (mathematically) from the solution suggested by the hints, but is a good one nonetheless.
+Zhening Li
+(1/3) – another well-written solution submitted during the second week when no hints have been provided.
+Huiyuan Wang
+(1/3) – the last solution submitted during the period when no hints have been provided; perhaps less well documented than the two previous ones, but supplemented with a useful simulation.
+Finally, two solutions which are not listed as the “best solutions” just because these were submitted at a later stage when substantial hints had been provided, but which are well written and can serve as a reference and learning material (earning both a bonus factor of 1.1), submitted by
+Oliwier Urbański
+and
+Vlad-Stefan Oros
+.
+Final results for Problem 5
+Pre-university students
+First Name
+Surname
+Country
+School
+score
+Zhening
+Li
+Canada
+Sir John A. Macdonald Secondary School
+3.26
+Oliwier
+Urbański
+Poland
+Liceum Ogólnokształcące nr 7 w Poznaniu
+1.78
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Informatics High School
+1.49
+Antonia
+Ghita
+Romania
+International Computer High School of Bucharest
+1.11
+Vuk
+Hip
+Serbia
+Mathematical grammar school
+1.01
+Sebastián Andrés
+Arévalo Aguirre
+El Salvador
+Instituto Emiliani
+0.83
+Alexandar
+Roussev
+Bulgaria
+First Language School
+0.68
+University students
+First Name
+Surname
+Country
+University
+score
+Nikita
+Semenin
+Russia
+Moscow Insitute of Physics and Technology
+3.62
+Huiyuan
+Wang
+China
+University of Cambridge
+3.13
+Kyle
+Bomeisl
+United States
+Rutgers University
+1.43
+Pieter
+Van Steenweghen
+Belgium
+Imperial College London
+1.17
+Ricards
+Knipsis
+Latvia
+University of Manchester
+1.06
+Qian
+Lin
+China
+University of Oxford
+0.97
+Participating countries:
+Algeria, Azerbaijan, Australia, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Bolivia, Brazil, Bulgaria, Cambodia, Canada, China, Croatia, Czechia, Egypt, El Salvador, Estonia, Finland, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Korea, Kyrgyzstan, Latvia, Lebanon, Lithuania, Macedonia, Malaysia, Mexico, Moldova, Mongolia, Nepal, Nigeria, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Turkmenistan, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

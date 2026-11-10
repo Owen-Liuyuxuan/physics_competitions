@@ -1,0 +1,22 @@
+Source: https://physicscup.ee/?page_id=3417
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Jaan Kalda
+(TalTech).
+Consider a satellite that has a shape of a plate of surface area
+A
+and of thickness
+d\ll \sqrt A
+. The surface normal of the plate is turned towards Sun. The satellite has to convert solar energy into electrical energy and charge the onboard batteries. At the position of the satellite, the solar energy flux density is
+S
+. What is the theoretically maximal constant charging power if any devices can be installed inside the satellite, but its outer coating can be only a gray painting (from white to black), i.e. the emissivity has to be independent of the wavelength? Different parts of the satellite can be painted differently. Neglect the cosmic microwave background.
+Any numeric values in your final answer should have at least 4 significant digits.
+Please submit the solution to this problem
+via e-mail to physcs.cup@gmail.com.
+First hints will appear here on 27th March or 3rd April 2022, depending on the number of correct solutions submitted during the first week. After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.
+The intermediate results for the Problem 5 will be drawn after
+13:00 GMT, 27th March 2022
+.

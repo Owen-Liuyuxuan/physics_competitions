@@ -1,0 +1,223 @@
+Source: https://physicscup.ee/pc2023-p5-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 5 – Light sources
+In total, 35 solutions were submitted for problem 5, out of which 32 were correct.
+Congratulations to everyone who managed to solve this problem!
+The Best Solution Awards
+were selected from the 19 submissions sent before the first hint was published. Since the problem was fairly straightforward, not much variety in approaches was possible. Indeed, all the solutions were following the same approach. Therefore, the best solutions were chosen based on additional insight given in the solutions. There were three solutions providing insight exceeding what was strictly needed for the solution, those of
+Lukas Schicht
+,
+Marinus Lehmann
+and
+Lincoln Liu
+. Marinus discussed if the assumption of neglecting the intensity dependence on distance from the source was reasonable while Lukas and Lincoln discussed the question if it is possible to have such local intensity maxima which are not global maxima, i.e. the waves from the three sources are not in the same phase. Although Lincoln has some typos in his analysis of the local maxima, the general framework of his approach remains valid. Since Lukas has a very nice proof, he will get 0.4 of the bonus while Marinus and Lincoln share the remaining 0.6 between them equally. Additionally, there were three very well written solutions with step-by-step instructions how to construct the positions of the sources, provided by
+Anindya Guria
+and
+Eppu Leinonen
+(each of them receives the 0.1-bonus).
+Final results for Problem 5
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P5 date time
+DD/MM/YY 00:00:00
+P5 Score
+Lincoln
+Liu
+Hong Kong
+Sha Tin College
+26/3/23 15:14
+2.8935
+Guotao
+He
+China
+Nanning No.3 High School
+26/3/23 14:01
+2.5937
+Tomas
+Babelis
+Lithuania
+Vilniaus jėzuitų gimnazija
+26/3/23 15:09
+2.3579
+Rhythm
+Kedia
+India
+MB International
+26/3/23 17:38
+1.9487
+Ilan, Ivan (Team)
+Mihelja, Hegedić
+Croatia
+XV. gymnasium Zagreb, V. gymnasium Zagreb
+27/3/23 00:09
+1.7716
+Eppu
+Leinonen
+Finland
+Munkkiniemen yhteiskoulu
+27/3/23 15:15
+1.6181
+Chung Wang
+Lam
+Hong Kong
+St. Paul’s Co-educational College
+27/3/23 14:27
+1.6105
+Ching Yeung
+Kwok
+Hong Kong
+Shing Kung Hui Tang Shiu Kin Secondary School
+3/4/23 13:40
+1.331
+Dženan
+Midžić
+Bosnia and Herzegovina
+JU Gimnazija “Bihać”
+3/4/23 16:48
+1.21
+Yuchi
+Zhang
+China
+United World College Changshu China
+6/4/23 12:55
+0.99
+Alexandar
+Roussev
+Bulgaria
+–
+12/4/23 16:58
+0.9
+Guangyuan
+Chen
+Singapore
+Raffles Institution
+17/4/23 16:10
+0.8
+Zilang
+Shu
+China
+Beijing National Day School
+23/4/23 13:15
+0.72
+Michał
+Kołodziejczyk
+Poland
+I High School in Zielona góra
+25/4/23 19:43
+0.7
+Elias Koschier
+Michail Ognyanov
+Austria
+ERG Donaustadt
+7/5/23 12:21
+0.6
+Mateusz
+Kamiński
+Poland
+VI High School in Cracow
+19/5/23 07:48
+0.5
+Yu Cheng
+Lim
+Malaysia
+Taylor’s College
+13/5/23 13:36
+0.5
+Harold Scott
+Chua
+Philippines
+Philippine Science High School – Main Campus
+18/5/23 14:43
+0.5
+Filip
+Baciak
+Poland
+1 LO w Chrzanowie
+14/5/23 08:06
+0.5
+Ruicheng
+Ma
+China
+Harbin Normal University High School
+9/5/23 17:29
+0.5
+University students:
+Marinus
+Lehmann
+Germany
+University of Potsdam
+26/3/23 16:11
+3.1829
+Lukas
+Schicht
+Germany
+University of Rostock
+26/3/23 18:24
+2.9071
+Ziyue
+Wang
+China
+Hebei University of Technology
+26/3/23 13:55
+2.5937
+Anindya
+Guria
+India
+Indian Institute of Science
+26/3/23 17:04
+2.369
+Luka
+Passek-Kumerički
+Croatia
+University of Zagreb
+27/3/23 16:27
+1.7716
+Gil
+Ronen
+Israel
+Hebrew University of Jerusalem
+28/3/23 14:40
+1.6105
+Bayram Alp
+Şahin
+Turkey
+Bogazici University
+29/3/23 11:10
+1.4641
+Alessio
+Biccari
+Italy
+La Sapienza
+2/4/23 18:36
+1.331
+Bowen
+Tan
+China
+Jilin Normal University
+4/4/23 06:49
+1.21
+Kerim
+Cherkezov
+Turkmenistan
+Turkmen State University
+16/4/23 20:11
+0.88
+Konstantin
+Tripunovski
+North Macedonia
+University of Ljubljana – Medical Faculty
+27/4/23 10:59
+0.665
+Soumyadeep
+Sarma
+India
+Indian Institute of Science
+14/5/23 17:52
+0.5
+The list of countries:
+Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Cameroon, Canada, China, Croatia, Cuba, Czech Republic, Ecuador, Egypt, El Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Honduras, Hong Kong, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Kosovo, Kyrgyzstan, Latvia, Lithuania, Macau, Malaysia, Mexico, Moldova, Montenegro, Nepal, Netherlands, Nigeria, North Korea, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Rwanda, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Thailand, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

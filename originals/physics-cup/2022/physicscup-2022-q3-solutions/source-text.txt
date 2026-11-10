@@ -1,0 +1,225 @@
+Source: https://physicscup.ee/2022-p3-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 3 – Photon Rocket
+By 4th April 2022, there are 1124 registered participants from 80 countries. In total, 67 solutions were submitted for problem 3, out of which 39  were correct.
+Congratulations to everyone who managed to solve this problem!
+As usual, when selecting the best solutions, preference has been given to those solutions which have been submitted before the publication of the first hint. For Problem 3, there were 22 such solutions. A dominating majority of these solutions were based on the Lorentz transform for the 4-vector of the velocity which led to fairly long mathematical calculations; the solutions differed mostly in the mathematical steps and mathematical tricks. In most cases, these solutions were difficult to read. Out of the 21 such solutions, I selected two (by K You and Z Li – E Chen) that were the easiest to follow for the readers – well commented and full mathematical details. Apart from that, there were two solutions (by VS Oros and S Sno) that generalized the problem to arbitrary initial values (instead of the 4/5 and 1/4). Last but not least, there was one solution that did not use Lorentz transformations (by I Wu) and followed the intended route of working with the relativistic invariants, instead. You can compare by yourself – this is a significantly easier way to solve it. Have you often solved geometry problems using the formulae for the rotation of axes? In most cases, it would be a really cumbersome approach. The same applies to the Lorentz transformations which are essentially formulae for the rotation of axes.
+The best solution awards:
+Isaac Wu
+– 60% of the bonus. A well-written solution based on relativistic invariants.
+Eddie Chen and Zhening Li
+– 10% of the bonus. A well-written solution with full mathematical details.
+Kevin You
+– 10% of the bonus. A well-written solution with full mathematical details.
+Vlad-Stefan Oros
+– 10% of the bonus. A well-written solution to a generalized problem. In some places not very easy to read and uses concepts that many readers might not know.
+Shofar Sno
+– 10% of the bonus. A fairly hard-to-read hand-written solution to a generalized problem.
+Final results for Problem 2
+University students
+First name
+Surname
+Country
+School/University
+P3 Score
+Alessandro
+Rezzi
+Italy
+University of Padova
+2.5937
+Zhening Li
+Eddie Chen
+Canada/United States
+Massachusetts Institute of Technology
+2.369
+Bayram Alp
+Sahin
+Turkey
+Bogazici University
+2.3579
+Ameya Vikrama
+Singh
+India
+Indian Institute of Technology Bombay
+1.9487
+Isaac
+Wu
+Australia
+University of Melbourne
+1.8221
+Yeswanth Narayana
+Patnana
+India
+Indian institute of technology Madras
+1.683
+Jaroslav
+Herman
+Czech Republic
+Charles University
+1.6105
+Erik
+Sünderhauf
+Germany
+Technical University of Munich
+1.4641
+Shofar
+Sno
+Suriname
+Anton de Kom University of Suriname
+1.3974
+Yuechen
+Zhu
+China
+Peking University
+1.21
+Kevin
+You
+United States
+Carnegie Mellon University
+1.1052
+Qian
+Lin
+China
+University of Oxford
+1.1
+Felix
+Schwarzfischer
+Germany
+Technical University Munich
+1.0
+Ziyue
+Wang
+China
+Hebei University of Technology
+0.81
+Ricards
+Knipsis
+Latvia
+University of Manchester
+0.7
+Ameya
+Deshmukh
+India
+IIT Bombay
+0.7
+Pushp
+Raj
+India
+IIT DELHI
+0.5
+Cheng Wei
+Lin
+Taiwan
+National Cheng Kung University
+0.405
+Marinus
+Lehmann
+Germany
+University of Potsdam
+0.405
+Pre-university students
+Luca
+Milanese
+Italy
+Liceo “Leonardo da Vinci”, Terracina
+2.5937
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Theoretical High School
+2.4756
+Balázs Csaba
+Kovács
+Hungary
+Hatvani Bajza József Gimnázium
+2.1436
+Filip
+Vučić
+Croatia
+I. gymnasium Zagreb
+1.9487
+Ahmet Bahadır
+TRABZON
+Turkey
+Kabatas Erkek High School
+1.7716
+Emir Akdağ
+Kaan Dere
+Turkey
+Bahcesehir Highschool of Science and Technology
+1.6105
+Chengkai
+Yu
+China
+The High School Affiliated to Renmin University of China
+1.4641
+Gigi
+Tsirekidze
+Georgia
+LEPL Kutaisi Andria Razmadze physics and mathematical public school N41
+1.331
+Matej
+Gelev
+North Macedonia
+Yahja Kemal
+1.21
+Yehyun
+Choi
+United States
+Westlake High School
+0.99
+Felix
+Yew
+Malaysia
+National Junior College, Singapore
+0.855
+Emerson Franzua
+Aldana Gavarrete
+Honduras
+School
+0.81
+Rhythm
+Kedia
+India
+Lord Buddha Public school
+0.8
+Sebastián
+Arévalo
+El Salvador
+Instituto Emiliani
+0.7
+Alptürk
+Eski
+Turkey
+Erbakır Science High School
+0.63
+Absur Khan
+Siam
+Bangladesh
+Gap Year
+0.6
+Azimuddin
+Sheikh
+India
+FIITJEE
+0.5
+Miguel Isaías
+Doradea Meléndez
+El Salvador
+Insituto Emiliani
+0.405
+Yijun
+Lin
+China
+High School Attached to Herbin Normal University
+0.405
+Juan Francisco
+Lorusso Notaro Francesco
+United Kingdom
+Abbey College Cambridge
+0.405
+Submission times for P3
+Participating countries:
+Algeria, Azerbaijan, Australia, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Bolivia, Brazil, Bulgaria, Cambodia, Canada, China, Croatia, Czechia, Egypt, El Salvador, Estonia, Finland, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Korea, Kyrgyzstan, Latvia, Lebanon, Lithuania, Macedonia, Malaysia, Mexico, Moldova, Mongolia, Nepal, Nigeria, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Turkmenistan, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

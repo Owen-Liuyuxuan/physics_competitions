@@ -1,0 +1,1101 @@
+Source: https://physicscup.ee/pc2026-p1-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 1
+In total, 329 solutions were submitted for problem 1, of which 182 were correct. Congratulations to everyone who successfully solved it!
+There were 119 correct solutions submitted before the first hint was published, and only those were considered as candidates for the best solution awards. Additionally, since there were so many well-written solutions to choose from, the handwritten solutions were not considered this time.
+The award winners are as follows.
+Zhuoheng Wu
+(bonus: 0.25 pts) uses the sum and difference of the relative speeds to obtain a very economical solution. Recognising the transverse velocity as the altitude of the velocity triangle turns the displacement calculation into a single straightforward integral.
+Alon Hart
+(bonus: 0.15 pts) gives an illuminating symmetry argument for the conserved speed difference and identifies its geometric meaning: the trajectory in velocity space is a hyperbola. This makes the key idea particularly accessible.
+Jakub Kliment
+(bonus: 0.15 pts) exploits the invariant through a simple relation between the horizontal velocity and the speed. This gives a compact route to both the terminal velocity and the required displacement.
+Thach Nguyen
+(bonus: 0.15 pts) chooses the direction of the velocity as the integration variable. The resulting cancellation simplifies the displacement integral and provides an elegant alternative to working with velocity components.
+Muntean Rares
+(bonus: 0.1 pts) recognises that elliptic coordinates fit the geometry of the problem: the sum and difference of the relative speeds take simple forms, and one coordinate remains constant throughout the motion.
+Jerzy Gamdzyk
+(bonus: 0.1 pts) interprets the motion as gradient descent in velocity space and explains how its qualitative behaviour guides the calculation, particularly the use of the monotonically decreasing transverse velocity as a variable.
+Jonathan Burger
+(bonus: 0.1 pts) brings together the gradient-flow interpretation and the hyperbolic trajectory in velocity space, showing how this geometric structure allows time to be eliminated from the displacement calculation.
+Final results for Problem 1
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P1 date time
+DD/MM/YY 00:00:00
+P1 Score
+Geunyeong
+Jang
+South Korea
+Seoul Science High School
+19/10/25 14:19
+2.0
+Jihyeong
+Han
+South Korea
+Seoul Science High School
+19/10/25 15:17
+1.9
+Kanishk
+Jain
+India
+ALLEN KOTA
+19/10/25 17:55
+1.8
+Dominik
+Erdélyi
+Hungary
+Budapesti Fazekas Mihály Gimnázium
+19/10/25 18:28
+1.7
+Darius
+Graur
+Moldova
+Liceul Orizont
+19/10/25 18:28
+1.6
+Owen
+Zhou
+United States
+BASIS Scottsdale
+19/10/25 21:31
+1.5
+Rishit
+Garg
+India
+SVIS Dwarka
+19/10/25 22:43
+1.35
+Kai Wen
+Teo
+Singapore
+Gap year
+20/10/25 05:11
+1.3
+Zhuoheng
+Wu
+China
+Pioneer Academy
+21/10/25 04:27
+1.25
+Ananmay
+Chauhan
+India
+ALLEN Kota
+20/10/25 06:42
+1.2
+Darsh
+Sikka
+India
+DPS RK Puram
+20/10/25 07:07
+1.1
+Rareș
+Muntean
+Romania
+Liceul Teoretic Ioan Jebelean
+20/10/25 15:37
+1.1
+Badekai Vishruth Krishna
+Ramachandra Bhat
+India
+Allen Kota
+20/10/25 10:08
+1.0
+Svarit
+Joshi
+India
+Khyati World School
+20/10/25 10:42
+1.0
+Alex
+Secrieru
+Moldova
+Liceul Teoretic Orizont Durlesți
+20/10/25 12:55
+1.0
+Monjurul Hasan
+Nabil
+Bangladesh
+Government Science College
+20/10/25 15:13
+1.0
+Mahammad
+Jafarli
+Azerbaijan
+Technical-Humanitarian Lyceum
+20/10/25 15:26
+1.0
+Siddhaarth
+Dharani
+Singapore
+Gap Year
+20/10/25 17:47
+1.0
+Kanad
+Bhattacharya
+India
+Deeksha STEM
+20/10/25 19:35
+1.0
+Murad
+Khalil
+Azerbaijan
+Baku Turkish School
+20/10/25 19:37
+1.0
+Mert Andaç
+Karan
+Türkiye
+hcesehir High School for Science and Technology
+20/10/25 19:50
+1.0
+Luca
+Gâlea
+Romania
+National College Iasi
+21/10/25 01:27
+1.0
+Yun-Chieh
+Su
+Taiwan
+Taipei Fuhsing Private School
+21/10/25 03:59
+1.0
+Qingxiang
+Liao
+China
+Shenzhen College of International Education
+21/10/25 04:31
+1.0
+Lucas
+Wu
+United States
+Davidson Academy of Reno
+21/10/25 05:06
+1.0
+Victor
+Sandu
+Moldova
+Orizont
+21/10/25 07:29
+1.0
+Yeonho
+Lee
+South Korea
+Seoul Science High School
+21/10/25 11:01
+1.0
+Rüzgar
+Kuşaklı
+Türkiye
+Bahçeşehir Science and Technology High School
+21/10/25 13:03
+1.0
+Tanay
+Tekade
+India
+School of Scholars
+21/10/25 16:54
+1.0
+Antonina
+Jarecka
+Poland
+II Liceum Ogólnokształcące im. Stanisława Wyspiańskiego w Legnicy
+21/10/25 17:51
+1.0
+Amrit
+Raj
+India
+Maa Bharti Sr. Sec. School
+22/10/25 04:45
+1.0
+Yuxuan
+Wang
+Taiwan
+Taipei Municipal Chien Kuo High School
+22/10/25 09:38
+1.0
+Adyanshu
+Panigrahi
+India
+Delhi Public School Dhenkanal
+22/10/25 11:19
+1.0
+Lee
+SinHyeok
+South Korea
+Seoul Science High School
+23/10/25 02:36
+1.0
+Akshat
+Singh
+India
+G.S. Modern School
+23/10/25 08:58
+1.0
+Aarav
+Gupta
+India
+Allen Marathalli
+23/10/25 18:46
+1.0
+Michał
+Zakrzyński
+Poland
+Zespół Szkół Łączności w Gdańsku
+24/10/25 13:16
+1.0
+Atishay
+Jain
+India
+Allen Marathahalli
+24/10/25 17:31
+1.0
+Luv
+Gupta
+India
+NARAYANA E Techno School, Andheri East
+24/10/25 18:20
+1.0
+William
+Zarytov
+Presidential Physics and Mathematics Lyceum No. 239
+24/10/25 21:43
+1.0
+Emmanuel James
+Laforteza
+Philippines
+Philippine Science High School – Main Campus
+25/10/25 04:24
+1.0
+Argam
+Taha
+United States
+Julia R. Masterman Laboratory and Demonstration High School
+25/10/25 13:25
+1.0
+Sounak
+Chakraborty
+India
+DAV Model School, IIT Kharagpur
+25/10/25 14:54
+1.0
+Artyom
+Eryomin
+Lyceum №23
+25/10/25 15:11
+1.0
+Mahil
+Mani
+India
+Narayana
+25/10/25 15:13
+1.0
+Chetan
+Malviya
+India
+Narayana e-Techno School, Andheri
+25/10/25 15:58
+1.0
+Ömer
+Akhan
+Türkiye
+Bahcesehir Science and Technology High School
+25/10/25 17:20
+1.0
+Veljko
+Adzic
+Serbia
+Racunarska Gimnazija
+25/10/25 19:10
+1.0
+Matías
+Páez
+Argentina
+EES n°6
+26/10/25 00:50
+1.0
+Ethan
+Borda
+United States
+Paul D. Schreiber High
+26/10/25 01:16
+1.0
+Tri
+Le
+Vietnam
+VNU-HCM High School for the Gifted
+26/10/25 06:43
+1.0
+Saurya
+Shrestha
+Nepal
+St. Xavier’s College, Nepal
+26/10/25 11:16
+1.0
+Jana Mousa
+Jana Mousa
+Syria
+School of exellence
+26/10/25 16:13
+1.0
+Rutvik
+Arora
+United States
+Mission San Jose High School
+26/10/25 18:27
+1.0
+Aveer
+Singh
+India
+Vidyamandir classes GURGAON
+27/10/25 15:43
+1.0
+Kaan
+Güngör
+Türkiye
+Bahçeşehir Fentek
+28/10/25 13:57
+1.0
+Federico
+Roccaforte
+Italy
+IIS Concetto Marchesi
+29/10/25 21:58
+1.0
+Davi
+Pinheiro Tsuchie
+Brazil
+Objetivo Integrado
+30/10/25 22:38
+1.0
+Bhargav
+Pati
+Singapore
+Raffles Institution
+31/10/25 06:11
+1.0
+Aditya
+Jakhar
+India
+Bal Bhavan International School
+1/11/25 23:59
+1.0
+Zeynab
+Mahammadli
+Azerbaijan
+TTEL
+2/11/25 00:01
+1.0
+Toshiv
+Chowdhary
+Canada
+West Vancouver Secondary School
+2/11/25 06:52
+1.0
+Ivan
+Ermolaev
+School No 2044, Moscow
+2/11/25 11:13
+1.0
+İhsan Yağız
+Kara
+Türkiye
+Bahcesehir High School for Science and Technology
+2/11/25 11:51
+1.0
+Alexandru
+Bordei
+Moldova
+LT “Orizont” Durlesti
+20/10/25 08:03
+0.95
+Dishit
+Agarwal
+India
+Modulus Junior College
+20/10/25 10:06
+0.95
+Antonia
+Radu
+Romania
+Colegiul National “Mihai Viteazul” Ploiesti
+22/10/25 12:25
+0.95
+Amey
+Ghimire
+Nepal
+Trinity Int’l College
+26/10/25 18:29
+0.95
+Patryk
+Kaczmarczyk
+Poland
+Zespół Szkół Łączności im. Obrońców Poczty Polskiej w Gdańsku
+28/10/25 10:59
+0.95
+Lu
+yifan
+China
+Shanghai Caoyang NO.2 High School
+1/11/25 15:33
+0.95
+SHRESTH
+SURAIYA
+India
+Narayana E-Techno School
+26/10/25 18:16
+0.9
+Carlo
+Di Lorenzo
+Italy
+Liceo Newton Chivasso
+26/10/25 19:17
+0.9
+Luka
+Smiljanic
+Serbia
+Mathematical Grammar School
+31/10/25 21:59
+0.9
+Kwonheon
+Lee
+South Korea
+Seoul Science Highschool
+4/11/25 08:50
+0.9
+Дмитрий
+Сергеев
+239
+6/11/25 09:00
+0.9
+Daniele
+Di Nicola Carena
+Italy
+L.S.S. Alessandro Volta, Milan
+7/11/25 18:03
+0.9
+Stefano
+Pasquali
+Italy
+Liceo Scientifico F. Vercelli
+9/11/25 00:00
+0.9
+Angad
+Sharma
+India
+sri chaitanya
+9/11/25 04:43
+0.9
+Adyansh
+Mishra
+India
+2/11/25 13:02
+0.855
+Nithilan
+Ravikumar
+India
+Nil
+3/11/25 11:07
+0.81
+Artem
+Nikitin
+SESC NSU
+9/11/25 13:30
+0.8
+Andrew
+Romas
+Presidential Physics and Mathematics Lyceum No. 239
+9/11/25 14:27
+0.8
+Artyom
+Antonov
+PPhML 239
+15/11/25 16:07
+0.8
+Ali
+Lavaei
+Iran
+Shahid Soltani 3 High school
+15/11/25 17:23
+0.8
+Svyatoslav
+Klokov
+Presidential Physics and Mathematics Lyceum No. 239
+15/11/25 19:10
+0.8
+Ivan
+Moxin
+ANCEO “Phistech-liceum” named after P.L. Kapitsa
+16/11/25 00:44
+0.8
+Michele
+Perano
+Italy
+Liceo scientifico Pellico-Peano, Cuneo
+9/11/25 20:26
+0.72
+Aryan
+Lalwani
+India
+Gap Year
+16/11/25 12:53
+0.7
+Vaiibhav
+G
+India
+Chinar Public School
+20/11/25 12:57
+0.7
+Mikhail
+Kachay
+Letovo School
+21/11/25 21:47
+0.7
+Viktoriia
+Egorova
+Finland
+Olarin koulu
+22/11/25 08:34
+0.7
+Ashutosh
+Gupta
+India
+Allen Career Institute Pvt. Ltd.
+17/11/25 13:22
+0.63
+Sumit
+Ranjan
+India
+Allen Career Institute
+19/11/25 07:53
+0.63
+William
+Chen
+China
+Shenzhen College of International Education
+23/11/25 00:24
+0.63
+Marat
+Safin
+АНОО “Физтех-лицей им. П. Л. Капицы”
+23/11/25 09:39
+0.63
+Ram
+Kumar
+India
+Allen
+23/11/25 14:25
+0.6
+Osish
+Niraula
+Nepal
+Saint Xavier’s College, Maitighar
+24/11/25 20:14
+0.6
+Ayush
+Tiwari
+Nepal
+St. Xavier’s College, Maitighar
+24/11/25 20:20
+0.6
+AYUSH
+UTSAV
+INDIA
+Kautilya CBSE SCHOOL Kota Rajasthan
+25/11/25 12:54
+0.6
+Samrat
+Acharya
+Nepal
+St. Xavier’s College, Maitighar
+26/11/25 12:08
+0.6
+Haoze
+Li
+United Kingdom
+Winchester College
+30/11/25 11:10
+0.6
+yanzhan
+feng
+China
+北京交通大学附属中学
+25/11/25 14:30
+0.57
+Stepan
+Rayskiy
+SESC NSU
+22/11/25 14:46
+0.567
+Deniz
+Makaraji
+Kapitza Lyceum
+23/11/25 19:30
+0.54
+Kang
+Lecheng
+China
+The High School Affiliated To Beijing JiaoTong University
+24/11/25 09:44
+0.54
+Serazus Salekin
+Samin
+Bangladesh
+Comilla Victoria Govt. College
+2/12/25 19:02
+0.5
+Akhmad
+Gimaev
+Municipal Budgetary General Education Institution Secondary Comprehensive School of the Nurglino village
+7/12/25 11:40
+0.5
+Mohammad
+Faiyaz
+Bangladesh
+Manarat Dhaka International School and College
+13/12/25 22:47
+0.5
+Luis Edgar
+Sánchez Henríquez
+El Salvador
+Programa Jóvenes Talento
+14/12/25 05:55
+0.5
+Vladislav
+Smochina
+Moldova
+LT “Orizont Durleşti”
+14/12/25 18:18
+0.5
+Maxim
+Zaleskiy
+Lyceum «The Second School»
+14/12/25 23:49
+0.5
+Sudipto Sen
+Tawhid Bin Omar
+Bangladesh
+St. Joseph Higher Secondary School
+30/11/25 16:05
+0.45
+Mahabu Subhani
+Mohammed
+India
+St. John’s English Medium School
+14/12/25 20:41
+0.45
+Stanisław
+Tomaszewski
+Poland
+XIV LO Im Stanisława Staszica
+14/12/25 20:31
+0.3848
+Arsh
+Bhatnagar
+India
+Tagore Public School, Gurgaon
+21/5/26 13:16
+0.35
+Ranveer Singh
+Bagri
+India
+Guru Teg Bahadur Public School
+15/6/26 06:36
+0.35
+University students:
+First name
+Surname
+Country
+School/University
+P1 date time
+DD/MM/YY 00:00:00
+P1 Score
+Jonathan
+Burger
+Germany
+Karlsruher Institut für Technologie
+19/10/25 13:49
+2.1
+Vaibhav
+V
+India
+United Institute of Technology
+19/10/25 15:34
+1.9
+Oscar Luis
+Ferrer Leyva
+Cuba
+Universidad de La Habana
+19/10/25 16:59
+1.8
+Guy
+Ginzberg
+Israel
+Open University of Israel
+19/10/25 19:01
+1.65
+Larrance
+Xing
+United States
+University of Chicago
+19/10/25 19:59
+1.6
+Ilan Mihelja
+Ivan Hegedić
+Croatia
+University of Zagreb, EPFL
+19/10/25 20:53
+1.5
+Shreyhaan
+Sarkar
+United States
+Cornell University
+20/10/25 03:29
+1.4
+Joshua
+Wang
+United States
+MIT
+20/10/25 07:38
+1.3
+Shao
+Liu
+China
+Peking University
+20/10/25 08:55
+1.2
+Ethan
+Lu
+United States
+Ohio State University
+20/10/25 09:26
+1.05
+Jerzy
+Gamdzyk
+Poland
+University of Warsaw
+20/10/25 17:26
+1.1
+Daniils
+Koselevs
+France
+École Polytechnique
+20/10/25 23:48
+1.0
+Nikhil
+Kodali
+United States
+UC Irvine
+21/10/25 00:56
+1.0
+Vinícius
+Ferreira Rodrigues
+Brazil
+University of Iowa
+21/10/25 03:33
+1.0
+Trishanjit
+Doloi
+India
+IIT Bombay
+21/10/25 05:46
+1.0
+Alessandro
+D’Orazio
+Italy
+University of Pisa
+21/10/25 10:17
+1.0
+Yuan
+Wang
+China
+Tsinghua University
+21/10/25 10:55
+1.0
+Kien
+Pham
+Germany
+LMU Munich
+21/10/25 11:17
+1.0
+Viktor
+Vuković
+Croatia
+University of Zagreb
+21/10/25 18:17
+1.0
+Wang
+Yixi
+China
+Hangzhou Dianzi University
+22/10/25 09:23
+1.0
+Kyle
+Bomeisl
+United States
+Gap Year
+22/10/25 17:45
+1.0
+Kushal
+Thaman
+United States
+Stanford University
+23/10/25 00:10
+1.0
+Thach
+Nguyen
+United States
+University of South Florida
+23/10/25 03:39
+1.1
+Alon
+Hart
+Israel
+Hebrew University of Jerusalem
+23/10/25 16:53
+1.15
+Andrei
+Peuny
+Belarus
+MIPT
+23/10/25 18:31
+1.0
+Tejas Penugonda
+Talha Ashraf
+India/Pakistan
+Imperial College London/Massachusetts Institute of Technology
+24/10/25 08:15
+1.0
+Chung Wang
+Lam
+Hong Kong
+University of Cambridge
+24/10/25 17:07
+1.0
+Aditya
+Bhoj
+India
+Indian Institute of Technology
+25/10/25 23:46
+1.0
+Mehdi
+Nikopour Deilami
+France
+Ecole Polytechnique
+26/10/25 00:06
+1.0
+Jakub
+Kliment
+Czech Republic
+Charles University
+26/10/25 01:53
+1.15
+Armen
+Gazazyan
+Armenia
+Yerevan State University
+26/10/25 08:42
+1.0
+Davit
+Hayrapetyan
+Armenia
+Yerevan State University
+26/10/25 09:19
+1.0
+Aditya Shankar
+Garg
+United States
+Columbia University
+27/10/25 06:34
+1.0
+Sathya
+Nistri
+Italy
+Università di Pisa
+29/10/25 21:25
+0.9
+AHMET
+UĞUZ
+Türkiye
+Hacı Zarife Çelebi-Aygar Anatolian Highschool, (Teacher)
+31/10/25 10:35
+1.0
+Daniel
+Yi
+United States
+University of Maryland College Park
+1/11/25 08:00
+1.0
+Oytun
+Er
+Türkiye
+Boğaziçi University
+1/11/25 14:05
+1.0
+Frane Anđelić
+Luka Duplančić
+Croatia
+University of Zagreb, University of Split
+1/11/25 20:21
+1.0
+Rakib Muhammed
+Saki
+Bangladesh
+Brac University
+1/11/25 22:31
+1.0
+Francesco
+Gariglio
+Italy
+Università degli Studi di Torino
+1/11/25 23:58
+1.0
+Subhojit
+Maji
+India
+Indian Statistical Institute Bangalore Centre
+2/11/25 00:57
+1.0
+Jeevakaarthik
+Dhanabalan
+Singapore
+University of Oxford
+2/11/25 02:05
+1.0
+Doğan
+Önal
+Türkiye
+Boğaziçi University
+2/11/25 10:09
+1.0
+Adrian
+Rewkowski
+Belarus
+Jagiellonian University
+2/11/25 10:17
+1.0
+Enzo
+Materia
+Italy
+University of Catania
+2/11/25 12:09
+1.0
+Jakub
+Schindler
+Poland
+University of Warsaw
+3/11/25 22:42
+0.81
+Md Mustakim Bin
+Alam
+Novosibirsk State University
+3/11/25 23:28
+0.9
+Michał
+Kołodziejczyk
+Poland
+Warsaw University of Technology
+6/11/25 17:09
+0.81
+Tomisona
+Omisore
+Nigeria
+Landmark University Omu Aran
+8/11/25 19:42
+0.81
+Shaocong
+Sun
+China
+Peking University
+11/11/25 10:51
+0.722
+Borui
+Zhang
+China
+Dalian University of Technology
+14/11/25 10:55
+0.72
+Jerry
+Sun
+United States
+University of Illinois Urbana-Champaign
+16/11/25 09:00
+0.8
+Igor
+Kravchenko
+KubSAU
+20/11/25 06:46
+0.567
+Narges
+Safari Majd
+Iran
+SUT
+22/11/25 20:24
+0.567
+Conor
+Appleyard
+United Kingdom
+The university of Warwick
+23/11/25 14:18
+0.54
+Snehil
+Jha
+India
+Indian Institute of Technology, Bombay
+11/12/25 13:06
+0.5
+Sriraj
+Chandra
+India
+Indian Institute of Science
+12/12/25 08:09
+0.45
+Mattia
+Bellini
+Italy
+Università di Padova
+12/12/25 17:38
+0.5
+Erik
+Kaniewski
+Estonia
+Taltech
+14/12/25 06:37
+0.5
+Kevin
+Pérez Viqueira
+Cuba
+Universidad de la Habana
+14/12/25 18:38
+0.5
+Jumadurdy
+Nuryyev
+Turkmenistan
+KAIST
+15/12/25 02:49
+0.45
+Kadyrberdi
+Yazdurdiev
+Turkmenistan
+Magtymguly Turkmen State University
+23/12/25 05:04
+0.35
+qu
+zichao
+china
+河北师范大学
+21/4/26 14:37
+0.35
+Jyotinmoy
+Karmakar
+India
+Indian Institute of Technology Kharagpur
+16/8/26 19:23
+0.35

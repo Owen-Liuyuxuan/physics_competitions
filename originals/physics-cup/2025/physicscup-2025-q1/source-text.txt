@@ -1,0 +1,30 @@
+Source: https://physicscup.ee/physics-cup-taltech-2025-problem-1/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Jaan Kalda
+(TalTech).
+The center of a non-magnetic metal ball with radius
+R
+is at the origin; the ball is in a homogeneous magnetic field
+B
+that is parallel to the x-axis. The ball rotates with an angular speed
+\omega
+around the x-axis. At
+x=L
+,
+y=z=0
+, there is another identical metal ball that does not rotate. Find the interaction force between the two balls, assuming that
+L\gg R
+and
+R\ll \sqrt{\rho/\mu\omega}
+, where
+\rho
+denotes the ball’s resistivity and
+\mu
+is the permeability.
+Please submit the solution of this problem
+via e-mail to physcs.cup@gmail.com.
+After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

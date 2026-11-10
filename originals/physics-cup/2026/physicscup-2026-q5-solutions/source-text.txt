@@ -1,0 +1,170 @@
+Source: https://physicscup.ee/pc2026-p5-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 5
+In total, 64 solutions were submitted for problem 5, of which 24 were correct. Congratulations to everyone who successfully solved it!
+There were 12 correct solutions submitted before the first hint was published, and only those were considered as candidates for the best solution awards.
+The award winners are as follows.
+Joshua Wang
+(bonus: 0.4 pts) reduces the problem to a single ray diagram and a sketch of where the rays reach the screen. Identifying the bright ring with a caustic and the outer boundary with the critical ray gives a remarkably economical route to the refractive index and the required scattered fraction.
+Jonathan Burger
+(bonus: 0.3 pts) combines concise ray tracing with a clear physical explanation of light trapping. Recognising that the impact parameter remains unchanged at successive reflections shows why trapped light must scatter before escaping; the two direct escape cones then give the answer immediately.
+Alessandro D’Orazio
+(bonus: 0.3 pts) explains the bright ring by relating the emitted solid angle to the illuminated area on the screen. This makes the formation of the caustic particularly transparent, while graphical fitting of the ray-position function connects the measured image directly to the refractive index.
+Final results for Problem
+5
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P5 date time
+DD/MM/YY 00:00:00
+P5 Score
+Siddhaarth
+Dharani
+Singapore
+Gap Year
+13/3/26 15:53
+1.95
+Miklós
+Téti
+Hungary
+Budapesti Fazekas Mihály Gimnázium
+15/3/26 04:04
+1.85
+Dominik
+Erdélyi
+Hungary
+Budapesti Fazekas Mihály Gimnázium
+15/3/26 23:30
+1.7
+Antonia
+Radu
+Romania
+Colegiul National “Mihai Viteazul” Ploiesti
+22/3/26 10:20
+1.6
+Kanad
+Bhattacharya
+India
+Deeksha STEM
+5/4/26 10:30
+1.248
+Aadi
+Singh
+India
+AIS-46
+5/4/26 11:21
+1.22
+Ivan
+Ermolaev
+Russia
+School 2044, Moscow
+18/4/26 15:58
+1.0
+Nithilan
+Ravikumar
+India
+Nil
+19/4/26 10:37
+0.84
+Qingxiang
+Liao
+China
+Shenzhen College of International Education
+24/4/26 13:37
+0.5645
+Artem
+Nikitin
+Russia
+SESC NSU
+17/5/26 11:54
+0.5
+Luv
+Gupta
+India
+Narayana CO school
+27/4/26 17:51
+0.45
+Tawhid
+Bin Omar
+Bangladesh
+St. Joseph Higher Secondary School
+26/4/26 21:20
+0.4281
+University students:
+First name
+Surname
+Country
+School/University
+P5 date time
+DD/MM/YY 00:00:00
+P5 Score
+Alessandro
+D’Orazio
+Italy
+University of Pisa
+9/3/26 10:53
+2.2
+Vaibhav
+V
+India
+United Institute of Technology
+9/3/26 05:36
+2.0
+Joshua
+Wang
+United States
+MIT
+15/3/26 11:02
+2.0
+Guy
+Ginzberg
+Israel
+Open University of Israel
+9/3/26 14:54
+1.75
+Jonathan
+Burger
+Germany
+Karlsruher Institut für Technologie
+15/3/26 17:18
+1.7
+Larrance
+Xing
+United States
+University of Chicago
+14/3/26 18:39
+1.65
+Vinícius
+Ferreira Rodrigues
+Brazil
+University of Iowa
+15/3/26 17:37
+1.3
+Alon
+Hart
+Israel
+Hebrew University of Jerusalem
+21/3/26 18:10
+1.2
+Erik
+Kaniewski
+Estonia
+Taltech
+16/3/26 09:10
+0.948
+Nikhil
+Kodali
+United States
+UC Irvine
+30/3/26 20:00
+0.748
+Adrian
+Rewkowski
+Belarus
+Jagiellonian University
+13/4/26 17:29
+0.6

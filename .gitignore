@@ -1,0 +1,13 @@
+# Hosting identities, generated private distribution and deployment credentials
+sites/
+output/
+tmp/
+.env*
+.venv/
+**/__pycache__/
+*.pyc
+*.log
+.DS_Store
+
+# Deliberately track originals/ and derived/ only in this PRIVATE repository.
+# GitHub Pages deployment uses docs/ alone, validated independently.

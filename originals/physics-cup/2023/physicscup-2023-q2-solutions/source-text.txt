@@ -1,0 +1,209 @@
+Source: https://physicscup.ee/pc2023-p2-best-solutions-and-final-results
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 2 – Phase transitions in a wire
+In total, 91 solutions were submitted for problem 2, out of which 25  were correct.
+Congratulations to everyone who managed to solve this problem!
+The Best Solution Awards
+were selected from the 7 submissions sent before the second hint was published. Usually, only those solutions are considered that are not based on any hints, but this time, there were too few such solutions, and as a matter of fact, the first hint was very subtle. The Best Solution Award was shared between the solutions that analyzed in detail the heat transfer along the wire near the phase boundary. There were two such solutions, submitted by
+Luka Passek-Kumerički
+and
+Anindya Guria
+. Both of them derive the temperature profile along the wire, but
+Luka Passek-Kumerički
+is the only one who correctly shows the rapid process of power rising from
+P_0
+to
+\sqrt{\frac 23}P_0
+and to
+\sqrt{\frac 83}P_0
+on the graph. Everyone else treats this as a discontinuity which is not correct: the thermalization is fast as compared to the voltage growth time, but not instantaneous. As a result,
+Luka Passek-Kumerički
+earns
+0.6
+of the award, and
+Anindya Guria
+– the remaining
+0.4.
+For my taste (JK),  Luka Passek-Kumerički has unnecessarily complicated calculations, e.g. his formulae 1-25 and 38; still, these are not wrong, so I overlook this.
+Additionally, very well-written solutions were submitted by
+Vlad-Stefan Oros
+,
+Eyal Walach
+, and
+Gil Ronen
+(note that E.W. has a typo in Section 1.3, instead of
+T_h-T_c=T_c-T_h
+, there should be
+T_h-T_c=T_c-T_l
+). These are well worth reading as they explain in an easy-to-understand way how the phase separation front propagates. All these authors get a publication bonus factor of exp(0.1).
+Final results for Problem 2
+Pre-university students:
+First name
+Surname
+Country
+School
+P2 date time
+DD/MM/YY 00:00:00
+P2 Score
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Theoretical High School
+19/12/2022 19:39:00
+2.7949
+Tomas
+Babelis
+Lithuania
+Vilniaus jėzuitų gimnazija
+01/01/2023 15:41:00
+2.016
+Chenyun
+Wang
+China
+Shanghai High School
+17/01/2023 10:54:00
+1.5005
+Dženan
+Midžić
+Bosnia and Herzegovina
+JU Gimnazija “Bihać”
+22/01/2023 16:07:00
+1.1108
+Harshin
+Posina
+India
+FIITJEE Madhapur
+26/01/2023 21:05:00
+1.0629
+Andrei-Darius
+Dragomir
+Romania
+International Computer Highschool of Bucharest (ICHB)
+29/01/2023 00:10:00
+0.9663
+Mateusz
+Kamiński
+Poland
+VI High School in Cracow
+07/02/2023 16:37:00
+0.6655
+Filip
+Baciak
+Poland
+1 LO w Chrzanowie
+05/02/2023 00:23:00
+0.6588
+Alexandar
+Roussev
+Bulgaria
+–
+07/02/2023 18:03:00
+0.5748
+Elias Koschier
+Michail Ognyanov
+Austria
+ERG Donaustadt
+12/02/2023 02:16:00
+0.495
+Vishesh
+Sehrawat
+India
+FIITJEE
+13/02/2023 11:13:00
+0.456
+Rhythm
+Kedia
+India
+MB International
+13/02/2023 16:49:00
+0.4388
+Eppu
+Leinonen
+Finland
+Munkkiniemen yhteiskoulu
+13/02/2023 17:05:00
+0.3751
+University students:
+First name
+Surname
+Country
+University
+P2 date time
+DD/MM/YY 00:00:00
+P2 Score
+Anindya
+Guria
+India
+Indian Institute of Science
+28/12/2022 13:51:00
+3.4297
+Gil
+Ronen
+Israel
+Hebrew University of Jerusalem
+24/12/2022 23:23:00
+2.8665
+Luka
+Passek-Kumerički
+Croatia
+University of Zagreb
+07/01/2023 21:23:00
+2.7599
+Eyal
+Walach
+Israel
+Bar-Ilan University
+01/01/2023 00:07:00
+2.1321
+Ziyue
+Wang
+China
+Hebei University of Technology
+01/01/2023 04:10:00
+1.6662
+Soumyadeep
+Sarma
+India
+Indian Institute of Science
+29/01/2023 02:44:00
+0.7827
+Kerim
+Cherkezov
+Turkmenistan
+Turkmen State University
+03/02/2023 16:09:00
+0.6588
+Lukas
+Schicht
+Germany
+University of Rostock
+05/02/2023 22:45:00
+0.6322
+Marinus
+Lehmann
+Germany
+University of Potsdam
+19/02/2023 22:42:00
+0.5
+Jerzy
+Gamdzyk
+Poland
+University of Warsaw
+20/02/2023 00:48:00
+0.5
+Kaarel
+Paal
+Estonia
+TalTech
+19/02/2023 16:43:00
+0.4826
+Tejas
+Acharya
+India
+University of Oxford
+12/02/2023 12:48:00
+0.4778
+The list of countries:
+Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Cameroon, Canada, China, Croatia, Cuba, Czech Republic, Ecuador, Egypt, El Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Honduras, Hong Kong, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Kosovo, Kyrgyzstan, Latvia, Lithuania, Macau, Malaysia, Mexico, Moldova, Montenegro, Nepal, Netherlands, Nigeria, North Korea, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Rwanda, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Thailand, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

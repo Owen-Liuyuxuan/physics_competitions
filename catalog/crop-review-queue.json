@@ -1,0 +1,209 @@
+[
+  {
+    "resource_id": "plancks-2023-final-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "plancks-2022-preliminary-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "plancks-2021-final-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "plancks-2021-preliminary-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "plancks-2020-final-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "plancks-2020-final-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "plancks-2019-final-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "plancks-2025-final-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "plancks-2026-final-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "plancks-2026-final-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2026-paper-1-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2026-paper-1-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2025-paper-1-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2025-paper-1-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2024-paper-1-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2024-paper-1-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2023-paper-1-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2023-paper-1-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2022-paper-1-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2022-paper-1-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2021-paper-1-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2021-paper-1-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2020-paper-1-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2020-paper-1-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2019-paper-1-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2019-paper-1-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2026-mechanics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2026-mechanics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2025-mechanics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2025-mechanics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2024-mechanics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2024-mechanics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2023-mechanics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2023-mechanics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2022-mechanics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2022-mechanics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2021-mechanics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2021-mechanics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2020-mechanics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2020-mechanics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2019-mechanics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "panpho-2019-mechanics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2019-final-experiment-1-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2019-final-experiment-2-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2020-final-experiment-1-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2020-final-experiment-2-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2021-semifinal-theory-solution",
+    "reason": "无法可靠识别连续大题号",
+    "detected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      7,
+      8
+    ]
+  },
+  {
+    "resource_id": "cpho-2021-final-experiment-1-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2021-final-experiment-2-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  }
+]

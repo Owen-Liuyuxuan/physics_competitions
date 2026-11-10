@@ -1,0 +1,320 @@
+Source: https://physicscup.ee/archive/physics-cup-taltech-2019/physics-cup-2019-problem-3/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 3
+Problem 3 with the first hint and intermediate results
+Problem 3 with two hints and intermediate results
+Problem 3 with three hints and intermediate results
+Results and best solutions
+The third problem turned out to be easier than expected. Many contestants were able to reach the final answer by carrying out tedious calculations involving coordinate geometry. This brute-force approach requires confident handling of long algebraic formulas which is an important skill in physics (and physics competitions in particular). However, there is a shorter tricky solution (also suggested by the hints) which leads to the answer in a few lines. This solution relies on the geometrical properties of conic sections, such as the relation between the directrix and the focus point, and the reflective property of the parabola.
+In total, 75 solutions of problem 3 were submitted out of which 56 were correct.
+The best solution awards go to:
+Thomas Foster
+,
+Johanes Suhardjo
+and
+Ionel-Emilian Chiosa
+. All of them get 33.3% of the bonus.
+All three solutions contain the tricky approach in a slightly different way. Thomas Foster uses the angles at the end and proves that the shape is a straight line by induction. Johanes Suhardjo presents two different methods, the first is a shorter one with elementary geometry, the second one is more algebraic. Altough the paper submitted by Ionel-Emilian Chiosa is handwritten, his solution is easy to follow and very elegant.
+The additionally published solution is submitted by
+Roberto Marín Delgado
+, who is awarded by a bonus of factor 1.1. He uses the coordinate geometrical approach, but the solution is short, well written and drawn.
+Results for Problem 3, university students
+name
+country
+school
+solved
+score
+Siddharth Tiwary
+India
+Indian Inst. of Techn. Bombay
+10 Feb. 2019 14:38
+2.594
+Thomas Foster
+UK
+University of Oxford
+10 Feb. 2019 16:16
+3.291
+Johanes Suhardjo
+Indonesia
+Hong Kong Univ Sci & Tech
+10 Feb. 2019 17:15
+2.992
+Damiano Tietto
+Italy
+Università degli Studi di Padova
+10 Feb. 2019 17:49
+1.754
+Ivan Ridkokasha
+Ukraine
+Shevchenko University Kyiv
+10 Feb. 2019 18:57
+1.772
+Marcell Szakály
+Hungary
+University of Cambridge
+11 Feb. 2019 00:13
+1.611
+Aaditya Mishra
+India
+Indian Institute of Sci. Ed. and Research
+16 Feb. 2019 07:16
+1.464
+Roshan Kaundinya
+India
+Indian Institute of Sci. Ed. and Research
+17 Feb. 2019 09:23
+1.331
+Petra Brčić
+Croatia
+University of Zagreb
+17 Feb. 2019 10:50
+1.21
+Yasin Sönmez & Batuhan Keskin
+Turkey
+Boğaziçi University
+17 Feb. 2019 18:01
+1.045
+Felix Bekir Christensen
+Germany
+University of Oxford
+02 Mar. 2019 11:17
+1
+Eugen Dizer
+Germany
+University of Heidelberg
+07 Mar. 2019 01:03
+1
+Philipp Schange
+Germany
+WWU Münster
+07 Mar. 2019 12:21
+1
+Results for Problem 3, high school students
+name
+country
+school
+solved
+score
+Ionel-Emilian Chiosa
+Romania
+Intern Computer HS Bucharest
+10 Feb. 2019 15:55
+3.258
+Marvin Janini
+Brazil
+Colégio Etapa
+10 Feb. 2019 16:55
+2.24
+Tùng Trần Xuân
+Vietnam
+HN-Amsterdam
+10 Feb. 2019 17:26
+2.144
+Domagoj Perković
+Croatia
+III. Gigmazija Split
+10 Feb. 2019 18:30
+1.949
+Eduard Burlacu
+Romania
+Intern Computer HS Bucharest
+10 Feb. 2019 19:44
+1.772
+Stefan Dolteanu
+Romania
+Intern Computer HS Bucharest
+10 Feb. 2019 16:14
+1.611
+Gabriel Trigo
+Brazil
+Colegio ETAPA, Valinhos
+11 Feb. 2019 02:37
+1.464
+Roberto Marín Delgado
+Costa Rica
+Colegio Científico San Carlos
+11 Feb. 2019 05:17
+1.464
+Oliver Lindström
+Sweden
+Minervagymnasium
+11 Feb. 2019 10:25
+1.21
+Vladislav Polyakov
+Russia
+School No 23 St Petersburg
+11 Feb. 2019 11:16
+1.1
+Ivander J.M. Waskito
+Indonesia
+Mawar Sharon Christian School
+11 Feb. 2019 16:12
+1
+Zăhărăchescu Mihai
+Romania
+Intern Computer HS Bucharest
+11 Jan. 2019 17:06
+1
+Masuk Ridwan
+Bangladesh
+St. Joseph Higher Secondary S.
+12 Feb. 2019 11:51
+1
+Oliwier Urbański
+Poland
+Szkoła Nr 28 w Poznaniu
+12 Feb. 2019 20:51
+1
+Domonkos Svastits
+Hungary
+Piarist High School
+12 Feb. 2019 21:05
+1
+Bakir Devedžić
+Bosnia and Herz.
+Gymnasium “Dr. Mustafa Kamarić”
+13 Feb. 2019 03:18
+0.95
+Siam Absur Khan
+Bangladesh
+Ideal School And College
+13 Feb. 2019 11:22
+1
+Timothy Ho
+Singapore
+NUS High School of Math. and Sci.
+16 Feb. 2019 09:32
+1
+Erik Swanson
+New York
+Queensbury High School
+16 Feb. 2019 10:46
+1
+Eduardo Bardal Slikta
+Brazil
+Colégio Etapa Valinhos
+17 Feb. 2019 06:06
+1
+Domantas Burba
+Lithuania
+Siauliai Julius Janonis Gymnasium
+17 Feb. 2019 11:41
+1
+Vaibhav Raj
+India
+Allen Kota School
+17 Feb. 2019 13:56
+1
+Vinícius Ferreira Rodrigues
+Brazil
+Colégio Master
+20 Feb. 2019 12:20
+1
+Mateusz Kapusta
+Poland
+Secondary School No. III, Wroclaw
+21 Feb. 2019 20:03
+1
+Stephen Catsamas
+Australia
+Marcellin College
+23 Feb. 2019 17:43
+1
+Morteza Mudrick
+Indonesia
+SMA Negeri 1 Surakarta
+24 Feb. 2019 12:56
+0.9
+Bartłomiej Sikorski
+Poland
+I Liceum O. Starachowicach
+24 Feb. 2019 18:13
+1
+Jaeyong Lee
+Korea
+Dongsan High School
+24 Feb. 2019 19:24
+1
+Dhyaan S. Nayak
+India
+National Institute of Open Schooling
+25 Feb. 2019 09:06
+0.95
+Richard Luhtaru
+Estonia
+Hugo Treffner Gymnasium
+26 Feb. 2019 17:19
+1
+Ayush Anand
+India
+Neel Kamal Sethia
+28 Feb. 2019 05:57
+1
+Kaviraj Prithvi
+India
+Base PU College
+01 Mar. 2019 13:59
+0.9
+Jianzhi Wang
+Singapore
+Raffles Institution
+02 Mar. 2019 04:02
+1
+Muhamed Sokolović
+Bosnia and Herz.
+Richmond Park ISS Sarajevo
+02 Mar. 2019 10:11
+1
+Esha Manideep Dinne
+India
+Pre-University
+02 Mar. 2019 12:19
+1
+Tádé Marozsák
+Hungary
+Óbudai Árpád Gimnázium
+02 Mar. 2019 18:42
+1
+Łukasz Basiński
+Poland
+II Liceum Ogólnokształcące im.
+Jana Śniadeckiego w Kielcach
+04 Mar. 2019 19:32
+0.95
+Thanawat Sornwanee
+Thailand
+Triamudomsuksa School
+05 Mar. 2019 01:01
+1
+Yogit Shankar
+India
+Hope hall foundation School
+05 Mar. 2019 07:55
+1
+Lucas Harada
+Brazil
+Colegio Etapa – Ana Rosa
+07 Mar. 2019 02:52
+1
+Pradipta Parag Bora
+India
+Delhi Public School Guwahati
+07 Mar. 2019 07:23
+1
+Ananjan Nandi
+India
+Resonance Kota
+07 Mar. 2019 15:12
+1
+Gusti P.S.G. Atmaja
+Indonesia
+Kesatuan Bangsa SHS
+10 Mar. 2019 11:33
+1
+Jānis Hūns
+Latvia
+Riga State Gymnasium No.1
+10 Mar. 2019 13:02
+1

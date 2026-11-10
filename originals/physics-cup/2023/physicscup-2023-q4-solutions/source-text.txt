@@ -1,0 +1,248 @@
+Source: https://physicscup.ee/pc2023-p4-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 4 – Spaceship
+In total, 67 solutions were submitted for problem 3, out of which 31 were correct.
+Congratulations to everyone who managed to solve this problem!
+The Best Solution Awards
+were selected from the 14 submissions sent before the first hint was published. Since there were so many good solutions, at the first selection stage I excluded those submissions which lacked documentation details (this time, all hand-written solutions fell into this category). The next elimination criterion was if the
+analytically exact
+answer was obtained (out of the papers lacking the exact answer, two are still published due to additional reasons, see below). The remaining 7 solutions  – each of which earns 1/7th part of the bonus) can be divided into the following categories.
+First, solutions based on the relativistic addition of 3-velocities:
+Eppu Leinonen
+(with nice additions like calculation of the travel time),
+Tejas Acharya
+(using rapidities instead of velocities, the solution has also a nice discussion of Wigner rotations),
+Alptürk Eski
+.
+The solutions based on the Lorentz transform of 4-velocities:
+Luka Passek-Kumerički
+and
+Lukas Schicht
+(who also calculates the proper travel time).
+The solutions based on the Lorentz transform of (t,x) 4-vectors:
+Vlad-Stefan Oros
+and
+Tomas Babelis
+.
+Additionally, the solutions of
+Anindya Guria
+and
+Gil Ronen
+are so well written that it would be a shame not to publish them (the submission of GR comes with two solutions, one using relativistic addition of velocities, and the other one – Lorentz transform of t-x 4-vector).
+During the period before the first hint was published, there were no solutions based on Lorentz invariants. The first such solution was submitted by
+Filip Baciak
+– which is also published. As usual, all those solutions which are published but did not receive the best-solution-bonus will earn the bonus factor of exp(0.1).
+Finally, here is
+my (JK) own hand-written solution
+– the intended solution based on Lorentz invariants.
+Final results for Problem 2
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P4 time
+P4 Score
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Theoretical High School
+26/2/23 14:26
+2.9921
+Alptürk
+Eski
+Turkey
+Erbakır Science High School
+26/2/23 20:23
+2.72
+Eppu
+Leinonen
+Finland
+Munkkiniemen yhteiskoulu
+2/3/23 15:48
+2.248
+Emir Akdag
+Kaan Dere
+Turkey
+Bahcesehir High School for Science and Technology
+27/2/23 15:02
+2.1436
+Tomas
+Babelis
+Lithuania
+Vilniaus jėzuitų gimnazija
+3/3/23 21:20
+2.0436
+Arda
+Ünver
+Turkey
+Kocaeli Bahcesehir High School of Science and Technology
+5/3/23 00:57
+1.53
+Baiyu
+Zhu
+United States
+California High School
+6/3/23 04:37
+1.331
+Ahmet Bahadır
+Trabzon
+Turkey
+Kabataş Erkek High School
+5/3/23 14:59
+1.3177
+Ilan, Ivan (Team)
+Mihelja, Hegedić
+Croatia
+XV. gymnasium Zagreb, V. gymnasium Zagreb
+14/3/23 16:51
+0.9801
+Filip
+Baciak
+Poland
+1 LO w Chrzanowie
+29/3/23 19:48
+0.7736
+Yuchi
+Zhang
+China
+United World College Changshu China
+29/3/23 14:26
+0.693
+Dženan
+Midžić
+Bosnia and Herzegovina
+JU Gimnazija “Bihać”
+3/4/23 20:20
+0.6
+Rhythm
+Kedia
+India
+MB International
+7/4/23 07:42
+0.54
+Mateusz
+Kamiński
+Poland
+VI High School in Cracow
+23/4/23 01:08
+0.5
+Chung Wang
+Lam
+Hong Kong
+St. Paul’s Co-educational College
+15/4/23 11:46
+0.5
+JAGRAV
+GARG
+INDIA
+FIITJEE
+21/4/23 07:15
+0.5
+Michał
+Kołodziejczyk
+Poland
+I High School in Zielona góra
+1/5/23 17:36
+0.5
+Guangyuan
+Chen
+Singapore
+Raffles Institution
+10/4/23 05:40
+0.45
+Zilang
+Shu
+China
+Beijing National Day School
+23/4/23 11:15
+0.405
+Elias Koschier
+Michail Ognyanov
+Austria
+ERG Donaustadt
+14/4/23 18:48
+0.405
+University students:
+First name
+Surname
+Country
+School/University
+P4 time
+P4 Score
+Lukas
+Schicht
+Germany
+University of Rostock
+26/2/23 21:49
+2.9921
+Tejas
+Acharya
+India
+University of Oxford
+2/3/23 12:07
+2.72
+Gil
+Ronen
+Israel
+Hebrew University of Jerusalem
+4/3/23 21:20
+2.369
+Anindya
+Guria
+India
+Indian Institute of Science
+6/3/23 07:24
+2.1537
+Luka
+Passek-Kumerički
+Croatia
+University of Zagreb
+6/3/23 23:29
+2.0436
+Alessio
+Biccari
+Italy
+La Sapienza
+8/3/23 21:33
+1.6105
+Kerim
+Cherkezov
+Turkmenistan
+Turkmen State University
+14/3/23 07:47
+1.0673
+Eyal
+Walach
+Israel
+Bar-Ilan University
+29/3/23 12:22
+0.9317
+Soumyadeep
+Sarma
+India
+Indian Institute of Science
+9/4/23 13:53
+0.5445
+Marinus
+Lehmann
+Germany
+University of Potsdam
+12/4/23 11:45
+0.5225
+Bowen
+Tan
+China
+Jilin Normal University
+21/4/23 02:56
+0.405
+Konstantin
+Tripunovski
+North Macedonia
+University of Ljubljana – Medical Faculty
+24/4/23 13:45
+0.3679
+The list of countries:
+Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Cameroon, Canada, China, Croatia, Cuba, Czech Republic, Ecuador, Egypt, El Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Honduras, Hong Kong, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Kosovo, Kyrgyzstan, Latvia, Lithuania, Macau, Malaysia, Mexico, Moldova, Montenegro, Nepal, Netherlands, Nigeria, North Korea, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Rwanda, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Thailand, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

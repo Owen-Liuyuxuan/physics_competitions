@@ -1,0 +1,347 @@
+Source: https://physicscup.ee/pc2024-p3-best-solutions-and-final-results
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 3 – Scrap iron sorting
+In total, 73 solutions were submitted for problem 3, of which 56 were correct. Congratulations to everyone who managed to solve it!
+The Best Solution Awards were selected from the 19 correct solutions sent before the first hint was published. Selecting a few solutions from such a large number, most of which were written very nicely and typeset in LaTeX, was a difficult task. The main differences between the solutions were in how the magnetization
+M
+of a spherical ferromagnetic particle was calculated and in the textual explanations.
+There were many solutions that were very nicely written and could have been prime choices for a best solutions award but eventually were not considered because of containing a minor mistake (that did not affect the final answer, see below) or gaps in derivation, e.g. not showing how the magnetization of a sphere was calculated. If you think you had a good solution, feel free to ask me by e-mail why your solution was not chosen.
+A typical mistake that disqualified many otherwise good and nicely written solutions was an error by a numerical prefactor of the force acting on a piece of scrap, caused by a conceptual mistake in how the force was calculated. Namely, when calculating the force using the virtual displacement technique leading to the expression
+\vec{F}=\mathrm{grad} (\vec{B}\cdot\vec{m})
+, where
+\vec{m}=V\vec{M}
+denotes the magnetic dipole moment of the scrap particle. This is the correct formula, but only as long as you assume here the magnetic dipole moment
+\vec{m}
+is constant while taking the gradient. Indeed, it is clear that the force acting on a magnetic dipole does not depend on how the dipole would change if it were moved, and depends only on its instantaneous value. We can say that during a virtual displacement by a distance
+\mathrm{d} \vec{r}
+, the work done by the net force is
+\vec{m}\cdot \mathrm{d} \vec{B}
+, and the change of the dipole’s internal (potential) energy is
+\vec{B}\cdot \mathrm{d} \vec{m}
+, where
+\mathrm{d} \vec{m}=V\mathrm{d}\vec{M}
+is the change of the dipole moment caused by the displacement (one can imagine that the molecular dipoles are opposite charges that are connected with a spring in which case there is also the potential energy of the spring).
+Note that the above given formula,
+\vec{F}=V\mathrm{grad} (\vec{B}\cdot\vec{M})
+can be written so that there is no confusion about to which terms the derivative is applied to: in one-dimensional version,
+F_x=VM_x\frac{\mathrm{d} B_x}{\mathrm{d}x}
+, and in the generic case using
+the direct (also called the dyadic) product of two vectors producing a tensor
+as
+\vec{F}=V(\nabla\vec{B})\cdot \vec{M}
+(note that this formula has a dot product of the tensor
+\nabla\vec{B}
+with a vector, producing a vector).
+And so, the Best Solution Awards go to the following contestants.
+0.3 to
+Luka Passek-Kumerički
+– a nice solution with the sphere’s magnetization derived from the electric-magnetic equivalence based on the electric field inside a homogeneously charged sphere.
+0.3 to
+Konstantin Rodionenko
+– a clean and compact solution with the sphere’s magnetization derived from the electric-magnetic equivalence based on the electric field inside a homogeneously charged sphere.
+0.3 to
+Kutay Kulbak
+– a nice solution with the sphere’s magnetization guessed and shown to be correct using magnetic scalar potential (though the expression for the force is written slightly incorrectly – although the dyadic product is apparently assumed and used later correctly, the dot stands in the wrong place).
+0.1 to
+Lukas Schicht
+– otherwise a very nicely written solution, but there is no explanation of where the expression for the magnetic field inside a homogeneously charged sphere comes from.
+Final results for Problem 3
+Pre-university students:
+Saskia
+Põldmaa
+Estonia
+Tallinna Reaalkool
+14/1/24 15:24
+2.5937
+Ilan Mihelja
+Ivan Hegedić
+Croatia
+XV. gymnasium Zagreb, V. gymnasium Zagreb
+14/1/24 16:10
+2.3579
+Val
+Karan
+Croatia
+XV. Gimnazija Zagreb
+14/1/24 18:28
+2.1436
+Kutay
+Kulbak
+Turkey
+Bahcesehir High School for Science and Technology
+18/1/24 05:50
+1.9763
+Mihkel
+Rannut
+Estonia
+Tallinna Reaalkool
+14/1/24 18:59
+1.9487
+Guy
+Ginzberg
+Israel
+Ort Irony Dalet Modiin
+15/1/24 10:13
+1.7716
+Ralf Robert
+Paabo
+Estonia
+Hugo Treffneri Gümnaasium
+15/1/24 17:52
+1.6105
+Arda
+Ünver
+Turkey
+Kocaeli Gebze Bahçeşehir High School for Science and Technology
+21/1/24 17:23
+1.331
+Felix
+Yew
+Malaysia
+National Junior College, Singapore
+27/1/24 05:59
+1.21
+Matej
+Gelev
+North Macedonia
+Yahja Kemal
+27/1/24 22:11
+1.1
+Tornike
+Tsadzikidze
+Georgia
+komarovi Physics-Mathematics school
+29/1/24 18:38
+0.9
+Halil İbrahim
+Yenitürk
+Turkey
+Ankara High School of Science
+2/2/24 07:52
+0.9
+Oytun
+Er
+Turkey
+Kadıköy Anatolian Highschool
+29/1/24 13:00
+0.9
+Bahaa Aldeen
+Melhem
+Syria
+Albasel Mixed High School
+3/2/24 22:27
+0.9
+Darius
+Graur
+Moldova
+Liceul Teoretic Orizont
+30/1/24 09:53
+0.9
+Yangguang
+Zheng
+China
+The affilicated High School of South China normal university
+4/2/24 11:28
+0.9
+Mohamad Eid
+Al-aktaa
+Syria
+Al saadeh school
+10/2/24 18:52
+0.8
+Tomas
+Razbadauskas
+Lithuania
+Kaunas University of Technology Gymnasium
+11/2/24 16:46
+0.7
+Rares Felix
+Tudose
+Romania
+Liceul Teoretic Internațional de Informatică București
+11/2/24 19:43
+0.63
+Chenyun
+Wang
+China
+Shanghai High School
+17/2/24 12:58
+0.63
+Animesh
+Pradhan
+India
+Modern Delhi International School
+19/2/24 10:13
+0.6
+Jumadurdy
+Nuryyev
+Turkmenistan
+Specialized Comprehensive Boarding School named after Saparmyrat Turkmenbashy in the city of Ashgabat
+26/2/24 05:13
+0.5
+Vincent Karl
+Willis
+Austria
+BRG Innsbruck APP
+28/4/24 12:22
+0.5
+Kaustubh
+Kaka
+India
+ALLEN
+12/3/24 11:32
+0.5
+Andrei
+Vila
+Romania
+International Computer High School Bucharest
+7/3/24 20:49
+0.5
+Ruicheng
+Ma
+China
+High School Affiliated to Harbin Teachers College
+5/3/24 17:10
+0.3679
+University students:
+Lukas
+Schicht
+Germany
+Eberhard Karls Universität Tübingen
+14/1/24 16:07
+2.8665
+Konstantin
+Rodionenko
+ITMO University
+16/1/24 18:54
+2.7489
+Luka
+Passek-Kumerički
+Croatia
+University of Zagreb
+17/1/24 18:34
+2.6305
+Yi-Ting
+Lin
+Taiwan
+Massachusetts Institute of Technology
+15/1/24 08:03
+2.3579
+Ahmet Bahadır
+Trabzon
+Turkey
+Boğaziçi University
+17/1/24 21:11
+1.683
+Vadim
+Ionas
+Moldova
+Denmark Technical University
+20/1/24 12:47
+1.6105
+YUAN
+FEI
+Hong Kong
+The Hong Kong Polytechnic University
+21/1/24 15:09
+1.3177
+SIfat Ahmed
+Tushar
+Bangladesh
+University of Dhaka
+26/1/24 22:33
+1.21
+Karlo
+Maksimović
+Croatia
+University of Zagreb
+23/1/24 17:13
+1.1979
+Elias Koschier
+Michail Ognyanov
+Austria
+–
+4/2/24 12:40
+0.9
+Kai-Hsiang
+Tu
+Taiwan
+National Taiwan University
+4/2/24 11:01
+0.9
+Michał
+Kołodziejczyk
+Poland
+Warsaw University of Technology
+4/2/24 12:08
+0.81
+Marinus
+Lehmann
+Germany
+University of Potsdam
+28/1/24 16:42
+0.8019
+Nick
+Hartmann
+Germany
+RWTH Aachen
+11/2/24 12:19
+0.72
+Kerim
+Cherkezov
+Turkmenistan
+Magtymguly Turkmen State University
+15/2/24 10:23
+0.7
+Musa
+Artykov
+Turkmenistan
+Magtymguly Turkmen State University
+18/2/24 01:36
+0.7
+Dhruv
+Shah
+India
+Indian Institute of Science
+27/2/24 20:27
+0.5
+Dženan
+Midžić
+Bosnia and Herzegovina
+University of Rijeka
+10/3/24 11:39
+0.5
+Larrance
+Xing
+United States
+University of Michigan Ann Arbor
+26/2/24 02:10
+0.5
+Bayram Alp
+Sahin
+Turkey
+Bogazici University
+3/3/24 09:31
+0.5
+Md. Badhan
+Mridha
+Bangladesh
+University of Dhaka
+2/3/2024 15:39
+0.5
+Ricardo
+Ochel
+Germany
+Universität Heidelberg
+31/3/24 04:19
+0.475
+Konstantin
+Tripunovski
+North Macedonia
+University of Ljubljana – Faculty of Medicine
+3/4/24 15:18
+0.3679
+The list of countries:
+Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Cameroon, Canada, China, Croatia, Cuba, Czech Republic, Ecuador, Egypt, El Salvador, Estonia, Finland, France, Georgia, Germany, Greece, Guatemala, Honduras, Hong Kong, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Kosovo, Kyrgyzstan, Latvia, Lithuania, Macau, Malaysia, Mexico, Moldova, Montenegro, Nepal, Netherlands, Nigeria, North Korea, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Rwanda, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Thailand, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

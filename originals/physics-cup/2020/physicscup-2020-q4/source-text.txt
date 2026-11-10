@@ -1,0 +1,38 @@
+Source: https://physicscup.ee/problem-4/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Jaan Kalda
+(TalTech).
+The space between two parallel infinite metallic plates is filled with homogeneous material of heat conductivity
+\kappa
+. The heat conductivity of the metallic plates is much larger than
+\kappa
+, the distance between the plates is
+L
+. One of the plates is kept at temperature
+T_1
+, and the other – at temperature
+T_2
+. There is a spherical cavity of radius
+R
+in the medium between the plates, at equal distance
+L/2
+from the both plates; assume that
+R\ll L
+.  Initially, the cavity is filled with a gas of negligibly small heat conductivity (much smaller than
+\kappa
+). By how much will change the total heat flux
+P
+between the plates (measured in watts) if the spherical cavity is filled with a material of very large heat conductivity (much larger than
+\kappa
+)?
+Chinese version of the Problem 4.
+Please submit the solution of this problem
+via e-mail to physcs.cup@gmail.com.
+First hints will appear here on 23rd February 2020, but after the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.
+The final deadline for the Problem 4 is
+23:59 GMT, 31st May
+.

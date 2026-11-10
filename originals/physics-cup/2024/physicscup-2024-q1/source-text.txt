@@ -1,0 +1,21 @@
+Source: https://physicscup.ee/physics-cup-taltech-2024-problem-1
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Jaan Kalda
+(TalTech).
+The video below shows a solid cylinder falling into water in slow motion. Determine the density of the cylinder. You are allowed to take measurements from the video frames.
+When you submit your answer-only solution, send the formula for your final answer, and explain which measurements will be taken from the video. At this stage, you don’t yet need to perform the measurements – you can take your time to get good measurements and send the numerical answer only with your final solution (as always, within 48 hours from the initial submission).
+For making better measurements you are advised to
+download the video
+and open it with a video viewer that allows frame-by-frame navigation (e.g.
+MPC-HC
+with Ctrl-> and Ctrl<- for frame-by-frame navigation, or
+VLC
+with “e” to go to the next frame). Don’t expect your answer to be very precise due to the inaccuracy of the measurements.
+Diving Cylinder
+Please submit the solution of this problem
+via e-mail to physcs.cup@gmail.com.
+First intermediate results will be published on 22nd October, 13:00 GMT. After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

@@ -1,0 +1,51 @@
+Source: https://physicscup.ee/physics-cup-taltech-2023-problem-4
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Jaan Kalda
+(TalTech).
+A spaceship takes off from the Earth at
+t=0
+, and henceforth keeps the modulus of its proper acceleration equal to
+g
+; here and in what follows,
+t
+denotes the spaceship’s proper time. Thus, the astronauts on board will always feel a constant free fall acceleration
+g
+. However, the direction of the proper acceleration is changed four times at equal intervals, by turning the engines counterclockwise by
+90^\circ
+. So, the proper acceleration is:
+parallel to the
+x
+-axis when
+0\le t< \tau
+;
+parallel to the
+y
+-axis when
+\tau\le t< 2\tau
+;
+antiparallel to the
+x
+-axis when
+2\tau\le t< 3\tau
+;
+antiparallel to the
+y
+-axis when
+3\tau\le t< 4\tau
+.
+It turns out that the spaceship’s speed relative to the Earth takes exactly the same value
+v
+at
+t=\tau
+, and
+t=4\tau
+. Find this value
+v
+.
+Please submit the solution to this problem
+via e-mail to physcs.cup@gmail.com.
+The first intermediate results for Problem 4 will be published on 5th March, 13:00 GMT. The first hints will appear here on 12th March 2023, 13:00 GMT. After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

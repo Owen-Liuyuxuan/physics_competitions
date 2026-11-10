@@ -1,0 +1,272 @@
+Source: https://physicscup.ee/archive/physics-cup-taltech-2019/physics-cup-2019-problem-2/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 2
+Problem 2 with the first hint and intermediate results
+Problem 2 with two hints and intermediate results
+Problem 2 with three hints and intermediate results
+Problem 2 with three hints and updated intermediate results
+Results and best solutions
+To begin with, note that the assumption n>>1 was actually not needed, the result T_0+sqrt(n)t remains valid even if n is not small. This assumption was included mostly because the result becomes interesting only if n>>1: in theory, it is possible to achieve a significant cooling of a small portion of something by making use of minute temperature differences.
+In total, 46 correct solutions of problem 2 were submitted.
+The solutions of this problem can be divided into two categories: (a) based on the second law of thermodynamics (the total entropy of the system will either remain constant (if the processes are reversible) or increase; (b) showing how the Carnot cycles should be used, and using the formula for the efficiency of the Carnot cycle. The former is much clearer and concise, so the best solution awards go to solutions using the first approach, assuming it was submitted before the respective hint, i.e. during the first week. Overall, there were three such solutions (there were other solutions which made use of the entropy calculations, but calculated unnecessarily the work of the heat engines and heat pumps).
+The best solution awards go to:
+Thomas Foster
+and
+Ivan Ridkokasha
+both of whom earn 40% of the bonus, and to
+Siddharth Tiwary
+who gets the remaining 20%.
+The essential part of the Thomas’ solution concludes basically on page 3 where he shows that some water will remain in the liquid phase. Further he proceeds to show how heat engines and heat pumps need to be connected to achieve the desired result. To be entirely rigorous, it is indeed necessary to show that there is a way to cool the small part of ice down to the given temperature. However, it would have been shorter (and equally sufficient) to just state that as long as there are some temperature differences between the main portion of ice and water, the temperature differences could be used to produce work by a heat engine, and thereby drive a heat pump to further freeze the cold ice.
+Ivan’s solution is very similar to that of Thomas; he has moved the non-obligatory parts into Appendix.
+Siddharth’s solution is very short and laconic, with very few comments (this makes it less suitable for those who want to learn); His solution is also less rigorous in not analysing if the desired result can be really achieved (see above). Additionally, he makes a statement which is not correct: he believes that the temperature T_0+sqrt(n)t could be also achieved (it cannot be achieved because of the phase transition, and because c_v for water is not proportional to T). These shortcomings explain why he gets a smaller part of the bonus.
+The additionally published solutions are well-written and brief solutions based on the approach (b) (if you want to improve the chances of your solution getting published, write in LaTeX!).
+Vladislav Polyakov
+– the second-fastest solution; well written and good, too!
+Johanes Suhardjo
+– amended his original solution during the second week, adding an alternative, entropy-based solution (using the first hint). Both solutions are well written.
+Felix Bekir Christensen
+– another nice solution using the approach (b).
+Results for Problem 2, university students
+name
+country
+school
+solved
+score
+Siddharth Tiwary
+India
+Indian Inst. of Techn. Bombay
+13 Jan. 2019 14:32
+3.168
+Thomas Foster
+UK
+University of Oxford
+13 Jan. 2019 15:10
+3.518
+Ivan Ridkokasha
+Ukraine
+Shevchenko University Kyiv
+13 Jan. 2019 16:55
+3.198
+Johanes Suhardjo
+Indonesia
+Hong Kong Univ Sci & Tech
+13 Jan. 2019 18:57
+2.144
+Samarth Hawaldar
+India
+Indian Institute of Science
+15 Jan. 2019 4:16
+1.772
+Felix Bekir Christensen
+Germany
+University of Oxford
+19 Jan. 2019 22:38
+1.772
+Petra Brčić
+Croatia
+University of Zagreb
+20 Jan. 2019 18:59
+1.464
+Damiano Tietto
+Italy
+Università degli Studi di Padova
+03 Feb. 2019 17:32
+1.331
+Nur Mohammad Imran
+Bangladesh
+University Of Chittagong
+19 Feb. 2019 10:44
+0.968
+Results for Problem 2, high school students
+name
+country
+school
+solved
+score
+Vladislav Polyakov
+Russia
+School No 23 St Petersburg
+13 Jan. 2019 14:50
+2.853
+Oliver Lindström
+Sweden
+Minervagymnasium
+13 Jan. 2019 15:54
+2.358
+Stefan Dolteanu
+Romania
+Intern Computer HS Bucharest
+13 Jan. 2019 16:14
+2.144
+Domagoj Perković
+Croatia
+III. Gigmazija Split
+13 Jan. 2019 18:40
+1.949
+Gabriel Trigo
+Brazil
+Colegio ETAPA, Valinhos
+13 Jan. 2019 20:39
+1.772
+Ivander J.M. Waskito
+Indonesia
+Mawar Sharon Christian School
+14 Jan. 2019 3:17
+1.611
+Eduard Burlacu
+Romania
+Intern Computer HS Bucharest
+14 Jan. 2019 8:49
+1.391
+Bartłomiej Sikorski
+Poland
+I Liceum O. Starachowicach
+15 Jan. 2019 21:20
+1.331
+Oliwier Urbański
+Poland
+Szkoła Nr 28 w Poznaniu
+18 Jan. 2019 11:56
+1.21
+Zăhărăchescu Mihai
+Romania
+Intern Computer HS Bucharest
+19 Jan. 2019 9:44
+1.1
+Tùng Trần Xuân
+Vietnam
+HN-Amsterdam
+21 Jan. 2019 2:54
+1
+Muhamed Sokolović
+Bosnia & Herz.
+Richmond Park ISS Sarajevo
+21 Jan. 2019 19:31
+1
+Mateusz Kapusta
+Poland
+Secondary Sch No 3, Wroclaw
+22 Jan. 2019 20:26
+1
+Stephen Catsamas
+Australia
+Marcellin College
+27 Jan. 2019 13:21
+1
+Gusti P.S.G. Atmaja
+Indonesia
+Kesatuan Bangsa SHS
+27 Jan. 2019 15:58
+1
+Morteza Mudrick
+Indonesia
+SMA Negeri 1 Surakarta
+30 Jan. 2019 14:08
+0.9
+Yunus Emre Parmaksız
+Turkey
+Bahcesehir High
+03 Feb. 2019 21:42
+0.8
+Roberto Marín Delgado
+Costa Rica
+Colegio Científico San Carlos
+04 Feb. 2019 0:20
+0.9
+Masuk Ridwan
+Bangladesh
+St. Joseph Higher Secondary S.
+04 Feb. 2019 13:44
+1
+Jianzhi Wang
+Singapore
+Raffles Institution
+04 Feb. 2019 14:56
+1
+Siam Absur Khan
+Bangladesh
+Ideal School And College
+05 Feb. 2019 18:02
+1
+Péter Elek
+Hungary
+DRK Dóczy Gimnáziuma
+05 Feb. 2019 20:36
+1
+Marvin Janini
+Brazil
+Colégio Etapa
+05 Feb. 2019 23:10
+1
+Imtiaz Tanweer
+Bangladesh
+Notre Dame College
+06 Feb. 2019 13:50
+1
+Ionel-Emilian Chiosa
+Romania
+Intern Computer HS Bucharest
+07 Feb. 2019 19:21
+1
+Kaarel Kivisalu
+Estonia
+Tallinn Secondary S. of Science
+09 Feb. 2019 22:49
+1
+Vinicius de A. Névoa
+Brazil
+Colégio Arena
+10 Feb. 2019 4:48
+1
+Kaviraj Prithvi
+India
+Base PU College
+10 Feb. 2019 11:30
+1
+Arhaan Ahmad
+India
+St. Mary’s Academy
+12 Feb. 2019 14:40
+1
+Raihan Amin Rana
+Bangladesh
+Notre Dame College
+12 Feb. 2019 22:59
+0.9
+Hisham Almalki
+Saudi Arabia
+Manarat Al-Riyadh School
+13 Feb. 2019 8:02
+0.855
+Rashedul Islam
+Bangladesh
+Ideal School and College
+14 Feb. 2019 11:32
+1
+Md Atikul Islam
+Bangladesh
+St. Joseph Higher Secondary S.
+15 Feb. 2019 17:56
+1
+Ričards Kristers Knipšis
+Latvia
+Riga State Gymnasium No.1
+16 Feb. 2019 18:56
+1
+Jonathan Gräfe
+Germany
+Gymnasium Dresden-Bühlau
+16 Feb. 2019 21:01
+1
+Janis Huns
+Latvia
+Riga State Gymnasium No.1
+16 Feb. 2019 21:40
+1
+Lucas Harada
+Brazil
+Colegio Etapa – Ana Rosa
+16 Feb. 2019 22:21
+1

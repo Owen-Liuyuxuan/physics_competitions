@@ -1,0 +1,253 @@
+Source: https://physicscup.ee/pc2026-p4-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 4
+In total, 59 solutions were submitted for problem 4, of which 37 were correct. Congratulations to everyone who successfully solved it!
+There were 12 correct solutions submitted before the first hint was published, and only those were considered as candidates for the best solution awards.
+The award winners are as follows.
+Vinícius Ferreira Rodrigues
+(bonus: 0.3 pts) combines a careful discussion of the physical approximations with a systematic treatment of the coupled flow modes. The matrix formulation makes clear how the partition changes the growing mode, while the local contributions to the fluid inertia cancel from the required difference.
+Joshua Wang
+(bonus: 0.3 pts) constructs the flow field using a simple geometric observation and turns the kinetic-energy calculation into a boundary integral. Combining this shortcut with symmetry and the method of images gives a particularly economical solution.
+Shihao Ye
+(bonus: 0.3 pts) uses contour integration to evaluate the interactions between the flows through different holes. This provides an elegant alternative route to the kinetic energy, while image sources allow the partitioned vessel to be treated within the same framework.
+Siddhaarth Dharani
+(bonus: 0.1 pts) develops an illuminating analogy with electrical conduction: the kinetic energy of the water corresponds to Joule dissipation in a conducting sheet. This allows the flow calculation to be expressed through currents and potential differences, giving the problem a useful alternative physical interpretation.
+Final results for Problem
+4
+Pre-university students:
+First name
+Surname
+Country
+School/University
+P4 date time
+DD/MM/YY 00:00:00
+P4 Score
+Qingxiang
+Liao
+China
+Shenzhen College of International Education
+3/2/26 07:36
+2.0
+Siddhaarth
+Dharani
+Singapore
+Gap Year
+6/2/26 18:36
+2.0
+Antonia
+Radu
+Romania
+Colegiul National “Mihai Viteazul” Ploiesti
+15/2/26 15:16
+1.7
+Luka
+Smiljanic
+Serbia
+Mathematical Grammar School
+22/2/26 03:47
+1.6
+Aryan
+Lalwani
+India
+Gap Year
+22/2/26 10:55
+1.41
+Vaiibhav
+G
+India
+Chinar Public School
+26/2/26 01:19
+1.3
+Ram
+Kumar
+India
+Allen
+26/2/26 12:37
+1.2
+Dominik
+Erdélyi
+Hungary
+Budapesti Fazekas Mihály Gimnázium
+28/2/26 17:57
+1.02
+Nithilan
+Ravikumar
+India
+Nil
+28/2/26 18:31
+0.92
+Haoze
+Li
+United Kingdom
+Winchester College
+1/3/26 11:43
+0.9
+Tawhid
+Bin Omar
+Bangladesh
+St. Joseph Higher Secondary School
+1/3/26 19:00
+0.63
+Sudipto Sen
+Tawhid Bin Omar
+Bangladesh
+St. Joseph Higher Secondary School
+9/3/26 15:02
+0.6
+Aadi
+Singh
+India
+AIS-46
+15/3/26 14:05
+0.6
+Kanad
+Bhattacharya
+India
+Deeksha STEM
+8/3/26 09:48
+0.567
+Artyom
+Eryomin
+Lyceum №23
+19/3/26 19:08
+0.5
+Natchaphon
+Watunyoowanich
+Thailand
+Shrewsbury International School Bangkok – Riverside Campus
+22/3/26 05:30
+0.5
+Ivan
+Ermolaev
+School 2044, Moscow
+31/3/26 08:26
+0.5
+Svarit
+Joshi
+India
+Khyati World School
+16/3/26 11:32
+0.475
+University students:
+First name
+Surname
+Country
+School/University
+P4 date time
+DD/MM/YY 00:00:00
+P4 Score
+Vinícius
+Ferreira Rodrigues
+Brazil
+University of Iowa
+2/2/26 03:29
+2.3
+Joshua
+Wang
+United States
+MIT
+3/2/26 09:15
+2.2
+Shihao
+Ye
+China
+Tsinghua University
+4/2/26 11:05
+2.1
+Vaibhav
+V
+India
+United Institute of Technology
+4/2/26 15:34
+1.7
+Kadyrberdi
+Yazdurdiev
+Turkmenistan
+Magtymguly Turkmen State University
+6/2/26 10:50
+1.6
+Guy
+Ginzberg
+Israel
+Open University of Israel
+8/2/26 13:04
+1.5
+Jonathan
+Burger
+Germany
+Karlsruher Institut für Technologie
+8/2/26 15:16
+1.3
+Arslan Jumayev
+Davut Alybayev
+Turkmenistan
+Magtymguly Turkmen State University
+8/2/26 18:53
+1.3
+Kushal
+Thaman
+India
+Stanford University
+9/2/26 06:58
+1.2
+Erik
+Kaniewski
+Estonia
+Taltech
+14/2/26 15:45
+1.1
+Aditya
+Bhoj
+India
+Indian Institute of Technology
+22/2/26 05:49
+0.9
+Sathya
+Nistri
+Italy
+Università di Pisa
+21/2/26 19:39
+0.81
+Larrance
+Xing
+United States
+University of Chicago
+1/3/26 09:02
+0.72
+Alessandro
+D’Orazio
+Italy
+University of Pisa
+5/3/26 21:30
+0.7
+Shaocong
+Sun
+China
+Peking University
+15/3/26 02:10
+0.6
+Md Mustakim Bin
+Alam
+Novosibirsk State University
+12/3/26 19:56
+0.54
+Nikhil
+Kodali
+United States
+UC Irvine
+18/3/26 01:52
+0.5
+Daniel
+Yi
+United States
+University of Maryland College Park
+31/3/26 07:22
+0.5
+Adrian
+Rewkowski
+Belarus
+Jagiellonian University
+27/3/26 17:48
+0.3848

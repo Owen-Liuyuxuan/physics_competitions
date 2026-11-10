@@ -1,0 +1,42 @@
+Source: https://physicscup.ee/physics-cup-taltech-2026-problem-1/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+By Ivan Erofeev
+A small brick is squeezed between two parallel planes in zero-gravity. The planes are perpendicular to the axis
+z
+. The lower plane always stays in rest, whilst the upper one is moving with the constant velocity
+\vec v
+along the axis
+x
+, see the figure. Initially the velocity of the brick
+\vec u_0
+is perpendicular to
+\vec v
+and lies in axis
+y
+. The friction between the planes and the brick is dry with the same coefficient of kinetic friction. Given the initial acceleration of the brick
+a_0
+, find the displacement
+l_y
+of the brick along the axis
+y
+after a long time. Obtain an expression of
+l_y
+for arbitrary speeds
+v
+and
+u_0
+, and evaluate the answer for
+v=u_0=1
+m/s, and
+a_0=1
+m/s
+2
+with four digits.
+Chinese translation (中英文试题)
+Please submit the solution of this problem
+via e-mail to physcs.cup@gmail.com.
+After the publication of the first hint, the base score is reduced to 0.9 pts. For full regulations, see the
+“Participate” tab
+.

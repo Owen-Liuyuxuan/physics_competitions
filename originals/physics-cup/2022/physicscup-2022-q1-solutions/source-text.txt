@@ -1,0 +1,438 @@
+Source: https://physicscup.ee/2022-p1-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 1 – Magnetized ball
+By 17th January 2022, there are 1060 registered participants from 78 countries. In total, 186 solutions were submitted for problem 1, out of which 79  were correct.
+Congratulations to everyone who managed to solve this problem!
+As usual, when selecting the best solutions, preference has been given to those solutions which have been submitted before the publication of the first hint. Overall, there were 27 such solutions. To narrow down the selection, I excluded first the solutions with a brute-force mathematical approach to finding the magnetic field of a homogeneously magnetized ball, for instance solving the Laplace equation in spherical harmonics. This is not because I don’t appreciate such skills – knowing how to use a brute-force approach with appropriately chosen mathematical apparatus is definitely praiseworthy. However, this mathematical apparatus is a bit beyond the intended level of this competition – usually taught at MSc courses. Second, I excluded solutions that were documented less clearly than the majority of the submissions. Handwriting does not exclude the possibility of getting a best-solution-award automatically, but at the very least, it should be well organized and easy to read. Finally, I excluded a few submissions which would have been informative and useful, but came clearly from engineering textbooks of permanent magnets, failing to provide a solid proof of the equality
+B=-2H
+for spherical balls with homogeneous magnetization.
+The best solution awards (all 1/7th of the full bonus):
+Victor Lequin
+and the team of
+Eddie Chen and Zhening Li
+– a really concise proof of
+B=-2H
+, based on the uniqueness of the solution.
+Absur Khan Siam
+– using vector potential to calculate the magnetic field in an interesting way.
+Nicely written solution corresponding to the hints (but submitted before the first hint):
+Lê Minh Hoàng
+,
+Vlad-Ștefan
+Oros
+,
+Alexndar Roussev
+,
+Adam Džavoronok
+.
+Final results for Problem
+1
+University students
+First name
+Surname
+Country
+School/University
+P1 Score
+Yuechen
+Zhu
+China
+Peking University
+2.59
+Alessandro
+Rezzi
+Italy
+University of Padova
+2.36
+Zhening Li
+Eddie Chen
+Canada/United States
+Massachusetts Institute of Technology
+2.35
+Tasuku
+Ono
+Japan
+Harvard University
+1.95
+Ameya
+Deshmukh
+India
+IIT Bombay
+1.61
+Yeswanth Narayana
+Patnana
+India
+Indian institute of technology Madras
+1.46
+Isaac
+Wu
+Australia
+University of Melbourne
+1.33
+Kyle
+Bomeisl
+United States
+Rutgers University
+1.21
+Victor
+Lequin
+France
+École Normale Supérieure PSL
+1.15
+Tarun
+Agarwal
+India
+Hasn’t started yet
+1.00
+Vinícius
+Ferreira Rodrigues
+Brazil
+Universidade de São Paulo
+1.00
+Ricards
+Knipsis
+Latvia
+University of Manchester
+1.00
+Jaroslav
+Herman
+Czech Republic
+Charles University
+1.00
+Cheng Wei
+Lin
+Taiwan
+National Cheng Kung University
+0.99
+Yanjun
+Zhou
+China
+University of Oxford
+0.90
+Ameya Vikrama
+Singh
+India
+Indian Institute of Technology Bombay
+0.90
+Deng
+Jinqiu
+China
+Beijing University of Aeronautics and Astronautics
+0.90
+Kevin
+You
+United States
+Carnegie Mellon University
+0.90
+Arhaan
+Ahmad
+India
+Indian Institute of Technology, Bombay
+0.90
+Pom-pom
+Tovey
+Singapore
+University of Oxford
+0.90
+Tejas
+Acharya
+India
+University of Oxford
+0.81
+Daoxin
+Zhong
+Singapore
+University of Oxford
+0.80
+Ilari
+Mäkinen
+Finland
+Aalto University
+0.80
+Erik
+Sünderhauf
+Germany
+Technical University of Munich
+0.73
+Qian
+Lin
+China
+University of Oxford
+0.72
+Soumyadeep
+Sarma
+India
+Indian Institute of Science
+0.63
+Daniel
+Schiller
+Germany
+Ruprecht-Karls-Universität Heidelberg
+0.45
+Shofar
+Sno
+Suriname
+Anton de Kom University of Suriname
+0.45
+Kaarel
+Paal
+Estonia
+TalTech
+0.45
+Simon
+Selg
+Estonia
+Tartu Ülikool
+0.41
+Pushp
+Raj
+India
+IIT DELHI
+0.41
+Yun
+Gu
+CHINA
+Tianjin University
+0.39
+Pre-university students
+First name
+Surname
+Country
+School/University
+P1 Score
+Minh Hoàng
+Lê
+Viet Nam
+HUS High School for Gifted Students
+2.47
+David
+Constantinescu
+Romania
+International Computer High School of Bucharest
+2.33
+Luca
+Milanese
+Italy
+Liceo “Leonardo da Vinci”, Terracina
+2.24
+Filip
+Vučić
+Croatia
+I. gymnasium Zagreb
+1.95
+Alexandar
+Roussev
+Bulgaria
+First Language School
+1.94
+Matej
+Gelev
+North Macedonia
+Yahja Kemal
+1.61
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Theoretical High School
+1.54
+Sebastián
+Arévalo
+El Salvador
+Instituto Emiliani
+1.39
+Adam
+Džavoronok
+Slovakia
+Gymnázium Poštová 9
+1.27
+Absur Khan
+Siam
+Bangladesh
+Gap Year
+1.15
+Dženan
+Midžić
+Bosnia and Herzegovina
+JU Gimnazija “Bihać”
+1.15
+Gabriel
+Morais Barros
+Brazil
+Master
+1.00
+Kanishk
+Prakhar
+India
+City Montessori School Gomtinagar Campus-2
+1.00
+Vladimir George
+Necula
+Romania
+International Computer High School of Bucharest
+1.00
+YI-TING
+LIN
+Taiwan
+Taichung First Senior High School
+0.90
+Karthik
+Prakash
+India
+Vaels International School
+0.90
+Emir
+Akdağ
+Turkey
+Bahcesehir Highschool of Science and Technology
+0.90
+Matheus
+Felipe Ramos Borges
+Brazil
+Colégio Christus
+0.81
+Rhythm
+Kedia
+India
+Lord Buddha Public school
+0.81
+Vuk
+Hip
+Serbia
+Mathematical Grammar School
+0.81
+Mayank
+Anand
+India
+FIITJEE
+0.81
+Alptürk
+Eski
+Turkey
+Erbakır Science High School
+0.81
+Gigi
+Tsirekidze
+Georgia
+LEPL Kutaisi Andria Razmadze physics and mathematical public school N41
+0.81
+Watcharakorn
+Suttipong
+Thailand
+Triam Udom Suksa School
+0.81
+Felipe
+Souza Lima Rocha
+Brazil
+(Gap)
+0.81
+Marius
+Frija
+Moldova
+LT „Orizont”
+0.80
+Ahmet Bahadır
+TRABZON
+Turkey
+Kabatas Erkek High School
+0.80
+Kaan
+Dere
+Turkey
+Bahcesehir High School for Science and Technology
+0.80
+Divyansh
+Pandey
+India
+KV Picket
+0.72
+Sam
+Sooter
+United States
+Homeschooled
+0.72
+Gurbhit
+Chaurakoti
+India
+KV INDIAN MILITARY ACADEMY DEHRADUN
+0.72
+Balázs Csaba
+Kovács
+Hungary
+Hatvani Bajza József Gimnázium
+0.70
+Yehyun
+Choi
+United States
+Westlake High School
+0.70
+Miguel Isaías
+Doradea Meléndez
+El Salvador
+Insituto Emiliani
+0.70
+David Michael
+Indraputra
+Indonesia
+SMAK Penabur Gading Serpong
+0.65
+Chengkai
+Yu
+China
+The High School Affiliated to Renmin University of China
+0.65
+India
+Disha Delphi Public School
+0.60
+Victor-Ioan
+Dumbravă
+Romania
+“Mircea cel Bătrân” National College
+0.60
+Hoang Duong
+Vu Ngo
+Viet Nam
+HUS High school for Gifted Student
+0.57
+Akshat
+Shrivastava
+India
+Krishna public school, nehru nagar
+0.57
+Emerson Franzua
+Aldana Gavarrete
+Honduras
+School
+0.57
+Faraz Ahmed
+Siddiqui
+India
+Holy Family High School
+0.54
+Akansh
+Khandelwal
+India
+Narayana
+0.50
+Thach
+Nguyen
+Viet Nam
+Le Hong Phong HCMC High School for the Gifted
+0.50
+Yijun
+Lin
+China
+High School Attached to Herbin Normal University
+0.49
+Geo
+Kalfov
+Bulgaria
+First Private Mathematical High School
+0.41
+Sarthak
+Panda
+India
+FIITJEE Bhubaneswar
+0.37
+Participating countries:
+Algeria, Azerbaijan, Australia, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Bolivia, Brazil, Bulgaria, Cambodia, Canada, China, Croatia, Czechia, Egypt, El Salvador, Estonia, Finland, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Korea, Kyrgyzstan, Latvia, Lebanon, Lithuania, Macedonia, Malaysia, Mexico, Moldova, Mongolia, Nepal, Nigeria, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Turkmenistan, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

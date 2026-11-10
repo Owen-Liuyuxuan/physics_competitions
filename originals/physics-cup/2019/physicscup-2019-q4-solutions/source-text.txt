@@ -1,0 +1,184 @@
+Source: https://physicscup.ee/archive/physics-cup-taltech-2019/physics-cup-2019-problem-4/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 4
+Problem 4 with the first hint and intermediate results
+Problem 4 with two hints and intermediate results
+Problem 4 with three hints and intermediate results
+Problem 4 with four hints and intermediate results
+Results and best solutions
+Although the fourth problem was supposed to be fairly difficult, there were as many as 31 correct solutions (out of the 48 solutions submitted in total). Majority of the solutions were based on the superposition principle, and only very few contestants made use of equivalent circuits.
+Fundamentally, all solutions were fairly similar, so the best solution award goes to those who documented well their solutions, and avoided unnecessary steps. According to standard policy, preference was given to those solutions which were submitted before the publication of the first hint. And so, the best solution awards go to:
+Johanes Suhardjo
+,
+Felix Bekir Christensen
+and
+Thomas Foster
+. All of them get 33.3% of the bonus. While Johanes and Felix both apply cleanly, optimally and in a well-documented way the approach based on the superposition principle (Johanes provides also an alternative way of using the reciprocity theorem). Meanwhile, Thomas makes use of the equivalent thre-terminal circuits.
+Results for Problem 3, university students
+name
+country
+school
+solved
+score
+Johanes Suhardjo
+Indonesia
+Hong Kong Univ Sci & Tech
+10 Mar. 2019 15:42
+3.62
+Felix Bekir Christensen
+Germany
+University of Oxford
+10 Mar. 2019 19:54
+3.291
+Thomas Foster
+UK
+University of Oxford
+11 Mar. 2019 10:33
+2.992
+Siddharth Tiwary
+India
+Indian Institute of Technology Bombay
+11 Mar. 2019 14:34
+1.754
+Batuhan Keskin
+Turkey
+BOGAZICI UNIVERSITY
+22 Mar. 2019 16:56
+1.594
+Damiano Tietto
+Italy
+Università degli Studi di Padova
+07 Apr. 2019 16:50
+1.611
+Eugen Dizer
+Germany
+University of Heidelberg
+07 Apr. 2019 22:55
+1.318
+Results for Problem 4, high school students
+name
+country
+school
+solved
+score
+Stefan Dolteanu
+Romania
+Intern Computer HS Bucharest
+10 Mar. 2019 20:55
+2.594
+Ionel-Emilian Chiosa
+Romania
+Intern Computer HS Bucharest
+11 Mar. 2019 12:40
+2.022
+Tùng Trần Xuân
+Vietnam
+HN-Amsterdam
+11 Mar. 2019 19:52
+2.144
+Vladislav Polyakov
+Russia
+School No 239, St Petersburg
+12 Mar. 2019 06:41
+1.851
+Oliwier Urbański
+Poland
+Szkoła Nr 28 w Poznaniu
+12 Mar. 2019 14:34
+1.772
+Eduard Burlacu
+Romania
+Intern Computer HS Bucharest
+13 Mar. 2019 16:52
+1.53
+Péter Elek
+Hungary
+DRK Dóczy Gimnáziuma
+13 Mar. 2019 17:41
+1.391
+Mateusz Kapusta
+Poland
+Secondary Sch No 3, Wroclaw
+13 Mar. 2019 22:49
+1.264
+Oliver Lindström
+Sweden
+Minervagymnasium
+18 Mar. 2019 13:35
+1.21
+Morteza Mudrick
+Indonesia
+SMA Negeri 1 Surakarta
+20 Mar. 2019 12:09
+1.1
+Ivander J.M. Waskito
+Indonesia
+Mawar Sharon Christian School
+20 Mar. 2019 13:59
+0.95
+Esha Manideep Dinne
+India
+24 Mar. 2019 15:57
+1
+Ayush Anand
+India
+Neel Kamal Sethia
+24 Mar. 2019 19:22
+1
+Kaviraj Prithvi
+India
+Base PU College
+25 Mar. 2019 03:24
+0.9
+Vinícius Ferreira Rodrigues
+Brazil
+Colégio Master
+01 Apr. 2019 13:54
+0.9
+Masuk Ridwan
+Bangladesh
+St. Joseph Higher Secondary S.
+06 Apr. 2019 09:16
+0.9
+Stephen Catsamas
+Australia
+Marcellin College
+06 Apr. 2019 14:04
+1
+Dhyaan Nayak
+India
+Nation. Inst. Of Open Schooling
+07 Apr. 2019 12:36
+0.81
+Marvin Janini
+Brazil
+Colégio Etapa
+07 Apr. 2019 13:47
+0.9
+Jaeyong Lee
+Korea
+Dongsan High School
+08 Apr. 2019 16:37
+1
+S.Prajeeth
+India
+MVM
+11 Apr. 2019 15:35
+1
+Roberto Marín Delgado
+Costa Rica
+Colegio Científico San Carlos
+11 Apr. 2019 18:06
+1
+Janis Huns
+Latvia
+Riga State Gymnasium No.1
+13 Apr. 2019 13:50
+1
+Ričards Kristers Knipšis
+Latvia
+Riga State Gymnasium No.1
+13 Apr. 2019 22:37
+1

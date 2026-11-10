@@ -1,0 +1,144 @@
+Source: https://physicscup.ee/2021-p4-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 4 – Shock wave in an electron gas
+The best solution award for problem 4. is shared between
+Nikita Semenin
+– a nicely written full and compact solution covering both parts A and B;
+Huiyuan Wang
+– a nice phase diagram and compact explanation of how the adiabatic invariant works (the solution of part 4A is found on pg 1-2);
+Zhening Li
+– conservation of the adiabatic invariant derived from basic mechanics principles for the given process;
+Lotus Chen
+– a simple solution based on the quantum-mechanical version of the adiabatic invariant;
+Oliwier Urbanski
+–
+a special bonus for his
+simulation applet
+.
+Final results for Problem 4
+Pre-university students
+First Name
+Surname
+Country
+School
+Pr4-total
+Zhening
+Li
+Canada
+Sir John A. Macdonald Secondary School
+3.24
+Oliwier
+Urbański
+Poland
+Liceum Ogólnokształcące nr 7 w Poznaniu
+2.69
+Vlad-Ștefan
+Oros
+Romania
+“Grigore Moisil” Informatics High School
+1.41
+Sebastián Andrés
+Arévalo Aguirre
+El Salvador
+Instituto Emiliani
+0.86
+Alexandar
+Roussev
+Bulgaria
+First Language School
+0.80
+Lotus
+Chen
+China
+No.2 High School Shijiazhuang
+1.47
+Antonia
+Ghita
+Romania
+International Computer High School of Bucharest
+1.07
+Joshua
+Teo
+Singapore
+NUS High School
+0.89
+M. Subhi
+Abo Rdan
+Syria
+Knowledge private schools
+0.76
+Caio Augusto
+Siqueira da Silva
+Brazil
+Colégio Objetivo Integrado
+0.66
+Ameya Vikrama
+Singh
+India
+FIITJEE Junior College
+0.31
+Vuk
+Hip
+Serbia
+Mathematical grammar school
+0.33
+Jie
+Wang
+China
+Zhangjiakou No.1 Middle School
+0.27
+Dušan
+Beguš
+Serbia
+Mathematical Grammar School
+0.30
+University students
+First Name
+Surname
+Country
+University
+Pr4-total
+Nikita
+Semenin
+Russia
+Moscow Insitute of Physics and Technology
+3.09
+Tevž
+Lotrič
+Slovenia
+University of Oxford
+1.18
+Huiyuan
+Wang
+China
+University of Cambridge
+2.96
+Jaroslav
+Herman
+Czechia
+Charles University, Prague
+0.68
+Yanjun
+Zhou
+United Kingdom
+University of Oxford
+1.12
+Qian
+Lin
+China
+University of Oxford
+1.23
+Ricards
+Knipsis
+Latvia
+University of Manchester
+0.92
+Daniel
+Schiller
+Germany
+Ruprecht-Karls-Universität Heidelberg
+0.53
+Participating countries:
+Algeria, Azerbaijan, Australia, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Bolivia, Brazil, Bulgaria, Cambodia, Canada, China, Croatia, Czechia, Egypt, El Salvador, Estonia, Finland, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Korea, Kyrgyzstan, Latvia, Lebanon, Lithuania, Macedonia, Malaysia, Mexico, Moldova, Mongolia, Nepal, Nigeria, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Turkmenistan, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.

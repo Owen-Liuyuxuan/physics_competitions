@@ -1,0 +1,254 @@
+Source: https://physicscup.ee/2021-p1-best-solutions-and-final-results/
+Collected: 2026-11-10
+Format: extracted webpage text; not a PDF original.
+
+Problem 1 – Dumbbell in a magnetic field
+By 18th February 2021, there are 976 registered participants from 71 countries. In total, 97 solutions were submitted for problem 1, out of which 31 were correct.
+As usual, when selecting the best solutions, preference has been given to those solutions which have been submitted before the publication of the first hint. Overall, there were eight such solutions: from Vlad-Ștefan Oros, Oliwier Urbański, Zhening Li, Elio Moreau, Eddie Chen, Antonia Ghita, Joshua Teo, Nikita Semenin.
+With this problem, it was easy to overlook the fact that in the initial value of the generalized momentum, the dominating contribution is given by the polarization of the balls. Missing this fact did not mean as much lacking in physics, but being slightly careless, and the formula would have been accurate enough if the magnetic field had been a few times weaker (similarly I have been overlooking all geometry-related mistakes by a small parameter R/L). Keeping in mind this, together with the fact that it was a really difficult problem, all submissions with this mistake had been considered as correct ones.
+However, when selecting the best solutions, of course preference has been given to completely correct solutions. This leaves us with just two submissions, from Zhening Li and from  Eddie Chen. Out of those two, the solution of Zhening Li is more accurate as it further improves the accuracy by considering image charges induced on the spheres (just a small comment to his solution: while dipole radiation does carry away a small fraction of energy, it is very weak due to the smallness of the  acceleration; the main factor leading to the decay of oscillations is the Ohmic loss in the rod when charge is flowing from one ball to another). Furthermore, it is a very nicely written solution with detailed explanations, typeset in LaTeX. Therefore,
+Zhening Li
+will receive 60% of the bonus while
+Eddie Chen
+will get 40%.
+Apart from these two, there are two more solutions well worth publishing:
+Vlad-Ștefan Oros
+has also nice detailed explanations and estimates the charge relaxation time which is an important parameter of the problem;
+Nikita Semenin
+who has written and analyzed the full set of differential equations describing the intermediate dynamics of the system.
+Final results for Problem 1
+Pre-university students
+First name
+Surname
+Country
+School
+Date
+Time
+Score
+Zhening
+Li
+Canada
+Sir John A. Macdonald Secondary School
+29.12.20
+4:10
+3.906
+Eddie
+Chen
+United States
+West-Windsor Plainsboro High School North
+01.01.21
+3:25
+2.907
+Vlad-Ștefan
+Oros
+Romania
+Grigore Moisil Informatics High School
+27.12.20
+16:22
+2.853
+Oliwier
+Urbański
+Poland
+Liceum Ogólnokształcące nr 7 w Poznaniu
+27.12.20
+18:05
+2.358
+Antonia
+Ghita
+Romania
+International Computer High School of Bucharest
+03.01.21
+11:49
+1.772
+Joshua
+Teo
+Singapore
+NUS High School
+04.01.21
+5:40
+1.611
+Minh
+Trang Dao
+VietNam
+Hus highschool for gifted students
+15.01.21
+9:11
+1.318
+Anastasia
+Pozharkova
+Russia
+MBOU “Gymnasium 91 named after M. V. Lomonosov”
+16.01.21
+7:27
+1.078
+Caio Augusto
+Siqueira da Silva
+Brazil
+Colégio Objetivo Integrado
+23.01.21
+5:56
+0.968
+Manh Quan
+Nguyen
+Vietnam
+Hanoi – Amsterdam High School for the Gifted
+23.01.21
+17:21
+0.880
+Lotus
+Chen
+China
+No.2 High School Shijiazhuang
+24.01.21
+3:56
+0.800
+Balázs
+Kovács
+Hungary
+Hatvani Bajza József Gimnázium
+29.01.21
+19:34
+0.700
+Minh Hoàng
+Lê
+VietNam
+HUS High School for Gifted Students
+01.02.21
+14:19
+0.600
+Jianzheng
+Deng
+China
+Shenzhen Senior High School
+02.02.21
+6:29
+0.600
+Thanadis
+Charoenrujijin
+Thailand
+Suankularb Wittayalai School
+04.02.21
+8:04
+0.600
+Huy Phuong
+Dang
+VietNam
+High School for Gifted Students
+07.02.21
+14:41
+0.600
+Sebastián Andrés
+Arévalo Aguirre
+El Salvador
+Instituto Emiliani
+13.02.21
+0:02
+0.600
+Rail
+Khashaev
+Uzbekistan
+Secondary school N71
+31.01.21
+17:58
+0.570
+Alexandar
+Roussev
+Bulgaria
+First Language School
+01.02.21
+7:05
+0.570
+Vinícius
+Ferreira Rodrigues
+Brazil
+Colégio Master
+06.02.21
+1:38
+0.540
+Dušan
+Beguš
+Serbia
+Mathematical Grammar School
+01.02.21
+0:47
+0.437
+University students
+First name
+Surname
+Country
+University
+Date
+Time
+Score
+Elio
+Moreau
+Italy
+École Polytechnique Fédérale de Lausanne
+30.12.20
+19:20
+2.594
+Nikita
+Semenin
+Russia
+Moscow Institute of Physics and Technology
+08.01.21
+19:40
+2.594
+Batuhan
+Keskin
+Turkey
+Boğazici University
+12.01.21
+22:05
+1.754
+Yuechen
+Zhu
+China
+Peking University
+11.01.21
+5:47
+1.742
+Tevž
+Lotrič
+Slovenia
+University of Oxford
+16.01.21
+21:51
+1.594
+Pieter
+Van Steenweghen
+Belgium
+Imperial College London
+24.01.21
+2:23
+1.288
+Qian
+Lin
+China
+University of Oxford
+24.01.21
+19:55
+0.974
+Nguyen
+Tan
+VietNam
+The Hong Kong University of Science and Technology
+02.02.21
+15:08
+0.799
+Ricards
+Knipsis
+Latvia
+University of Manchester
+11.02.21
+16:55
+0.726
+Huiyuan
+Wang
+China
+University of Cambridge
+15.02.21
+4:26
+0.627
+Participating countries:
+Algeria, Azerbaijan, Australia, Bangladesh, Belarus, Belgium, Bosnia and Herzegovina, Bolivia, Brazil, Bulgaria, Cambodia, Canada, China, Croatia, Czechia, Egypt, El Salvador, Estonia, Finland, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Kazakhstan, Kenya, Korea, Kyrgyzstan, Latvia, Lebanon, Lithuania, Macedonia, Malaysia, Mexico, Moldova, Mongolia, Nepal, Nigeria, North Macedonia, Pakistan, Peru, Philippines, Poland, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Turkmenistan, United Arab Emirates, United Kingdom, United States, Uzbekistan, Vietnam.
