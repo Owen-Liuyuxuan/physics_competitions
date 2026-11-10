@@ -11,6 +11,8 @@
 - `sites/` 和 `output/` 不进入 GitHub；原有托管站点身份、Git历史与部署凭据均不上传。
 - 私有仓库不等于私有 Pages。内部资料库继续使用原有的本人登录保护，不迁移到公开 Pages。
 - GitHub Free 通常不支持从私有仓库启用 Pages；以 GitHub 实际返回的权限/套餐结果为准，不自动改变仓库可见性。
+- 2026-11-10 实际启用结果：GitHub API 返回 HTTP 422，当前套餐不支持本私有仓库的 Pages。因此目前没有 GitHub Pages 在线地址；上面的两个已有托管地址继续使用。
+- Actions 默认只检查公开发行包，不部署。若之后升级到支持私有仓库 Pages 的套餐，请在仓库 Settings → Pages 启用 GitHub Actions，并设置 Actions 仓库变量 `ENABLE_PAGES=true`，再手动运行工作流。不要将内部发行目录用于 Pages。
 
 ## 两个严格分离的站点
 
