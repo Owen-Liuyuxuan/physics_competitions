@@ -59,15 +59,16 @@ output/                    发布包与视觉验收截图
 依赖 Python3.10+、requests、beautifulsoup4、pymupdf；Node 用于语法检查与发布工具。MathJax bundle 首次从固定版本下载并本地托管。
 
 ```bash
-python3 physics-library/scripts/collect_extended.py
-python3 physics-library/scripts/collect_web_readers.py
-python3 physics-library/scripts/clean_physicscup_solutions.py
-python3 physics-library/scripts/render_solution_pages.py
-python3 physics-library/scripts/build_questions.py
-python3 physics-library/scripts/build_sites.py
-python3 physics-library/scripts/check_sites.py
-python3 physics-library/scripts/check_public_release.py
-node --check physics-library/web/app.js
+# 在克隆后的仓库根目录执行
+python3 scripts/collect_extended.py
+python3 scripts/collect_web_readers.py
+python3 scripts/clean_physicscup_solutions.py
+python3 scripts/render_solution_pages.py
+python3 scripts/build_questions.py
+python3 scripts/build_sites.py
+python3 scripts/check_sites.py
+python3 scripts/check_public_release.py
+node --check web/app.js
 ```
 
 `build_sites.py` 会清理内部生成目录中已不再引用的文件副本，包括旧纯文本快照；不会删除 `originals/` 中的原件。不要往生成目录手工放资料。
