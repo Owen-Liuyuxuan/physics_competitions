@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install verification dependencies
-        run: python3 -m pip install --no-cache-dir pymupdf beautifulsoup4
+        run: python3 -m pip install --no-cache-dir pymupdf beautifulsoup4 requests
       - name: Build and verify internal and public distributions
         run: |
           node --check web/app.js
