@@ -32,14 +32,16 @@
  <section class="stats" id="stats" aria-label="资料统计"></section>
  <section id="catalog-view">
   <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="view-title">资料索引</h2></div><div class="tools"><button id="export" class="outline">导出索引 ↓</button></div></div>
-  <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="搜索资料" placeholder="搜索题目、竞赛、物理模型…"><kbd>/</kbd></div>
+  <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="搜索资料" placeholder="搜索题目、竞赛、物理模型、教学标签…"><kbd>/</kbd></div>
   <div class="filters" id="filters">
    <label>竞赛<select id="contest"><option value="">全部竞赛</option></select></label>
    <label>年份<select id="year"><option value="">全部年份</option></select></label>
    <label>物理类型<select id="topic"><option value="">全部类型</option></select></label>
+   <label>领域（教学）<select id="domain"><option value="">全部领域</option></select></label>
+   <label>方法 / 易错主题<select id="skills"><option value="">全部方法</option></select></label>
    <label>难度<select id="difficulty"><option value="">全部难度</option><option value="pending">待评估</option><option>D1</option><option>D2</option><option>D3</option><option>D4</option><option>D5</option></select></label>
    <label>资料类型<select id="role"><option value="">全部资料</option><option value="problem">题目</option><option value="solution">解答</option><option value="combined">题目与解答</option></select></label>
-   <label>排序<select id="sort"><option value="new">年份：新到旧</option><option value="old">年份：旧到新</option><option value="title">题目名称</option></select></label>
+   <label>排序<select id="sort"><option value="new">年份：新到旧</option><option value="old">年份：旧到新</option><option value="diff">难度：易到难</option><option value="title">题目名称</option></select></label>
   </div>
   <div class="result-bar"><p id="result-count" role="status" aria-live="polite"></p><button id="clear">清除筛选 ↺</button></div>
   <p class="notice" id="catalog-notice"></p>

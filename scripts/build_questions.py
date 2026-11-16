@@ -5,6 +5,7 @@ import json
 import re
 from pathlib import Path
 import pymupdf as fitz
+from plancks_boundaries import PAPERS, split_paper
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"derived/questions"
@@ -65,14 +66,9 @@ def main():
             continue
         pdfs=[f for f in r.get("files",[]) if f["path"].endswith(".pdf")]
         if not pdfs:continue
-        if r["id"]=="plancks-2024-final-combined":
+        if r["id"] in PAPERS:
             doc=fitz.open(ROOT/pdfs[0]["path"])
-            ranges=[(1,"Moment of Inertia",3,3,4,5),(2,"Quaternions",6,7,8,10),(3,"Möbius Strip · Time Travel?",11,11,12,13),(4,"Icy Roof",14,14,15,16),(5,"Floating Ring",17,17,18,19),(6,"Nuclear Medicine Scan",20,22,23,24),(7,"Dark Matter in the Galaxy",25,25,26,26),(8,"Icosahedron of Resistors",27,27,28,30),(9,"Molecular Zipper",31,31,32,34),(10,"4D Sun",35,35,36,37)]
-            for q,title,a,b,c,d in ranges:
-                row=question(r,q,title,(a-1,35),(b-1,doc[b-1].rect.height-32),doc,role="problem")
-                sol=question(dict(r,id=r["id"]+"-answer"),q,title+" · 参考解答",(c-1,35),(d-1,doc[d-1].rect.height-32),doc,role="solution")
-                row["solution_ids"]=[sol["id"]]
-                questions.extend([row,sol])
+            questions.extend(split_paper(r,doc,question))
             continue
         if r["contest"]=="PanPhO" and r["stage"]=="paper-2":
             doc=fitz.open(ROOT/pdfs[0]["path"])
@@ -101,7 +97,11 @@ def main():
             for pi,p in enumerate(doc):
                 for text,box in lines(p):
                     m=re.match(r"^([一二三四五六七八九十])[、．.]",text)
-                    if m:marks.append((CN[m[1]],pi,box[1],text))
+                    if m:
+                        q_num=CN[m[1]]
+                        if marks and marks[-1][0]==q_num and marks[-1][1]==pi and abs(box[1]-marks[-1][2])<30:
+                            continue
+                        marks.append((q_num,pi,box[1],text))
             # Reject non-sequential detections and section resets; leave originals intact.
             if [m[0] for m in marks] != list(range(1,len(marks)+1)) or not 4<=len(marks)<=10:
                 review.append(dict(resource_id=r["id"],reason="无法可靠识别连续大题号",detected=[m[0] for m in marks]));continue
@@ -113,7 +113,7 @@ def main():
         elif r["contest"]!="Physics Cup":
             review.append(dict(resource_id=r["id"],reason="逐题边界待适配；可直接下载整卷"))
     for q in questions:
-        if q["contest"] in ("CPhO","PanPhO") and q["role"]=="problem":
+        if q["contest"] in ("CPhO","PanPhO","PLANCKS") and q["role"]=="problem":
             q["solution_ids"]=[s["id"] for s in questions if s["contest"]==q["contest"] and s["year"]==q["year"] and s["stage"]==q["stage"] and s["question"]==q["question"] and s["role"]=="solution"]
             if q["contest"]=="PanPhO" and q["year"]==2024 and q["question"]==1:
                 q["solution_ids"]=[]

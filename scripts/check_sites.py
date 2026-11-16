@@ -27,7 +27,7 @@ def main():
             for ident in r.get('solution_ids', []):
                 assert ident in ids, (r['id'], ident)
             if mode == 'public':
-                assert not ({'text', 'reader_html', 'files', 'images', 'local_path'} & r.keys())
+                assert not ({'text', 'reader_html', 'files', 'images', 'local_path', 'translation_zh'} & r.keys())
                 continue
             assert r.get('reader_html') or any(f['path'].endswith('.pdf') for f in r.get('files', []))
             if r['contest']=='Physics Cup' and r['role']=='solution':

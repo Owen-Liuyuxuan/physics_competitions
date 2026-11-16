@@ -1,84 +1,85 @@
-# Physics Atlas · 物理竞赛资料库
+# Physics Atlas · 物理竞赛资料库与单题训练系统
 
-更新：2026-11-10。收录全国中学生物理竞赛、泛珠三角物理奥林匹克、Physics Cup、PLANCKS 的已有可用资料，目标范围 2019—2026。年份范围不代表每个竞赛每年都已收齐。
+面向校内物理竞赛学习与教学研究小范围使用的题库与解析平台，整理 **CPhO（全国中学生物理竞赛）**、**PanPhO（泛珠三角物理奥林匹克）**、**Physics Cup** 与 **PLANCKS**（2019–2026）的已有原件、逐题切分图、英文题目中文辅助译文及逐题教学拆解。
 
-## GitHub：私有源码与公开索引分开
+---
 
-源码仓库：[Owen-Liuyuxuan/physics_competitions](https://github.com/Owen-Liuyuxuan/physics_competitions)。本仓库包含个人研究原件，必须保持私有；不要为了启用 Pages 而改成公开仓库。
+## 访问与部署方针
 
-- `docs/` 是唯一允许部署到 GitHub Pages 的目录，仅含5个公开索引文件。
-- `.github/workflows/pages.yml` 先执行 `scripts/check_public_release.py`，再上传 `docs/`，绝不上传仓库根目录、`originals/`、`derived/` 或内部发行包。
-- `sites/` 和 `output/` 不进入 GitHub；原有托管站点身份、Git历史与部署凭据均不上传。
-- 私有仓库不等于私有 Pages。内部资料库继续使用原有的本人登录保护，不迁移到公开 Pages。
-- GitHub Free 通常不支持从私有仓库启用 Pages；以 GitHub 实际返回的权限/套餐结果为准，不自动改变仓库可见性。
-- 2026-11-10 实际启用结果：GitHub API 返回 HTTP 422，当前套餐不支持本私有仓库的 Pages。因此目前没有 GitHub Pages 在线地址；上面的两个已有托管地址继续使用。
-- Actions 默认只检查公开发行包，不部署。若之后升级到支持私有仓库 Pages 的套餐，请在仓库 Settings → Pages 启用 GitHub Actions，并设置 Actions 仓库变量 `ENABLE_PAGES=true`，再手动运行工作流。不要将内部发行目录用于 Pages。
+- **GitHub Pages（校内便捷访问）**：通过 [pages.yml](.github/workflows/pages.yml) 直接构建并部署完整内部版（`sites/internal/dist`）页面与静态资源，包含原题图像/原生图文、PDF 原件下载、中文辅助译文、参考解答及全套教学分析与盲解流程，供校内小范围学习使用。
+- **GPT Sites 保持原有双站隔离政策**：
+  - [公开索引站](https://owen-physics-atlas.owenyxliu.chatgpt.site)：仅发布白名单元数据、物理标签与官方来源入口（对应 `docs/` 与 `sites/public/dist`），不含原题、解答、PDF 或切片。
+  - [内部资料库](https://owen-physics-library.owenyxliu.chatgpt.site)：保持仅限本人登录访问的保护策略。
 
-## 两个严格分离的站点
+---
 
-已发布：[公开索引](https://owen-physics-atlas.owenyxliu.chatgpt.site) · [内部资料库（仅本人登录）](https://owen-physics-library.owenyxliu.chatgpt.site)。内部站的根页面与原始 PDF 均已进行未登录访问拦截检查。
+## 内容概览与单题训练功能
 
-- `sites/public/dist/`：公开元数据、分类、官方来源入口；不包含原题、解答、PDF、切片、内部站地址。
-- `sites/internal/dist/`：个人研究用资料。原件真实下载，PDF 原图逐题阅读，网页题面保留附图和 TeX 公式排版。部署时必须保持 owner-private。
-- `web/`：共用界面源码。无笔记系统、无 PDF 纯文本提取页、无本地存储功能。
+当前归档 **145 条来源记录**，拆分并整理 **174 道独立题目**：
 
-公开发布依赖字段白名单与独立资产目录，不依赖隐藏按钮。内部站的整个站点和静态资源必须受到托管平台访问控制保护。不要将内部目录上传到公开静态托管。
+| 竞赛 | 涵盖年份与场次 | 单题数 | 参考解答配对 | 特色说明 |
+| --- | --- | ---: | ---: | --- |
+| **CPhO** | 2020–2021 复赛 / 决赛理论 | 28 | 28 | 全套官方解答切片，高清原卷对照 |
+| **PanPhO** | 2019–2026 综合卷二 | 16 | 15 | 科研背景多步骤建模，含 2024 Q1 错配说明 |
+| **Physics Cup** | 2019–2026 | 41 | 36 | 原生网页 + 本地 MathJax 公式重排，配中文译文 |
+| **PLANCKS** | 2019–2026 预赛 / 决赛 | 89 | 59 | 11 套原卷完整切分，均配中文辅助译文 |
 
-## 当前内容与边界
+### 网页端核心使用方式
 
-- 145 条已有可用来源记录；95 道独立题目索引；46 条逐题解答记录；445 张原有切片。
-- 内部发行包含 200 个去重原始文件。另将31题的93份 Physics Cup 解答PDF渲染为392张完整原页图，按作者切换；不展示成绩表、奖金、获奖评述或投稿说明。
-- 2019 Physics Cup旧站解答链接未通过TLS证书校验，暂不显示这5条解答；之前误归入解答的题目/提示文件不再以解答展示。原始来源页存档保留在私有目录，未修改下载原件。
-- 竞赛显示标签采用中文；去掉自动“数学工具”标签与筛选，避免低质量标签干扰阅读。
-- 逐题覆盖：CPhO 28 题、泛珠综合卷二 16 题、Physics Cup 41 题、PLANCKS 2024 共10题。其他已有 PDF 目前直接阅读整卷，尚未全部切分。
-- 全国赛2022—2026的第三方待核验入口、没有原件的记录和仅有DOC的记录不进入网页；研究目录中的历史查找记录仍保留。
-- PLANCKS 原生资料为 PDF：保留原版公式排印与附图；Physics Cup 原生网页保留图文、转换其 TeX 标记，使用本地 MathJax 3.2.2 SVG 排版，不依赖外部 CDN。
-- 所有自动切分均标记待复核；边界、题解配对与物理结论是不同的核验层次。不声称已完成所有题目的独立分析。难度暂未逐题评级，分类标签是关键词初筛。
-- 泛珠2024卷二：官网所链解答Q1标题“引力波测量中的误差估计”与题面Q1“时空变介电常数”不一致，故不自动配对。
+1. **多维检索与按模型找题**：
+   - 在「逐题探索」中可按**竞赛、年份、物理类型、受控领域、方法/易错主题、难度（D1–D5）**联合筛选，并支持按难度排序。
+   - 搜索框支持检索**中英文题名、核心物理模型、细粒度教学标签**，也可直接输入 `盲解更优` 或 `官方笔误` 筛选带有独立盲解亮点的题目。
+2. **单题阅读器四标签页**：
+   - **中文译文**（Physics Cup 与 PLANCKS 共 130 题）：AI 辅助中文题面 + 原卷插图，可一键展开原题图像对照核验。
+   - **原题阅读 / 参考解答**：保留 PDF 原卷高清切图（附原页坐标与原件 SHA-256 校验）或按作者切换的参赛者解答原页。
+   - **教学拆解 · 易错分析**：全库 174 题均采用两阶段分析流程（先仅看原题独立盲解，再对照参考解答），包含：
+     - **模型主线与问题拆解**；
+     - **完整 Phase 1 盲解原始推导流程**（默认展开，展示不看答案时的完整破题与演算过程，并对 24 道**盲解路径更优或纠出官方印刷/计算笔误**的题目给出专门标注）；
+     - **参考解答对照、核心难点、高频易错点与教练迁移总结**（综合总结见 [TEACHING_ANALYSIS_SUMMARY.md](notes/TEACHING_ANALYSIS_SUMMARY.md)）。
 
-## 数据与来源溯源
+---
+
+## 使用边界与免责声明
+
+- **AI 内容核验提醒**：全部中文译文、物理标签、`D1–D5` 难度评级、教学拆解、盲解过程及对官方解答的笔误判断均由 AI 生成，**未经人工逐题审校**；所有公式、边界条件与定量结果请以原卷 PDF / 原图为准。
+- **版权声明**：收录的竞赛试题与官方/获奖解答版权归原竞赛主办方及原作者所有；部分赛事官网限制公开再分发。本仓库及 GitHub Pages 部署仅用于校内教学与竞赛备赛小范围研究参考，请勿用于商业用途或公开传播。
+
+---
+
+## 开发者须知
+
+### 目录结构
 
 ```text
+originals/                 原始 PDF 与采集原件（保留版权，不修改）
+derived/                   从 PDF 切分渲染的题目与解答单页图像
 catalog/
-  extended-resources.json   原件记录、URL、SHA-256、私有网页图文
-  questions.json           题号、原文内部提取、页码、裁切矩形、解答关联
-  crop-review-queue.json   尚未适配的整卷（仅维护用，不显示占位）
-originals/                 不修改的下载原件
-derived/questions/         从 PDF 渲染的切片
-web/                       页面与本地数学排版资源
-sites/public/              公开发布目录及独立站点身份
-sites/internal/            私有发布目录及独立站点身份
-scripts/                   收集、切分、构建与隔离检查
-output/                    发布包与视觉验收截图
+  extended-resources.json  来源索引、URL 与原件校验信息
+  questions.json           逐题切分坐标、解答关联
+  translations/            英文题目中文辅助译文源文件 (*.zh.md)
+  teaching-batches/        分批次结构化教学拆解 JSON
+  teaching-analysis.json   合并后的全库教学数据（含盲解流程）
+notes/
+  TEACHING_ANALYSIS_SUMMARY.md  174 题难点与易错点综合报告
+  problems/batch-*.md      分批次两阶段解析笔记
+web/                       共用静态前端与本地 MathJax bundle
+docs/                      GPT 公开站同步目录（受 PUBLIC_KEYS 白名单隔离）
+scripts/                   采集、切分、合并、构建与隔离检查脚本
 ```
 
-原件保留版权；泛珠官网明确限制转载，内部文件不得未经许可再公开分发。网页只展示可用资料；原件保留在本地不代表授权公开。
+`sites/` 与 `output/` 不提交至 Git（`.gitignore` 排除，保留 GPT Sites 部署目录与本地凭据隔离）。
 
-## 可重复构建
+### 本地构建与全量校验
 
-依赖 Python3.10+、requests、beautifulsoup4、pymupdf；Node 用于语法检查与发布工具。MathJax bundle 首次从固定版本下载并本地托管。
+依赖 Python 3.10+（`pymupdf`、`beautifulsoup4`、`requests`）及 Node.js：
 
 ```bash
-# 在克隆后的仓库根目录执行
-python3 scripts/collect_extended.py
-python3 scripts/collect_web_readers.py
-python3 scripts/clean_physicscup_solutions.py
-python3 scripts/render_solution_pages.py
-python3 scripts/build_questions.py
-python3 scripts/build_sites.py
-python3 scripts/check_sites.py
-python3 scripts/check_public_release.py
+python3 scripts/merge_teaching.py      # 合并教学数据与完整盲解流程
+python3 scripts/build_sites.py         # 构建 sites/public/dist、sites/internal/dist 与 docs/
+python3 scripts/check_sites.py         # 校验文件哈希、切片与前端约束
+python3 scripts/check_translations.py  # 校验译文、PLANCKS 切分与公私隔离
+python3 scripts/check_public_release.py # 校验 docs/ 公开发布白名单
 node --check web/app.js
 ```
 
-`build_sites.py` 会清理内部生成目录中已不再引用的文件副本，包括旧纯文本快照；不会删除 `originals/` 中的原件。不要往生成目录手工放资料。
-
-本地预览可从 `physics-library/sites` 启动 HTTP 服务器，分别访问 `public/dist/` 与 `internal/dist/`。本地预览没有登录保护，应仅绑定127.0.0.1。发布凭据不写入文件，不提交到 Git。
-
-## 相关研究材料
-
-- [同类竞赛地图](competitions.md)
-- [原始官方目录与核验记录](catalog/official-resources.md)
-- [全国赛补充查找记录（不进入网页）](catalog/cpho-2022-2026.md)
-
-工作区原有第37届复赛教学网页和 `wuli_fusai.pdf` 未修改，其解答没有因本次收集而被自动认定为已验证。
+本地预览可在仓库根目录启动 `python3 -m http.server -d sites/internal/dist --bind 127.0.0.1 8080`；向 `main` 分支推送后，GitHub Actions（[pages.yml](.github/workflows/pages.yml)）会自动执行上述构建与全部检查，并将 `sites/internal/dist` 部署至 GitHub Pages。

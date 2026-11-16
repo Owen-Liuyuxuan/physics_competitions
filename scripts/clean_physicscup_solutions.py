@@ -19,7 +19,9 @@ def clean(row):
     if row['role']=='problem':
         soup=BeautifulSoup(row.get('reader_html',''),'html.parser')
         for p in soup.select('p'):
-            if re.search(r'please submit|for full regulations',p.get_text(' ',strip=True),re.I):p.decompose()
+            # A problem paragraph can end with submission instructions. Never
+            # discard the entire statement because these words occur later.
+            if re.match(r'\s*(?:please submit|for full regulations)\b',p.get_text(' ',strip=True),re.I):p.decompose()
         if row.get('reader_html'):row['reader_html']=str(soup)
         return row
     if row.get('solution_cleaning_version')==VERSION:return row

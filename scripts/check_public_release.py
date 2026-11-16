@@ -7,7 +7,7 @@ import re
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'docs'
 ALLOWED={'index.html','app.js','app.css','reader.css','data.js'}
-PUBLIC_KEYS={'id','contest','contest_label','year','stage','role','question','title','granularity','parent_id','source_page','source_tier','topics','tag_status','difficulty','model'}
+PUBLIC_KEYS={'id','contest','contest_label','year','stage','role','question','title','granularity','parent_id','source_page','source_tier','topics','tag_status','difficulty','model','teaching_tags','domain','skills'}
 
 def main():
     assert {p.name for p in BASE.iterdir()}==ALLOWED

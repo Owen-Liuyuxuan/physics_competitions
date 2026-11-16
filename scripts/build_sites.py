@@ -6,6 +6,7 @@ import json
 import re
 import shutil
 from pathlib import Path
+from translations import load_translations, source_fingerprint
 
 ROOT=Path(__file__).resolve().parents[1]
 TOPICS={
@@ -19,7 +20,7 @@ TOPICS={
  "数学物理":r"quaternion|möbius|icosahedron|lattice|4d sun|boundary condition|四元数|本征"
 }
 CONTEST_NAMES={'CPhO':'全国中学生物理竞赛','PanPhO':'泛珠三角物理奥林匹克'}
-PUBLIC_KEYS={"id","contest","contest_label","year","stage","role","question","title","granularity","parent_id","source_page","source_tier","topics","tag_status","difficulty","model"}
+PUBLIC_KEYS={"id","contest","contest_label","year","stage","role","question","title","granularity","parent_id","source_page","source_tier","topics","tag_status","difficulty","model","teaching_tags","domain","skills"}
 
 def label(r):
     r=dict(r)
@@ -56,6 +57,23 @@ def main():
     resources=[label(r) for r in raw if usable(r)]
     resource_ids={r['id'] for r in resources}
     questions=[label(q) for q in json.loads((ROOT/"catalog/questions.json").read_text()) if q.get('parent_id','').removesuffix('-answer') in resource_ids and usable(q)]
+    teach_path=ROOT/"catalog/teaching-analysis.json"
+    teach=json.loads(teach_path.read_text()) if teach_path.exists() else {}
+    for q in questions:
+        t=teach.get(q['id'])
+        if not t:continue
+        q['difficulty']=t['difficulty'];q['model']=t['model'];q['teaching_tags']=t['teaching_tags']
+        q['domain']=t['domain'];q['skills']=t['skills'];q['tag_status']='analysed'
+        if t.get('better_title'):q['title']=t['better_title']
+        q['teaching']=t['teaching'] # stripped from the public build by PUBLIC_KEYS
+    translations=load_translations()
+    question_ids={q['id'] for q in questions}
+    assert set(translations)<=question_ids, ('Translations without usable questions',set(translations)-question_ids)
+    for q in questions:
+        if q['id'] in translations:
+            assert q['role']=='problem' and q['contest'] in ('Physics Cup','PLANCKS')
+            q['translation_zh']=dict(translations[q['id']],source_sha256=source_fingerprint(q))
+            q['title_zh']=translations[q['id']]['title']
     valid_ids=resource_ids|{q['id'] for q in questions}
     for q in questions:q['solution_ids']=[x for x in q.get('solution_ids',[]) if x in valid_ids]
     for mode in ("public","internal"):
@@ -112,7 +130,7 @@ def main():
             rr=[internal(r) for r in resources];qq=[internal(q) for q in questions]
             for p in (dist/'files').iterdir():
                 if 'files/'+p.name not in file_map:p.unlink() # generated copies only; originals retained.
-        data=dict(mode=mode,date="2026-11-10",resources=rr,problems=qq,fileCount=len(file_map))
+        data=dict(mode=mode,date="2026-11-16",resources=rr,problems=qq,fileCount=len(file_map))
         payload="window.ATLAS = "+json.dumps(data,ensure_ascii=False,separators=(",",":"))+";\n"
         (dist/"data.js").write_text(payload)
         if mode=="public":
