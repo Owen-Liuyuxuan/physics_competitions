@@ -169,8 +169,12 @@ def main():
     for row in json.loads((ROOT/"catalog/official-resources.json").read_text()):
         r=dict(row,granularity="paper",format="pdf")
         if r.get("local_path"):
-            r["files"]=[dict(path=r["local_path"],name=Path(r["local_path"]).name,
-                             url=r["url"],kind="original",bytes=r["bytes"],sha256=r["sha256"])]
+            files=[dict(path=r["local_path"],name=Path(r["local_path"]).name,
+                        url=r["url"],kind="pdf-render" if r.get("source_local_path") else "original",bytes=r["bytes"],sha256=r["sha256"])]
+            if r.get("source_local_path"):
+                files.append(dict(path=r["source_local_path"],name=Path(r["source_local_path"]).name,
+                                  url=r["url"],kind="original",bytes=r["source_bytes"],sha256=r["source_sha256"]))
+            r["files"]=files
             r["collection_status"]="downloaded"
         rows.append(r)
     target=ROOT/"catalog/extended-resources.json"

@@ -142,6 +142,106 @@ BLIND_HIGHLIGHTS: dict[str, dict[str, str]] = {
         "kind": "盲解纠出官方笔误",
         "note": "指出官方第 6 问表格第 4 行超大质量双黑洞啁啾质量计算器输入笔误，还原 LISA 源高达 ~1.6e-17 的正确应变。",
     },
+    "cpho-2013-semifinal-theory-problem-slice-q2": {
+        "kind": "盲解路径更优",
+        "note": "盲解直接以含入射块大系统用动量定理一步给出转轴冲量，省去官方正文先算质心再消去干扰系数 α+2 的冗余步骤。",
+    },
+    "cpho-2013-semifinal-theory-problem-slice-q8": {
+        "kind": "盲解纠出官方笔误",
+        "note": "查出官方第 14 页式 (7) 上方作差通分分子多印系数 2，并澄清强相对论背散射前向聚束与极值因果。",
+    },
+    "cpho-2013-final-theory-problem-slice-q4": {
+        "kind": "盲解纠出官方笔误",
+        "note": "发现原卷电路图电池正负极画反（左长右短）而官方解答仍按正电势计价的矛盾。",
+    },
+    "cpho-2013-final-theory-problem-slice-q7": {
+        "kind": "盲解路径更优",
+        "note": "盲解采用解析微扰展开一步锁定虚像坐标并补全一阶光程相消证明，免去官方繁琐辅助三角形构造。",
+    },
+    "cpho-2013-final-theory-problem-slice-q8": {
+        "kind": "盲解纠出官方笔误",
+        "note": "指出第 12 页坐标 x_1'' 误印成 x_2'' 及第 3 问漏列偶数项通项，补全张、王拍手统一时刻序列。",
+    },
+    "cpho-2014-final-theory-problem-slice-q2": {
+        "kind": "盲解纠出官方笔误",
+        "note": "发现官方参考解答（一）⑦⑧式及解答（二）⑧式 cosα 根号内第二项分母均漏印因子 4。",
+    },
+    "cpho-2014-final-theory-problem-slice-q5": {
+        "kind": "盲解纠出官方笔误",
+        "note": "确认原题转码误差 Δα = θ（实为 ≪ θ），并查出官方第（4）问（14）式分母漏掉因子 2。",
+    },
+    "cpho-2015-final-theory-problem-slice-q1": {
+        "kind": "盲解路径更优",
+        "note": "第（2）问盲解直接采用微扰柔度与柯西不等式，无需引入原长及二阶导数判别。",
+    },
+    "cpho-2015-final-theory-problem-slice-q2": {
+        "kind": "盲解纠出官方笔误",
+        "note": "发现官方（10）–（12）式误将导轨长度 500 m 当作 5.0/0.50 代入导致加速度与电流数值级联偏差。",
+    },
+    "cpho-2015-final-theory-problem-slice-q5": {
+        "kind": "盲解纠出官方笔误",
+        "note": "指出官方第（1）问式②③同时弄反液膜功与势能正负号（双错抵消）。",
+    },
+    "cpho-2015-final-theory-problem-slice-q8": {
+        "kind": "盲解路径更优",
+        "note": "第（3）问优先采用余切变量绕开边界 0/0 奇点，第（4）问避免强行有理化制造伪奇点。",
+    },
+    "cpho-2016-semifinal-theory-problem-slice-q4": {
+        "kind": "盲解更优 + 纠出笔误",
+        "note": "盲解用弯折随动系稳恒流与整体动量定理免去微元混乱，并查出官方解法一式 (13)-(16) 张力写负与漏重力瑕疵。",
+    },
+    "cpho-2016-semifinal-theory-problem-slice-q6": {
+        "kind": "盲解更优 + 纠出笔误",
+        "note": "第（1）问用跨阳极电势差净电荷记账法大幅简化级数求和；第（2）问揭露原卷与官方图把第 i+1 倍增级误绘在底边的排版错位事故。",
+    },
+    "cpho-2016-final-theory-problem-slice-q2": {
+        "kind": "盲解路径更优",
+        "note": "第（2）问沿随绳正交基投影实现张力与角加速度解耦，比官方直角坐标四元联立消元简洁约一半。",
+    },
+    "cpho-2016-final-theory-problem-slice-q5": {
+        "kind": "盲解路径更优",
+        "note": "第（2）问对非负不等式直接开方线性求解，省去官方平方后二次方程剔除增根分支。",
+    },
+    "cpho-2016-final-theory-problem-slice-q8": {
+        "kind": "盲解更优 + 纠出笔误",
+        "note": "第（3）问用四动量不变式直接唯一锁定第四象限解，并查出官方式 (20) 有效数字误修约 0.5900（应为 0.5901）。",
+    },
+    "cpho-2017-semifinal-theory-problem-slice-q5": {
+        "kind": "盲解纠出官方笔误",
+        "note": "指出官方式 (14) r_max 符号笔误，以及式 (19)-(20) 漏掉磁场上限 B <= B_max 约束的实质性物理漏洞与反例。",
+    },
+    "cpho-2018-semifinal-theory-problem-slice-q4": {
+        "kind": "盲解洞察更深",
+        "note": "第（1）问采用二维静磁复势严密证明逃逸鞍点全局位于 x/y 轴，补全官方仅凭对称直觉的证明空缺。",
+    },
+    "cpho-2018-semifinal-theory-problem-slice-q5": {
+        "kind": "盲解纠出官方笔误",
+        "note": "指出官方解法（三）（五）由 ρ^2 θ' = C 误推角动量恒为零（丢失一般二维椭圆自由度）的逻辑漏洞。",
+    },
+    "cpho-2018-semifinal-theory-problem-slice-q6": {
+        "kind": "盲解纠出官方笔误",
+        "note": "查出第（3）问官方级数漏算球壳内壁自反射 (1-k)(1-E) 份额导致不合空腔黑体定律（算成 227 K，严格值约 217 K）。",
+    },
+    "cpho-2018-final-theory-problem-slice-q2": {
+        "kind": "盲解纠出官方笔误",
+        "note": "查出官方第 7 页式 (19)-(20) 根号内 mgd^2 漏乘因子 2 及极板编号笔误。",
+    },
+    "cpho-2018-final-theory-problem-slice-q4": {
+        "kind": "盲解纠出官方笔误",
+        "note": "纠出官方第 12 页式 (14) 波腹指标范围 0 < l < Lω/(πu) 既漏 l=0 又引入弦外伪解（应为 0 <= l <= Lω/(πu)-1/2）。",
+    },
+    "cpho-2019-semifinal-theory-problem-slice-q2": {
+        "kind": "盲解更优 + 纠出笔误",
+        "note": "补充 μ ∈ [tanθ, 8/3 tanθ) 期间向左倒滑分支（官方误断 μ >= tanθ 即停死），并指出式 (24) l^3 量纲笔误。",
+    },
+    "cpho-2019-semifinal-theory-problem-slice-q6": {
+        "kind": "盲解路径更优",
+        "note": "第（2）问全程保留高精度 β 算得 4.52%，指出官方用修约后 0.980c 代入导致 4.59% 精度漂移及文字标注对调。",
+    },
+    "cpho-2019-final-theory-problem-slice-q6": {
+        "kind": "盲解纠出官方笔误",
+        "note": "指出官方第 2 iv) 问直接以地表弧长 1900 km 代替垂直观测投影弦长 1614 km 及第 6 问氢质量分数遗漏细节。",
+    },
 }
 
 

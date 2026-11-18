@@ -150,5 +150,97 @@
   {
     "resource_id": "cpho-2021-final-experiment-2-combined",
     "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2018-preliminary-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2018-preliminary-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2017-preliminary-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2017-preliminary-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2017-final-experiment-mechanics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2017-final-experiment-mechanics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2017-final-experiment-optics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2017-final-experiment-optics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2016-preliminary-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2016-final-experiment-electricity-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2016-final-experiment-optics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2015-preliminary-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2015-final-experiment-electricity-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2015-final-experiment-electricity-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2015-final-experiment-optics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2015-final-experiment-optics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2014-preliminary-combined",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2014-final-experiment-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2013-final-experiment-electricity-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2013-final-experiment-electricity-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2013-final-experiment-electricity-sheet-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2013-final-experiment-optics-problem",
+    "reason": "逐题边界待适配；可直接下载整卷"
+  },
+  {
+    "resource_id": "cpho-2013-final-experiment-optics-solution",
+    "reason": "逐题边界待适配；可直接下载整卷"
   }
 ]

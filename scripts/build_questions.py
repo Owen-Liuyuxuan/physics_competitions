@@ -10,6 +10,8 @@ from plancks_boundaries import PAPERS, split_paper
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"derived/questions"
 CN={c:i+1 for i,c in enumerate("一二三四五六七八九十")}
+SOL_DIVIDER_RE=re.compile(r"^(?:理论试题参考解答|理论试题参考答案)\s*$")
+SOL_INLINE_RE=re.compile(r"^(?:参考解答|参考答案|解答(?:[（(]|\s|[：:])|解法[（(]一[)）])")
 
 def lines(page):
     result=[]
@@ -18,7 +20,7 @@ def lines(page):
             result.append(("".join(s["text"] for s in line["spans"]).strip(),line["bbox"]))
     return result
 
-def crop(doc,start,end,ident,original,status):
+def crop(doc,start,end,ident,original,status,skip_blank=False):
     images=[]; texts=[]
     folder=OUT/ident;folder.mkdir(parents=True,exist_ok=True)
     sp,sy=start;ep,ey=end
@@ -28,22 +30,118 @@ def crop(doc,start,end,ident,original,status):
         bottom=min(page.rect.height-30,ey-8) if p==ep else page.rect.height-30
         if bottom-top<12:continue
         rect=fitz.Rect(25,top,page.rect.width-25,bottom)
+        clip_txt=page.get_text(clip=rect).strip()
+        # Skip empty answer-sheet pages in older CPhO booklet formats (e.g. 2013 final)
+        if skip_blank and p>sp and len(clip_txt)<25 and not page.get_drawings():
+            continue
         target=folder/f"page-{p+1}.jpg"
         page.get_pixmap(matrix=fitz.Matrix(1.65,1.65),clip=rect).save(target,jpg_quality=87)
         images.append(dict(path=str(target.relative_to(ROOT)),page=p+1,rect=list(rect),original=original,status=status))
         texts.append(page.get_text(clip=rect))
     return images,"\n\n".join(texts)
 
-def question(base,q,title,start,end,doc,role=None,reviewed=False):
-    ident=base["id"]+f"-slice-q{q}"
+def question(base,q,title,start,end,doc,role=None,reviewed=False,ident=None,skip_blank=False):
+    ident=ident or (base["id"]+f"-slice-q{q}")
     status="reviewed" if reviewed else "review_needed"
     f=next(f for f in base["files"] if f["path"].endswith(".pdf"))
-    images,text=crop(doc,start,end,ident,f["path"],"边界已抽查" if reviewed else "自动切片，待复核")
+    images,text=crop(doc,start,end,ident,f["path"],"边界已抽查" if reviewed else "自动切片，待复核",skip_blank=skip_blank)
     return dict(id=ident,contest=base["contest"],year=base["year"],stage=base["stage"],
                 role=role or base["role"],question=q,title=title,granularity="problem",
                 parent_id=base["id"],source_page=base["source_page"],url=base["url"],
                 source_tier=base["source_tier"],files=base["files"],images=images,text=text,
                 boundary_status=status,source_sha256=f["sha256"],solution_ids=[])
+
+def detect_cpho_marks(doc,page_range=None,allow_arabic=False):
+    marks=[]
+    pages=range(len(doc)) if page_range is None else page_range
+    for pi in pages:
+        for text,box in lines(doc[pi]):
+            m=re.match(r"^([一二三四五六七八九十])[、．.]",text)
+            q_num=None
+            if m:
+                q_num=CN[m[1]]
+            elif allow_arabic:
+                ma=re.match(r"^([1-8])\s*[．.]\s*(?:（1）|\(1\)|（)",text)
+                if ma:q_num=int(ma[1])
+            if q_num is not None:
+                if marks and marks[-1][0]==q_num and marks[-1][1]==pi and abs(box[1]-marks[-1][2])<30:
+                    continue
+                marks.append((q_num,pi,box[1],text))
+    return marks
+
+def find_pos_le(pos,limit):
+    return pos[0]<limit[0] or (pos[0]==limit[0] and pos[1]<limit[1])
+
+def slice_cpho_theory(r,doc):
+    rows=[]
+    names_2020=["空气弹簧","母球纯滚动","隧道二极管与负微分电阻","回旋加速器","相对论星际飞行器","光纤陀螺仪","双黑洞引力波","电光调制器"]
+    skip_blank=(r["year"]==2013 and r["stage"]=="final-theory" and r["role"]=="problem")
+    title_of=lambda q,sfx="": (names_2020[q-1] if r["year"]==2020 and r["stage"]=="semifinal-theory" else f"{r['year']} {r['stage']} · 第{q}题")+sfx
+
+    # 1. Check for two-halves combined booklet (Part I questions, divider line, Part II solutions)
+    div=None
+    for pi,p in enumerate(doc):
+        for text,box in lines(p):
+            if SOL_DIVIDER_RE.match(text):
+                div=(pi,box[1]);break
+        if div:break
+
+    if div is not None and r["role"]=="combined":
+        q_marks=[m for m in detect_cpho_marks(doc) if find_pos_le((m[1],m[2]),div)]
+        s_marks=[m for m in detect_cpho_marks(doc,allow_arabic=True) if not find_pos_le((m[1],m[2]),div)]
+        if [m[0] for m in q_marks]!=list(range(1,len(q_marks)+1)) or [m[0] for m in s_marks]!=list(range(1,len(s_marks)+1)) or len(q_marks)!=len(s_marks):
+            return None,dict(resource_id=r["id"],reason="分半合卷无法匹配对称题解边界",q=[m[0] for m in q_marks],s=[m[0] for m in s_marks])
+        for i,(q,pi,y,_) in enumerate(q_marks):
+            end=(q_marks[i+1][1],q_marks[i+1][2]) if i+1<len(q_marks) else div
+            pid=f"cpho-{r['year']}-{r['stage']}-problem-slice-q{q}"
+            rows.append(question(r,q,title_of(q),(pi,y),end,doc,role="problem",ident=pid))
+        for i,(q,pi,y,_) in enumerate(s_marks):
+            end=(s_marks[i+1][1],s_marks[i+1][2]) if i+1<len(s_marks) else (len(doc)-1,doc[-1].rect.height-30)
+            sid=f"cpho-{r['year']}-{r['stage']}-solution-slice-q{q}"
+            rows.append(question(r,q,title_of(q," · 参考解答"),(pi,y),end,doc,role="solution",ident=sid))
+        return rows,None
+
+    marks=detect_cpho_marks(doc)
+    if [m[0] for m in marks]!=list(range(1,len(marks)+1)) or not 4<=len(marks)<=10:
+        return None,dict(resource_id=r["id"],reason="无法可靠识别连续大题号",detected=[m[0] for m in marks])
+
+    # 2. Scan inline solution markers inside each question span
+    sol_starts=[]
+    for i,(q,sp,sy,_) in enumerate(marks):
+        ep,ey=(marks[i+1][1],marks[i+1][2]) if i+1<len(marks) else (len(doc)-1,doc[-1].rect.height-30)
+        found=None
+        for pi in range(sp,ep+1):
+            for text,box in lines(doc[pi]):
+                pos=(pi,box[1])
+                if pi==sp and box[1]<=sy+5:continue
+                if pi==ep and box[1]>=ey-5:continue
+                if SOL_INLINE_RE.match(text):
+                    found=pos;break
+            if found:break
+        sol_starts.append(found)
+
+    emit_both=(r["role"]=="combined" or r["id"]=="cpho-2019-final-theory-solution")
+    has_all_sol=all(sol_starts)
+
+    if emit_both and has_all_sol:
+        for i,(q,sp,sy,_) in enumerate(marks):
+            ep,ey=(marks[i+1][1],marks[i+1][2]) if i+1<len(marks) else (len(doc)-1,doc[-1].rect.height-30)
+            sol_p=sol_starts[i]
+            pid=f"cpho-{r['year']}-{r['stage']}-problem-slice-q{q}"
+            sid=f"cpho-{r['year']}-{r['stage']}-solution-slice-q{q}"
+            rows.append(question(r,q,title_of(q),(sp,sy),sol_p,doc,role="problem",ident=pid))
+            rows.append(question(r,q,title_of(q," · 参考解答"),sol_p,(ep,ey),doc,role="solution",ident=sid))
+        return rows,None
+
+    if emit_both:
+        return None,dict(resource_id=r["id"],reason="穿插合卷未能识别全部参考解答起点",sol_starts=sol_starts)
+
+    # 3. Pure problem or solution paper; if interleaved solution paper (e.g. 2013/2017 solution), cut from sol_start
+    for i,(q,sp,sy,_) in enumerate(marks):
+        ep,ey=(marks[i+1][1],marks[i+1][2]) if i+1<len(marks) else (len(doc)-1,doc[-1].rect.height-30)
+        start=sol_starts[i] if (r["role"]=="solution" and has_all_sol) else (sp,sy)
+        rows.append(question(r,q,title_of(q),start,(ep,ey),doc,skip_blank=skip_blank))
+    return rows,None
 
 def main():
     resources=json.loads((ROOT/"catalog/extended-resources.json").read_text())
@@ -93,23 +191,9 @@ def main():
             continue
         if r["contest"]=="CPhO" and "theory" in r["stage"]:
             doc=fitz.open(ROOT/pdfs[0]["path"])
-            marks=[]
-            for pi,p in enumerate(doc):
-                for text,box in lines(p):
-                    m=re.match(r"^([一二三四五六七八九十])[、．.]",text)
-                    if m:
-                        q_num=CN[m[1]]
-                        if marks and marks[-1][0]==q_num and marks[-1][1]==pi and abs(box[1]-marks[-1][2])<30:
-                            continue
-                        marks.append((q_num,pi,box[1],text))
-            # Reject non-sequential detections and section resets; leave originals intact.
-            if [m[0] for m in marks] != list(range(1,len(marks)+1)) or not 4<=len(marks)<=10:
-                review.append(dict(resource_id=r["id"],reason="无法可靠识别连续大题号",detected=[m[0] for m in marks]));continue
-            names=["空气弹簧","母球纯滚动","隧道二极管与负微分电阻","回旋加速器","相对论星际飞行器","光纤陀螺仪","双黑洞引力波","电光调制器"]
-            for i,(q,pi,y,text) in enumerate(marks):
-                end=(marks[i+1][1],marks[i+1][2]) if i+1<len(marks) else (len(doc)-1,doc[-1].rect.height-30)
-                title=names[q-1] if r["year"]==2020 and r["stage"]=="semifinal-theory" else f"{r['year']} {r['stage']} · 第{q}题"
-                questions.append(question(r,q,title,(pi,y),end,doc))
+            sliced,err=slice_cpho_theory(r,doc)
+            if err:review.append(err)
+            else:questions.extend(sliced)
         elif r["contest"]!="Physics Cup":
             review.append(dict(resource_id=r["id"],reason="逐题边界待适配；可直接下载整卷"))
     for q in questions:

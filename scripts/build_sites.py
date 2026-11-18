@@ -116,7 +116,7 @@ def main():
             for im in r.get("images",[]):
                 im=dict(im);source=ROOT/im["path"];dest="crops/"+r["id"]+"/"+source.name
                 (dist/dest).parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,dist/dest);im["path"]=dest
-                match=next((f for f in r["files"] if f["kind"]=="original" and f["path"].endswith(".pdf")),None)
+                match=next((f for f in r["files"] if f["kind"]=="original" and f["path"].endswith(".pdf")),None) or next((f for f in r["files"] if f["kind"]=="pdf-render" and f["path"].endswith(".pdf")),None)
                 im["original"]=match["path"] if match else ""
                 images.append(im)
             r["images"]=images
