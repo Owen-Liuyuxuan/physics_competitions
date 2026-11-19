@@ -1,0 +1,403 @@
+[
+  {
+    "id": "adv_1",
+    "code": "U-01",
+    "title": "外斯分子场、反铁磁双子晶格与二维 XY 模型 BKT 拓扑涡旋相变",
+    "course_origin": "本科统计力学 · 研究生凝聚态理论",
+    "exam_probability": "决赛压轴高频 · 诺奖物理背景",
+    "plain_intuition": "多体自旋相互作用太复杂时，先把周围邻居自旋的复杂涨落平均成一根等价“分子磁场” $\\mathbf{H}_m = \\lambda \\mathbf{M}$，单个自旋就在这根自洽有效场里做普通高中级玻尔兹曼二能级分布；而二维 XY 模型之所以没有常规有序态却有相变，是因为自由能 $F = E - TS$ 里单个涡旋的能量和构型熵恰巧都对系统尺度呈对数关系 $\\ln(L/a)$，到了临界温度熵刚好战胜能量，正负涡旋对拆散！",
+    "core_equations": [
+      {
+        "label": "外斯分子场自洽方程与居里-外斯定律",
+        "tex": "\\mathbf{H}_{\\mathrm{eff}} = \\mathbf{H}_0 + \\lambda \\mathbf{M}, \\qquad M = n\\mu \\tanh\\!\\left(\\frac{\\mu_0 \\mu H_{\\mathrm{eff}}}{k_B T}\\right), \\qquad \\chi = \\frac{C}{T - T_c}",
+        "note": "算系统总磁能时**切勿**直接把 $N$ 个自旋的单体能量 $-N\\mu_0\\boldsymbol{\\mu}\\cdot\\mathbf{H}_m$ 当成内能——相互作用是成对共享的，内部互作用能必须乘双计数因子 $1/2$！"
+      },
+      {
+        "label": "反铁磁双子晶格与 BKT 涡旋自由能判据",
+        "tex": "\\det\\begin{pmatrix} T + \\frac{C\\alpha}{n} & \\frac{C\\beta}{n} \\\\ \\frac{C\\beta}{n} & T + \\frac{C\\alpha}{n} \\end{pmatrix} = 0 \\implies T_N = \\frac{C(\\beta-\\alpha)}{n}, \\qquad F_v = E_v - T S_v = (\\pi J - 2k_B T)\\ln\\!\\left(\\frac{R}{a}\\right)",
+        "note": "反铁磁自发相变对应交错序参量 $\\mathbf{M}_A - \\mathbf{M}_B$ 的正特征根，而非顺磁均匀分支；二维 BKT 临界温度由 $F_v = 0$ 一步锁定 $k_B T_{\\mathrm{BKT}} = \\frac{\\pi}{2}J$。"
+      }
+    ],
+    "exam_scaffolding_pattern": "命题人总是从（1）单自旋顺磁性二能级玻尔兹曼分布出发，过渡到（2）自洽平均场作图/求根得 $T_c$，（3）列出 $A/B$ 两套子晶格联立方程求 $T_N$，最后在（4）给出连续弹性哈密顿量 $H=\\frac{J}{2}\\int |\\nabla\\theta|^2\\mathrm{d}^2r$，引导考生积分涡旋能量与位置熵算出 $T_{\\mathrm{BKT}}$。",
+    "prerequisite_math_ids": [
+      "math_2",
+      "math_9"
+    ],
+    "validity_limits": "平均场忽略空间涨落，在低维（1D/2D 短程连续对称）会错判出伪相变（Mermin-Wagner 定理）；BKT 公式假定涡旋核心半径 $a$ 远小于样品尺度 $R$ 且处于低温稀薄涡旋对极限。",
+    "linked_problem_ids": [
+      "cpho-2021-final-theory-problem-slice-q5",
+      "plancks-2019-final-problem-slice-q6"
+    ]
+  },
+  {
+    "id": "adv_2",
+    "code": "U-02",
+    "title": "非线性泊松-玻尔兹曼方程与 Gouy-Chapman 双电层渗透压",
+    "course_origin": "生物物理 · 胶体与界面统计物理",
+    "exam_probability": "决赛压轴高频 · 软物质经典",
+    "plain_intuition": "带电生物膜把水溶液中的正反离子吸在表面形成离子云：一方面静电吸引想把反离子压到膜面，另一方面热运动熵推着离子往外扩散——平衡时离子浓度就按高中熟悉的玻尔兹曼因子 $n(x) = n_0 e^{-q\\varphi/k_BT}$ 分布；把这个依赖于未知电势 $\\varphi(x)$ 的电荷密度回代到麦克斯韦静电泊松方程 $\\varphi'' = -\\rho/\\varepsilon$，就得到一条自洽微分方程！",
+    "core_equations": [
+      {
+        "label": "一维泊松-玻尔兹曼方程及其无盐/强耦合精确解",
+        "tex": "\\frac{\\mathrm{d}^2\\varphi}{\\mathrm{d}x^2} = -\\frac{\\rho(\\varphi)}{\\varepsilon}, \\qquad \\frac{\\mathrm{d}\\varphi}{\\mathrm{d}x} = -E_x, \\qquad P_{\\mathrm{net}} = n_{\\mathrm{mid}} k_B T - \\frac{1}{2}\\varepsilon E_{\\mathrm{mid}}^2",
+        "note": "对称双膜中平面处电场 $E_{\\mathrm{mid}}=0$，故两片带电生物膜之间的排斥压强竟然恰好等于中平面处反离子理想气体的纯渗透压 $n_{\\mathrm{mid}} k_B T$！"
+      },
+      {
+        "label": "弱电势德拜-休克尔（Debye-Hückel）线性化屏蔽长度",
+        "tex": "\\lambda_D = \\sqrt{\\frac{\\varepsilon k_B T}{2 n_0 q^2}}, \\qquad \\varphi(x) = \\varphi_0 e^{-x/\\lambda_D}",
+        "note": "当 $|q\\varphi| \\ll k_BT$ 时双曲正弦 $\\sinh(x)\\approx x$，方程退化为指数静电屏蔽。"
+      }
+    ],
+    "exam_scaffolding_pattern": "典型考法分三步：① 用微元受力平衡（压强梯度 $=$ 电场力）替代抽象系综导出玻尔兹曼浓度；② 题干给出试探函数形如 $\\varphi(x)=\\frac{2k_BT}{q}\\ln\\cos(Kx)$（无盐）或德拜指数（有盐）让考生代入定参并匹配膜面边界条件 $\\sigma/\\varepsilon$；③ 用对称中平面渗透压或麦克斯韦应力张量求膜间排斥力。",
+    "prerequisite_math_ids": [
+      "math_3",
+      "math_9"
+    ],
+    "validity_limits": "平均场点电荷近似忽略了离子自身有限体积和强静电场下的离子间关联（高价多价反离子可引发反常同号吸引）。且极易在中途把 $E=-\\varphi'$ 符号写反导致 $\\cos$ 变成发散的 $\\cosh$。",
+    "linked_problem_ids": [
+      "cpho-2021-final-theory-problem-slice-q4"
+    ]
+  },
+  {
+    "id": "adv_3",
+    "code": "U-03",
+    "title": "超导磁通守恒悬浮、伦敦方程与第 II 类超导 Abrikosov 涡旋格子",
+    "course_origin": "低温物理 · 大学凝聚态电动力学",
+    "exam_probability": "决赛高频 · 连续多届出现",
+    "plain_intuition": "完美超导环内阻为零，根据法拉第定律任何外部磁通变动都会感生出抵消电流以死死锁住环路总磁通 $\\Phi_{\\mathrm{ext}} + LI = \\mathrm{const}$；而在块体超导体内部，超导电子加速惯性与磁矢势耦合成伦敦方程，等效于给光子赋予了有效质量（Proca 方程），迫使磁场只能刺入表面一层极薄的伦敦穿透深度 $\\lambda_L$；当磁场强过下临界场时，第 II 类超导体允许磁通以量子化单管 $\\Phi_0 = h/2e$ 的形式穿入并排成能量最低的正三角形格子！",
+    "core_equations": [
+      {
+        "label": "超导圆环磁通量子化 / 守恒与悬浮平衡",
+        "tex": "\\Phi_{\\mathrm{total}} = \\Phi_{\\mathrm{ext}}(z) + L I(z) = \\Phi_0 \\text{（常量）}, \\qquad F_z = I\\frac{\\partial \\Phi_{\\mathrm{ext}}}{\\partial z} = -\\frac{\\mathrm{d}}{\\mathrm{d}z}\\left(\\frac{1}{2}L I^2\\right)\\Big|_{\\Phi_{\\mathrm{ext}} \\text{变}}",
+        "note": "注意对总磁能求导定悬浮平衡：外场做磁矩梯度力 $m\\partial B_z/\\partial z$，同时诱发电流 $I(z)$ 本身随 $z$ 线性偏移贡献回复刚度正项！"
+      },
+      {
+        "label": "伦敦方程、穿透深度与第 II 类超导临界场",
+        "tex": "\\nabla^2 \\mathbf{B} = \\frac{1}{\\lambda_L^2}\\mathbf{B}\\;\\;\\left(\\lambda_L = \\sqrt{\\frac{m}{\\mu_0 n_s e^2}}\\right), \\qquad \\Phi_0 = \\frac{h}{2e}, \\qquad B_{c2} \\approx \\frac{\\Phi_0}{2\\pi \\xi^2}",
+        "note": "三角涡旋格子单胞面积 $\\frac{\\sqrt{3}}{2}a^2$ 内恰含 1 根量子化磁通管，故平均磁感应强度 $B = \\frac{2\\Phi_0}{\\sqrt{3}a^2}$；磁通流阻来源于磁通管运动感生涡旋电场与正常核耗散的平衡。"
+      }
+    ],
+    "exam_scaffolding_pattern": "复赛→决赛衔接常考单环磁通守恒+近轴 $\\nabla\\cdot\\mathbf{B}=0$ 径向磁力线求微振动周期（`cpho-2013-final-q5`, `plancks-2024-q5`）；高阶压轴则通过“磁通线穿入正常核心 $\\xi$、洛伦兹力驱动磁通涡旋移动产生电势降 $\\mathbf{E}=-\\mathbf{v}\\times\\mathbf{B}$”引导推出磁通流阻率 $\\rho_f \\approx \\rho_n (B/B_{c2})$（`cpho-2014-final-q6`）。",
+    "prerequisite_math_ids": [
+      "math_1",
+      "math_4"
+    ],
+    "validity_limits": "伦敦方程仅适用于缓慢变化场与强第II类超导体（$\\lambda_L \\gg \\xi$）；在计算超导圆环自身电感时注意几何自感不能取零，否则电流在有限外场突变时无穷大。",
+    "linked_problem_ids": [
+      "cpho-2013-final-theory-problem-slice-q5",
+      "cpho-2014-final-theory-problem-slice-q6",
+      "cpho-2019-final-theory-problem-slice-q3",
+      "plancks-2019-final-problem-slice-q7",
+      "plancks-2024-final-combined-slice-q5"
+    ]
+  },
+  {
+    "id": "adv_4",
+    "code": "U-04",
+    "title": "固体能带初步：非抛物色散、有效质量张量、紧束缚模型与石墨烯",
+    "course_origin": "固体物理 · 凝聚态物理基础",
+    "exam_probability": "决赛高频 · PLANCKS 必考板块",
+    "plain_intuition": "晶体里的电子不再自由，它的能量-动量关系 $E(\\mathbf{k})$ 脱离了普通抛物线 $\\frac{p^2}{2m}$。波包群速度 $\\mathbf{v}_g = \\nabla_{\\mathbf{p}} E$ 与晶格动量变化率 $\\dot{\\mathbf{p}} = \\mathbf{F}_{\\mathrm{ext}}$ 联立，就得到了受晶体周期势修饰后的“半经典加速度”：电子仿佛获得了一个随方向变化的逆有效质量张量 $\\left(m^{*-1}\\right)_{ij} = \\frac{\\partial^2 E}{\\partial p_i \\partial p_j}$！而把孤立原子轨道小幅耦合交叠（紧束缚 TBA），就能从简并微分方程一步算出石墨烯无质量狄拉克锥和纳米带能隙。",
+    "core_equations": [
+      {
+        "label": "一般色散关系半经典动力学与逆有效质量张量",
+        "tex": "\\mathbf{v}_g = \\frac{\\partial E}{\\partial \\mathbf{p}}, \\qquad \\frac{\\mathrm{d}\\mathbf{p}}{\\mathrm{d}t} = q(\\mathbf{E} + \\mathbf{v}_g\\times\\mathbf{B}), \\qquad a_i = \\sum_j \\frac{\\partial^2 E}{\\partial p_i \\partial p_j} F_j",
+        "note": "注意：即使在各向同性非抛物色散（如 $K(p) = \\frac{p^2}{2m} + \\alpha p$，`cpho-2018-final-q7`）下，垂直于动量方向的“横向有效质量”也不同于纵向有效质量，从而垂直电场能引发非共线加速！"
+      },
+      {
+        "label": "任意 $d$ 维幂律色散态密度与磁场 Peierls 朗道能级",
+        "tex": "g(E) \\propto E^{\\frac{d}{s}-1}\\;\\;(\\text{若 }E\\propto k^s), \\qquad E_n^{\\text{graphene}} = \\pm v_F \\sqrt{2 e \\hbar B |n|}",
+        "note": "普通金属 $d=3,s=2 \\Rightarrow g(E)\\propto \\sqrt{E}$；二维石墨烯 $d=2,s=1 \\Rightarrow g(E)\\propto |E|$，且其相对论型朗道能级出现标志性的 $\\sqrt{nB}$ 标度与零能态！"
+      }
+    ],
+    "exam_scaffolding_pattern": "CPhO 常给定简单解析函数 $E(p)$ 让考生先用功能原理 $\\mathrm{d}E=\\mathbf{v}_g\\cdot\\mathrm{d}\\mathbf{p}$ 求群速度再做回旋/加速运动学；PLANCKS 则给出周期格点跳跃振幅 $-t$ 引导用布洛赫波展开求能带，或通过磁场中波矢量子化面积推回旋质量。",
+    "prerequisite_math_ids": [
+      "math_4",
+      "math_6",
+      "math_9"
+    ],
+    "validity_limits": "半经典方程仅在外场空间变化尺度远大于晶格常数、且电场不足以引发带间齐纳隧穿时有效；态密度积分注意区分是否计入自旋简并度 $g_s=2$ 与谷简并度 $g_v=2$。",
+    "linked_problem_ids": [
+      "cpho-2018-final-theory-problem-slice-q7",
+      "plancks-2019-final-problem-slice-q9",
+      "plancks-2021-final-combined-slice-q2",
+      "plancks-2021-preliminary-problem-slice-q6",
+      "plancks-2025-final-combined-slice-q8"
+    ]
+  },
+  {
+    "id": "adv_5",
+    "code": "U-05",
+    "title": "电磁场动量/角动量、隐藏动量、磁广义动量与费曼圆筒佯谬",
+    "course_origin": "电动力学 · 相对论经典场论",
+    "exam_probability": "决赛压轴与高阶直觉区分题",
+    "plain_intuition": "电磁场不只是力的传递媒介，它本身像水流一样真实储存着动量密度 $\\mathbf{g} = \\varepsilon_0 \\mathbf{E}\\times\\mathbf{B}$ 和角动量密度 $\\mathbf{r}\\times\\mathbf{g}$！哪怕表面上“静止不动”的电源电路里也藏着相对论性“隐藏动量”来与场动量抵消；而一旦磁场消失，储存在空间里的场角动量就会通过法拉第感生涡旋电场实实在在地转化为机械转动（费曼圆筒佯谬）。",
+    "core_equations": [
+      {
+        "label": "电磁场动量密度、坡印廷能流与费曼圆筒角动量转换",
+        "tex": "\\mathbf{S} = \\frac{1}{\\mu_0}\\mathbf{E}\\times\\mathbf{B}, \\qquad \\mathbf{g}_{\\mathrm{EM}} = \\frac{\\mathbf{S}}{c^2} = \\varepsilon_0 \\mathbf{E}\\times\\mathbf{B}, \\qquad \\Delta \\mathbf{L}_{\\mathrm{mech}} + \\Delta \\mathbf{L}_{\\mathrm{EM}} = 0",
+        "note": "同轴电缆通稳恒直流电时，焦耳热并非沿着导线芯“推着流”，而是由导体外表面电荷产生的纵向与径向电场配合磁场形成坡印廷能流 $\\mathbf{S}$ 从外部空间径向垂直灌入导体发热！"
+      },
+      {
+        "label": "强磁场中运动导体的磁广义动量与自身诱导极化自能",
+        "tex": "\\mathbf{P} = M\\mathbf{v} + \\sum_i q_i \\mathbf{A}(\\mathbf{r}_i) - \\mathbf{D}_{\\text{dipole}}\\times\\mathbf{B} = \\mathrm{const}, \\qquad m_{\\text{EM}} \\sim \\varepsilon_0 B^2 R^3",
+        "note": "当纯金属球或哑铃在强磁场里运动，内部动生电场迫使表面感应出极化电荷，这份极化电场储存了正比于 $v^2$ 的静电能——它在力学上竟然等效为显著的“电磁有效附加质量”！"
+      }
+    ],
+    "exam_scaffolding_pattern": "CPhO 与 PLANCKS 常将电磁角动量与机械冲量矩直接算一遍比对，显式证明两项恰好相等（`cpho-2021-semi-q6`、`plancks-2023-q6`）；Physics Cup 则偏爱把表面感应电偶极自能隐藏起来考察参赛者是否漏记自由度（`physicscup-2021-q1`）。",
+    "prerequisite_math_ids": [
+      "math_4",
+      "math_5"
+    ],
+    "validity_limits": "动生平衡假定磁扩散时间远小于动力学特征时间（高电导准静态近似）；对于载流稳态系统的“静止总动量为零定理”，必须包含电源内部极板的相对论机械隐藏动量 $\\mathbf{P}_{\\mathrm{hidden}} = -\\mathbf{P}_{\\mathrm{EM}}$。",
+    "linked_problem_ids": [
+      "cpho-2021-semifinal-theory-problem-slice-q6",
+      "plancks-2023-final-combined-slice-q6",
+      "physicscup-2021-q1-reader",
+      "panpho-2023-paper-2-problem-slice-q2",
+      "panpho-2026-paper-2-problem-slice-q1"
+    ]
+  },
+  {
+    "id": "adv_6",
+    "code": "U-06",
+    "title": "等离子体物理：Appleton-Hartree 色散、法拉第旋光与强激光有质动力自聚焦",
+    "course_origin": "等离子体物理 · 电动力学与非线性光学",
+    "exam_probability": "CPhO 决赛与 PanPhO 频繁选材",
+    "plain_intuition": "自由电子气在高频电磁波驱动下做受迫振动，等效介电常数变成 $\\varepsilon(\\omega) = 1 - \\omega_p^2/\\omega^2$（低于等离子体频率则全反射，无线电波靠电离层反射正是此理）；一旦加上背景磁场，左旋和右旋圆偏振波感受到的有效回旋频率截然相反，导致传播速度分裂（脉冲星信号色散延迟+法拉第偏振面旋转）；若激光极强，电子快振动的空间平均能量形成等效“有质动力势”把电子排开，中心折射率升高变成天然聚光透镜（自聚焦）！",
+    "core_equations": [
+      {
+        "label": "冷磁化等离子体纵传播左右旋色散与脉冲星色散延迟",
+        "tex": "n_\\pm^2 = 1 - \\frac{\\omega_p^2}{\\omega(\\omega \\mp \\omega_c)}, \\qquad \\Delta t = \\frac{e^2}{8\\pi^2\\varepsilon_0 m_e c}\\,\\mathrm{DM}\\left(\\frac{1}{f_1^2}-\\frac{1}{f_2^2}\\right)",
+        "note": "特别注意左/右旋圆极化与背景磁场方向夹角对应的 $\\mp \\omega_c$ 符号约定，以及高频极限下群速度 $v_g = c\\sqrt{1-\\omega_p^2/\\omega^2}$ 计算信号延迟时间！"
+      },
+      {
+        "label": "快慢时间尺度分离有质动力势与玻尔兹曼排空自聚焦",
+        "tex": "U_{\\mathrm{pond}}(\\mathbf{r}) = \\frac{e^2 |\\mathbf{E}_0(\\mathbf{r})|^2}{4 m_e \\omega^2}, \\qquad n_e(\\mathbf{r}) = n_0 \\exp\\!\\left(-\\frac{U_{\\mathrm{pond}}}{k_B T_e}\\right)",
+        "note": "轴心光强高处电子被“光压强推走”（$n_e$ 降低），从而介电常数 $n_{\\mathrm{ref}} = \\sqrt{1 - n_e/n_c}$ 在轴心处**更高**——正好构造出凸透镜般的梯度折射率（GRIN）自聚焦介质！"
+      }
+    ],
+    "exam_scaffolding_pattern": "命题标准套路：① 写单电子复数稳态受迫方程 $\\mathbf{v}$；② 代入电流密度 $\\mathbf{J}=-n_e e \\mathbf{v}$ 读出等效 $\\varepsilon(\\omega)$；③ 取 $\\omega \\gg \\omega_p, \\omega_c$ 做泰勒近似求相移差或群速度差；④（高阶版）串联有质动力 $\\to$ 玻尔兹曼响应 $\\to$ 高斯光斑展开求等效焦距。",
+    "prerequisite_math_ids": [
+      "math_2",
+      "math_6"
+    ],
+    "validity_limits": "冷等离子体近似要求热速度远小于波相速度；有质动力自聚焦须经过至少三级联立泰勒展开（不可半途丢二阶项），并且注意电荷分离需满足准中性与德拜长度远小于光斑尺度。",
+    "linked_problem_ids": [
+      "cpho-2020-final-theory-problem-slice-q5",
+      "panpho-2024-paper-2-problem-slice-q1",
+      "panpho-2026-paper-2-problem-slice-q2"
+    ]
+  },
+  {
+    "id": "adv_7",
+    "code": "U-07",
+    "title": "拉普拉斯统一类比：无旋势流、静电/静磁极化、退极化因子与附加质量",
+    "course_origin": "连续介质力学 · 理论电动力学",
+    "exam_probability": "Physics Cup 核心母版 · 极高迁徙价值",
+    "plain_intuition": "为什么静止水里突然推一块石头需要比石头自身质量更大的力（附加质量）？为什么铁球和铁片在磁场中吸力不同？因为在无旋不可压缩流体中速度势 $\\phi$、在真空静电场中电势 $V$、在稳恒热传导中温度 $T$、在无源静磁中磁标势 $\\phi_m$，全都服从同一个拉普拉斯方程 $\\nabla^2 \\psi = 0$！把一个物体的流场边界条件翻译成静电导体或介质极化问题，就可以不积任何三维流体微分方程，直接用现成椭球退极化因子读出附加质量与热流扰动！",
+    "core_equations": [
+      {
+        "label": "椭球退极化因子 $N_i$、静电极化率与流体附加质量精确映射",
+        "tex": "\\sum_{i=1}^3 N_i = 1, \\qquad m_{\\mathrm{add}, i} = \\rho_{\\mathrm{fluid}} V_{\\mathrm{body}} \\frac{N_i}{1 - N_i}",
+        "note": "球体对称故 $N_x=N_y=N_z=1/3 \\implies m_{\\mathrm{add}} = \\frac{1}{2}\\rho V$（经典半倍排水质量！）；细长针沿轴 $N_\\parallel\\to 0$，垂直轴 $N_\\perp = 1/2 \\implies m_{\\mathrm{add},\\perp} = \\rho V$；薄圆盘垂直运动对应 $N_z \\to 1$，需保留有限体积与半径关系 $m_{\\mathrm{add}} = \\frac{8}{3}\\rho R^3$（`physicscup-2024-q1`）！"
+      },
+      {
+        "label": "均匀外场内部诱导场（负载线）与空腔微扰互易",
+        "tex": "\\mathbf{E}_{\\mathrm{in}} = \\mathbf{E}_0 - \\frac{N_i}{\\varepsilon_0}\\mathbf{P}, \\qquad \\mathbf{H}_{\\mathrm{in}} = \\mathbf{H}_0 - N_i \\mathbf{M}",
+        "note": "对于圆球磁化 $H_{\\mathrm{in}} = H_0 - \\frac{1}{3}M$；结合铁磁滞回线或高磁导率极限 $\\mu \\gg 1$，直接写出物体外极化偶极矩与磁场梯度吸力！"
+      }
+    ],
+    "exam_scaffolding_pattern": "Physics Cup 常给出看似完全不相关的流体入水冲击、磁力分选、热传导微扰或旋转容器点源，实际均靠建立“速度势 $\\leftrightarrow$ 静电势 / 磁标势”的边值一一对应并借助退极化因子或格林互易定理破题。",
+    "prerequisite_math_ids": [
+      "math_4",
+      "math_6"
+    ],
+    "validity_limits": "势流类比仅在低粘滞、冲击瞬间或无分离（无涡旋脱落）时准确；注意流体界面（如自由液面、刚性壁面）对应 Dirichlet 或 Neumann 边界，恰好分别类比接地等势导体面或绝缘对称镜面！",
+    "linked_problem_ids": [
+      "physicscup-2019-q1-reader",
+      "physicscup-2020-q0-reader",
+      "physicscup-2020-q4-reader",
+      "physicscup-2022-q1-reader",
+      "physicscup-2024-q1-reader",
+      "physicscup-2024-q3-reader",
+      "plancks-2025-final-combined-slice-q1",
+      "physicscup-2026-q4-reader"
+    ]
+  },
+  {
+    "id": "adv_8",
+    "code": "U-08",
+    "title": "广义相对论与黑洞物理：弱场引力红移、引力波四极辐射、ISCO 与彭罗斯过程",
+    "course_origin": "广义相对论初步 · 相对论天体物理",
+    "exam_probability": "现代天体竞赛必考 · 覆盖 10 题",
+    "plain_intuition": "竞赛中从不直接要求从零计算黎曼曲率张量！广义相对论在竞赛中主要通过三条平易近人的途径出场：① **等效原理**把局部引力场换成匀加速箱多普勒效应（引力红移）；② **有效势能修正**给牛顿平方反比有效势加上一项 $-G M L^2/(c^2 r^3)$ 的广义相对论吸引项（立即算出水星进动与黑洞最内稳定圆轨道 $r_{\\mathrm{ISCO}}=3r_s$ 和光子球 $1.5 r_s$）；③ **弱场 TT 规范度规拉伸与守恒量**分析引力波双星啁啾质量及黑洞旋转能层能量提取。",
+    "core_equations": [
+      {
+        "label": "史瓦西有效势、ISCO、黑洞阴影与引力红移",
+        "tex": "\\frac{\\Delta\\nu}{\\nu} = \\frac{\\Delta\\Phi}{c^2}, \\qquad V_{\\mathrm{eff}}(r) = -\\frac{GMm}{r} + \\frac{L^2}{2mr^2} - \\frac{GML^2}{mc^2 r^3} \\implies r_{\\mathrm{ISCO}} = 3r_s = \\frac{6GM}{c^2}",
+        "note": "光子球轨道 $r_{\\mathrm{ph}} = \\frac{3}{2}r_s$ 处切向光速经引力弯曲后表观黑洞阴影半径为 $b_{\\mathrm{crit}} = \\frac{3\\sqrt{3}}{2}r_s \\approx 2.60 r_s$（EHT 黑洞照片理论内核！）。"
+      },
+      {
+        "label": "引力波四极辐射功率（啁啾质量）与 TT 应变拉伸",
+        "tex": "P_{\\mathrm{GW}} = \\frac{32}{5}\\frac{G^4}{c^5}\\frac{(m_1 m_2)^2(m_1+m_2)}{r^5} \\propto (\\mathcal{M}_c \\omega)^{10/3}, \\qquad \\mathcal{M}_c = \\frac{(m_1 m_2)^{3/5}}{(m_1+m_2)^{1/5}}",
+        "note": "双星轨道角频率 $\\omega$ 对应引力波频率 $f_{\\mathrm{GW}} = 2 \\cdot \\frac{\\omega}{2\\pi}$ 呈标志性二倍频特性（旋转半周四极构型复原一次！）。"
+      }
+    ],
+    "exam_scaffolding_pattern": "命题人通常直接提供史瓦西线元 $\\mathrm{d}s^2$ 或有效势表达式，要求利用类时/类光测地线守恒量（能量 $E$ 与角动量 $L$）求极值、周期、光偏折或能层负能轨道分裂最大提取效率（彭罗斯过程）。",
+    "prerequisite_math_ids": [
+      "math_1",
+      "math_5",
+      "math_10"
+    ],
+    "validity_limits": "弱场红移与 TT 线化引力波仅在 $r_s/r \\ll 1$ 成立，强场并合必须做数值相对论修正；区分坐标半径 $r$ 与固有物理距离，不可用平直欧氏坐标直觉硬算黑洞视界附近速度。",
+    "linked_problem_ids": [
+      "cpho-2016-final-theory-problem-slice-q7",
+      "cpho-2017-final-theory-problem-slice-q7",
+      "cpho-2020-semifinal-theory-problem-slice-q7",
+      "panpho-2019-paper-2-problem-slice-q1",
+      "panpho-2021-paper-2-problem-slice-q2",
+      "plancks-2019-final-problem-slice-q8",
+      "plancks-2023-final-combined-slice-q10",
+      "plancks-2025-final-combined-slice-q5",
+      "plancks-2026-final-problem-slice-q5",
+      "plancks-2026-final-problem-slice-q6"
+    ]
+  },
+  {
+    "id": "adv_9",
+    "code": "U-09",
+    "title": "非线性动力学与同步现象：干摩擦极限环、Adler 锁相与 Kuramoto 振子",
+    "course_origin": "非线性动力学 · 复杂系统物理",
+    "exam_probability": "PanPhO / PLANCKS 亮点建模题",
+    "plain_intuition": "两台挂在同根横梁上的惠更斯摆钟为什么摆着摆着就齐步走或刚好反相？萤火虫和高压交流电网发电机怎样自动对上节拍？把所有非线性泵浦与阻尼细节丢进一维圆周相位差方程 $\\dot{\\phi} = \\Delta\\omega - K\\sin\\phi$，一切神秘同步立刻化为中学能画的“正弦曲线与水平线交点稳定不动点”问题！",
+    "core_equations": [
+      {
+        "label": "Adler 相位同步方程与失锁拍频周期",
+        "tex": "\\frac{\\mathrm{d}\\phi}{\\mathrm{d}t} = \\Delta\\omega - K\\sin\\phi \\implies |\\Delta\\omega| \\le K \\text{（锁相区）}, \\qquad T_{\\text{beat}} = \\int_0^{2\\pi}\\frac{\\mathrm{d}\\phi}{\\Delta\\omega - K\\sin\\phi} = \\frac{2\\pi}{\\sqrt{\\Delta\\omega^2 - K^2}}",
+        "note": "$\\sin\\phi^* = \\Delta\\omega/K$ 有两个解，唯有斜率 $\\frac{\\mathrm{d}\\dot{\\phi}}{\\mathrm{d}\\phi} = -K\\cos\\phi^* < 0$ 的解才是稳定锁相点！超越阈值即发生鞍结分岔并出现间歇失锁滑动。"
+      },
+      {
+        "label": "干摩擦擒纵钟摆极限环与庞加莱映射",
+        "tex": "x_{n+1} = P(x_n) = x_n + \\Delta x_{\\text{impulse}} - \\Delta x_{\\text{friction}}, \\qquad \\text{不动点: } P(x^*)=x^*,\\; |P'(x^*)|<1",
+        "note": "利用分段简谐等时性直接看几何半圆时间平移，能比逐象限微扰展开省掉一半篇幅（`panpho-2019-q2`）。"
+      }
+    ],
+    "exam_scaffolding_pattern": "首先用分段能量/力学计算单个机械振子或交流输电线功率平衡导出极限环或二阶振子方程；再引入弱耦合，通过求单周期相位响应函数 PRC 导出离散映射或连续 Adler/Kuramoto 方程判定同步域。",
+    "prerequisite_math_ids": [
+      "math_3",
+      "math_8"
+    ],
+    "validity_limits": "Adler 一阶相振子模型假定振幅弛豫远快于相位演化（弱耦合极限）；二阶电网 Kuramoto 模型存在惯性项 $M\\ddot{\\theta}$，会出现双稳态迟滞现象。",
+    "linked_problem_ids": [
+      "panpho-2019-paper-2-problem-slice-q2",
+      "plancks-2022-preliminary-problem-slice-q6"
+    ]
+  },
+  {
+    "id": "adv_10",
+    "code": "U-10",
+    "title": "现代量子光学与冷原子：光镊、多普勒冷却、拉比/拉姆齐干涉与量子热机",
+    "course_origin": "量子光学 · 原子分子物理 · 量子热力学",
+    "exam_probability": "CPhO/PLANCKS 绝对热点（近年诺奖大户）",
+    "plain_intuition": "激光既是极细的“镊子”也是能给原子降到微开尔文的“冰箱”：每吸收和自发辐射一个光子就净得到 $\\hbar k$ 动量反冲；调节激光稍微红失谐，迎着光束跑的原子因多普勒频移撞进共振峰被减速，顺着跑的被忽略，原子团迅速冷却。而把单原子简并成自旋 $1/2$ 二能级系统，其在电磁脉冲下像陀螺进动一样做布洛赫球面旋转（拉比振荡与拉姆齐分离场干涉），调节能级间距做绝热与等温步骤就能把卡诺热机做到单个原子尺度！",
+    "core_equations": [
+      {
+        "label": "激光多普勒冷却平衡温度与光镊光子流推力",
+        "tex": "k_B T_D = \\frac{\\hbar\\Gamma}{2}\\;\\;(\\text{当 }\\delta = -\\frac{\\Gamma}{2}), \\qquad \\mathbf{F}_{\\mathrm{rad}} = \\frac{I A_{\\mathrm{proj}}}{c}\\left(\\hat{\\mathbf{k}}_{\\mathrm{in}} - \\langle\\hat{\\mathbf{k}}_{\\mathrm{out}}\\rangle\\right)",
+        "note": "算激光压推力永远按**垂直光束方向的投影截面面积**统计撞击光子数，不要在斜面角度 $\\cos\\theta$ 上绕晕！"
+      },
+      {
+        "label": "二能级系统拉比振荡与量子热力学第一定律",
+        "tex": "P_{e}(t) = \\frac{\\Omega_R^2}{\\Omega^2}\\sin^2\\!\\left(\\frac{\\Omega t}{2}\\right)\\;\\;(\\Omega = \\sqrt{\\Omega_R^2 + \\Delta^2}), \\qquad \\mathrm{d}U = \\underbrace{\\sum_n E_n \\mathrm{d}P_n}_{\\delta Q} + \\underbrace{\\sum_n P_n \\mathrm{d}E_n}_{\\delta W}",
+        "note": "在量子热机里，**布居数变化 $\\mathrm{d}P_n$ 对应吸放热**（量子等容/绝热保持 $P_n$ 不变），而**能级间距调制 $\\mathrm{d}E_n$ 对应外界做功**！"
+      }
+    ],
+    "exam_scaffolding_pattern": "CPhO 常结合经典光学聚焦、热学能量均分与磁光阱塞曼空间匹配出多步骤应用题（`cpho-2019-final-q5`, `cpho-2021-semi-q5`）；PLANCKS 则侧重用泡利矩阵或 SU(2) 旋转直接推双脉冲干涉条纹线宽和无损分束器量子干涉。",
+    "prerequisite_math_ids": [
+      "math_2",
+      "math_6",
+      "math_9"
+    ],
+    "validity_limits": "双能级近似要求光频接近共振且远离其他高激发态；普通多普勒冷却极限假设光强不使跃迁功率展宽超过自然线宽 $\\Gamma$，更低温度需要偏振梯度 Sisyphus 冷却机制。",
+    "linked_problem_ids": [
+      "cpho-2015-final-theory-problem-slice-q4",
+      "cpho-2019-final-theory-problem-slice-q5",
+      "cpho-2020-final-theory-problem-slice-q3",
+      "cpho-2021-semifinal-theory-problem-slice-q5",
+      "plancks-2019-final-problem-slice-q2",
+      "plancks-2021-final-combined-slice-q11",
+      "plancks-2023-final-combined-slice-q3"
+    ]
+  },
+  {
+    "id": "adv_11",
+    "code": "U-11",
+    "title": "现代波动与超快非线性光学：平板波导复相移、负折射率、GDD 色散与克尔光孤子",
+    "course_origin": "导波光学 · 非线性与超快激光物理",
+    "exam_probability": "复赛压轴→国际赛前沿桥梁",
+    "plain_intuition": "现代光纤与超快脉冲竞赛题已经告别简单的平面镜成像，转向三件事：① **全反射相移**：波导里的光全反射时不仅弹回来，还伴随随入射角变化的古斯-汉欣复数相移（决定波导截止波长）；② **负折射超材料**：相速度与能流反向，出现“负光程”使平面平板或凹面反常聚焦成正立实像；③ **色散与非线性平衡**：光纤群速度色散（GDD）把超短脉冲拉宽，而强光克尔效应 $n=n_0+n_2 I$ 把脉冲压窄，二者精准抵消就诞生稳定跑千里的“光孤子”！",
+    "core_equations": [
+      {
+        "label": "介质平板波导（TE）导模本征方程与全反射相移",
+        "tex": "2 k_0 n_1 d \\cos\\theta + \\phi_{12}(\\theta) + \\phi_{13}(\\theta) = 2 m\\pi, \\qquad \\tan\\frac{\\phi_{1j}}{2} = -\\frac{\\sqrt{n_1^2\\sin^2\\theta - n_j^2}}{n_1\\cos\\theta}",
+        "note": "对于非对称波导（$n_2 \\ne n_3$），基模 $m=0$ 居然也存在**截止频率**（不像对称波导基模永不截止），因为上下界相移随 $\\theta$ 不对称变化（`cpho-2015-semi-q8`）。"
+      },
+      {
+        "label": "超短高斯脉冲 GDD 展宽与非线性光孤子平衡",
+        "tex": "\\tau_{\\mathrm{out}} = \\tau_0\\sqrt{1 + \\left(\\frac{\\beta_2 L}{\\tau_0^2}\\right)^2}, \\qquad \\Delta\\phi_{\\mathrm{SPM}} \\sim k_0 n_2 I L \\sim |\\Delta\\phi_{\\mathrm{GDD}}|",
+        "note": "计算超快光脉冲宽时，牢记脉冲包络电场 $E\\propto e^{-t^2/2\\tau^2}$ 与强度 $I=|E|^2 \\propto e^{-t^2/\\tau^2}$ 及半高全宽 $\\Delta t_{\\mathrm{FWHM}}$ 的 $\\sqrt{2}$、$\\sqrt{\\ln 2}$ 换算系数！"
+      }
+    ],
+    "exam_scaffolding_pattern": "复赛/决赛中从惠更斯原理/斯涅尔公式起步，再给出菲涅耳全反射反射系数公式引导求导模条件（或从时空边界 $D_\\perp, B_\\perp$ 连续性推时间界面波传输矩阵）；PLANCKS 与 PanPhO 则把高斯积分与非线性修正串联考到底。",
+    "prerequisite_math_ids": [
+      "math_6",
+      "math_10"
+    ],
+    "validity_limits": "慢变包络近似（SVEA）假定脉冲宽度包含足够多光周期；时间跳变界面假定介质电磁性质随时间突变快于光周期，此时**频率改变而空间波矢 $\\mathbf{k}$ 守恒**（恰与空间界面相反！`panpho-2022-q1`）。",
+    "linked_problem_ids": [
+      "cpho-2015-semifinal-theory-problem-slice-q8",
+      "cpho-2018-final-theory-problem-slice-q6",
+      "panpho-2022-paper-2-problem-slice-q1",
+      "panpho-2025-paper-2-problem-slice-q2",
+      "plancks-2021-final-combined-slice-q12",
+      "plancks-2026-final-problem-slice-q2"
+    ]
+  },
+  {
+    "id": "adv_12",
+    "code": "U-12",
+    "title": "场论、拓扑边界与软物质前沿：假真空瞬子、莫比乌斯/AB 拓扑、分子拉链与准晶",
+    "course_origin": "量子场论初步 · 拓扑物理 · 软物质统计",
+    "exam_probability": "国集选拔 · PanPhO/PLANCKS 标杆特色题",
+    "plain_intuition": "这些听起来像研究生量子场论或诺奖专题的问题，在竞赛里都有绝美且直接的经典入口：把时间 Wick 转动成虚时间 $\\tau = it$，标量场势阱壁垒在欧氏时空里正负反转，量子隧穿计算居然等价于牛顿质点在反过来的山脊间滑行找闭合作用量极值！莫比乌斯带边界条件就是扭转半圈把波函数正反拼接产生宇称选择定则；一维斐波那契准晶就是二维方格里划一条斜率为无理数黄金分割的窄带投影！",
+    "core_equations": [
+      {
+        "label": "假真空衰变薄壁欧氏瞬子作用量与 AB 磁通最小耦合",
+        "tex": "S_E(R) = 2\\pi^2 R^3 \\sigma - \\frac{\\pi^2}{2}R^4 \\Delta\\varepsilon \\implies R_c = \\frac{3\\sigma}{\\Delta\\varepsilon},\\; S_{E,\\min} = \\frac{27\\pi^2\\sigma^4}{2(\\Delta\\varepsilon)^3}",
+        "note": "四维欧氏球面面积 $2\\pi^2 R^3$ 乘以畴壁张力 $\\sigma$ 竞争四维体降能量 $\\frac{\\pi^2}{2}R^4\\Delta\\varepsilon$，瞬间求出临界真空泡泡成核速率 $\\Gamma \\propto e^{-S_E/\\hbar}$！"
+      },
+      {
+        "label": "Kittel DNA 分子拉链配分函数与 AB/莫比乌斯量子数偏移",
+        "tex": "Z = \\sum_{n=0}^N g^n e^{-n\\beta\\varepsilon} = \\frac{1 - (g e^{-\\beta\\varepsilon})^{N+1}}{1 - g e^{-\\beta\\varepsilon}}, \\qquad l_{\\mathrm{eff}} = m - \\frac{\\Phi}{\\Phi_0}",
+        "note": "当 $g e^{-\\beta\\varepsilon} = 1$ 即 $k_B T_c = \\varepsilon/\\ln g$ 时，热力学极限 $N\\to\\infty$ 下级数产生非解析尖点——用高中几何级数就能严格推导一维相变！"
+      }
+    ],
+    "exam_scaffolding_pattern": "命题极善用“有限几何级数”“欧拉变分一维孤子”“二维周期格点投影”“旋转算符同构”等初等可控数学工具作为脚手架，测试学生能否穿透高冷背景名词抓住底层不变结构。",
+    "prerequisite_math_ids": [
+      "math_5",
+      "math_8",
+      "math_9",
+      "math_10"
+    ],
+    "validity_limits": "薄壁近似要求真假真空能密度差 $\\Delta\\varepsilon$ 远小于势垒高度，使壁厚远小于临界泡半径 $R_c$；莫比乌斯连续边值模型要求带厚远小于特征波长且扭转平稳。",
+    "linked_problem_ids": [
+      "panpho-2021-paper-2-problem-slice-q1",
+      "panpho-2023-paper-2-problem-slice-q1",
+      "plancks-2023-final-combined-slice-q1",
+      "plancks-2024-final-combined-slice-q3",
+      "plancks-2024-final-combined-slice-q9",
+      "plancks-2025-final-combined-slice-q9"
+    ]
+  }
+]

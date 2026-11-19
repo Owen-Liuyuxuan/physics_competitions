@@ -1,0 +1,268 @@
+{
+  "id": "thermo_stat",
+  "order": 6,
+  "code": "TOPIC 06",
+  "title": "热力学、统计物理、传热与相变",
+  "subtitle": "从“状态方程与卡诺效率”跃迁至“负热容区、克努森泻流、配分函数、双电层 PB 方程与 BKT 相变”",
+  "tagline": "本库主属 38 题，重点击破热力学变过程热容、内能 $1/2$ 双计数、多体灰体多次反射勘误及大学统计/相变核心模型。",
+  "bridge_summary": "复赛热学主要覆盖理想气体状态方程、热力学第一定律和卡诺循环。到了 CPhO 决赛、PanPhO 与 PLANCKS，热学已全面进化为**微观统计热力学与非平衡传热**：一方面考察**非常规过程（直线过程升降温/吸放热转折分离、气团混合等效绝热指数、带电肥皂泡麦克斯韦可用能稳定性）**；另一方面直接引入**麦克斯韦速度通量加权（克努森泻流 $2k_BT$）、配分函数（朗缪尔吸附、分子拉链）、热传导微扰（类静电互易定理、Stefan 移动边界）**以及压轴级的 **泊松-玻尔兹曼双电层与外斯平均场 / 2D XY 拓扑相变**。",
+  "recommended_math_ids": [
+    "math_2",
+    "math_3",
+    "math_9"
+  ],
+  "recommended_adv_ids": [
+    "adv_1",
+    "adv_2",
+    "adv_7"
+  ],
+  "syllabus_matrix": [
+    {
+      "code": "T1",
+      "name": "热力学第一定律、非常规过程热容与负热容",
+      "tier_a_semifinal": "Clément-Desormes 绝热指数实验法、水银柱溢流耦合线性热过程、直线过程温度极值与负摩尔热容区。",
+      "tier_b_final": "三室绝热自由膨胀混合平衡、双组分气体等效绝热指数 $\\gamma_{\\text{eff}}$ 推导、空气弹簧多方过程复合微商刚度。",
+      "tier_c_frontier": "1888 综合经典气体定理延伸与一般机械耦合多变量热容分析。",
+      "exam_focus": "掌握任意准静态过程摩尔热容通式 $C = C_V + p\\frac{\\mathrm{d}V}{\\mathrm{d}T}$；在 $p$-$V$ 直线过程上，**最高温点（与等温线相切）与吸放热转折点（与绝热线相切）严格分离**，中间夹着神奇的负摩尔热容区！",
+      "common_blindspots": "自由膨胀不可逆过程不可代用 $pV^\\gamma=\\mathrm{const}$；混合两室计算总体积与温度时忘记保持总摩尔数加权 $C_V$ 守恒。"
+    },
+    {
+      "code": "T2",
+      "name": "热力学第二定律、熵与广义/量子热机循环",
+      "tier_a_semifinal": "理想气体卡诺/奥托循环效率与基础熵增原理判断不可逆度。",
+      "tier_b_final": "涡轮增压稳态流控制体做功与状态函数替代路径、无限大变热容冷热源间可逆热机/制冷机总熵守恒极值（$\\Delta S_{\\text{tot}}=0$）。",
+      "tier_c_frontier": "二能级原子量子奥托/卡诺循环、一维相对论黑体辐射移动镜可逆热机与灰体太空卫星内置热机最大输出功率多维优化。",
+      "exam_focus": "遇到没有给定循环曲线形状而只问“最大可提取功 / 最低终温”的题，直接利用可逆过程总熵守恒 $\\int \\frac{\\mathrm{d}Q_1}{T_1} + \\int \\frac{\\mathrm{d}Q_2}{T_2} = 0$ 一步锁死极限！",
+      "common_blindspots": "在变温度有限热源热机中错误套用恒温卡诺公式 $1 - T_c/T_h$，忘记高温端温度一直在下降！"
+    },
+    {
+      "code": "T3",
+      "name": "分子动理论、麦克斯韦分布与克努森泻流",
+      "tier_a_semifinal": "理想气体压强微观公式、自由度能量均分定理与麦克斯韦速率分布三大特征值（注意最概然动能陷阱！）。",
+      "tier_b_final": "太空容器小孔克努森分子泻流速率加权通量（$2k_BT$ 绝热降温冷却幂律与微推力积分）。",
+      "tier_c_frontier": "一维振荡活塞中的运动壁碰撞通量多普勒不对称性（费米加速均匀升温机制与弛豫尺度分离）。",
+      "exam_focus": "所有涉及“碰撞截面、穿孔流出、运动壁弹性反弹”的统计问题，分布权重一律比体内分布多乘一个通量因子 $|\\mathbf{v}-\\mathbf{v}_{\\text{wall}}|$。",
+      "common_blindspots": "错把器内平均平动动能 $\\frac{3}{2}k_BT$ 当作流出小孔每个分子带走的能量，正确值是 $2k_BT$（`cpho-2018-final-q5`）！"
+    },
+    {
+      "code": "T4",
+      "name": "傅里叶传热、Stefan 相变与灰体辐射换热",
+      "tier_a_semifinal": "串联热阻网络与牛顿冷却表面温度、基本斯特藩-玻尔兹曼黑体辐射平衡。",
+      "tier_b_final": "同心灰体球壳辐射-导热耦合（必须计入内壁多次自反射修正，纠出 `cpho-2018-semi-q6` 官方漏算错误）、高维（4D）黑体辐射维恩定律推广。",
+      "tier_c_frontier": "湖水结冰 Stefan 移动边界导热、地下热水管对流-径向对数扩散耦合、热传导空腔类静电格林互易求解、相变电阻丝电热畴壁迟滞及半导体“第二声”电报方程。",
+      "exam_focus": "稳态温度场 $\\nabla^2 T = 0$ 与稳恒静电场 $\\nabla^2 \\varphi = 0$ 数学上完全同构：热流密度对应电位移矢量的类比可直接解出异形导热阻！",
+      "common_blindspots": "灰体球壳腔内套用无限大平行板角系数忽略内球自遮挡（`cpho-2018-semi-q6` 经典官方错误）；忽略高维黑体频率峰值与波长峰值并不同源。"
+    },
+    {
+      "code": "T5",
+      "name": "统计系综、配分函数、吸附与随机游走/概率统计",
+      "tier_a_semifinal": "玻尔兹曼分布律与简单二能级热容（肖特基反常峰值）、赠券收集期望等初等概率递推。",
+      "tier_b_final": "微正则/正则系综推导 Langmuir 与多层 BET 表面吸附等温线、高分子链随机游走橡胶熵弹性（Joule-Gough 效应）。",
+      "tier_c_frontier": "半无限有偏随机游走首达吸收概率（赌徒破产）、Gentile 仲统计（最大占据数为 2）、外势正则系综局域压强微观定义浮力、热浴磁偶极二阶展开 Keesom 吸力及分形网络重整化。",
+      "exam_focus": "掌握由配分函数 $Z(T)$ 一路求导提取全部宏观热力学量的流水线：$F=-k_B T\\ln Z$、$\\langle E\\rangle = -\\partial\\ln Z/\\partial\\beta$、$S = -(\\partial F/\\partial T)_V$。",
+      "common_blindspots": "高低温极限展开忘记核对简并度 $g_i$；用斯特林公式近似 $\\ln N!$ 时忘记保留 $N\\ln N - N$ 中的线性 $-N$ 项！"
+    },
+    {
+      "code": "T6",
+      "name": "平均场理论、泊松-玻尔兹曼双电层与拓扑/熵相变",
+      "tier_a_semifinal": "一级相变潜热克拉佩龙方程概念与范德瓦耳斯气体临界点初步认识。",
+      "tier_b_final": "带电生物膜泊松-玻尔兹曼双电层微分方程与中平面理想气体渗透压斥力、Kittel 分子拉链一维熵驱动相变。",
+      "tier_c_frontier": "铁磁外斯分子场自洽理论、反铁磁双子晶格交错序参量奈尔温度、二维 XY 模型连续自旋波与 BKT 拓扑涡旋拆对相变。",
+      "exam_focus": "重点突破两大压轴模板：① **自洽方程法**（平均场与相变临界点作斜率相切）；② **自由能 $E-TS$ 能量-熵竞争判据**（既可推分子拉链亦可秒推 BKT 涡旋相变温度！）。",
+      "common_blindspots": "计算平均场总内能漏掉双计数因子 $1/2$（`cpho-2021-final-q5`）；反铁磁把顺磁发散极点当成奈尔温度；泊松-玻尔兹曼搞反电势符号（`cpho-2021-final-q4`）。"
+    }
+  ],
+  "core_models": [
+    {
+      "name": "灰体辐射空腔“有效辐射度法”与球壳多次反射模型",
+      "tier": "L3 · 决赛与官方勘误示范",
+      "prototype": "同心或嵌套双层灰体球壳（发射率/吸收率 $E < 1$，漫反射率 $1-E$）中间抽真空，内部或外部存在导热/热源稳态传热。",
+      "assumptions": "各向同性朗伯漫反射表面，满足基尔霍夫热辐射定律 $\\alpha = E$，由几何视角系数 $F_{12}=1,\\; F_{21} = R_1^2/R_2^2$ 分配能量。",
+      "key_equations": [
+        "内球（半径 $R_1$，发射率 $E_1$）与外球壳内壁（$R_2, E_2$）净辐射传热克里斯蒂安森公式：$P_{1\\to 2} = \\frac{4\\pi R_1^2 \\sigma (T_1^4 - T_2^4)}{\\frac{1}{E_1} + \\left(\\frac{R_1}{R_2}\\right)^2\\left(\\frac{1}{E_2} - 1\\right)}$",
+        "等价物理本质：必须计入外球内壁漫反射出去的能量中有一部分 $(1 - F_{21}) = 1 - R_1^2/R_2^2$ 直接跳过内球继续留在外腔壁自反射吸收！"
+      ],
+      "evolution_semi_to_final": "许多选手（甚至 CPhO 第 35 届复赛第 6 题原官方解答）错以为外球壁发射出的射线要么打中内球要么直走被当成“无穷大球对称反演”，忽略了漫反射打到外腔其余部分的自反射份额 $(1-k)(1-E)$，导致算成 $227\\,\\mathrm{K}$ 而非精确解 $217\\,\\mathrm{K}$！",
+      "sample_problem_ids": [
+        "cpho-2018-semifinal-theory-problem-slice-q6",
+        "physicscup-2022-q5-reader"
+      ]
+    },
+    {
+      "name": "p-V 直线过程升降温与吸放热双临界分离模型",
+      "tier": "L2 · 复赛必杀经典",
+      "prototype": "一定量理想气体沿 $p$-$V$ 图上斜率为负的直线从 $(p_1, V_1)$ 膨胀到 $(p_2, V_2)$，求最高温度点、吸放热转折点及负热容区间。",
+      "assumptions": "理想气体准静态过程，$p(V) = p_0 - k V$。",
+      "key_equations": [
+        "温度极值（与等温线相切）：$\\frac{\\mathrm{d}T}{\\mathrm{d}V} = 0 \\iff V_T = \\frac{p_0}{2k}$（总在直线截距中点）",
+        "吸放热转折（与绝热线相切）：$C = 0 \\iff \\frac{\\mathrm{d}Q}{\\mathrm{d}V} = \\frac{1}{\\gamma-1}\\left(p + V\\frac{\\mathrm{d}p}{\\mathrm{d}V}\\right) + p = 0 \\implies V_Q = \\frac{\\gamma}{\\gamma+1}\\frac{p_0}{k} > V_T$"
+      ],
+      "evolution_semi_to_final": "在 $V_T$ 与 $V_Q$ 之间形成一段奇妙的“吸热但温度反而下降”的负摩尔热容区！考前务必亲手画出一遍双曲线、绝热线与直线相切的几何切点对照图。",
+      "sample_problem_ids": [
+        "cpho-2015-semifinal-theory-problem-slice-q7",
+        "cpho-2017-semifinal-theory-problem-slice-q7"
+      ]
+    },
+    {
+      "name": "分子泻流冷却幂律与火箭反冲推力模型",
+      "tier": "L3 · 决赛统计力学",
+      "prototype": "太空绝热储气罐开小孔向真空持续泄漏单原子/双原子理想气体，分析罐内温度、压强随剩余分子数衰减规律与反冲加速。",
+      "assumptions": "小孔尺度远小于气体平均自由程（克努森泻流区），罐内时刻维持局域平衡麦克斯韦分布。",
+      "key_equations": [
+        "通量加权泻流单分子平均平动能 $\\langle \\varepsilon_{\\text{out}}\\rangle = 2 k_B T$（而非 $f/2 k_B T$！）",
+        "能量守恒微分方程（对单原子气体 $U=\\frac{3}{2}N k_B T$）：$\\mathrm{d}(\\frac{3}{2}N k_B T) = 2 k_B T\\,\\mathrm{d}N \\implies \\frac{\\mathrm{d}T}{T} = \\frac{1}{3}\\frac{\\mathrm{d}N}{N} \\implies T \\propto N^{1/3}$"
+      ],
+      "evolution_semi_to_final": "普通绝热膨胀对外做功降温遵循 $T \\propto N^{\\gamma-1} = N^{2/3}$，而克努森小孔泻流仅仅因为“跑得快的分子逃得更勤快”，降温幂指数变成独特的 $1/3$！",
+      "sample_problem_ids": [
+        "cpho-2018-final-theory-problem-slice-q5"
+      ]
+    },
+    {
+      "name": "泊松-玻尔兹曼双电层与外斯分子场 / BKT 拓扑相变模型",
+      "tier": "L3/L4 · 决赛热统压轴",
+      "prototype": "水溶液中带电平面生物膜附近的反离子屏蔽云渗透压斥力，以及铁磁/反铁磁平均场相变与二维自旋 XY 涡旋拆对相变。",
+      "assumptions": "忽略多体涨落关联与有限离子半径（平均场/点电荷近似）；连续极限下涡旋芯尺寸远小于系统尺度。",
+      "key_equations": [
+        "泊松-玻尔兹曼与渗透压斥力：$\\frac{\\mathrm{d}^2\\varphi}{\\mathrm{d}x^2} = -\\frac{\\rho_0}{\\varepsilon}e^{-q\\varphi/k_BT},\\quad P_{\\mathrm{rep}} = n_{\\mathrm{mid}}k_B T$（中平面电场为零！）",
+        "外斯分子场自洽解与 BKT 临界温度：$T_c = \\lambda C,\\quad T_N = \\frac{C(\\beta-\\alpha)}{n},\\quad k_B T_{\\mathrm{BKT}} = \\frac{\\pi J}{2}$"
+      ],
+      "evolution_semi_to_final": "代表 CPhO 第38届决赛及国际赛的最新导向：把普通玻尔兹曼因子与麦克斯韦静电、自由能竞争 $F=E-TS$ 直接拼装成前沿科研物理模型。",
+      "sample_problem_ids": [
+        "cpho-2021-final-theory-problem-slice-q4",
+        "cpho-2021-final-theory-problem-slice-q5",
+        "plancks-2019-final-problem-slice-q6"
+      ]
+    }
+  ],
+  "secondary_conclusions": [
+    {
+      "title": "非平衡双室绝热混合“等效绝热指数”法则",
+      "source_type": "真题提炼",
+      "formula": "$C_{V,\\mathrm{eff}} = \\frac{n_1 C_{V1} + n_2 C_{V2}}{n_1 + n_2},\\qquad \\gamma_{\\mathrm{eff}} = 1 + \\frac{R}{C_{V,\\mathrm{eff}}}$",
+      "derivation_skeleton": "由混合后总内能和总压强与温度的线性加和性推导；注意**切忌**直接把两气体的绝热指数按摩尔数加权平均 $\\frac{n_1\\gamma_1 + n_2\\gamma_2}{n_1+n_2}$，必须先平均摩尔定容热容 $C_V$ 再算 $\\gamma$！",
+      "validity_boundaries": "仅限无化学反应的非反应性理想气体均匀混合；若温度极高跨越振动简并度激发区，$C_V$ 随温度变化需分段积分。",
+      "pitfall_warning": "直接对 $\\gamma_1, \\gamma_2$ 求算术平均是混合理想气体第一大低级错误（`cpho-2014-final-q3`）。",
+      "related_problem_ids": [
+        "cpho-2014-final-theory-problem-slice-q3"
+      ]
+    },
+    {
+      "title": "多方过程、任意机械耦合下的广义热容量与微振动刚度",
+      "source_type": "真题提炼",
+      "formula": "$C = C_V + p\\frac{\\mathrm{d}V}{\\mathrm{d}T},\\qquad k_{\\text{gas}} = -A^2\\frac{\\mathrm{d}p}{\\mathrm{d}V} = \\frac{n_{\\text{poly}} p A^2}{V}$",
+      "derivation_skeleton": "只要能把压强与体积关系写成 $p(V)$（不管是恒压、静水液柱压还是多方指数 $n$），即可借状态方程化出 $\\mathrm{d}T$ 并计算过程热容；对于空气弹簧小振幅微振动，极高频近绝热（$n=\\gamma$）而极低频近等温（$n=1$）。",
+      "validity_boundaries": "准静态假定下各点热力学状态良定义；空气弹簧高/低频过渡区存在热弛豫耗散阻尼。",
+      "pitfall_warning": "对串联副气囊空气弹簧计算等效刚度时须弄清高低频条件下连通节流孔是否算入总气容体积（`cpho-2020-semi-q1`）。",
+      "related_problem_ids": [
+        "cpho-2020-semifinal-theory-problem-slice-q1",
+        "cpho-2021-semifinal-theory-problem-slice-q2"
+      ]
+    },
+    {
+      "title": "可逆热机跨有限热源作功最大提取极限",
+      "source_type": "经典定理",
+      "formula": "$\\Delta S_1 + \\Delta S_2 = 0 \\implies T_f = T_1^{\\alpha} T_2^{1-\\alpha}$（等热容时取几何平均 $\\sqrt{T_1 T_2}$）",
+      "derivation_skeleton": "当两个有限恒热容热库（或冰水相变混合系）之间用理想可逆热机榨取功直至热平衡，热机本身经历整数个循环 $\\Delta S_{\\text{eng}}=0$，故两热源总熵增为零给出最高作功与最低末温，再反代能量守恒 $W_{\\max} = -\\Delta U_1 - \\Delta U_2$。",
+      "validity_boundaries": "要求中间无传热不可逆温差接触，且冷热源发生相变（如冰融化）时须按分段定温潜热项计算 $\\Delta S = Q_{\\text{lat}}/T_0$！",
+      "pitfall_warning": "遇到热容随温度线性变化（$C(T)=aT$）或含冰水相变潜热时，不可死记几何平均 $\\sqrt{T_1 T_2}$，必须老实写 $\\int \\frac{C(T)}{T}\\mathrm{d}T$ 积分（`physicscup-2019-q2`）。",
+      "related_problem_ids": [
+        "physicscup-2019-q2-reader",
+        "physicscup-2022-q5-reader"
+      ]
+    },
+    {
+      "title": "一维相变（Kittel 分子拉链）与 2D 拓扑涡旋临界温度",
+      "source_type": "前沿模板",
+      "formula": "$k_B T_c = \\frac{\\varepsilon}{\\ln g}\\;\\text{（分子拉链）},\\qquad k_B T_{\\mathrm{BKT}} = \\frac{\\pi J}{2}\\;\\text{（2D XY 涡旋）}$",
+      "derivation_skeleton": "当激活一个新自由度单元耗费能量 $\\varepsilon$ 但解锁 $g$ 个构型简并态时，单单元自由能差 $\\Delta f = \\varepsilon - k_B T \\ln g$ 变号即触发相变；对二维涡旋，单个正/负涡旋芯的弹性能量与圆盘内可放置位置的构型熵均正比于 $\\ln(R/a)$，系数相抵即定 $T_{\\mathrm{BKT}}$。",
+      "validity_boundaries": "一维短程相互作用无序热涨落通常抑制严格相变，Kittel 分子拉链之所以有一维尖锐相变是因为只能**单端有序解旋**的全局约束；BKT 则属于无限阶拓扑相变，无长程序自发磁化。",
+      "pitfall_warning": "计算 XY 模型能量时切勿忘记自旋角 $\\theta$ 连续绕一圈积分 $\\oint |\\nabla\\theta|^2 \\mathrm{d}^2r$ 中 $2\\pi$ 角度贡献及涡旋数密度计数。",
+      "related_problem_ids": [
+        "plancks-2024-final-combined-slice-q9",
+        "plancks-2019-final-problem-slice-q6",
+        "cpho-2021-final-theory-problem-slice-q5"
+      ]
+    },
+    {
+      "title": "辐射度（Radiosity）方程与平行板微扰热流类比",
+      "source_type": "跨界方法",
+      "formula": "$\\Delta Q_{\\text{heat}} \\leftrightarrow \\text{恒流稳态电容电通量微扰} = \\varepsilon_0\\,\\mathbf{p}\\cdot\\mathbf{E}_0$",
+      "derivation_skeleton": "向两块保持恒定温差的无限大平行板之间放入一个不同导热率的极微球体，总热流微扰计算完全等同于“两接地平行金属板间放入极化球偶极子后的诱导电荷改变量”——无需积无穷级数，利用格林互易 / Shockley-Ramo 定理直接由均匀背景场读出诱导极化修正！",
+      "validity_boundaries": "空腔直径必须远小于平板间距（偶极近场图像与板间镜反射独立处理），稳态纯导热无自然对流与辐射参与。",
+      "pitfall_warning": "若在两块平行板之间只摆一侧单个镜像偶极子而忘记另外一侧及无穷多次往返镜像，通量积分正好算错一半（`physicscup-2020-q4`）！",
+      "related_problem_ids": [
+        "physicscup-2020-q4-reader",
+        "panpho-2024-paper-2-problem-slice-q2"
+      ]
+    }
+  ],
+  "virtual_examples": [
+    {
+      "id": "ve_thermo_1",
+      "title": "微例 1 · 绝热真空漏气（克努森泻流）怎么算才不把 2kT 写成 3/2 kT？",
+      "difficulty_tag": "决赛统计力学必考辨析",
+      "scenario": "容积 $V$ 的绝热刚性罐装有温度 $T_0$ 的单原子理想气体 $N_0$ 摩尔。在器壁扎一小孔通向真空（孔径远小于分子平均自由程）。当罐内气体分子数降为 $N_0 / 8$ 时，罐内气体温度降至多少？",
+      "intuition_trap": "普遍错误：误以为“每个分子携带平均内能 $\\frac{3}{2}k_B T$ 飞走，那剩下分子平均能量岂不是不变，温度恒为 $T_0$？”——忽略了速度快的分子撞小孔的频率正比于速率 $v$，跑出去的分子天生比留下的更“烫”！",
+      "solution_steps": [
+        "由麦克斯韦速度分布的速率分布律，沿孔法线方向速度分量满足 $\\mathrm{d}\\Phi \\propto v_z e^{-mv_z^2/(2k_B T)}\\mathrm{d}v_z\\,\\mathrm{d}v_x\\mathrm{d}v_y$（$v_z > 0$）。对平动动能做积分加权平均：法向分平均动能为 $k_B T$（而非普通 $\\frac{1}{2}k_BT$！），横向两个自由度不受通量偏置仍各为 $\\frac{1}{2}k_BT$。",
+        "因此每个溢出单原子分子带走的真实平均动能是 $k_B T + 2\\times \\frac{1}{2}k_B T = 2 k_B T$！",
+        "列罐内剩余气体能量守恒（因真空无外功且绝热）：$\\mathrm{d}U = \\mathrm{d}\\left(\\frac{3}{2} N k_B T\\right) = 2 k_B T\\,\\mathrm{d}N$（注意 $\\mathrm{d}N < 0$ 时 $\\mathrm{d}U$ 减得比 $T$ 不变时还快！）。",
+        "展开左边 $\\frac{3}{2} N\\,\\mathrm{d}T + \\frac{3}{2} T\\,\\mathrm{d}N = 2 T\\,\\mathrm{d}N \\implies 3 \\frac{\\mathrm{d}T}{T} = \\frac{\\mathrm{d}N}{N} \\implies T = T_0 \\left(\\frac{N}{N_0}\\right)^{1/3}$。当 $N = N_0/8$ 时，温度降为 $T = \\frac{1}{2} T_0$！"
+      ],
+      "limit_dimension_check": "若是双原子刚性分子（体内平均能量 $\\frac{5}{2}k_B T$，转动能与平动速率无关，故泻流带走 $2k_BT + k_BT = 3k_BT$），留给读者自检幂律为 $T \\propto N^{1/5}$！量纲显然完全无量纲一致。",
+      "transfers_to_ids": [
+        "cpho-2018-final-theory-problem-slice-q5",
+        "cpho-2014-final-theory-problem-slice-q3"
+      ]
+    },
+    {
+      "id": "ve_thermo_2",
+      "title": "微例 2 · 平均场计算总磁能时为什么必定乘上 1/2 因子？",
+      "difficulty_tag": "决赛压轴 1/2 双计数诊所",
+      "scenario": "由 $N$ 个自旋为 $\\frac{1}{2}$ 的局域磁矩组成铁磁体，每个磁矩大小为 $\\mu$，受到周围近邻产生的平均分子场 $\\mathbf{H}_m = \\lambda \\mathbf{M}$（磁化强度 $M = n m$，其中 $n=N/V$ 为数密度，$m=\\langle \\mu_z\\rangle$）。已知无外磁场下在某低温稳态每个自旋平均磁矩为 $m$。求整个晶体的内部磁相互作用总内能 $U$。",
+      "intuition_trap": "高发失分点（甚至成为 `cpho-2021-final-q5` 主要扣分点）：把单个自旋在外场中的势能 $-\\mu_0 m H_m$ 直接乘以总数 $N$ 得出 $-N\\mu_0\\lambda n m^2$——整整算大了一倍！",
+      "solution_steps": [
+        "为什么错？因为分子场 $\\mathbf{H}_m$ 不是外部电池提供的永久外磁场，它就是由这 $N$ 个自旋**自己互作用**凑出来的！若把每个自旋的能量全加起来，每对自旋 $(i, j)$ 之间的交互能 $E_{ij}$ 既在算第 $i$ 个自旋时算了一遍，又在算第 $j$ 个自旋时重算了一遍！",
+        "严格用互作用对计数或热力学充电过程证明：假设把所有磁化强度从 $0$ 等比例缓慢“充磁”到 $M$，过程中每增加 $\\mathrm{d}M$，体系内部互作用能变化 $\\mathrm{d}u = -\\mu_0 H_m(M')\\,\\mathrm{d}M' = -\\mu_0 \\lambda M'\\,\\mathrm{d}M'$。",
+        "从 $0$ 积分到 $M$，立刻给出真实单位体积磁能 $u = -\\frac{1}{2}\\mu_0 \\lambda M^2$，总内能 $U = -\\frac{1}{2} N \\mu_0 m H_m$！",
+        "**对比外场**：如果是外加独立磁铁产生的固定外场 $\\mathbf{H}_0$，则该项 $-N\\mu_0 m H_0$ 无需乘 $1/2$，最终总能量 $U = -N\\mu_0 m H_0 - \\frac{1}{2} N \\mu_0 m H_m$！"
+      ],
+      "limit_dimension_check": "检验最小两体系统 $N=2$：对相互作用 $-J s_1 s_2$，第 1 个自旋感受到的有效场正比于 $s_2$ 给出 $-J s_1 s_2$；若分别求两者单体能量相加得 $-2 J s_1 s_2$，恰需乘 $1/2$ 才回归真实的 $-J s_1 s_2$。",
+      "transfers_to_ids": [
+        "cpho-2021-final-theory-problem-slice-q5",
+        "plancks-2019-final-problem-slice-q6"
+      ]
+    }
+  ],
+  "topic_pitfalls": [
+    {
+      "title": "平均场内能漏乘 1/2 双计数因子",
+      "detail": "分子场是由体系自身磁矩产生的，对全体自旋求和时必须把内部互作用项乘以 1/2；只有独立外场项不乘 1/2。",
+      "ref_ids": [
+        "cpho-2021-final-theory-problem-slice-q5"
+      ]
+    },
+    {
+      "title": "双组分气体绝热指数误算成算数平均",
+      "detail": "混合理想气体应先求摩尔定容热容的加权平均 $C_{V,\\text{eff}}$，再用 $\\gamma_{\\text{eff}} = 1 + R/C_{V,\\text{eff}}$，不可直接平均 $\\gamma$。",
+      "ref_ids": [
+        "cpho-2014-final-theory-problem-slice-q3"
+      ]
+    },
+    {
+      "title": "辐射灰体球腔忽略内壁自反射修正",
+      "detail": "大球壳内部漫反射的辐射能有 $(1 - R_1^2/R_2^2)$ 比例根本打不到内球而直接回到外球自己身上，忽略该项必出定量偏差。",
+      "ref_ids": [
+        "cpho-2018-semifinal-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "title": "多维空间或速率与能量分布转换漏掉雅可比因子",
+      "detail": "速率分布峰值与动能分布峰值、频率维恩峰值与波长维恩峰值全部不相等，转换变量必写 $\\mathrm{d}x / \\mathrm{d}y$。",
+      "ref_ids": [
+        "cpho-2020-final-theory-problem-slice-q1",
+        "plancks-2024-final-combined-slice-q10"
+      ]
+    }
+  ]
+}

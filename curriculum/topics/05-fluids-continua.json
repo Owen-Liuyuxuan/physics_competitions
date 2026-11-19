@@ -1,0 +1,262 @@
+{
+  "id": "fluids_continua",
+  "order": 5,
+  "code": "TOPIC 05",
+  "title": "流体力学、表面张力与连续介质",
+  "subtitle": "从“静压浮力与伯努利管”跃迁至“毛细半耗散虚功、势流-静电附加质量与波破焦散”",
+  "tagline": "本库主属 22 题（交叉涵盖极广），贯通变重力静水大气、毛细弯月面、空泡 Beta 函数坍缩、圆盘势流循环矩阵与薄壳屈曲。",
+  "bridge_summary": "复赛流体多考帕斯卡桶、旋转抛物面与简单伯努利小孔射流。在 CPhO 决赛及 Physics Cup / PLANCKS 中，流体与连续介质迅速向四个高阶方向扩张：① **毛细现象的能量变分视角**（如毛细上升表面自由能的一半转为重力势能、一半耗散为热）；② **无旋不可压势流与静电场的精确数学对偶**（通过椭球退极化因子直接秒求入水冲击附加质量）；③ **非均匀变密度流体与吸积盘标高微分方程**；④ **连续弹性体/弦管腔声学与折叠波破**。",
+  "recommended_math_ids": [
+    "math_1",
+    "math_3",
+    "math_4",
+    "math_5"
+  ],
+  "recommended_adv_ids": [
+    "adv_7",
+    "adv_3"
+  ],
+  "syllabus_matrix": [
+    {
+      "code": "F1",
+      "name": "流体静力学、变重力大气与旋转液面平衡",
+      "tier_a_semifinal": "帕斯卡流体静力学桶悖论、旋转水桶等势抛物面及线性变温大气静力气压公式。",
+      "tier_b_final": "变重力球对称静水力平衡积分（火星大气）、倒扣半球罩液体顶起控制体平衡（警惕外部大气压抵消项）。",
+      "tier_c_frontier": "天体薄吸积盘与原行星盘垂向静水力高斯标高、粘滞角动量扩散方程及亚开普勒气体拖曳。",
+      "exam_focus": "处理旋转容器与罩壳受力时，永远画清封闭隔离体并标明全部曲面压强在对称轴方向的有效投影面积。",
+      "common_blindspots": "对半球罩内受热气体或注液顶起条件计算时，忘记减去外部环境大气压或罩外液体静压对受力底面积的反作用。"
+    },
+    {
+      "code": "F2",
+      "name": "伯努利方程、动量流反冲与气动/流体阻力",
+      "tier_a_semifinal": "定常伯努利方程、小孔泄流速度、飞艇阿基米德净升力估算。",
+      "tier_b_final": "多孔喷流气垫反冲静平衡（Hyperloop 气浮投影面积积分）及变截面降落平方空气阻力速度双曲正切解。",
+      "tier_c_frontier": "高速赛车的气动上下压力耦合矢量静摩擦极限、非定常自由面水跃与能量耗散界限。",
+      "exam_focus": "遇到射流冲击或气垫喷口，用**控制体动量定理**算净推力，用**伯努利方程**算管内静压强，切勿把动压强当成静压力乱加。",
+      "common_blindspots": "对非定常流（如狭缝急速挤压加速的水膜）错误直接套用定常伯努利方程忽略 $\\partial\\phi/\\partial t$ 项！"
+    },
+    {
+      "code": "F3",
+      "name": "表面张力、拉普拉斯压强、毛细势能与晶面台阶",
+      "tier_a_semifinal": "液滴瑞利表面张力脉动标度律、毛细长度 $l_c = \\sqrt{\\sigma/\\rho g}$、悬垂水滴曲率半径与部分浸润玻璃管平衡。",
+      "tier_b_final": "环形狭缝毛细上升虚功原理、表面自由能向重力势能与热耗散的精确二分法则（`cpho-2015-final-q5`）。",
+      "tier_c_frontier": "液面漂浮球“麦圈效应”（Cheerios Effect）修正贝塞尔弯月面相互作用、零重力晶体台阶表面自由能 Wulff 泛函变分平衡。",
+      "exam_focus": "毛细现象既可用拉普拉斯附加压强 $\\Delta p = \\sigma(1/R_1 + 1/R_2)$ 算局部力平衡，也可用总吉布斯表面自由能 + 重力势能求极值（但须注意上升到平衡伴随 50% 热耗散！）。",
+      "common_blindspots": "浸润玻璃管内壁和外壁具有**双面接触线**，列受力分析切勿漏掉内外壁周长贡献（`cpho-2017-final-q6`）。"
+    },
+    {
+      "code": "F4",
+      "name": "无旋势流、附加质量、空泡坍缩与波破焦散",
+      "tier_a_semifinal": "连续性方程、简单轴对称不可压径向流速度场与变有效质量水垫缓冲振荡近似。",
+      "tier_b_final": "不可压球形空泡 Rayleigh 坍缩（用虚质量功能原理替代径向欧拉方程并用 Beta 函数求闭式时间）。",
+      "tier_c_frontier": "势流-静电拉普拉斯精确对偶（椭球退极化因子求附加质量）、平底圆柱入水半侧扁圆盘脉冲模型、旋转穿孔圆盘势流循环矩阵本征模与正弦波破折叠焦散。",
+      "exam_focus": "把不可压缩势流速度势 $\\phi$ 直接翻译成静电势（固体表面刚性不渗透对应**绝缘体边界 $\\partial\\phi/\\partial n=0$**；水面触及瞬间等势冲量对应**等势导体边界 $\\phi=0$**！）。",
+      "common_blindspots": "在变有效质量挤水垫问题（`physicscup-2023-q1`）中误用常数质量简谐周期公式，实际上有效质量随间隙呈 $h^{-3}$ 发散！"
+    },
+    {
+      "code": "F5",
+      "name": "弹性形变、屈曲力学、流体/管腔声学与连续弦振动",
+      "tier_a_semifinal": "双金属片热膨胀曲率匹配、绝热声速推导与微孔竹板亥姆霍兹共振器集中参数建模。",
+      "tier_b_final": "圆锥管球面声波驻波谐频（圆锥管基频与全部整数倍泛音齐整共存！）、声电类比与音孔高通滤波特性。",
+      "tier_c_frontier": "抗外压真空飞艇球壳弹性失稳屈曲力学极限、离散到连续介质色散声波与阻尼弦驻波边界条件。",
+      "exam_focus": "管腔声学记住两大对比：开-闭圆柱管缺偶次谐波；而圆锥管内径向振幅按 $p\\propto \\frac{1}{r}\\sin(kr)$ 变化（原点自动有限），居然拥有全整数谐波！",
+      "common_blindspots": "把圆柱等截面声学边界（压力波节在开口端）直接搬到带辐射阻抗的喇叭口或变截面圆锥管中。"
+    }
+  ],
+  "core_models": [
+    {
+      "name": "势流-静电对偶与椭球附加质量模型",
+      "tier": "L4 · Physics Cup 经典王牌",
+      "prototype": "水中加速运动的椭球体或平底圆柱触水瞬间的液体动能与附加质量。",
+      "assumptions": "流体无旋、无粘滞且不可压缩；刚体触水瞬间自由面速度势冲量为零。",
+      "key_equations": [
+        "势流与极化映射：$m_{\\mathrm{add}, i} = \\rho V_{\\mathrm{body}} \\frac{N_i}{1 - N_i}$（$N_i$ 为该轴向椭球退极化因子）",
+        "扁圆盘法向极端极限（$c/a \\to 0$，$N_z \\to 1 - \\frac{\\pi c}{2 a}$）：全空间垂直圆盘 $m_{\\mathrm{add}} = \\frac{8}{3}\\rho R^3$；触水单侧半空间恰取一半 $\\frac{4}{3}\\rho R^3$"
+      ],
+      "evolution_semi_to_final": "绕过直接解柱坐标贝塞尔函数积分势流动能的苦力，一步借助高磁导率/导体极化或超导磁体退磁因子读出任意椭球体附加质量（`physicscup-2019-q1`, `2024-q1`）。",
+      "sample_problem_ids": [
+        "physicscup-2019-q1-reader",
+        "physicscup-2024-q1-reader",
+        "physicscup-2026-q4-reader"
+      ]
+    },
+    {
+      "name": "毛细上升半耗散虚功与弯月面受力模型",
+      "tier": "L2/L3 · 复赛到决赛衔接",
+      "prototype": "将半径分别为 $r_1, r_2$ 的同轴毛细管或环形狭缝竖直插入润湿液体中，求最终液柱高度与耗散热。",
+      "assumptions": "零或固定接触角 $\\theta$，液柱截面远小于毛细长度 $l_c$，界面张力系数恒定。",
+      "key_equations": [
+        "平衡液柱高度由静压与接触线总张力平衡决定：$h = \\frac{2\\sigma\\cos\\theta}{\\rho g (r_2 - r_1)}$",
+        "表面张力释放总界面自由能 $W_{\\sigma} = \\rho g A h^2$，重力势能仅增 $U_g = \\frac{1}{2}\\rho g A h^2 \\implies Q_{\\text{heat}} = \\frac{1}{2}\\rho g A h^2$"
+      ],
+      "evolution_semi_to_final": "就像给电容器恒压充电必然耗散一半能量在电阻上一样，毛细管恒张力把液柱拉到平衡高度的动态阻尼过程也严格把恰好 50% 的润湿自由能转为粘滞热耗散！",
+      "sample_problem_ids": [
+        "cpho-2015-final-theory-problem-slice-q5",
+        "cpho-2017-final-theory-problem-slice-q6",
+        "plancks-2026-final-problem-slice-q1"
+      ]
+    },
+    {
+      "name": "不可压缩流体 Rayleigh 球形空泡坍缩模型",
+      "tier": "L3 · 决赛/国际热力学-流体综合",
+      "prototype": "无穷大恒压水体（压强 $P_0$）中突然出现半径为 $R_0$ 的真空空泡，求坍缩半径 $R(t)$ 与总坍缩时间 $T_c$。",
+      "assumptions": "流体无粘、无旋且严格球对称；表面张力与腔内蒸汽忽略（或修正叠加）。",
+      "key_equations": [
+        "连续性方程锁定外流场速度分布：$v(r,t) = \\frac{R^2 \\dot{R}}{r^2}$",
+        "外流场总动能（相当于把有效质量 $M_{\\mathrm{eff}}(R) = 4\\pi\\rho R^3$ 集中于泡壁）：$E_k = 2\\pi\\rho R^3 \\dot{R}^2 = \\frac{4}{3}\\pi P_0 (R_0^3 - R^3)$",
+        "坍缩时间积分化为 Beta 函数：$T_c = R_0\\sqrt{\\frac{3\\rho}{2P_0}}\\int_0^1 \\frac{x^{3/2}}{\\sqrt{1-x^3}}\\mathrm{d}x = R_0\\sqrt{\\frac{\\rho}{6P_0}} B\\!\\left(\\frac{5}{6}, \\frac{1}{2}\\right) \\approx 0.91468\\,R_0\\sqrt{\\frac{\\rho}{P_0}}$"
+      ],
+      "evolution_semi_to_final": "如果硬解径向欧拉压力梯度微分方程会极易卡壳；直接用不可压缩体积排开功 $P_0 \\Delta V$ 等于外部液场总动能，一分钟写完方程（对比 `plancks-2021-final-q4` 盲解优解）。",
+      "sample_problem_ids": [
+        "plancks-2021-final-combined-slice-q4",
+        "physicscup-2023-q1-reader"
+      ]
+    },
+    {
+      "name": "变重力球对称大气静力平衡与旋转液面模型",
+      "tier": "L2/L3 · 流体静力核心",
+      "prototype": "考虑重力随海拔平方反比衰减 $g(r) = GM/r^2$ 的行星绝热/等温大气，以及圆柱或半球容器旋转时的抛物面自由表面与顶部承压平衡。",
+      "assumptions": "流体整体相对参考系静止（无宏观粘滞剪切流动），理想气体满足局部定常状态方程。",
+      "key_equations": [
+        "变重力静力积分：$\\frac{\\mathrm{d}P}{\\mathrm{d}r} = -\\rho(r)\\frac{GM}{r^2}$ 联立 $P \\rho^{-\\gamma} = \\mathrm{const}$ 或 $P = \\rho R T / \\mu$",
+        "旋转抛物面等势条件：$z(r) = z_0 + \\frac{\\omega^2 r^2}{2g}$（利用体积守恒确定顶/底临界露出水位 $z_0$）"
+      ],
+      "evolution_semi_to_final": "不再满足于背诵均匀重力指数大气公式 $e^{-Mgh/RT}$；变重力场下必须亲自积分 $1/r^2$ 势能差（绝热大气在有限高度处温度恰好归零），旋转液体则常耦合半球体静压顶起判定。",
+      "sample_problem_ids": [
+        "cpho-2016-final-theory-problem-slice-q3",
+        "plancks-2021-preliminary-problem-slice-q7",
+        "plancks-2022-preliminary-problem-slice-q4"
+      ]
+    }
+  ],
+  "secondary_conclusions": [
+    {
+      "title": "变有效质量系统的机械能守恒周期判据",
+      "source_type": "跨界方法",
+      "formula": "$E = \\frac{1}{2} M_{\\mathrm{eff}}(x)\\dot{x}^2 + U(x) = \\mathrm{const} \\implies T = \\sqrt{2}\\int_{x_1}^{x_2}\\sqrt{\\frac{M_{\\mathrm{eff}}(x)}{E - U(x)}}\\,\\mathrm{d}x$",
+      "derivation_skeleton": "当移动活塞或沉没圆柱挤压极薄水缝时，流体连续性使微幅位移对应的流体动能系数 $M_{\\mathrm{eff}}(h)\\propto h^{-3}$ 随间隙剧烈发散。绝不能拿平衡点有效质量代入 $2\\pi\\sqrt{m/k}$ 当有限振幅周期！",
+      "validity_boundaries": "无粘滞定常近似有效时机械能严格守恒；若间隙小到粘滞雷诺数很低需加入挤压膜阻尼耗散。",
+      "pitfall_warning": "即使微小初始位移，若平衡处即边界壁面（$h\\to 0$ 奇点），振动永远不是简谐振动（`physicscup-2023-q1`）。",
+      "related_problem_ids": [
+        "physicscup-2023-q1-reader",
+        "plancks-2021-final-combined-slice-q4"
+      ]
+    },
+    {
+      "title": "毛细长度与漂浮物体修正贝塞尔相互作用（Cheerios Effect）",
+      "source_type": "经典定理",
+      "formula": "$l_c = \\sqrt{\\frac{\\sigma}{\\rho g}}, \\qquad \\nabla_\\perp^2 \\zeta - \\frac{1}{l_c^2}\\zeta = 0 \\implies \\zeta(r) \\propto K_0\\!\\left(\\frac{r}{l_c}\\right)$",
+      "derivation_skeleton": "小斜率自由液面静压 $\\rho g\\zeta$ 与拉普拉斯表面曲率附加压强 $\\sigma\\nabla^2\\zeta$ 平衡给出筛选泊松/亥姆霍兹方程，点负载在二维的格林函数即零阶修正贝塞尔函数 $K_0(r/l_c)$（注意同类漂浮物形成同号曲率叠加使重心更低而互相吸引）。",
+      "validity_boundaries": "斜率必须很小（$|\\nabla\\zeta|\\ll 1$），且两物体间距远大于各自半径，忽略多极高阶重叠。",
+      "pitfall_warning": "切勿以为重物体浮在水面一定相吸、轻物体相斥：若一者下沉弯月面（亲水/重球）与另一者上凸弯月面（疏水/轻泡）相遇则相互排斥！",
+      "related_problem_ids": [
+        "plancks-2026-final-problem-slice-q1",
+        "plancks-2022-preliminary-problem-slice-q9"
+      ]
+    },
+    {
+      "title": "变重力球对称大气静水力分布与绝热/多方极限",
+      "source_type": "真题提炼",
+      "formula": "$\\frac{\\mathrm{d}P}{\\mathrm{d}r} = -\\rho(r)\\frac{GM}{r^2},\\qquad T(r) = T_0 - \\frac{\\gamma-1}{\\gamma}\\frac{\\mu GM}{R}\\left(\\frac{1}{R_0}-\\frac{1}{r}\\right)$（绝热对流大气）",
+      "derivation_skeleton": "不要背恒定重力气压公式 $e^{-Mgh/RT}$！从静力平衡与过程方程（等温或绝热 $P\\rho^{-\\gamma}=\\mathrm{const}$）联立直接积分 $1/r^2$ 即得精确分布。",
+      "validity_boundaries": "忽略大气自身质量和自转惯性离心力；绝热直减模型在高层稀薄电离层/平流层失效。",
+      "pitfall_warning": "在变重力绝热大气中温度会在有限高处降为 0（即有严格大气层顶界高度，不像等温大气延伸到无穷远！`cpho-2016-final-q3`）。",
+      "related_problem_ids": [
+        "cpho-2016-final-theory-problem-slice-q3",
+        "cpho-2019-semifinal-theory-problem-slice-q7"
+      ]
+    },
+    {
+      "title": "拉格朗日粒子柱密度守恒与波破折叠焦散",
+      "source_type": "真题提炼",
+      "formula": "$\\rho(x, t)\\,\\mathrm{d}x = \\rho_0\\,\\mathrm{d}x_0 \\implies \\rho(x,t) = \\sum_{x_0(x,t)} \\frac{\\rho_0}{|\\partial x/\\partial x_0|}$",
+      "derivation_skeleton": "无碰撞自由气体正弦速度扰动在时间推进下必出现 $\\partial x / \\partial x_0 = 0$ 的三阶折叠焦散（Caustic）奇点致使局部体密度瞬时发散；但沿传播方向对体密度积分求光学总柱密度 $\\int \\rho\\,\\mathrm{d}x$ 时，雅可比行列式恰好完美消元恒等于初态总质量！",
+      "validity_boundaries": "一维无碰撞假设且粒子穿越彼此不发生散射；若加入有限弛豫时间碰撞，奇点将被耗散抹平。",
+      "pitfall_warning": "不要被密度发散吓住误以为光吸收截面积发散——光学透明度往往取决于**柱密度**而非峰值体密度（`physicscup-2026-q2`）。",
+      "related_problem_ids": [
+        "physicscup-2026-q2-reader"
+      ]
+    },
+    {
+      "title": "旋转液面抛物面体积守恒定液位技巧",
+      "source_type": "经典定理",
+      "formula": "$z(r) = z_0 + \\frac{\\omega^2 r^2}{2g}, \\qquad \\bar{z}_{\\text{cyl}} = \\frac{1}{R^2}\\int_0^R 2r z(r)\\,\\mathrm{d}r = z_0 + \\frac{\\omega^2 R^2}{4g}$",
+      "derivation_skeleton": "旋转抛物面在均匀圆柱容器中上升高度与中心下降深度精确相等（各占总极差 $\\frac{\\omega^2 R^2}{2g}$ 的一半），因此只要旋转未露底且未溢出，中心液面高度简单地从初始 $H_0$ 下降 $\\frac{\\omega^2 R^2}{4g}$。",
+      "validity_boundaries": "一旦底部露出（$z_0 < 0$）或边缘溢流，必须按真实球冠/圆台剩余体积重新积分！",
+      "pitfall_warning": "在半球容器内旋转液体，体积微积分截面积随深度变化，不再是一半对一半（`plancks-2022-prelim-q4`）！",
+      "related_problem_ids": [
+        "plancks-2021-preliminary-problem-slice-q7",
+        "plancks-2022-preliminary-problem-slice-q4"
+      ]
+    }
+  ],
+  "virtual_examples": [
+    {
+      "id": "ve_fluid_1",
+      "title": "微例 1 · 竖直毛细管水位平衡为啥“天生耗散掉一半表面能”？",
+      "difficulty_tag": "复赛过渡→决赛能量自洽诊所",
+      "scenario": "将内半径 $r$ 的完全润湿（接触角 $0^\\circ$）细长玻璃管竖直下端刚好接触大水槽液面（液面视为恒定零高度，液体密度 $\\rho$，表面张力 $\\sigma$）。液柱最终在管内上升至平衡高度 $h$。比较“界面表面自由能总降低量 $|\\Delta F_{\\sigma}|$”与“液柱获得的重力势能增量 $\\Delta U_g$”，相差的一半去了哪里？",
+      "intuition_trap": "错误思路：有人试图用“总机械能守恒 $\\Delta U_g + \\Delta F_\\sigma = 0$”来直接算最终平衡高度 $h$——结果算出来的高度竟是真实平衡高度 $h$ 的**整整 2 倍**！",
+      "solution_steps": [
+        "由受力静平衡（管壁接触线向上总拉力 $2\\pi r \\sigma$ 等于液柱重力 $\\pi r^2 h \\rho g$，或由拉普拉斯附加压强 $\\Delta p = 2\\sigma/r = \\rho g h$），真正的平衡高度是 $h = \\frac{2\\sigma}{\\rho g r}$。",
+        "此过程中液柱重力势能增量为 $\\Delta U_g = (\\pi r^2 h \\rho) g \\cdot \\frac{h}{2} = \\frac{1}{2}\\pi r^2 \\rho g h^2 = \\frac{2\\pi\\sigma^2}{\\rho g}$。",
+        "而管内壁从气-固接触转为液-固接触（完全润湿满足杨氏方程 $\\sigma_{sg} - \\sigma_{sl} = \\sigma$），因此界面总自由能净降低量为 $|\\Delta F_\\sigma| = 2\\pi r h \\sigma = \\frac{4\\pi\\sigma^2}{\\rho g} = 2\\Delta U_g$！",
+        "物理真相：如果管内完全没有粘滞耗散，液柱根本不会停在 $h$，而是冲过头做无阻尼振荡直达 $2h$ 再跌回来（类比把重物突然挂上弹簧无阻尼下落到静平衡伸长量 2 倍处！）；现实粘滞最终将多余的 $\\frac{1}{2}|\\Delta F_\\sigma|$ 全部耗散为内能热（参见 `cpho-2015-final-q5`）。"
+      ],
+      "limit_dimension_check": "$[\\sigma^2 / (\\rho g)] = (\\mathrm{J/m^2})^2 / ((\\mathrm{kg/m^3})(\\mathrm{m/s^2})) = \\mathrm{J}$；记住“静力平衡找 $h$、能量泛函极小 $\\frac{\\partial (U_g + F_\\sigma)}{\\partial h} = 0$ 才正确，绝不能令 $U_g + F_\\sigma = 0$”！",
+      "transfers_to_ids": [
+        "cpho-2015-final-theory-problem-slice-q5",
+        "cpho-2017-final-theory-problem-slice-q6",
+        "plancks-2026-final-problem-slice-q1"
+      ]
+    },
+    {
+      "id": "ve_fluid_2",
+      "title": "微例 2 · 倒扣水下的半球壳罩会被内部压强“顶翻”吗？",
+      "difficulty_tag": "流体曲面静力投影陷阱",
+      "scenario": "质量为 $M$、半径为 $R$ 的极薄均匀半球壳倒扣在光滑水平水池底面上，半球底边与池底紧贴但存在微小通水间隙（保证内外底边水压连通）。从半球顶部小孔注入密度为 $\\rho_o < \\rho_w$ 的轻质油（或气体），当内部轻流体厚度从顶部向下达到中心线高度 $h$ 时，计算使半球恰好被水/内部压强顶离池底的临界受力平衡条件。",
+      "intuition_trap": "经典踩坑：直接拿着半球内部压力乘以内表面积去和重力 $Mg$ 比较，**彻彻底底漏掉了半球外侧全部水压及大气压提供的向下总压力**——实际上由于底部存在外部水压，任何垂直投影的压强贡献都只能看“内部与外部同高度位置的压强差 $\\Delta P(z)$”！",
+      "solution_steps": [
+        "取半球壳自身（不含壳内流体）作隔离体，竖直方向受到三重作用：自身向下重力 $Mg$、壳内流体向上的各微元压强力、以及外部水体向下的各微元压强力。",
+        "关键简化（阿基米德思想/差压投影）：半球壳厚度可忽略，内外表面同高度 $z$ 处的面积微元在竖直方向投影均为 $\\mathrm{d}A_z = 2\\pi r\\,\\mathrm{d}r$（其中 $r^2 + z^2 = R^2$）。因此液/气压合力严格等于向上的**差压积分**：$F_{\\uparrow} = \\int_0^R [P_{\\text{in}}(z) - P_{\\text{out}}(z)]\\,2\\pi r\\,\\mathrm{d}r$！",
+        "从底部连通口 $z=0$ 处的相同静压强 $P_{\\text{bottom}}$ 向上攀升：外部水压按 $P_{\\text{out}}(z) = P_{\\text{bottom}} - \\rho_w g z$ 下降，内部若上部充轻油/气体（密度 $\\rho_o$），下降得更慢 $\\Delta P(z) = (\\rho_w - \\rho_o)g z$（或仅在有油区域体现）。积出来即为总浮起力，一举避开大气压 $P_0$ 假象！"
+      ],
+      "limit_dimension_check": "若内部全换为同样水 $\\rho_o = \\rho_w$，则处处 $P_{\\text{in}} \\equiv P_{\\text{out}}$，净流体压力为零，绝不可能把任何薄壳顶起来！",
+      "transfers_to_ids": [
+        "plancks-2022-preliminary-problem-slice-q4",
+        "plancks-2021-preliminary-problem-slice-q2"
+      ]
+    }
+  ],
+  "topic_pitfalls": [
+    {
+      "title": "半球底面连通流体受力错忘减外部大气压/水压",
+      "detail": "薄壁曲面静力平衡必须使用 $(P_{\\text{in}} - P_{\\text{out}})\\,\\mathrm{d}A_z$ 做压差竖直投影积分，严禁单独拿绝对压强去乘曲面。",
+      "ref_ids": [
+        "plancks-2022-preliminary-problem-slice-q4"
+      ]
+    },
+    {
+      "title": "非定常加速边界误用定常伯努利方程",
+      "detail": "圆柱高速拍入水面或窄缝水膜急速挤压时速度势含显著 $\\partial\\phi/\\partial t$ 冲击压力，必须直接由拉普拉斯动能变分或流体脉冲冲量求解。",
+      "ref_ids": [
+        "physicscup-2023-q1-reader",
+        "physicscup-2024-q1-reader"
+      ]
+    },
+    {
+      "title": "毛细管双面润湿接触线周长漏算",
+      "detail": "半浸入水中的玻璃管内壁与外壁均有一条接触线受表面张力下拉，只算单侧圆周长会整整少算一倍毛细拉力。",
+      "ref_ids": [
+        "cpho-2017-final-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "title": "薄壳抗外压屈曲误用纯材料拉伸强度极限",
+      "detail": "真空气囊（如真空飞艇）主要不是材料被压碎，而是在极低应力下就提前发生几何非线性薄壳失稳屈曲（$P_c \\propto E(t/R)^2$）。",
+      "ref_ids": [
+        "plancks-2021-preliminary-problem-slice-q9"
+      ]
+    }
+  ]
+}

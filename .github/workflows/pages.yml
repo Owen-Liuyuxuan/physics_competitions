@@ -3,13 +3,15 @@ name: Deploy Physics Atlas (GitHub Pages)
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: pages-deploy
+  group: ${{ github.event_name == 'pull_request' && format('pr-validate-{0}', github.event.pull_request.number) || 'pages-deploy' }}
   cancel-in-progress: false
 
 jobs:
@@ -25,17 +27,24 @@ jobs:
       - name: Build and verify internal and public distributions
         run: |
           node --check web/app.js
+          node --check web/study.js
           python3 scripts/merge_teaching.py
+          python3 scripts/build_study.py
+          node --check web/study-data.js
           python3 scripts/build_sites.py
+          python3 scripts/check_study.py
           python3 scripts/check_sites.py
           python3 scripts/check_translations.py
           python3 scripts/check_public_release.py
       - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
           path: sites/internal/dist
 
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     permissions:

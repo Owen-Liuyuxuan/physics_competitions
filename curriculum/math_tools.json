@@ -1,0 +1,402 @@
+[
+  {
+    "id": "math_1",
+    "code": "M-01",
+    "name": "量纲分析、白金汉 $\\Pi$ 定理与无量纲标度律",
+    "level_tag": "复赛必备 · 决赛验算底牌",
+    "why_it_matters": "在未知系统微分方程难解或参数极多时，量纲分析能直接定出物理量的幂律标度；而在完整推导出复杂符号解后，量纲齐次性与无量纲化更是 3 秒排查系数/指数笔误的终极保险。",
+    "core_formulas": [
+      {
+        "label": "白金汉 $\\Pi$ 定理（缩减独立无量纲数）",
+        "tex": "k_{\\Pi} = n - r, \\quad \\Pi_1 = f(\\Pi_2, \\dots, \\Pi_{k_{\\Pi}})",
+        "note": "若涉及 $n$ 个物理量与 $r$ 个独立基本量纲（如 $M, L, T, \\Theta, Q$），系统规律可压为 $n-r$ 个无量纲组合之间的函数关系。"
+      },
+      {
+        "label": "幂律指数待定线性方程组",
+        "tex": "[Q] = [q_1]^{\\alpha_1}[q_2]^{\\alpha_2}\\cdots[q_r]^{\\alpha_r} \\implies \\mathbf{A}\\boldsymbol{\\alpha} = \\mathbf{b}",
+        "note": "注意当问题含隐含无量纲参数（如纵横比 $h/R$ 或马赫数 $v/c$）时，量纲只能定到“乘以未知无量纲函数 $g(\\Pi_2)$”为止。"
+      }
+    ],
+    "usage_steps": [
+      "**列全关联物理量清单**：遗漏任何决定物理机制的常数（如重力加速度 $g$、表面张力 $\\sigma$、真空光速 $c$ 或引力常数 $G$）会直接算错幂次。",
+      "**选取量纲独立的基底组**：优先选包含待测现象核心作用力的常数做基底（例如引力辐射选 $G, c, M$）。",
+      "**区分“唯一幂律”与“含自由函数 $f(\\Pi)$”**：若 $n-r=1$，结果除无量纲常数外唯一确定；若 $n-r \\ge 2$，须利用对称性或极端渐近条件限定函数形式。",
+      "**把最终长公式无量纲化**：将所有复杂分式提取出特征尺度和特征时间，剩余部分必由纯粹比值构成。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：双黑洞旋近引力波辐射功率的标度律",
+      "problem": "两颗相等质量 $M$ 的黑洞以角速度 $\\omega$ 绕质心做圆轨道旋近（间距 $r$）。已知引力波辐射来自质量四极矩变化且弱场下光速 $c$ 与引力常数 $G$ 是唯二基本常数，推导辐射功率 $P_{\\mathrm{GW}}$ 对 $G, M, \\omega, r, c$ 的标度关系（无量纲因子除外）。",
+      "solution": "四极矩 $Q \\sim Mr^2$，引力波辐射振幅正比于 $\\dddot{Q}$，故辐射功率 $P \\propto \\frac{G}{c^5}(\\dddot{Q})^2$。先从量纲检验 $\\left[\\frac{G}{c^5}(M r^2 \\omega^3)^2\\right]$：因 $[G] = L^3 M^{-1} T^{-2}$，故 $[G M^2 r^4 \\omega^6 / c^5] = (L^3 M^{-1} T^{-2})(M^2 L^4 T^{-6}) / (L^5 T^{-5}) = M L^2 T^{-3} = [P]$，量纲严格闭合！再用开普勒第三定律 $\\omega^2 r^3 \\sim GM$ 消去 $r$，立刻得 $P_{\\mathrm{GW}} \\propto \\frac{G^4 M^5}{c^5 r^5} \\propto \\frac{(GM\\omega)^{10/3}}{G c^5}$。这正是 LIGO 探测啁啾质量（`plancks-2026-q5`, `cpho-2020-semi-q7`）的核心标度律。"
+    },
+    "common_traps": [
+      "忽略“同一物理问题里角度虽无量纲，但三角函数与幂函数不同”的事实，硬凑无量纲常数（例如弧度不能盲目当成 $1$）。",
+      "遗漏关键动力学中介量（如把表面张力毛细波遗漏密度 $\\rho$，或算电磁问题漏掉 $\\varepsilon_0 / \\mu_0$）。"
+    ],
+    "featured_problem_ids": [
+      "cpho-2013-semifinal-theory-problem-slice-q3",
+      "cpho-2014-semifinal-theory-problem-slice-q1",
+      "cpho-2020-semifinal-theory-problem-slice-q7",
+      "plancks-2026-final-problem-slice-q5"
+    ]
+  },
+  {
+    "id": "math_2",
+    "code": "M-02",
+    "name": "多级泰勒展开、小量分级近似与大数相消",
+    "level_tag": "复赛压轴 · 决赛核心",
+    "why_it_matters": "决赛最致命的错误往往不是“不会展开”，而是“过早截断一阶项”——当主阶项因为对称性或几何抵消恰好相消时，决定物理效应（如角聚焦、微振动刚度、自聚焦透镜、极端相对论阈值）的恰恰是二阶或三阶小量！",
+    "core_formulas": [
+      {
+        "label": "常用基准展开（必须倒背如流到 3 阶）",
+        "tex": "(1+x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha-1)}{2}x^2 + \\frac{\\alpha(\\alpha-1)(\\alpha-2)}{6}x^3 + O(x^4)",
+        "note": "三角与指数：$\\sin x = x - \\frac{x^3}{6} + \\cdots$，$\\cos x = 1 - \\frac{x^2}{2} + \\frac{x^4}{24} - \\cdots$，$\\ln(1+x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\cdots$。"
+      },
+      {
+        "label": "复合函数与大数相消防误差变形",
+        "tex": "\\sqrt{a^2 + \\epsilon} - a = \\frac{\\epsilon}{\\sqrt{a^2+\\epsilon} + a} \\approx \\frac{\\epsilon}{2a}, \\quad E - pc = \\frac{m^2c^4}{E + pc} \\approx \\frac{m^2c^3}{2E}",
+        "note": "分子有理化与拉普拉斯微扰变换能彻底避免 $\\gamma \\sim 10^6$ 时 $1-\\beta$ 数值归零灾难。"
+      }
+    ],
+    "usage_steps": [
+      "**先确定所有小量属于哪一量级梯队**：如 $\\delta \\ll 1$ 与 $\\delta^2$、以及不同物理小量间的相对大小（例如 $\\alpha \\sim \\delta^2$）。",
+      "**先保留到拟求阶数的上一阶再做代数化简**：直到完成减法相消前，绝对不要丢掉高一阶小量（例如求小振动刚度时，$x(\\theta)$ 展开必须留到 $\\theta^2$）。",
+      "**做一阶/二阶极值（角聚焦）时对参量显式变分**：令 $\\mathrm{d}X/\\mathrm{d}\\alpha = 0$ 并检验 $\\mathrm{d}^2X/\\mathrm{d}\\alpha^2 = 0$（如 30° 平行板能量分析器）。",
+      "**大数相减强制改写为和式分母**：遇到 $\\sqrt{1+x}-1$ 或 $E-pc$ 先恒等变形再估算。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：微幅单摆弧长与平衡位移泰勒留阶陷阱",
+      "problem": "长为 $l$ 的轻杆可绕底座光滑转轴在竖直面摆动，末端固连质点 $m$，两侧用原长、劲度 $k$ 的水平弹簧对称拉在离转轴高 $h$ 处。求竖直位置平衡稳定的最小弹簧劲度系数 $k_{\\min}$。",
+      "solution": "若偏角为 $\\theta \\ll 1$，质点重力势能变化 $\\Delta U_g = mgl(\\cos\\theta - 1) = -\\frac{1}{2}mgl\\theta^2 + O(\\theta^4)$。弹簧伸长量由水平位移 $\\Delta x = h\\sin\\theta = h\\theta + O(\\theta^3)$ 与垂直下降引起的高阶变化构成；双侧对称弹簧一拉一压，总弹性势能变化 $\\Delta U_k = 2 \\cdot \\frac{1}{2} k (h\\theta)^2 + O(\\theta^4) = kh^2\\theta^2 + O(\\theta^4)$（注意两根弹簧贡献相加！）。总有效势能 $U_{\\mathrm{eff}}(\\theta) = \\left(kh^2 - \\frac{1}{2}mgl\\right)\\theta^2 + O(\\theta^4)$。令二阶导数 $U''_{\\mathrm{eff}}(0) > 0$ 得稳定临界条件 $k > k_{\\min} = \\frac{mgl}{2h^2}$。若在初态有预紧力 $T_0$，弹簧弹性势能中一阶伸长 $\\Delta L = \\pm h\\theta + \\frac{h^2\\theta^2}{2L_0}\\dots$ 里的高阶几何二阶项就会与线性项相消后存留（见 `plancks-2022-preliminary-q5`）！"
+    },
+    "common_traps": [
+      "几何摆动求平衡稳态时漏掉几何二阶投影项（例如一根竖直弹簧水平微偏时伸长量为 $\\frac{1}{2}x^2/l$，贡献二阶势能）。",
+      "对极端相对论粒子（$\\gamma \\sim 10^4$）直接算 $1 - v/c$ 导致计算机/计算器有效数字完全淹没（`cpho-2013-semi-q8`）。"
+    ],
+    "featured_problem_ids": [
+      "cpho-2014-final-theory-problem-slice-q5",
+      "cpho-2013-semifinal-theory-problem-slice-q8",
+      "plancks-2022-preliminary-problem-slice-q5",
+      "panpho-2026-paper-2-problem-slice-q2"
+    ]
+  },
+  {
+    "id": "math_3",
+    "code": "M-03",
+    "name": "常微分方程、积分因子与耦合本征模 / 循环矩阵",
+    "level_tag": "复赛核心 · 决赛进阶",
+    "why_it_matters": "从阻尼流体降落、电感电容回路、变质量链条动力学到正多边形多自由度耦合振动，本质都在求解线性一阶/二阶常微分方程组或本征值矩阵。",
+    "core_formulas": [
+      {
+        "label": "一阶线性非齐次 ODE（积分因子法）",
+        "tex": "\\frac{\\mathrm{d}y}{\\mathrm{d}x} + P(x)y = Q(x) \\implies y(x) = e^{-\\int P\\mathrm{d}x}\\left(\\int Q(x)e^{\\int P\\mathrm{d}x}\\mathrm{d}x + C\\right)",
+        "note": "常用于变质量链条提拉（令自变量由 $t$ 换为位置 $x$：$\\ddot{x} = v\\frac{\\mathrm{d}v}{\\mathrm{d}x} = \\frac{1}{2}\\frac{\\mathrm{d}(v^2)}{\\mathrm{d}x}$！）。"
+      },
+      {
+        "label": "循环对称矩阵（离散傅里叶本征模态）",
+        "tex": "q_j(t) = \\operatorname{Re}\\!\\left[A_m e^{i(2\\pi m j/N - \\omega_m t)}\\right], \\quad m = 0, 1, \\dots, N-1",
+        "note": "当 $N$ 个全同振子环形耦合（正多边形弹簧/摆/势流点源），无需解 $N\\times N$ 行列式，代入行波试探解瞬间拆出全部 $N$ 个本征频率。"
+      }
+    ],
+    "usage_steps": [
+      "**消时间换位置降阶技巧**：凡是阻力或受力只依赖于速度与位置（$F(x,v)$），立刻用 $a = v\\,\\mathrm{d}v/\\mathrm{d}x$ 消去 $t$，把方程化为 $v^2(x)$ 的一阶线性方程。",
+      "**非线性振子检查是否可化为能量积分**：$\\ddot{x}=f(x)$ 两边同乘 $\\dot{x}$ 积分得 $\\frac{1}{2}\\dot{x}^2 + U(x) = E$。",
+      "**二阶常系数受迫方程区分稳态特解与齐次通解**：稳态看频响复振幅，瞬态看初始连续条件匹配。",
+      "**对称环形系统秒切复行波试探解**：把耦合矩阵对角化化为傅里叶本征模（如 `physicscup-2021-q3`、`physicscup-2026-q4`）。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：积分因子秒解变质量柔性链条竖直向上匀力提拉",
+      "problem": "线密度为 $\\lambda$ 的长软链堆在光滑桌面上，从 $x=0$ 静止处受恒定向上外力 $F$ 拉起（已悬空长度 $x$ 时仅该段拥有速度 $v$，桌面静止段无重力/冲量反冲）。求上升速度 $v(x)$。",
+      "solution": "取悬空段加即将并入的质量微元为系统，动量变化率 $\\frac{\\mathrm{d}}{\\mathrm{d}t}(\\lambda x v) = F - \\lambda g x$。利用 $\\frac{\\mathrm{d}}{\\mathrm{d}t} = v\\frac{\\mathrm{d}}{\\mathrm{d}x}$，展开左端：$\\lambda v^2 + \\lambda x v \\frac{\\mathrm{d}v}{\\mathrm{d}x} = \\lambda v^2 + \\frac{1}{2}\\lambda x \\frac{\\mathrm{d}(v^2)}{\\mathrm{d}x}$。令 $u = v^2$，乘以 $2x$ 即化为标准全微分积分因子形式：$\\frac{\\mathrm{d}}{\\mathrm{d}x}(x^2 u) = 2x \\left(\\frac{F}{\\lambda} - gx\\right)$！直接对 $x$ 积分（$x=0$ 时 $x^2 u=0$）：$x^2 v^2 = \\frac{F}{\\lambda}x^2 - \\frac{2}{3}gx^3 \\implies v(x) = \\sqrt{\\frac{F}{\\lambda} - \\frac{2}{3}gx}$。对比上升与下降不对称性详见 `plancks-2025-q6`。"
+    },
+    "common_traps": [
+      "将 $a=\\mathrm{d}v/\\mathrm{d}t$ 强行保留时间变量导致陷入无法闭式积分的超越函数。",
+      "忘记变质量并入过程中静止微元加速到 $v$ 产生的非弹性内能损耗（绝不可盲用机械能守恒！）。"
+    ],
+    "featured_problem_ids": [
+      "cpho-2016-semifinal-theory-problem-slice-q4",
+      "plancks-2025-final-combined-slice-q6",
+      "plancks-2026-final-problem-slice-q7",
+      "physicscup-2021-q3-reader"
+    ]
+  },
+  {
+    "id": "math_4",
+    "code": "M-04",
+    "name": "矢量微积分、曲线坐标动基矢与二阶张量初步",
+    "level_tag": "决赛核心 · 本科进阶",
+    "why_it_matters": "一旦走出平面进入三维刚体滚球（`panpho-2025-q1`）、非均匀磁场梯度力、电偶极子相互作用、电导率/有效质量各向异性或旋转刚体角动量，标量思维瞬间瘫痪，必须熟练操控基矢导数 $\\dot{\\hat{\\mathbf{e}}}_i = \\boldsymbol{\\Omega}\\times\\hat{\\mathbf{e}}_i$ 与散度/旋度/格林恒等式。",
+    "core_formulas": [
+      {
+        "label": "动坐标系/柱球坐标单位基矢求导法则",
+        "tex": "\\frac{\\mathrm{d}\\hat{\\mathbf{r}}}{\\mathrm{d}t} = \\dot{\\theta}\\hat{\\boldsymbol{\\theta}}, \\quad \\frac{\\mathrm{d}\\hat{\\boldsymbol{\\theta}}}{\\mathrm{d}t} = -\\dot{\\theta}\\hat{\\mathbf{r}}, \\quad \\left(\\frac{\\mathrm{d}\\mathbf{A}}{\\mathrm{d}t}\\right)_{\\mathrm{space}} = \\left(\\frac{\\mathrm{d}\\mathbf{A}}{\\mathrm{d}t}\\right)_{\\mathrm{body}} + \\boldsymbol{\\Omega}\\times\\mathbf{A}",
+        "note": "柱坐标无外加手算记忆，记住基矢转轴公式即可一秒推出三维加速度与旋转体陀螺耦合项。"
+      },
+      {
+        "label": "麦克斯韦方程积分、偶极梯度与格林互易定理",
+        "tex": "\\mathbf{F} = (\\mathbf{m}\\cdot\\nabla)\\mathbf{B} = \\nabla(\\mathbf{m}\\cdot\\mathbf{B})\\quad(\\text{当 }\\nabla\\times\\mathbf{B}=0), \\qquad \\int_\\Omega (\\phi\\nabla^2\\psi - \\psi\\nabla^2\\phi)\\mathrm{d}V = \\oint_{\\partial\\Omega}(\\phi\\nabla\\psi - \\psi\\nabla\\phi)\\cdot\\mathrm{d}\\mathbf{S}",
+        "note": "轴对称磁场中由 $\\nabla\\cdot\\mathbf{B}=0$ 立即得近轴径向分量 $B_r \\approx -\\frac{r}{2}\\frac{\\partial B_z}{\\partial z}$。"
+      }
+    ],
+    "usage_steps": [
+      "**轴对称场近轴展开永远先套 $\\nabla\\cdot\\mathbf{B}=0$**：如超导悬浮环（`cpho-2013-final-q5`, `plancks-2024-q5`）和四极磁阱，不用算毕奥-萨伐尔积分即可由轴上 $B_z(z)$ 直接定出近轴 $B_r(r,z)$。",
+      "**处理非对称刚体转动优先在主轴或随体动坐标系写 $\\mathbf{L} = \\mathbf{I}\\boldsymbol{\\omega}$**：再用通用变换关系 $\\dot{\\mathbf{L}} + \\boldsymbol{\\Omega}\\times\\mathbf{L} = \\boldsymbol{\\tau}$ 导出欧拉动力学方程。",
+      "**线性各向异性介质写二阶张量关系**：如有效质量 $a_i = (m^{-1})_{ij} F_j$（注意加速度不一定与外力同向：`cpho-2018-final-q7`）。",
+      "**双状态边值问题优先想格林互易定理**：不用解出全部边值场即可直接用已知辅助解读取通量微扰（`physicscup-2020-q4`）。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：仅由 $\\nabla\\cdot\\mathbf{B}=0$ 导出轴对称磁悬浮恢复力",
+      "problem": "一载流或超导小圆环半径 $a$，在轴对称磁场中心轴线上 $z$ 处水平放置，轴线上磁场为 $B_z(z)$。试求圆环所受竖直磁场力。",
+      "solution": "因小圆环处磁感线呈微小喇叭状张开，安培力 $\\mathbf{F} = I\\oint \\mathrm{d}\\mathbf{l}\\times\\mathbf{B}$ 的竖直分量源于径向磁场 $B_r(a, z)$：$F_z = -2\\pi a I B_r(a,z)$（取磁场向上散开为正时对同向电流产生向心力，具体方向结合右手系判定）。在半径 $a$、高 $\\mathrm{d}z$ 的小圆柱体上应用磁高斯定理 $\\oint \\mathbf{B}\\cdot\\mathrm{d}\\mathbf{S} = 0$：$\\pi a^2 [B_z(z+\\mathrm{d}z)-B_z(z)] + 2\\pi a\\,\\mathrm{d}z\\,B_r(a,z) = 0 \\implies B_r(a,z) = -\\frac{a}{2}\\frac{\\partial B_z}{\\partial z}$。代入得 $F_z = I(\\pi a^2)\\frac{\\partial B_z}{\\partial z} = m_z\\frac{\\partial B_z}{\\partial z}$！全程无需知道具体线圈形状。"
+    },
+    "common_traps": [
+      "动基矢求导漏掉基矢自身的旋转 $\\boldsymbol{\\Omega}\\times\\mathbf{A}$，或混淆刚体自身角速度 $\\boldsymbol{\\omega}$ 与观察坐标系转速 $\\boldsymbol{\\Omega}$（`panpho-2025-q1`）。",
+      "对刚体纯滚动条件 $\\mathbf{v}_{\\mathrm{cm}} + \\boldsymbol{\\omega}\\times\\mathbf{r}_c = 0$ 错把平动速率直接写为 $\\omega R$ 而漏掉球心相对壁面法线与切线的三维向量叉乘。"
+    ],
+    "featured_problem_ids": [
+      "cpho-2021-semifinal-theory-problem-slice-q4",
+      "plancks-2024-final-combined-slice-q5",
+      "panpho-2025-paper-2-problem-slice-q1",
+      "physicscup-2020-q4-reader"
+    ]
+  },
+  {
+    "id": "math_5",
+    "code": "M-05",
+    "name": "拉格朗日力学、广义动量、循环坐标与欧拉-拉格朗日变分",
+    "level_tag": "决赛核心 · 极值与约束神器",
+    "why_it_matters": "在多自由度约束系统、旋转非惯性势阱、非均匀光程最短时间、以及带磁场的广义动量守恒问题（如磁控管与磁场中运动哑铃）中，牛顿矢量分解极易漏掉约束反力或科里奥利力，而拉格朗日方程与变分原理天然消去理想约束反力并自动生成全部真实广义惯性项。",
+    "core_formulas": [
+      {
+        "label": "拉格朗日方程与循环坐标守恒律",
+        "tex": "\\frac{\\mathrm{d}}{\\mathrm{d}t}\\left(\\frac{\\partial \\mathcal{L}}{\\partial \\dot{q}_i}\\right) - \\frac{\\partial \\mathcal{L}}{\\partial q_i} = 0, \\qquad \\frac{\\partial \\mathcal{L}}{\\partial q_k}=0 \\implies p_k = \\frac{\\partial \\mathcal{L}}{\\partial \\dot{q}_k} = \\mathrm{const}",
+        "note": "电磁场中带电粒子 $\\mathcal{L} = \\frac{1}{2}mv^2 - q\\phi + q\\mathbf{v}\\cdot\\mathbf{A}$，给出**正则动量** $\\mathbf{p} = m\\mathbf{v} + q\\mathbf{A}$。"
+      },
+      {
+        "label": "一维泛函极值与 Beltrami 第一积分",
+        "tex": "J[y] = \\int F(x, y, y')\\,\\mathrm{d}x \\;\\;(\\partial_x F = 0) \\implies F - y'\\frac{\\partial F}{\\partial y'} = \\mathrm{const}",
+        "note": "遇到费马最短光程（`plancks-2022-prelim-q7`）、最速降线或表面张力平衡轮廓时，无需解二阶欧拉方程，Beltrami 恒等式一秒给出一阶轨迹方程！"
+      }
+    ],
+    "usage_steps": [
+      "**先确定系统是否满足完整理想约束**：铰链、光滑曲面滑动可直接用广义坐标写 $\\mathcal{L}=T-V$；但**三维非完整纯滚动**不能直接写进无乘子的标量 $\\mathcal{L}$，须留待牛顿-欧拉法或带乘子变分处理！",
+      "**寻找不显含于 $\\mathcal{L}$ 的循环坐标**：柱对称磁场中的角坐标 $\\varphi$ 自动给出 $p_\\varphi = m r^2\\dot{\\varphi} + q r A_\\varphi = \\mathrm{const}$（即 `cpho-2021-semi-q6` 磁控管临界角动量守恒）。",
+      "**对电学与磁学网络也用能量泛函变分**：电感对应动能 $\\frac{1}{2}L\\dot{q}^2$、电容对应势能 $\\frac{q^2}{2C}$。",
+      "**非均匀介质光学直接用 Beltrami 恒等式**：光学拉格朗日量 $F = n(y)\\sqrt{1+y'^2}$ 不含 $x$，代人立刻得出 $n(y)/\\sqrt{1+y'^2} = n(y)\\cos\\theta = \\mathrm{const}$。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：正则角动量守恒一步导出磁控管（Hull）截止电压",
+      "problem": "内半径 $a$、外半径 $b$ 的同轴圆柱电极间加电压 $U$，轴向存在匀强磁场 $B$。电子（荷质比 $e/m$）从内柱面初速为零发射，求电子恰好无法抵达外柱面的临界磁场 $B_c$。",
+      "solution": "取柱坐标 $(r,\\varphi,z)$，矢势选取对称规范 $\\mathbf{A} = \\frac{1}{2}Br\\,\\hat{\\boldsymbol{\\varphi}}$。拉格朗日量 $\\mathcal{L} = \\frac{1}{2}m(\\dot{r}^2 + r^2\\dot{\\varphi}^2) + e\\phi(r) - \\frac{1}{2}eB r^2\\dot{\\varphi}$ 显不含 $\\varphi$（注意电子带负电 $-e$），故正则角动量 $p_\\varphi = m r^2 \\dot{\\varphi} - \\frac{1}{2}eB r^2$ 守恒。初态在 $r=a$ 处静止，得 $p_\\varphi = -\\frac{1}{2}eBa^2$，从而外柱面 $r=b$ 处角速度 $\\dot{\\varphi}(b) = \\frac{eB}{2m}\\left(1 - \\frac{a^2}{b^2}\\right)$。由能量守恒临界相切（$\\dot{r}(b)=0$）：$\\frac{1}{2}m(b\\dot{\\varphi}(b))^2 = eU$，直接算出 $B_c = \\frac{1}{b\\left(1 - a^2/b^2\\right)}\\sqrt{\\frac{8mU}{e}}$（即 `cpho-2021-semi-q6` 核心一问）。"
+    },
+    "common_traps": [
+      "忘记转动参考系中非惯性约束也能改变有效能量（须区分守恒的广义能量 Jacobi 积分 $h = \\sum \\dot{q}\\partial\\mathcal{L}/\\partial\\dot{q}-\\mathcal{L}$ 与机械能 $T+V$）。",
+      "把三维非完整滚动约束直接代回拉格朗日量内部再求导——这是分析力学经典禁区！只能在求导之后再代约束或改用拉格朗日乘子法。"
+    ],
+    "featured_problem_ids": [
+      "cpho-2021-semifinal-theory-problem-slice-q6",
+      "cpho-2018-final-theory-problem-slice-q1",
+      "plancks-2022-preliminary-problem-slice-q7",
+      "physicscup-2020-q2-reader"
+    ]
+  },
+  {
+    "id": "math_6",
+    "code": "M-06",
+    "name": "复数相量、二维复势与保角变换（共形映射）",
+    "level_tag": "决赛进阶 · 二维场论破局点",
+    "why_it_matters": "在稳恒交流电路谐振、多缝/准晶相干衍射叠加（相量图求和）、尖端电极/偏心圆域的二维静电场与稳恒热传导中，复数方法将繁琐的三角积分与偏微分边值问题直接转译成初等几何旋转或解析函数代换。",
+    "core_formulas": [
+      {
+        "label": "二维调和复势与共形不变性",
+        "tex": "\\Phi(z) = u(x,y) + iv(x,y), \\quad \\nabla^2 u = \\nabla^2 v = 0, \\quad |\\nabla u|_{\\text{w}} = \\left|\\frac{\\mathrm{d}z}{\\mathrm{d}w}\\right|^{-1} |\\nabla u|_{\\text{z}}",
+        "note": "拉普拉斯方程在任意复解析变换 $w=f(z)$ 下保持不变！$u$ 为等势线，$v$ 自动为正交电场线/流函数。"
+      },
+      {
+        "label": "典型二维复势与圆反演（莫比乌斯变换）",
+        "tex": "w = z^{1/2}\\text{（尖端/半平面）},\\qquad w = \\frac{z - a}{1 - \\bar{a}z}\\text{（偏心圆域化同心圆环）}",
+        "note": "借助分式线性（莫比乌斯）变换，偏心圆之间稳恒导热/电容问题一秒拉回中学熟知的同心圆筒（`panpho-2024-q2`, `physicscup-2020-q0`）。"
+      }
+    ],
+    "usage_steps": [
+      "**多光束等幅相位叠加先写 $\\sum e^{ik\\Delta_n}$**：准晶衍射、光栅主极大与交错磁阱用复相量几何级数或旋转矢端直观出模长。",
+      "**遇长直平行导线的二维平面场立试复势 $\\Phi(z) = -\\frac{\\mu_0 I}{2\\pi}\\ln(z-z_0)$**：瞬间简化多线磁阱（`cpho-2018-semi-q4` Ioffe-Pritchard）。",
+      "**二维奇形边界静电场/热传导优先找保角映射**：半无限带电薄板展开 $\\to w=\\sqrt{z}$；偏心双圆 $\\to$ 阿波罗尼斯反演圆或莫比乌斯映射化为同心圆。",
+      "**复阻阻抗匹配与复传播常数统一谐振及波动问题**：介质吸收、趋肤效应与波动衰减只要令波矢 $k$ 或折射率 $n$ 变为复数即可自然统揽边界反射。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：保角变换秒求带电尖端半无限导体板附近的电场奇异性",
+      "problem": "保持电势 $V=0$ 的半无限极薄接地导体平板占据 $x \\ge 0, y = 0$，远处存在均匀边界梯度条件，试求板尖端 $z=0$ 附近局部电势 $\\varphi(r,\\theta)$ 对距离 $r$ 的标度关系。",
+      "solution": "复平面 $z = re^{i\\theta}$ 上导板对应辐角 $\\theta = 0$ 与 $\\theta = 2\\pi$ 的两条边界。作保角映射 $w = u + iv = z^{1/2} = \\sqrt{r} e^{i\\theta/2}$，则整个物理外空间（$0 < \\theta < 2\\pi$）被完美拉直成 $w$ 平面的上半平面（$v > 0$），且导板两边分别映射为实轴 $v=0$ 正半轴与负半轴！上半平面上满足 $v=0$ 时 $\\varphi=0$ 的最简单非平凡调和函数就是均匀电场 $\\varphi(u,v) = C v$。映射回原物理空间即得 $\\varphi(r,\\theta) = C \\sqrt{r}\\sin(\\theta/2)$，由此立即看出尖端场强 $|\\mathbf{E}| = |\\nabla\\varphi| \\propto r^{-1/2}$ 呈现标志性平方根倒数发散（见 `plancks-2021-prelim-q4`）。"
+    },
+    "common_traps": [
+      "做保角映射时忘记同时按标度因子 $|f'(z)|$ 变换场强，或误以为三维柱对称/球对称拉普拉斯问题也能直接套用二维解析函数共形不变性（仅二维成立！）。",
+      "复交流电功率错把 $\\operatorname{Re}(U)\\operatorname{Re}(I)$ 写成复数直接相乘 $\\frac{1}{2}UI$（必须取 $\\frac{1}{2}\\operatorname{Re}(UI^*)$！）。"
+    ],
+    "featured_problem_ids": [
+      "cpho-2018-semifinal-theory-problem-slice-q4",
+      "plancks-2021-preliminary-problem-slice-q4",
+      "panpho-2024-paper-2-problem-slice-q2",
+      "physicscup-2020-q0-reader"
+    ]
+  },
+  {
+    "id": "math_7",
+    "code": "M-07",
+    "name": "速度空间（矢端图）、射影交比与圆锥曲线几何不变量",
+    "level_tag": "国集核心 · Physics Cup 杀手锏",
+    "why_it_matters": "Physics Cup 与高阶几何物理题证明了一个铁律：物理方程的难点往往藏在坐标表达的选择里。换到速度空间（矢端图圆、速度空间悬链线、速度双曲线）或采用射影几何不变量（交比、调和点列、极点极线、泰勒斯圆），几十行代数消元会瞬间坍缩为三行初等欧几里得几何。",
+    "core_formulas": [
+      {
+        "label": "开普勒轨道哈密顿速度矢端圆（Velocity Hodograph）",
+        "tex": "\\vec{v} = \\vec{v}_0 + \\vec{v}_c, \\quad |\\vec{v}_0| = \\frac{GM}{L/m}, \\quad \\vec{v}_c \\perp \\vec{e},\\; |\\vec{v}_c| = e\\,v_0",
+        "note": "所有平方反比中心力场轨道的速度矢量末端在速度平面上严格落在一个半径 $R_h = GM/(L/m)$、圆心偏离原点 $d_c = e R_h$ 的完美圆周上！"
+      },
+      {
+        "label": "共线四点射影交比不变性与加速度恒定变分",
+        "tex": "(A,B;C,D) = \\frac{AC}{CB}\\cdot\\frac{BD}{AD} = (A',B';C',D'), \\qquad \\mathrm{d}t = \\frac{\\mathrm{d}s_v}{|\\mathbf{a}|}",
+        "note": "薄透镜理想成像本质上是二维/三维中心透视射影变换，共线四点交比严格守恒；而恒定加速率下速度空间的曲线弧长直接就是时间！"
+      }
+    ],
+    "usage_steps": [
+      "**开普勒问题先画速度端图圆**：遇到只给若干点速率与速度夹角求偏心率或最大相对速度时，立刻在速度空间画出圆心、原点（对抛物线在圆上，椭圆在圆内，双曲线在圆外）及已知弦。",
+      "**恒定外力/加速率极限追踪转入速度空间弧长**：位移 $\\Delta \\mathbf{r} = \\int \\mathbf{v}\\,\\mathrm{d}t = \\frac{1}{A}\\int \\mathbf{v}\\,\\mathrm{d}s_v$，这在形式上完全等价于重力场中求质心最低的悬链线问题！",
+      "**薄透镜歪斜成像套射影四件套**：共线三像定第四像用**调和点列交比**；平面圆成椭圆找焦点用**消隐直线（无穷远点之像在焦平面）+ 极点极线 + 过已知直角对的光心泰勒斯圆**。",
+      "**圆锥曲线反射问题寻找共同准线与焦点共线不变量**（如 `physicscup-2019-q3`）。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：速度矢端图圆结合圆幂定理 3 行秒解开普勒偏心率",
+      "problem": "卫星沿椭圆轨道运行，已知轨道上三点 $A,B,C$ 的速率为 $v_1, v_2, v_3$，且速度方向满足 $\\vec{v}_1 \\perp \\vec{v}_2$、$\\vec{v}_3$ 与 $\\vec{v}_1$ 严格反向。求轨道偏心率 $e$（即 `physicscup-2025-q5` 核心构造）。",
+      "solution": "在速度空间以原点 $O_v$ 为起点画出 $\\vec{v}_1, \\vec{v}_2, \\vec{v}_3$ 三矢量末端 $P_1, P_2, P_3$，它们必共圆于端图圆（半径 $R_h$，圆心 $C_h$ 距原点 $O_v$ 为 $d_c = e R_h$）。因 $\\vec{v}_1$ 与 $\\vec{v}_3$ 反向，$P_1 O_v P_3$ 共线形成圆内过 $O_v$ 的一条弦，且 $\\angle P_1 O_v P_2 = 90^\\circ$！在圆中作垂直弦：$P_1 P_3 = v_1+v_3$，从原点到圆心距离满足相交弦（圆幂）定理 $R_h^2 - d_c^2 = v_1 v_3$。又直角三角形圆心角/弦长几何直接给出端图圆直径 $(2R_h)^2 = (v_1+v_3)^2 + \\left(v_2 - \\frac{v_1 v_3}{v_2}\\right)^2$（补全与 $\\vec{v}_2$ 反向交点 $P_4$ 令 $O_v P_4 = v_1 v_3/v_2$）。从而一步读出 $e = \\sqrt{1 - \\frac{4 v_1 v_3}{(2R_h)^2}}$！"
+    },
+    "common_traps": [
+      "错误认为“速度严格反向的两点必定是近地点与远地点”——只有过端图圆**圆心**的弦才对应近/远地点，过原点 $O_v$ 的任意弦速度都相互反向！",
+      "混淆薄透镜透视中“圆心”与“椭圆中心”（中心不重合！椭圆中心对应的物点是原圆的极点而非圆心）。"
+    ],
+    "featured_problem_ids": [
+      "physicscup-2025-q5-reader",
+      "physicscup-2024-q4-reader",
+      "physicscup-2022-q2-reader",
+      "physicscup-2020-q5-reader"
+    ]
+  },
+  {
+    "id": "math_8",
+    "code": "M-08",
+    "name": "递推数列、不动点、庞加莱映射与自相似重整化",
+    "level_tag": "决赛核心 · 离散与网络",
+    "why_it_matters": "从干摩擦衰减总路程、连环弹性碰撞（超球/查德威克序列碰撞）、无穷双球电像级数到无限晶格 LC/电阻网络以及非线性极限环，共同语言是“单步映射 $x_{n+1}=f(x_n)$ 的演化与不动点”。",
+    "core_formulas": [
+      {
+        "label": "线性递推不动点与二维转移矩阵特征值",
+        "tex": "x_{n+1} = a x_n + b \\;\\xrightarrow{x^* = ax^*+b}\\; x_n - x^* = a^n(x_0 - x^*), \\qquad \\mathbf{X}_n = \\mathbf{T}^n \\mathbf{X}_0",
+        "note": "对于二能级碰撞矩阵或多层薄膜光传输矩阵 $\\mathbf{T}$，若 $\\det\\mathbf{T}=1$ 且 $|\\operatorname{Tr}\\mathbf{T}|<2$，则系统呈周期性稳定振荡（对应台球计数 $\\pi$：`plancks-2025-q9`）。"
+      },
+      {
+        "label": "无穷网络自相似重整化不动点方程",
+        "tex": "Z_{\\mathrm{eq}} = \\mathcal{R}(Z_{\\mathrm{eq}})",
+        "note": "当梯形或树状网络向右无限延伸时，切除首节后剩余网络与整体同构，令等效阻抗满足自洽方程；多维无限晶格则配合对称折叠、电流叠加原理与平面图自对偶（$R_{\\mathrm{eff}} = \\sqrt{L/C}$）。"
+      }
+    ],
+    "usage_steps": [
+      "**列前两步找准下标对应与守恒转移关系**：严防 $N$ 个器件与 $N+1$ 个节点的起止错项（先拿 $N=1,2$ 手工代入验真）。",
+      "**无穷等比级数求和前务必验证公比 $|q|<1$ 与边界吸收/停驻条件**：例如干摩擦每次振幅减固定值 $2\\Delta x_f$ 后，最后一步必须停在静摩擦死区 $|x|\\le \\Delta x_f$ 内，不是真正无穷多项！",
+      "**非线性振子用庞加莱截面映射判别极限环稳定性**：记取每周期过零点的初值 $x_{n+1} = P(x_n)$，稳定极限环要求不动点导数 $|P'(x^*)| < 1$（`panpho-2019-q2`）。",
+      "**多维对称电阻/LC 网络“先降维再叠加”**：用镜像等势面将对称点并接，或将单入单出问题拆成“一极注流向无穷远 + 另一极自无穷远抽流”的叠加。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：单进总出电流叠加原理秒算正十二面体/二十面体电阻",
+      "problem": "每条棱电阻均为 $R$ 的正二十面体（共 12 个顶点、30 条棱，每个顶点度数为 5），求相邻两顶点 $A, B$ 之间的等效电阻 $R_{AB}$。",
+      "solution": "切勿用基尔霍夫方程硬写 12 个节点！采用两步电流叠加：① 让电流 $I$ 从顶点 $A$ 流入，并从其余全部 11 个顶点各自等量流出 $I/11$。由旋转五重对称性，$A$ 连出的 5 条棱平分电流，每条流过 $i_1 = I/5$。② 让总电流 $I$ 从其余 11 个顶点各自流入 $I/11$，全部汇入顶点 $B$ 流出。同样由对称性，$B$ 连入的 5 条棱各自汇入 $i_2 = I/5$。将过程 ① 与 ② 线性叠加，所有非 $A,B$ 节点的净外部注入电流恰好完全抵消为零（构成真实的 $A$ 进 $B$ 出电路！），而紧邻棱 $AB$ 上流过的总电流即为 $i_{AB} = i_1 + i_2 = \\frac{2}{5}I$。因此两节点间电压降 $U_{AB} = i_{AB} R = \\frac{2}{5}IR$，等效电阻一步立得 $R_{AB} = \\frac{2}{5}R$（对比 `plancks-2024-q8` 与 Foster 定理验算：$\\sum_{\\text{edges}} R_{\\text{edge}} / R = (V-1)$ 给出所有相邻边求和必为 $11$，检验 $\\frac{11}{30}\\dots$ 互检）。"
+    },
+    "common_traps": [
+      "无穷次弹跳球用等比级数求全程时间时算对，却在计算碰撞次数超过静摩擦锁死阈值时未截断有限项（`cpho-2018-semi-q2`）。",
+      "双球电像迭代只记住经典接地球公式却忘记孤立球必须每轮向球心追加补偿单极电荷（`cpho-2020-final-q2`）。"
+    ],
+    "featured_problem_ids": [
+      "cpho-2020-final-theory-problem-slice-q2",
+      "plancks-2024-final-combined-slice-q8",
+      "physicscup-2026-q3-reader",
+      "panpho-2019-paper-2-problem-slice-q2"
+    ]
+  },
+  {
+    "id": "math_9",
+    "code": "M-09",
+    "name": "概率分布雅可比变换、高斯积分与系综配分函数",
+    "level_tag": "决赛核心 · 热统压轴钥匙",
+    "why_it_matters": "CPhO 决赛热统题与 PLANCKS 近十年大题已明显偏向统计力学：从麦克斯韦速率/动能分布变换（遗漏雅可比因子必错）、小孔泻流加权通量（动能均值是 $2k_BT$ 而非 $3/2k_BT$），到直接列写正则系综配分函数 $Z$ 推热力学相变、吸附等温线与磁偶极高温展开。",
+    "core_formulas": [
+      {
+        "label": "概率密度变量替换（雅可比法则）与通量加权",
+        "tex": "P_y(y) = P_x(x(y))\\left|\\frac{\\mathrm{d}x}{\\mathrm{d}y}\\right|, \\qquad \\Phi_{\\text{eff}}(v) \\propto v f(v)",
+        "note": "切勿直接把 $E = \\frac{1}{2}mv^2$ 替换进速率分布 $f(v)$ 的代数式就当成动能分布 $g(E)$——必须乘上 $|\\mathrm{d}v/\\mathrm{d}E| = (2mE)^{-1/2}$！"
+      },
+      {
+        "label": "正则配分函数统一热力学出口与高斯积分阶梯",
+        "tex": "Z = \\sum_i g_i e^{-\\beta E_i}, \\quad F = -k_B T \\ln Z, \\quad \\langle E\\rangle = -\\frac{\\partial \\ln Z}{\\partial \\beta}, \\qquad \\int_{-\\infty}^{\\infty} e^{-\\alpha x^2}\\mathrm{d}x = \\sqrt{\\frac{\\pi}{\\alpha}}",
+        "note": "借助求导技巧 $\\int x^2 e^{-\\alpha x^2}\\mathrm{d}x = -\\frac{\\mathrm{d}}{\\mathrm{d}\\alpha}\\sqrt{\\pi/\\alpha}$，轻松算完所有维里定理、自由能与高温展开。"
+      }
+    ],
+    "usage_steps": [
+      "**写出清晰微元概率测度 $P(x)\\mathrm{d}x = P(y)\\mathrm{d}y$**：强迫自己保留微分元 $\\mathrm{d}v, \\mathrm{d}E, \\mathrm{d}\\Omega$，绝不空手做变量代换。",
+      "**立体角与通量碰撞永远加对几何投影因子**：各向同性射线撞平壁速率通量加 $\\frac{1}{4}n\\bar{v}$ 或 $\\frac{1}{2}nv\\cos\\theta\\sin\\theta\\,\\mathrm{d}\\theta$。",
+      "**微观统计建模三步曲**：① 标定所有宏观构型态与简并度 $g_i$；② 求配分函数 $Z(T, V, \\mu)$（常用有限几何级数求和或斯特林公式 $\\ln N! \\approx N\\ln N - N$）；③ 通过 $F=-k_B T\\ln Z$ 对宏观参量求偏导读取内能、压强、吸附覆盖率或自由能极小。",
+      "**平均场求系统总内能必查 $1/2$ 双计数因子**（`cpho-2021-final-q5`）。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：为何真空小孔泻流溢出分子的平均动能是 $2k_B T$ 而非 $\\frac{3}{2}k_B T$？",
+      "problem": "绝热刚性容器内盛有单原子理想气体（温度 $T$），器壁开一小孔向真空进行克努森（Knudsen）分子泻流。求单个逃逸分子携带的平均平动动能（即 `cpho-2018-final-q5` 核心环节）。",
+      "solution": "容器内分子速度满足三维麦克斯韦分布 $f(v) = 4\\pi \\left(\\frac{m}{2\\pi k_B T}\\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}$，体内平均动能确为 $\\frac{3}{2}k_B T$。但单位时间内能够穿过小孔面积 $A$ 向外泻流的分子数通量必须乘以法向速度分量 $v_z = v\\cos\\theta$（跑得越快的分子撞壁越频繁！），因此泻流分子速度分布按 $\\mathrm{d}\\Phi \\propto v \\cdot f(v)\\mathrm{d}v$ 加权！于是逃逸分子的平均动能为 $\\langle E_k \\rangle_{\\mathrm{eff}} = \\frac{\\int_0^\\infty \\left(\\frac{1}{2}mv^2\\right) v^3 e^{-mv^2/(2k_B T)}\\mathrm{d}v}{\\int_0^\\infty v^3 e^{-mv^2/(2k_B T)}\\mathrm{d}v}$。作代换 $u = \\frac{mv^2}{2k_B T}$，分子分母分别为 $(k_B T)\\int_0^\\infty u^2 e^{-u}\\mathrm{d}u = 2!(k_B T)$ 与 $\\int_0^\\infty u e^{-u}\\mathrm{d}u = 1!$，即得严格结果 $\\langle E_k \\rangle_{\\mathrm{eff}} = 2k_B T$！容器内气体每流出一个分子净亏 $\\frac{1}{2}k_B T$ 热量，因此绝热降温。"
+    },
+    "common_traps": [
+      "忽略统计雅可比因子，直接将速率极大值（最概然速率）当作能量极大值（最概然动能与波长/频率黑体峰值均互不对应！`plancks-2024-q10`, `cpho-2020-final-q1`）。",
+      "求多粒子或暗物质弹性散射能量分布时忘记立体角 $\\mathrm{d}\\Omega = 2\\pi\\sin\\theta\\,\\mathrm{d}\\theta$ 与反冲能量的线性雅可比关系（`cpho-2021-final-q3`）。"
+    ],
+    "featured_problem_ids": [
+      "cpho-2018-final-theory-problem-slice-q5",
+      "cpho-2020-final-theory-problem-slice-q1",
+      "plancks-2024-final-combined-slice-q9",
+      "plancks-2025-final-combined-slice-q2"
+    ]
+  },
+  {
+    "id": "math_10",
+    "code": "M-10",
+    "name": "傅里叶变换、色散群延迟、特殊函数与四维洛伦兹不变量",
+    "level_tag": "决赛压轴 · 国际赛/前沿必备",
+    "why_it_matters": "在超短飞秒脉冲、OCT 部分相干断层扫描（维纳-辛钦定理）、热波电报方程、柱坐标量子态（贝塞尔函数）、空泡坍缩闭合时间（Beta/Gamma 函数）以及高能粒子四维运动学中，这套数学语言能让你直接读懂现代物理赛题的核心骨架。",
+    "core_formulas": [
+      {
+        "label": "高斯波包时频变换、维纳-辛钦与群延迟色散（GDD）",
+        "tex": "E(t) = E_0 e^{-t^2/2\\tau^2}e^{-i\\omega_0 t} \\;\\leftrightarrow\\; \\tilde{E}(\\omega) \\propto e^{-\\tau^2(\\omega-\\omega_0)^2/2}, \\qquad \\tau_{\\mathrm{out}}^2 = \\tau_0^2 + \\left(\\frac{\\phi_2}{\\tau_0}\\right)^2",
+        "note": "自相关与功率谱互为傅里叶变换（维纳-辛钦定理）；帕塞瓦尔定理 $\\int |x(t)|^2\\mathrm{d}t = \\int |S_x(\\omega)|\\frac{\\mathrm{d}\\omega}{2\\pi}$ 连接噪声谱与总涨落方差。"
+      },
+      {
+        "label": "四维动量内积不变量与欧拉 Beta 函数",
+        "tex": "P^\\mu P_\\mu = \\frac{E^2}{c^2} - |\\mathbf{p}|^2 = m^2c^2, \\qquad B(x,y) = \\int_0^1 t^{x-1}(1-t)^{y-1}\\mathrm{d}t = \\frac{\\Gamma(x)\\Gamma(y)}{\\Gamma(x+y)}",
+        "note": "计算两体/三体相对论阈值与散射角时，对 $(P_1+P_2)^2$ 在实验室系与质心系各写一次；处理非整数幂积分 $R^{3/2}(R_0^3-R^3)^{-1/2}$ 瞬间套用 Beta 函数。"
+      }
+    ],
+    "usage_steps": [
+      "**高能对撞与衰变先写四动量守恒 $P_1 + P_2 = P_3 + P_4$**：若某粒子不感兴趣，将其移项单独留在等号一侧再平方：$P_4^2 = (P_1+P_2-P_3)^2$，直接消去未知动量角。",
+      "**高斯型频率/时间积分按配方法完成复高斯积分**：注意记住脉冲强度的半高全宽（FWHM）满足 $\\Delta t_{\\mathrm{FWHM}} = 2\\sqrt{\\ln 2}\\,\\sigma_t$（场振幅宽度是强度宽度的 $\\sqrt{2}$ 倍！）。",
+      "**出现柱对称波动/弯月面找贝塞尔函数渐近性**：知道 $J_m(kr)$ 管驻波零点、修正贝塞尔 $K_0(r/l_c)$ 管二维屏蔽指数衰减即可。",
+      "**复杂幂次定积分 $\\int_0^1 (1-u^p)^{-1/2} u^q\\,\\mathrm{d}u$ 令 $t=u^p$ 转为 Beta 函数闭式**。"
+    ],
+    "worked_mini_example": {
+      "title": "微例：四动量不变量两行导出质子打静止靶产生反质子的最小阈能",
+      "problem": "高能加速质子（静质量 $m_p$）轰击静止液氢靶质子，发生反应 $p + p \\to p + p + p + \\bar{p}$。求入射质子的最低实验室动能 $K_{\\mathrm{th}}$（即 `cpho-2020-semi-q4` 核心问题）。",
+      "solution": "切勿用劳伦兹变换硬算各粒子末速！设入射四动量 $P_1 = (E_1/c, \\mathbf{p}_1)$，静止靶质子 $P_2 = (m_p c, \\mathbf{0})$。在实验室系中，总四动量平方 $(P_1+P_2)^2 = P_1^2 + P_2^2 + 2 P_1\\cdot P_2 = 2m_p^2 c^2 + 2m_p E_1$。而在整体质心系中，阈值恰好对应 4 个末态产物（三个质子加一个反质子）全员以零相对速度静止凝聚，故总四动量平方 $(P_{\\mathrm{out}})^2 = (4 m_p c)^2 = 16 m_p^2 c^2$。由洛伦兹不变量相等：$2m_p^2 c^2 + 2m_p E_1 = 16 m_p^2 c^2 \\implies E_1 = 7 m_p c^2$！因此最小动能 $K_{\\mathrm{th}} = E_1 - m_p c^2 = 6 m_p c^2 \\approx 5.63\\,\\mathrm{GeV}$（比纯经典直觉 $2m_pc^2$ 高整整三倍）。"
+    },
+    "common_traps": [
+      "混合 $c=1$ 自然单位制与 SI 单位制，导致最后算能谱漏乘 $c^2$ 或把总能 $7m_pc^2$ 当成动能。",
+      "光学与噪声计算中弄错傅里叶变换的 $2\\pi$ 因子或混淆能量谱与振幅谱宽度定义（`panpho-2025-q2`, `plancks-2026-q2`）。"
+    ],
+    "featured_problem_ids": [
+      "cpho-2020-semifinal-theory-problem-slice-q4",
+      "cpho-2020-final-theory-problem-slice-q6",
+      "plancks-2021-final-combined-slice-q4",
+      "panpho-2025-paper-2-problem-slice-q2"
+    ]
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "id": "mechanics",
+  "order": 1,
+  "code": "TOPIC 01",
+  "title": "质点系、刚体动力学与变质量连续体",
+  "subtitle": "从复赛“分段守恒与瞬时碰撞”跃迁至决赛“约束消元、非完整纯滚与变质量微元”",
+  "tagline": "CPhO 复赛与决赛的绝对基石板块（本库主属 57 题），重点区分刚体自由度、静摩擦自锁及高速纯滚临界分支。",
+  "bridge_summary": "复赛力学主要考质点系平面守恒（$E, \\mathbf{p}, \\mathbf{L}$）、定轴转动与简单滑落临界；进入 CPhO 决赛与 PanPhO/Physics Cup，命题迅速升级到**双自由度可反冲约束、三维动基矢纯滚动（非完整约束）、干摩擦分段逆转、非保守变质量链条/软绳及速度空间几何变分最优化**。破局关键是从“逐个质点画受力图”升级为“质心-相对分解 + 瞬时转动中心 + 约束反力临界方程 + 速度矢端映射”。",
+  "recommended_math_ids": [
+    "math_3",
+    "math_4",
+    "math_5",
+    "math_7"
+  ],
+  "recommended_adv_ids": [
+    "adv_9",
+    "adv_7"
+  ],
+  "syllabus_matrix": [
+    {
+      "code": "M1",
+      "name": "质点系动量守恒、多体碰撞与能量核算",
+      "tier_a_semifinal": "一维/二维弹性与完全非弹性碰撞、质心运动定理、火箭单级推力与单次反弹轨迹。",
+      "tier_b_final": "斜碰撞与定恢复系数无穷次弹跳求和、质心-相对系高空分裂弹道交点、碰撞动能极值变分与双向效率能量流。",
+      "tier_c_frontier": "暗物质散射概率分布雅可比变换、密切抛物线松弛拉断三倍角定理、Galperin 碰撞次数映射量子 Grover 旋转。",
+      "exam_focus": "高空爆炸/分裂后双目标命中几何条件、碰撞全程总时间与总冲量的全局交叉校验。",
+      "common_blindspots": "遗漏双向能量流（发电乘效率、耗能除效率）方向；轻绳松弛后再次瞬间绷紧时的法向/切向冲量突变处理出错。"
+    },
+    {
+      "code": "M2",
+      "name": "刚体平面与三维转动动力学（含打击中心与瞬心）",
+      "tier_a_semifinal": "定轴转动定律、平行轴定理、正多边形与对称组合体转动惯量计算（含割补法/自相似分割）。",
+      "tier_b_final": "偏心刚体平面运动、瞬时转动中心（ICR）能量求导法、多刚体铰接初瞬角加速度、打击中心与转轴动态支反力。",
+      "tier_c_frontier": "三维惯量张量对称性、竖直圆筒内壁刚体球纯滚动陀螺耦合简谐升降、正三角形等效质点逼近圆盘极限。",
+      "exam_focus": "不直接展开复杂动基点加速度，改用瞬心速度关系写出机械能再对时间求导求 $\\alpha$（`cpho-2019-final-q1`）。",
+      "common_blindspots": "把平行轴定理 $I=I_c+md^2$ 错用于两个非质心轴之间（半球质心 $3R/8$ 与底面轴切换重灾区：`cpho-2020-final-q7`）。"
+    },
+    {
+      "code": "M3",
+      "name": "干摩擦、纯滚动约束与分段临界多过程",
+      "tier_a_semifinal": "斜面上球/柱纯滚动条件、台球高杆击球（超旋过渡到纯滚）、水平干摩擦弹簧振子死区停止。",
+      "tier_b_final": "双接触点锁死碰撞与解锁滚滑转换、可水平反冲曲面上的纯滚动起滑与脱离临界判据、摩擦圆附着极限最优避障。",
+      "tier_c_frontier": "双平面各向同性干摩擦滑块在速度空间中的共焦双曲线守恒量与椭圆坐标位移精确积分。",
+      "exam_focus": "静摩擦方向极易在碰撞/反冲过程中发生反转；必须先写出 $f(\\theta)$ 与 $N(\\theta)$ 表达式并在数轴上划定区间分支。",
+      "common_blindspots": "盲目假定“滚动必不打滑”或漏掉 $\\mu \\in [\\tan\\theta, \\frac{8}{3}\\tan\\theta)$ 期间的向左倒滑分支（`cpho-2019-semi-q2`）。"
+    },
+    {
+      "code": "M4",
+      "name": "小振动、有效势稳定性与简正模/耦合振子",
+      "tier_a_semifinal": "单自由度弹簧振子与复摆微振动、串并联等效刚度与双弹簧轻杆最优化。",
+      "tier_b_final": "旋转参考系离心有效势能稳定性（$U''_{\\mathrm{eff}}>0$）、双刚体无滑滚动耦合振子与变摆长参数泵浦递推阈值。",
+      "tier_c_frontier": "多自由度正多边形铰接环（$S_n$ 循环群傅里叶模式解耦）、非线性干摩擦极限环庞加莱映射与 Adler 同步分岔。",
+      "exam_focus": "由能量守恒消去循环角速度后，用总有效势二阶导直接定出等效刚度与平衡稳定性。",
+      "common_blindspots": "求解旋转或加预张力平面弹簧阵（`plancks-2022-prelim-q5`）时，遗漏垂直弹簧在横向微移中的二阶伸长几何项。"
+    },
+    {
+      "code": "M5",
+      "name": "非惯性系、旋转坐标与科里奥利 / 离心效应",
+      "tier_a_semifinal": "匀加速列车平动惯性力等效重力、旋转水桶与旋转细杆上滑块的径向离心平衡。",
+      "tier_b_final": "旋转系科里奥利力与拉莫尔进动定理（等价洛伦兹力）、转动参考系中惯性力矩积分与角动量转换。",
+      "tier_c_frontier": "三维正四面体追逐问题的 $S_4$ 反演旋转群降维、哈密顿四元数非对易姿态旋转代数（不可乱用一阶 BCH）。",
+      "exam_focus": "善用转系后的静力平衡或拉莫尔等价关系把复杂时变运动化为定轴静止势场问题。",
+      "common_blindspots": "混淆观察坐标系转速 $\\boldsymbol{\\Omega}$ 与刚体相对该系自转角速度；或忘记科里奥利力垂直速度不做功但改变角动量。"
+    },
+    {
+      "code": "M6",
+      "name": "变质量系统、连续体动力学与最优控制轨迹",
+      "tier_a_semifinal": "齐奥尔科夫斯基火箭动量方程、匀速落砂传送带与均匀软绳在桌边自由下滑。",
+      "tier_b_final": "动态欧拉-绞盘公式（计及离心与吸积动量流）、U 型折叠弹性绳超重力加速度下落及悬点动态张力。",
+      "tier_c_frontier": "旋转弹性绳拉格朗日物质坐标共振发散、恒力提拉链条不对称耗散振荡（积分因子法）与速度空间悬链线最短时间。",
+      "exam_focus": "严格划定封闭质量控制体：连续并入静止链节伴随内能非弹性耗散（禁止直接套机械能守恒！）；折叠绳弯折处平缓过渡无耗散才守恒。",
+      "common_blindspots": "对柔性链条上升（并入冲击耗能）与下降（静止脱离无反冲）错用同一运动方程（`plancks-2025-q6`）。"
+    }
+  ],
+  "core_models": [
+    {
+      "name": "可动曲面纯滚动与脱离判据模型",
+      "tier": "L3 · 决赛核心",
+      "prototype": "光滑水平桌面上质量为 $M$ 的可动半球面上，质量为 $m$ 的均质实心球自顶点无滑滚下。",
+      "assumptions": "桌面无摩擦，球与半球间静摩擦足够（纯滚动阶段）直至某角度满足 $|f_s| = \\mu N$ 起滑，或法向支持力 $N=0$ 脱离。",
+      "key_equations": [
+        "$(M+m)v_{\\mathrm{hemi}} + m v_{x,\\text{rel}} = 0$（水平动量守恒）",
+        "$\\frac{1}{2}M V^2 + \\frac{1}{2}m v_{\\mathrm{abs}}^2 + \\frac{1}{2}I\\omega^2 + mg(R+r)\\cos\\theta = \\mathrm{const}$",
+        "脱离瞬间 $N=0 \\implies$ 半球水平加速为零（$\\dot{V}=0$）且法向满足 $a_n = v_{\\text{rel}}^2/(R+r)$"
+      ],
+      "evolution_semi_to_final": "复赛仅考固定半圆柱质点滑落；决赛叠加三大升级：① 底座反冲变成二自由度；② 刚体自转引入转动惯量因子 $2/5$；③ 途中发生“纯滚 $\\to$ 有滑仍接触 $\\to$ 脱离”三阶段切换。",
+      "sample_problem_ids": [
+        "cpho-2018-final-theory-problem-slice-q1",
+        "cpho-2013-final-theory-problem-slice-q2",
+        "plancks-2023-final-combined-slice-q5"
+      ]
+    },
+    {
+      "name": "偏心刚体纯滚动与瞬时转动中心能量求导法",
+      "tier": "L3 · 决赛核心",
+      "prototype": "缺损辐条车轮、偏心重物圆环或带配重圆柱在水平或倾斜地面无滑纯滚动。",
+      "assumptions": "接触点瞬时速度为零（静摩擦不做功），机械能严格守恒。",
+      "key_equations": [
+        "$E = \\frac{1}{2} I_P(\\theta)\\dot{\\theta}^2 + m g y_c(\\theta) = \\mathrm{const}$",
+        "两边对 $t$ 求导消去 $\\dot{\\theta}$：$I_P(\\theta)\\ddot{\\theta} + \\frac{1}{2}I_P'(\\theta)\\dot{\\theta}^2 + m g y_c'(\\theta) = 0$"
+      ],
+      "evolution_semi_to_final": "普通解法需列写质心加速度矢量、摩擦力 $f_s$ 与对质心力矩方程再消元；瞬心机械能求导法直接绕开未知约束静摩擦力，两行出角加速度，再代回质心运动定理反求 $N$ 与 $f_s$ 校验打滑临界。",
+      "sample_problem_ids": [
+        "cpho-2019-final-theory-problem-slice-q1",
+        "cpho-2020-final-theory-problem-slice-q7",
+        "cpho-2021-semifinal-theory-problem-slice-q7"
+      ]
+    },
+    {
+      "name": "刚体打击中心与非轴冲量反冲模型",
+      "tier": "L2 · 过渡必备",
+      "prototype": "定轴悬挂均匀杆或组合 V 形双杆受垂直横向冲量 $J$ 击打，或双点锁死碰撞瞬时过程。",
+      "assumptions": "碰撞时间极短，重力等有限力冲量可略；击打在打击中心处转轴无水平反冲。",
+      "key_equations": [
+        "$J l_p = I_O \\omega, \\qquad J + J_{\\mathrm{axis}} = m v_c = m l_c \\omega$",
+        "$J_{\\mathrm{axis}} = 0 \\iff l_p = \\frac{I_O}{m l_c}$（打击中心距离恰等于复摆等效摆长 $l_{\\mathrm{eq}}$）"
+      ],
+      "evolution_semi_to_final": "复赛停留在求打击中心位置；决赛要求处理击中非打击中心时转轴弹性约束或撤轴后的自由平抛-定常自转转换，以及双刚体同速锁死碰撞（`cpho-2016-final-q2`）。",
+      "sample_problem_ids": [
+        "cpho-2013-semifinal-theory-problem-slice-q2",
+        "cpho-2015-semifinal-theory-problem-slice-q2",
+        "cpho-2016-final-theory-problem-slice-q2",
+        "cpho-2018-semifinal-theory-problem-slice-q3"
+      ]
+    },
+    {
+      "name": "变质量连续体与欧拉-绞盘动力学模型",
+      "tier": "L3 · 决赛/国际拓展",
+      "prototype": "悬链、折叠弹性绳自由端下落、或绕转滑轮的连续软绳动量流与离心摩擦驱动。",
+      "assumptions": "区分“平滑弯曲过渡（能量守恒）”与“离散冲击并入（非弹性耗能）”；滑轮微元同时含法向离心卸载。",
+      "key_equations": [
+        "动态欧拉绞盘：$\\frac{\\mathrm{d}T}{\\mathrm{d}\\theta} = \\pm \\mu (T - \\lambda v^2)$",
+        "U 型折叠绳：$\\dot{P} = M_{\\mathrm{tot}}g - F_{\\mathrm{anchor}}$，弯折微元动量变率 $\\frac{1}{2}\\lambda v^2$ 贡献超重加速 $a > g$"
+      ],
+      "evolution_semi_to_final": "从高中静态欧拉绞盘公式 $T_2 = T_1 e^{\\mu\\alpha}$ 升级为运动滑轮高速下的离心减压项 $-\\lambda v^2$（当 $v^2 = T/\\lambda$ 时软绳发生脱轮临界！）。",
+      "sample_problem_ids": [
+        "cpho-2016-semifinal-theory-problem-slice-q4",
+        "cpho-2018-final-theory-problem-slice-q3",
+        "plancks-2025-final-combined-slice-q6",
+        "plancks-2026-final-problem-slice-q7"
+      ]
+    }
+  ],
+  "secondary_conclusions": [
+    {
+      "title": "柯尼希定理与自相似分割求转动惯量",
+      "source_type": "真题提炼",
+      "formula": "$I_{\\mathrm{rod}} = \\frac{1}{12}m L^2,\\quad E_k = \\frac{1}{2}m v_c^2 + \\frac{1}{2}I_c \\omega^2$",
+      "derivation_skeleton": "把长为 $L$ 的均匀细棒分成两根 $L/2$ 子棒，由量纲 $I(L) = c M L^2$ 及柯尼希定理 $I(L) = 2[I(L/2) + (M/2)(L/4)^2]$ 一行定出 $c = 1/12$，全程零积分。",
+      "validity_boundaries": "自相似分割仅要求几何物体可缩放拼接且质量分布均匀；平面刚体总动能分解须以质心为基点才无交叉项。",
+      "pitfall_warning": "切记不可将两个非质心轴直接套用平行轴关系！",
+      "related_problem_ids": [
+        "cpho-2013-semifinal-theory-problem-slice-q3",
+        "plancks-2024-final-combined-slice-q1"
+      ]
+    },
+    {
+      "title": "球对称刚体滚动等效惯量因子 $k = I_c/(mR^2)$ 统一公式",
+      "source_type": "经典定理",
+      "formula": "$a_{\\mathrm{roll}} = \\frac{g\\sin\\theta}{1 + k},\\qquad f_s = \\frac{k}{1+k}mg\\sin\\theta \\le \\mu mg\\cos\\theta$",
+      "derivation_skeleton": "均质实心圆柱/圆盘 $k=1/2$、薄圆环 $k=1$、实心球 $k=2/5$、薄球壳 $k=2/3$。对斜面纯滚用质心动力学或对瞬心求矩统一推得有效惯性质量为 $(1+k)m$。",
+      "validity_boundaries": "要求外力作用线过质心且地面固定无滑移。若支持面本身加速或外力有额外力矩，不得直接死套 $a = g\\sin\\theta/(1+k)$。",
+      "pitfall_warning": "汽车加速或多轮问题中车轮受驱动力矩，驱动轮与从动轮摩擦力方向相反（`cpho-2021-semi-q7`）！",
+      "related_problem_ids": [
+        "cpho-2021-semifinal-theory-problem-slice-q7",
+        "plancks-2021-preliminary-problem-slice-q2",
+        "plancks-2023-final-combined-slice-q5"
+      ]
+    },
+    {
+      "title": "台球高杆无滑纯滚与超球（Superball）碰撞反转矩阵",
+      "source_type": "真题提炼",
+      "formula": "$h_{\\mathrm{no-slip}} = \\frac{I_c}{mR} + R = (1+k)R,\\qquad v_x' = v_x - \\frac{2k}{1+k}(v_x - R\\omega)$",
+      "derivation_skeleton": "高杆在球心上方 $h$ 处施水平瞬时冲量 $J$，要求碰后立刻纯滚则 $\\frac{J}{m} = R \\frac{Jh}{I_c} \\Rightarrow h = (1+k)R$（实心球为 $\\frac{7}{5}R$）；超球切向恢复系数 $e_t=1$ 时接触点切向相对速度反向，构成二维正交变换矩阵。",
+      "validity_boundaries": "高度公式假设冲击瞬间地面与球无水平冲量（或摩擦力冲量极小）；超球碰撞必须同时保留法向与切向能量守恒。",
+      "pitfall_warning": "超球每次反弹上下平行硬板时，质心到底部/顶部接触点矢量符号反转，传递矩阵非对角元必变号（`cpho-2021-semi-q3`）。",
+      "related_problem_ids": [
+        "cpho-2020-semifinal-theory-problem-slice-q2",
+        "cpho-2021-semifinal-theory-problem-slice-q3"
+      ]
+    },
+    {
+      "title": "多自由度小振动有效势判稳与双弹簧串联等效刚度",
+      "source_type": "经典定理",
+      "formula": "$\\omega^2 = \\frac{U''_{\\mathrm{eff}}(q_0)}{m_{\\mathrm{eff}}},\\qquad \\frac{1}{k_{\\mathrm{eff}}} = \\frac{a^2}{k_1 L^2} + \\frac{b^2}{k_2 L^2}$",
+      "derivation_skeleton": "用广义力矩平衡导出微位移与转角的柔度叠加（本质是串联弹簧能量相加 $\\frac{1}{2}k_{\\mathrm{eff}}x^2 = \\frac{1}{2}k_1 x_1^2 + \\frac{1}{2}k_2 x_2^2$）。",
+      "validity_boundaries": "仅限微小线性偏离平衡处；若初始存在较大张力预应力，须计入横向位移几何二阶张力投影势能（弦刚度效应）。",
+      "pitfall_warning": "有摩擦阻尼的干摩擦振子不在死区做简谐衰减，而按等差数列 $2\\mu m g / k$ 逐半周掉振幅。",
+      "related_problem_ids": [
+        "cpho-2015-final-theory-problem-slice-q1",
+        "cpho-2018-semifinal-theory-problem-slice-q2",
+        "plancks-2022-preliminary-problem-slice-q5"
+      ]
+    },
+    {
+      "title": "恒加速度模长约束下的速度空间悬链线（弧长对偶）",
+      "source_type": "跨界方法",
+      "formula": "$\\Delta t = \\int \\frac{\\mathrm{d}s_v}{a},\\qquad \\Delta\\mathbf{r} = \\frac{1}{a}\\int \\mathbf{v}\\,\\mathrm{d}s_v$",
+      "derivation_skeleton": "当最大加速率恒为 $a=\\mu g$ 时，轨迹在速度平面上的几何弧长 $s_v$ 正比于耗时，而空间固定位移约束转化为速度曲线质心位置约束——由变分法知给定线长下质心最偏极值线即静力悬链线！",
+      "validity_boundaries": "要求切向与法向合加速度模长始终受同一个圆形摩擦极限 $|\\mathbf{a}| \\le \\mu g$ 约束，且中间无刚性撞墙冲量。",
+      "pitfall_warning": "必须在顶点切换条件处核对对称转角是否满足速度矢量连续性（`physicscup-2022-q2`）。",
+      "related_problem_ids": [
+        "physicscup-2022-q2-reader",
+        "physicscup-2026-q1-reader",
+        "plancks-2026-final-problem-slice-q4"
+      ]
+    }
+  ],
+  "virtual_examples": [
+    {
+      "id": "ve_mech_1",
+      "title": "微例 1 · 无质量轻杆双滑块在直角光滑墙角的加速“脱离骗局”",
+      "difficulty_tag": "复赛压轴→决赛诊断",
+      "scenario": "长为 $L$ 的刚性轻杆两端连接相等质量 $m$ 的小球 $A,B$，分别靠在光滑竖直墙面和光滑水平地面上，杆与地面夹角 $\\theta$ 从接近 $\\pi/2$ 的静止微扰释放。求 $A$ 球脱离竖直墙面瞬间的角 $\\theta_c$ 与此时杆中内力。",
+      "intuition_trap": "常见致命直觉错误：以为脱离瞬间两球速率依然满足约束条件 $v_A \\sin\\theta = v_B \\cos\\theta$ 且杆中张力必定正好为零——甚至忘记脱离瞬间 $B$ 球水平加速度恰好归零！",
+      "solution_steps": [
+        "未脱离时，$B$ 球坐标 $x_B = L\\cos\\theta$，$A$ 球 $y_A = L\\sin\\theta$。由几何等长，两球速度满足 $v_x = -L\\dot{\\theta}\\sin\\theta,\\; v_y = L\\dot{\\theta}\\cos\\theta$，总机械能 $\\frac{1}{2}m L^2 \\dot{\\theta}^2 + mgL\\sin\\theta = mgL$，故 $\\dot{\\theta}^2 = \\frac{2g}{L}(1 - \\sin\\theta)$。",
+        "关键判断：墙对 $A$ 的支持力 $N_w = m \\ddot{x}_B$（因无水平外力，整体水平动量 $m v_B$ 的变化率完全来自墙面支持力 $N_w$！）。脱离瞬间 $N_w = 0 \\iff \\ddot{x}_B = 0$，即水平速度 $v_B(\\theta) = L\\dot{\\theta}\\sin\\theta$ 达到极大值！",
+        "令 $\\frac{\\mathrm{d}}{\\mathrm{d}\\theta}(v_B^2) = 0$：最大化 $(1 - \\sin\\theta)\\sin^2\\theta$，求导得 $2\\sin\\theta - 3\\sin^2\\theta = 0 \\implies \\sin\\theta_c = \\frac{2}{3}$（无需解 $\\ddot{\\theta}$ 再列杆张力方程！）。此时由竖直方向动力学可验杆内张力已反号归零。"
+      ],
+      "limit_dimension_check": "$\\sin\\theta_c = 2/3$ 为纯粹无量纲常数（与 $m,g,L$ 无关）；对比两球质量不等 $m_A \\ne m_B$ 时，因水平动量只取决于 $B$ 球质量，临界角居然仍与质量比无关！",
+      "transfers_to_ids": [
+        "cpho-2013-final-theory-problem-slice-q2",
+        "cpho-2018-final-theory-problem-slice-q1",
+        "plancks-2024-final-combined-slice-q4"
+      ]
+    },
+    {
+      "id": "ve_mech_2",
+      "title": "微例 2 · 变质量柔性链条落入桌面 vs 从桌面拉起的能量陷阱",
+      "difficulty_tag": "决赛变质量核心诊断",
+      "scenario": "匀质柔性细链线密度 $\\lambda$、全长 $L$。情境 I：手提上端让下端刚好触及水平桌面静止释放，当已落下长度 $x$ 时桌面所受压力是多少？情境 II：细链盘绕堆积于光滑桌面，手以恒定速度 $v_0$ 竖直向上匀速拉起（已离桌长 $x$），手所施拉力为多少？",
+      "intuition_trap": "错误直觉：两个过程都是“有链节在碰撞或突变速度”，容易张冠李戴——要么在情境 I 错加冲击反力或错漏冲击压，要么在情境 II 错用机械能守恒漏掉 $\\lambda v_0^2$ 动量率！",
+      "solution_steps": [
+        "**情境 I（落下）**：仍在空中悬垂部分每一点均以相同速度自由落体（各点间张力为零！），故下端接触桌面瞬间前速度 $v = \\sqrt{2gx}$。每经过 $\\mathrm{d}t$，有 $\\mathrm{d}m = \\lambda v\\,\\mathrm{d}t$ 质量的微元速度从 $v$ 降为 $0$，施加给桌面的冲击压力 $F_{\\mathrm{imp}} = \\frac{\\mathrm{d}m}{\\mathrm{d}t} v = \\lambda v^2 = 2\\lambda g x$。加上已静止在桌面的重量 $\\lambda g x$，总压力 $N = 3\\lambda g x$（在完全落下瞬间达到全链重量的 3 倍！）。",
+        "**情境 II（向上匀速拉起）**：空中运动段重量为 $\\lambda g x$，但每经过 $\\mathrm{d}t$ 还必须把桌面静止的 $\\mathrm{d}m = \\lambda v_0 \\mathrm{d}t$ 链节瞬间加速到 $v_0$（非弹性冲击并入！）。由整体动量定理 $F - \\lambda g x = \\frac{\\mathrm{d}}{\\mathrm{d}t}(\\lambda x v_0) = \\lambda v_0^2$，故拉力 $F = \\lambda g x + \\lambda v_0^2$。手的功率 $F v_0$ 中恰好有一半 $\\frac{1}{2}\\lambda v_0^3$ 化为静止链节加速的内能热损耗！"
+      ],
+      "limit_dimension_check": "$[\\lambda v^2] = (\\mathrm{kg/m})(\\mathrm{m/s})^2 = \\mathrm{N}$，量纲严格一致；令 $v_0\\to 0$ 时情境 II 退化为静力学重力 $\\lambda g x$。",
+      "transfers_to_ids": [
+        "plancks-2025-final-combined-slice-q6",
+        "cpho-2016-semifinal-theory-problem-slice-q4",
+        "cpho-2018-final-theory-problem-slice-q3"
+      ]
+    }
+  ],
+  "topic_pitfalls": [
+    {
+      "title": "半球底面平行轴定理禁区",
+      "detail": "不可直接在两个非质心转轴（如半球底面圆心轴与顶点轴）之间套用平行轴公式 $I_2 = I_1 + m(d_2^2-d_1^2)$，务必经由质心 $z_c = 3R/8$ 中转。",
+      "ref_ids": [
+        "cpho-2020-final-theory-problem-slice-q7"
+      ]
+    },
+    {
+      "title": "斜坡车体/滑块摩擦力反向与倒滑漏解",
+      "detail": "判断停止或纯滚动过渡时不可假定初速为零即永远静止，须逐区间校核动态加速度方向与静摩擦死区范围。",
+      "ref_ids": [
+        "cpho-2019-semifinal-theory-problem-slice-q2",
+        "cpho-2021-semifinal-theory-problem-slice-q7"
+      ]
+    },
+    {
+      "title": "三维非完整滚动约束不能直接代回标量拉氏量",
+      "detail": "球面三维纯滚动是非完整约束，不可像平面滚动那样直接消去自由度后再求欧拉-拉格朗日导数，必须用随体动基矢角动量定理。",
+      "ref_ids": [
+        "panpho-2025-paper-2-problem-slice-q1"
+      ]
+    },
+    {
+      "title": "碰撞双自由度外冲量轴/质心混淆",
+      "detail": "杆受偏心碰撞若存在固定光滑转轴，只有**总角动量对转轴守恒**，线动量因转轴存在反冲量而不守恒。",
+      "ref_ids": [
+        "cpho-2013-semifinal-theory-problem-slice-q2",
+        "cpho-2016-final-theory-problem-slice-q2"
+      ]
+    }
+  ]
+}

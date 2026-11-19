@@ -1,0 +1,4626 @@
+{
+  "cpho-2013-final-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1",
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "连续非弹性弹跳的等比级数求和，并用全程动量定理独立交叉验算总时间与冲量。"
+  },
+  "cpho-2013-final-theory-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "直角壁约束轻杆双球滑落模型：利用水平动量分量取极值瞬间（支持力归零）一步求脱离角。"
+  },
+  "cpho-2013-final-theory-problem-slice-q3": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "太空电梯模型：在地球自转非惯性系中构筑同步轨道有效势垒，并用虚功与分段平衡判别输送管张力极值。"
+  },
+  "cpho-2013-final-theory-problem-slice-q4": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "接地屏蔽球壳彻底隔绝互电容；顺带检验原卷电路图电池正负极绘画极性勘误。"
+  },
+  "cpho-2013-final-theory-problem-slice-q5": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B4",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [
+      "adv_3"
+    ],
+    "study_note": "超导圆环总磁通守恒给出诱发电流与位移关系，再以磁力线性化或总能量对位移二阶导求微振动频率。"
+  },
+  "cpho-2013-final-theory-problem-slice-q6": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T4",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "傅里叶稳态导热与双表面牛顿线性散热等效为热阻串并联网络，注意有效数字修约。"
+  },
+  "cpho-2013-final-theory-problem-slice-q7": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O3",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "45°斜入射柱面镜虚像解析定位，配合等相位虚双缝远场干涉测量微丝直径（可用费马原理核验光程）。"
+  },
+  "cpho-2013-final-theory-problem-slice-q8": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A3",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8",
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "多人往返拍手建立等比时空事件链，彻底厘清相互同时性与时间膨胀对称性差异。"
+  },
+  "cpho-2013-semifinal-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M1",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "三维光滑半球面滑块：联立机械能与竖直轴角动量守恒“设而不求”消元求最大速率与支持力不脱离条件。"
+  },
+  "cpho-2013-semifinal-theory-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "定轴轻杆与密接滑环弹性碰撞：打击中心免轴冲量效应与弹性约束转轴反冲，值得用质心系动量再交叉检验。"
+  },
+  "cpho-2013-semifinal-theory-problem-slice-q3": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "巧用柯尼希定理自相似分割免积分求棒转动惯量，并用微元切面法求下摆刚体内部轴力与剪力。"
+  },
+  "cpho-2013-semifinal-theory-problem-slice-q4": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E2",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_1",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "法拉第冰桶滴水起电机充电上限：用能量守恒二次因式分解加全域动能正定性确定临界最高电势。"
+  },
+  "cpho-2013-semifinal-theory-problem-slice-q5": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E3",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "低速伽利略电磁变换下运动电介质在开路平行板内的极化束缚面电荷与自洽退极化电场。"
+  },
+  "cpho-2013-semifinal-theory-problem-slice-q6": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F5",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L1",
+    "archetypes": [
+      "arch_2",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "双金属片等厚圆弧热膨胀曲率半径几何匹配模型，对比弹性轴向伸缩边界修正。"
+  },
+  "cpho-2013-semifinal-theory-problem-slice-q7": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "纵向梯度折射率微台阶斜劈只积累光程差而不偏折光线，导出二次相位分布下的等间距多狭缝干涉跳阶条件。"
+  },
+  "cpho-2013-semifinal-theory-problem-slice-q8": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A4",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "逆康普顿散射四动量守恒推导与极端相对论大数相消展开，留意参考答案中的系数勘误辨析。"
+  },
+  "cpho-2014-final-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "库仑力反向后结合角动量守恒构造径向有效势，判断平衡存在性与微振动稳定性。"
+  },
+  "cpho-2014-final-theory-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M1",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "高空三弹头水平等速分裂拆解为质心平抛与相对运动圆轨迹交点问题，需分双弹着点讨论并核对官方勘误。"
+  },
+  "cpho-2014-final-theory-problem-slice-q3": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T1",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "三室绝热自由膨胀先算总内能混合温度，再为双组分理想气体构造等效绝热指数进行准静态过程积分。"
+  },
+  "cpho-2014-final-theory-problem-slice-q4": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "光纤布拉格光栅四分之一波长膜系相干加强条件，务必精确计数反射界面次数与半波损失。"
+  },
+  "cpho-2014-final-theory-problem-slice-q5": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B2",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "Green-Proca 30° 平行板二阶角聚焦经典模型：对入射角做变分消去一阶与二阶项，附带两处官方勘误辨析。"
+  },
+  "cpho-2014-final-theory-problem-slice-q6": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B4",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_3"
+    ],
+    "study_note": "第II类超导体 Abrikosov 三角磁通涡旋格子与 Bardeen-Stephen 磁通流阻模型的经典竞赛桥接题。"
+  },
+  "cpho-2014-final-theory-problem-slice-q7": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "线性空气阻力下质心平动与刚体转动完美解耦，用 dv/dx = -k/m 消去时间显式积分求解偏心弹性碰撞。"
+  },
+  "cpho-2014-final-theory-problem-slice-q8": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q2",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "太阳 pp 链核聚变、全电离等离子体压强、三体衰变能谱极限与多次级联康普顿散射综合训练。"
+  },
+  "cpho-2014-semifinal-theory-problem-slice-q1": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F3",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "白金汉 Π 定理量纲分析求出无重力自由液滴表面张力脉动频率（瑞利液滴标度律）。"
+  },
+  "cpho-2014-semifinal-theory-problem-slice-q2": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T1",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_8",
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "Clément-Desormes 实验：将放气变质量问题转化为留存气团控制体的定质量绝热膨胀加等容升温一阶展开。"
+  },
+  "cpho-2014-semifinal-theory-problem-slice-q3": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "三维铰链三角平板静力平衡：理解轴向约束静不定性，并用右手定则力矩平衡求出等支反力作用点轨迹。"
+  },
+  "cpho-2014-semifinal-theory-problem-slice-q4": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "可滑动旋转圆环与双下滑小球耦合动力学：区分竖直轴角动量守恒与旋转系离心势能，精确求解圆环离地跳起临界。"
+  },
+  "cpho-2014-semifinal-theory-problem-slice-q5": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "有限口径成像系统的孔径光阑与视场光阑区分、渐晕暗角计算与极限边缘光线追踪。"
+  },
+  "cpho-2014-semifinal-theory-problem-slice-q6": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "多极板旋转电容：利用虚功原理求恒电荷断电静电力矩与分段平台区，并审视交流调制能耗均值假设。"
+  },
+  "cpho-2014-semifinal-theory-problem-slice-q7": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "Z-箍缩双层钨丝阵列：不靠安培环路定理，用圆弦几何对称性证明柱面磁场零内外场分布与自箍缩磁压强。"
+  },
+  "cpho-2014-semifinal-theory-problem-slice-q8": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q3",
+    "secondary_topics": [
+      "astro_relativity"
+    ],
+    "tier": "L1",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "氢原子巴耳末系比值识谱法叠加宇宙学多普勒红移与哈勃定律测距，留意相减导致的有效数字损失。"
+  },
+  "cpho-2015-final-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "双弹簧轻杆等效串联柔度叠加与柯西不等式频率最优化，直击平动无偏转物理图像。"
+  },
+  "cpho-2015-final-theory-problem-slice-q2": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B3",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "电磁导轨炮变电感动态回路与磁能-机械功二分分配；重点自查官方将导轨 500 m 误代入 5.0/0.50 的数值级联勘误。"
+  },
+  "cpho-2015-final-theory-problem-slice-q3": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A4",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "从牛顿到狭义相对论推导理想火箭方程（注意静止质量不守恒！），利用奇函数性质展开到三阶小量。"
+  },
+  "cpho-2015-final-theory-problem-slice-q4": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q1",
+    "secondary_topics": [
+      "optics_waves",
+      "mechanics"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [
+      "adv_10"
+    ],
+    "study_note": "光镊光束阱中全反射三棱柱：用垂直光束投影截面求辐射压力，再结合运动反射面多普勒频移分析耗散。"
+  },
+  "cpho-2015-final-theory-problem-slice-q5": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F3",
+    "secondary_topics": [
+      "astro_relativity"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "环形狭缝毛细上升中表面张力自由能恰有一半转化为重力势能、一半耗散为热（附带官方解答符号笔误校验）。"
+  },
+  "cpho-2015-final-theory-problem-slice-q6": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "行星顺逆行转换“留”点可用相对位矢与相对速度矢量叉积为零一步判定，再结合会合周期算时间间隔。"
+  },
+  "cpho-2015-final-theory-problem-slice-q7": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B2",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "Wiley-McLaren 双场飞行时间质谱仪与反射式 TOFMS 的 ∂T/∂S=0 一阶空间/能量时间补偿聚焦原理。"
+  },
+  "cpho-2015-final-theory-problem-slice-q8": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O1",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "连续分层 n²(z) 介质用光学-力学类比直接化为抛物线光线轨迹，避开可去奇点求解拦截安全速度窗口。"
+  },
+  "cpho-2015-semifinal-theory-problem-slice-q1": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q2",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L1",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "太阳 CNO 循环核聚变：精准配平核反应与 β⁺ 衰变方程，尤其警惕原子质量计算时额外多扣的电子质量。"
+  },
+  "cpho-2015-semifinal-theory-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "哑铃轻杆平面碰撞：利用打击中心（瞬时不动点）简化角动量关系，并与完全非弹性碰撞动能极小值变分互验。"
+  },
+  "cpho-2015-semifinal-theory-problem-slice-q3": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "薄圆环斜撞地面后无滑反弹：利用对接触点的角动量守恒求角速度跃变，分段讨论绝对值函数极值优化射程。"
+  },
+  "cpho-2015-semifinal-theory-problem-slice-q4": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O6",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "机载合成孔径雷达（SAR）三维斜距追踪，利用总相位对时间求导直接给出多普勒频移与波束带宽。"
+  },
+  "cpho-2015-semifinal-theory-problem-slice-q5": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E4",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "“田”字形导电网框出磁场：由反对称等势中线约化网络并运用戴维南等效电路快速核算焦耳总热。"
+  },
+  "cpho-2015-semifinal-theory-problem-slice-q6": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "非匀强磁场中转动正方形线框：同时练熟磁通量对数积分法拉第定律与各边动生电动势矢量积分双解法。"
+  },
+  "cpho-2015-semifinal-theory-problem-slice-q7": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "p-V 图直线过程：明确最高温点与吸放热转折点（直线与绝热线相切）严格分离，透彻理解负热容区物理含义。"
+  },
+  "cpho-2015-semifinal-theory-problem-slice-q8": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O5",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [
+      "adv_11"
+    ],
+    "study_note": "三层非对称介质平板波导（TE 模）：引入全内反射复数菲涅耳相移（Goos-Hänchen 位移）导出完整波导色散与截止波长。"
+  },
+  "cpho-2016-final-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M1",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "双向行程能量转化题必须严守“发电乘效率 η₁、驱动除效率 η₂”的能量流箭头，严防乘除倒置。"
+  },
+  "cpho-2016-final-theory-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "绳-杆双自由度系统的瞬时冲量打击中心与拉格朗日/非惯性约束消元求一般位形角加速度。"
+  },
+  "cpho-2016-final-theory-problem-slice-q3": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F1",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "变重力场球对称静流体平衡积分求火星大气分布，串联平方阻力一维降落速度的双曲正切微分方程解。"
+  },
+  "cpho-2016-final-theory-problem-slice-q4": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q1",
+    "secondary_topics": [
+      "mechanics",
+      "fluids_continua"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "圆偏振光光子自旋角动量光力矩驱动粘滞液体中的金球，推导周期方波脉冲下角速度的等比递推稳态极限。"
+  },
+  "cpho-2016-final-theory-problem-slice-q5": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "气动下压力耦合滚阻与矢量静摩擦圆约束：分段讨论边界极值与内部导数极值。"
+  },
+  "cpho-2016-final-theory-problem-slice-q6": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B3",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "Hyperloop 气垫反冲 + 涡流进站链式制动 + 直线电机自感推力：绝不能漏算闭合电源端的横向安培推斥力！"
+  },
+  "cpho-2016-final-theory-problem-slice-q7": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "TT 规范弱场引力波度规微扰在自由质点环上的拉伸椭圆图像、双波叠加干涉与双星四极二倍频辐射。"
+  },
+  "cpho-2016-final-theory-problem-slice-q8": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q2",
+    "secondary_topics": [
+      "astro_relativity"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "电子偶素考虑约化质量后的玻尔能级与高/低速双光子湮灭：切记将束缚能亏损计入有效静质量！"
+  },
+  "cpho-2016-semifinal-theory-problem-slice-q1": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "正交平凸柱面透镜间等厚空气膜：用二阶几何近似写出抛物/双曲级干涉条纹方程，别漏判空气-玻璃反射半波损失。"
+  },
+  "cpho-2016-semifinal-theory-problem-slice-q2": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T1",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "密闭水罐热膨胀与连通器静水压耦合：顺着等压/定容增量推导变过程气体热容量。"
+  },
+  "cpho-2016-semifinal-theory-problem-slice-q3": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "太阳质量瞬间消失后地球与木星相对速度矢量合成，套用约化质量引力总能量判别能否互相俘获。"
+  },
+  "cpho-2016-semifinal-theory-problem-slice-q4": {
+    "primary_topic": "mechanics",
+    "subtopic": "M6",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "U 型折叠弹性绳自由下落超重现象：用机械能守恒结合弯折微元动量流精确求出超过 g 的下落加速度与悬点动态张力。"
+  },
+  "cpho-2016-semifinal-theory-problem-slice-q5": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E4",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "螺旋石墨烯传感器拉伸形变：建立倾斜椭圆周长近似、串并联接触电阻网络及远场磁偶极矩模型。"
+  },
+  "cpho-2016-semifinal-theory-problem-slice-q6": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B2",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "光电倍增管级联能耗与磁偏转收集：用跨阳极净电荷记账法秒杀级数求和，并注意官方原卷倍增极插图排版错位勘误。"
+  },
+  "cpho-2016-semifinal-theory-problem-slice-q7": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "V 形双杆固结与铰接对比：从定轴平行轴定理过渡到多刚体铰接瞬时角加速度与铰链内力求解。"
+  },
+  "cpho-2016-semifinal-theory-problem-slice-q8": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A4",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "极端相对论无质量部分子对撞：利用四动量不变质量与质心系各向同性双光子衰变推导洛伦兹聚束张角。"
+  },
+  "cpho-2017-final-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "质心与相对坐标彻底解耦后，对库仑排斥+弹簧平衡位置做小微扰线性化即可秒求耦合振动周期。"
+  },
+  "cpho-2017-final-theory-problem-slice-q2": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "超新星瞬时各向同性抛射质量后的质心系约化能量突变与解体判据（检查总质量亏损是否过半）。"
+  },
+  "cpho-2017-final-theory-problem-slice-q3": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "荡秋千变摆长参数泵浦：径向内力做功配合多段耗散构造一阶线性递推数列并确定起振临界阈值。"
+  },
+  "cpho-2017-final-theory-problem-slice-q4": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B3",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "竖直磁场方形线框的磁力矩简谐摆动与短路电磁阻尼角冲量积分（注意用右手系严格判定力矩与感应电流方向）。"
+  },
+  "cpho-2017-final-theory-problem-slice-q5": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8",
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "正交电磁场沉降微粒：以 1-cosΘ 立体角积分定约束半径，再利用各向等比例衰减提取三维螺旋路程等比公比。"
+  },
+  "cpho-2017-final-theory-problem-slice-q6": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "毛细悬垂水滴曲率半径与部分浸润玻璃管双面接触线受力平衡（对照原题与参考解答中的液柱边界细节）。"
+  },
+  "cpho-2017-final-theory-problem-slice-q7": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_7",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "由爱因斯坦等效原理直接转化匀加速参考系多普勒频移导出弱场引力红移，复现庞德-雷布卡实验补偿。"
+  },
+  "cpho-2017-final-theory-problem-slice-q8": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O3",
+    "secondary_topics": [
+      "quantum_modern",
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "色散薄膜干涉级次单调夹逼定厚，结合斜入射光压动量流驱动双线摆的精确非线性回复力矩平衡。"
+  },
+  "cpho-2017-semifinal-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "圆筒内小圆柱无滑滚动：提取双自由度无滑运动学约束后以等效折合惯量直接写出小角耦合微振动频率。"
+  },
+  "cpho-2017-semifinal-theory-problem-slice-q2": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "抛物线零能轨道彗星穿越地球轨道：结合极坐标/径向能量积分与开普勒第二定律面积法交叉核验时间。"
+  },
+  "cpho-2017-semifinal-theory-problem-slice-q3": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "制动卡车与滑动物块多过程碰撞：必须逐段检验静摩擦自锁是否成立，并用质心运动定理降维校对。"
+  },
+  "cpho-2017-semifinal-theory-problem-slice-q4": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B3",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "双内切半圆导轨旋转棒：用扫掠面积快速算感生电动势，注意变长均匀金属棒自身接入电阻随转角变化。"
+  },
+  "cpho-2017-semifinal-theory-problem-slice-q5": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "单向电场回旋折返加速：列举几何避碰不等式与整数周期约束，并自行检验官方解答式 (14)(19) 符号与上界漏项。"
+  },
+  "cpho-2017-semifinal-theory-problem-slice-q6": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q3",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L1",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "弗兰克-赫兹实验碰撞阈值：体会质心系最大能量转化公式下电子与质子轰击氢原子的反冲阈值巨大差异。"
+  },
+  "cpho-2017-semifinal-theory-problem-slice-q7": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T1",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "理想气体直线-等温循环：算准直线过程最高温度与吸放热临界点，理解负摩尔热容区段的物理本质。"
+  },
+  "cpho-2017-semifinal-theory-problem-slice-q8": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "非近轴菲涅尔阶梯透镜：利用球面折射正弦定理做共焦环带设计，用全反射条件确定最大孔径角并取近轴退化检验。"
+  },
+  "cpho-2018-final-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "可动光滑半球面上的纯滚动球：利用水平动量守恒+纯滚动约束+脱离瞬间切向加速为零精准判别滑落分支。"
+  },
+  "cpho-2018-final-theory-problem-slice-q2": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E3",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "平行板电容内带电导板撞击复位电荷并按线性力运动；仔细核对官方解答中碰撞积分边界的小疏漏。"
+  },
+  "cpho-2018-final-theory-problem-slice-q3": {
+    "primary_topic": "mechanics",
+    "subtopic": "M6",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "旋转滑轮驱动连续软绳：引入离心法向修正推广静态欧拉-绞盘公式，求解变质量一阶常微分方程。"
+  },
+  "cpho-2018-final-theory-problem-slice-q4": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O5",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [],
+    "study_note": "有界阻尼弦受迫驻波：用复振幅行波/无穷反射叠加与双端同/反相选模定则，并排查官方解答中的相位瑕疵。"
+  },
+  "cpho-2018-final-theory-problem-slice-q5": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T3",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "绝热容器小孔克努森分子泻流：注意溢出分子的平均动能为 2kT（而非 3/2 kT）导致腔内气体绝热降温并获反冲推力。"
+  },
+  "cpho-2018-final-theory-problem-slice-q6": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O5",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_11"
+    ],
+    "study_note": "负折射率超材料（相速度与能流反向、负光程）的惠更斯波前作图与球面成正立实像规律。"
+  },
+  "cpho-2018-final-theory-problem-slice-q7": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_4"
+    ],
+    "study_note": "非抛物色散 K(p)=p²/2m + αp 下的群速度与逆有效质量张量半经典动力学，完美演示晶体电子非共线加速。"
+  },
+  "cpho-2018-final-theory-problem-slice-q8": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T2",
+    "secondary_topics": [
+      "astro_relativity",
+      "quantum_modern"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_3",
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_9",
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "一维黑体辐射光压驱动运动反射镜：黑体谱在洛伦兹变换下保持温度重标度形式，统一连接多普勒光压与卡诺效率。"
+  },
+  "cpho-2018-semifinal-theory-problem-slice-q1": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "空间站水平抛射轨道判据：利用近/远地点判别坠地边界并积分求径向落体时间。"
+  },
+  "cpho-2018-semifinal-theory-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_1",
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "干摩擦水平弹簧振子：振幅按固定等差数列衰减并在静摩擦死区内锁死，务必分奇偶半周期精细计数总路程。"
+  },
+  "cpho-2018-semifinal-theory-problem-slice-q3": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "打击中心碰撞悬杆及中途撤轴：动态分解转轴径向与切向支反力，再无缝切换到无外力矩自由抛体-自转运动。"
+  },
+  "cpho-2018-semifinal-theory-problem-slice-q4": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [],
+    "study_note": "Ioffe-Pritchard 四线磁阱：可用二维复势一步化简四极场并做泰勒线性展开求出简谐势阱与二维逃逸鞍点。"
+  },
+  "cpho-2018-semifinal-theory-problem-slice-q5": {
+    "primary_topic": "mechanics",
+    "subtopic": "M5",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4",
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "旋转参考系中科里奥利力与磁洛伦兹力等价（拉莫尔定理）演绎经典正常塞曼效应，留意官方逻辑跳转勘误。"
+  },
+  "cpho-2018-semifinal-theory-problem-slice-q6": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T4",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "同心灰体球壳辐射与球壁热传导耦合：用辐射度法/无穷次反射修正官方解答第(3)问漏算内壁自反射 (227K→217K) 的错误。"
+  },
+  "cpho-2018-semifinal-theory-problem-slice-q7": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O4",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "巴比涅互补原理联系螺旋弹簧激光 X 形衍射层线与 DNA 51 号 X 射线照片螺距/半径反演。"
+  },
+  "cpho-2018-semifinal-theory-problem-slice-q8": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q1",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L1",
+    "archetypes": [
+      "arch_7",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "⁵⁷Fe 穆斯堡尔无反冲共振吸收：核算核反冲能与自然线宽重叠判据，利用多普勒微速度调制精密测能移。"
+  },
+  "cpho-2019-final-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "缺损辐条偏心车轮纯滚动：用瞬时转动中心直接列机械能并对时间求导，避开繁琐的动基点惯性力展开。"
+  },
+  "cpho-2019-final-theory-problem-slice-q2": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E4",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "双层耗损电介质柱壳：从电流连续性切入求界面自由电荷与束缚电荷分离，等效为双 RC 并行支路揭示双指数弛豫。"
+  },
+  "cpho-2019-final-theory-problem-slice-q3": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B4",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_3"
+    ],
+    "study_note": "超导重力仪集成球穴引力减法（割补）、磁通守恒超导悬浮稳定性与差分电容交流电桥零点反馈三大模型。"
+  },
+  "cpho-2019-final-theory-problem-slice-q4": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "涡轮增压与中冷器稳态流热力学：学会用等效控制团与状态函数（熵、焓）替代路径绕开复杂中间过程。"
+  },
+  "cpho-2019-final-theory-problem-slice-q5": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q3",
+    "secondary_topics": [
+      "optics_waves",
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_9"
+    ],
+    "advanced_models": [
+      "adv_10"
+    ],
+    "study_note": "诺奖光镊物理全链条拆解：艾里斑衍射极限、平界面傍轴焦点漂移、水中光子动量流光力与麦克斯韦捕获概率。"
+  },
+  "cpho-2019-final-theory-problem-slice-q6": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A2",
+    "secondary_topics": [
+      "quantum_modern",
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_8",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "跨越千年天文学与核物理的建模题：从金星凌日视差、黑体光度、对数图估聚变温标到辐射失质量轨道绝热扩展。"
+  },
+  "cpho-2019-semifinal-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L1",
+    "archetypes": [
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "变水位容器最低质心极值技巧（水位恰齐新质心高度！）叠加三脚架增量力矩静力平衡。"
+  },
+  "cpho-2019-semifinal-theory-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "平板车把手碰撞锁死与滚滑制动：盲解精准补充 μ∈[tanθ, 8/3 tanθ) 期间向左倒滑分支并查出官方 l³ 量纲笔误。"
+  },
+  "cpho-2019-semifinal-theory-problem-slice-q3": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "倾斜双圆柱电磁轨道炮：半无限直导线磁场积分配合全回路自感电动势，彻底厘清动生、感生电动势与恒流效率。"
+  },
+  "cpho-2019-semifinal-theory-problem-slice-q4": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F5",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L1",
+    "archetypes": [
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "微孔竹板亥姆霍兹共振器：将绝热气体体弹性模量视为弹簧、颈部气柱视为质块，秒推集中参数谐振频率标度律。"
+  },
+  "cpho-2019-semifinal-theory-problem-slice-q5": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O2",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "阶跃光纤全反射数值孔径 NA 与微球厚透镜逐次球面折射聚焦的近轴联立模型。"
+  },
+  "cpho-2019-semifinal-theory-problem-slice-q6": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A4",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "高速 π 介子两体衰变产生 μ 子的极值速率、洛伦兹时间膨胀及地面存活概率（注意有效数字修约陷阱）。"
+  },
+  "cpho-2019-semifinal-theory-problem-slice-q7": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E1",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "雷暴大气物理四合一：圆盘电像法电场、等场强圆柱高斯反演、球面波超光速相交环与线性变温大气静力气压。"
+  },
+  "cpho-2020-final-theory-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M1",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_5",
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_8",
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "查德威克中子发现碰撞几何 + 一维序列碰撞线性递推不动点 + 麦克斯韦速率转动能分布的雅可比因子陷阱。"
+  },
+  "cpho-2020-final-theory-problem-slice-q2": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E2",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "双孤立导体球靠近的无穷电像级数：极易漏掉使孤立球总电荷为零的球心补偿电荷，需用逐级递推放缩证发散。"
+  },
+  "cpho-2020-final-theory-problem-slice-q3": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q5",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [
+      "adv_10"
+    ],
+    "study_note": "二能级系统量子热力学第一定律分解（广义功 δW = ∑ PᵢdEᵢ 与广义热），严格对比量子奥托与量子卡诺循环效率。"
+  },
+  "cpho-2020-final-theory-problem-slice-q4": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O6",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "激光多普勒测速仪（LDV）：从双次多普勒差频拍频与交叉干涉条纹双视角推导，切记在介质中波矢含折射率 n！"
+  },
+  "cpho-2020-final-theory-problem-slice-q5": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B5",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_6"
+    ],
+    "advanced_models": [
+      "adv_6"
+    ],
+    "study_note": "磁化冷等离子体 Appleton-Hartree 纵向色散与脉冲星法拉第旋光（严查左/右旋圆极化色散正负号约定）。"
+  },
+  "cpho-2020-final-theory-problem-slice-q6": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A4",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_7",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "高能物理综合题：区分总能量与动能（6.8 GeV 反质子陷阱）、切伦科夫圆环反射镜聚焦与三体衰变 Dalitz 相空间边界。"
+  },
+  "cpho-2020-final-theory-problem-slice-q7": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "悬挂式孔子欹器：负质量割补法算偏心腔质心（警惕半球绕顶点非质心轴平行轴定理误用），再做复摆微振动。"
+  },
+  "cpho-2020-semifinal-theory-problem-slice-q1": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T1",
+    "secondary_topics": [
+      "mechanics",
+      "fluids_continua"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "空气弹簧变截面气囊刚度：对多方过程做复合微商线性化，区分高频绝热与低频等温/连通气室两种极限。"
+  },
+  "cpho-2020-semifinal-theory-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "台球高杆击球后超旋滑动摩擦加速过渡到纯滚动：注意打击点高度满足 h=(7/5)R 无滑条件及轮缘旋轮线运动学。"
+  },
+  "cpho-2020-semifinal-theory-problem-slice-q3": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E5",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "隧道二极管负微分电阻：交直流隔离后将负阻等效为负阻尼代入 RLC 二阶方程判断等幅自激振荡阈值。"
+  },
+  "cpho-2020-semifinal-theory-problem-slice-q4": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A4",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L1",
+    "archetypes": [
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "相对论磁刚度公式 p=qBR 与高能质子碰撞产生反质子阈能（使用四动量洛伦兹不变量质心共速判据一步秒杀）。"
+  },
+  "cpho-2020-semifinal-theory-problem-slice-q5": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "多惯性系星际雷达测距与追及问题：规范定义时空事件，避免一维/二维相对论速度变换时参考方向正负错配。"
+  },
+  "cpho-2020-semifinal-theory-problem-slice-q6": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O6",
+    "secondary_topics": [
+      "astro_relativity"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_7",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "光纤陀螺仪 Sagnac 效应：用运动介质相对论速度合成推导菲涅耳拖拽与 Sagnac 相移竟然与光纤折射率 n 无关！"
+  },
+  "cpho-2020-semifinal-theory-problem-slice-q7": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_6",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_3"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "双黑洞旋近引力波四极辐射：用量纲分析锁定功率标度，分离变量积分得到并合前旋近角度与啁啾频率演化。"
+  },
+  "cpho-2020-semifinal-theory-problem-slice-q8": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O5",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [],
+    "study_note": "电光调制器（Pockels 效应）：用 λ/4 波片将工作点偏置到正弦线性区中点，再做高频 LC 并联谐振阻抗匹配。"
+  },
+  "cpho-2021-final-theory-problem-slice-q1": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O4",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "菲涅耳半波带与四级相位波带片：用傍轴光程差确定多焦点焦距与虚像分支，警惕中间过度取整。"
+  },
+  "cpho-2021-final-theory-problem-slice-q2": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "航天器广义霍曼变轨与交会对接相位容错分析（严防极角与拱线偏角正方向反向导致符号错位）。"
+  },
+  "cpho-2021-final-theory-problem-slice-q3": {
+    "primary_topic": "mechanics",
+    "subtopic": "M1",
+    "secondary_topics": [
+      "astro_relativity"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "暗物质与氙核弹性散射：质心系各向同性假定通过能量/角度雅可比变换映射到实验室系反冲能谱与截面碰撞率。"
+  },
+  "cpho-2021-final-theory-problem-slice-q4": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T6",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [
+      "adv_2"
+    ],
+    "study_note": "生物膜双电层 Gouy-Chapman 一维非线性泊松-玻尔兹曼方程：注意电势梯度符号 dφ/dx=-E_x 及渗透压斥力极限。"
+  },
+  "cpho-2021-final-theory-problem-slice-q5": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T6",
+    "secondary_topics": [
+      "quantum_modern",
+      "magnetism_em"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_2",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [
+      "adv_1"
+    ],
+    "study_note": "外斯分子场、反铁磁双子晶格交错序参量奈尔温度与 2D XY 模型 BKT 拓扑涡旋相变（严防内能双计数漏 1/2 因子！）。"
+  },
+  "cpho-2021-semifinal-theory-problem-slice-q1": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "严格无球差非球面透镜：直接运用费马等光程原理在极坐标中导出双曲面轮廓，再联立共焦扩束/缩束系统。"
+  },
+  "cpho-2021-semifinal-theory-problem-slice-q2": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T1",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "水银柱溢流过程的机械平衡稳定性判据与压强随体积线性关系，结合 p-V 面积/势能交叉检验气体做功吸热。"
+  },
+  "cpho-2021-semifinal-theory-problem-slice-q3": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_5",
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "超球（Superball）切向完全弹性无滑碰撞：列出三维速度-角速度二维线性矩阵递推，注意上下板法向反向的符号翻转。"
+  },
+  "cpho-2021-semifinal-theory-problem-slice-q4": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "双磁偶极子远场泰勒展开、相互作用势能与悬浮微扰二阶导稳定性判据（紧扣恩肖定理物理边界）。"
+  },
+  "cpho-2021-semifinal-theory-problem-slice-q5": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q3",
+    "secondary_topics": [
+      "optics_waves",
+      "thermo_stat"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [
+      "adv_10"
+    ],
+    "study_note": "冷原子激光多普勒冷却极限温度估算，再根据匀减速规律反推出塞曼减速器所需的空间非均匀磁场分布。"
+  },
+  "cpho-2021-semifinal-theory-problem-slice-q6": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B5",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4",
+      "math_5"
+    ],
+    "advanced_models": [
+      "adv_5"
+    ],
+    "study_note": "磁控管 Hull 截止条件（正则角动量守恒）直通费曼圆筒佯谬——深刻揭示电磁场自身角动量守恒的物理本质！"
+  },
+  "cpho-2021-semifinal-theory-problem-slice-q7": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "后驱车斜坡加速：精确推导四轮等效质量 (M+3m)、轴荷转移抬头极限与区分驱动轮/从动轮静摩擦力方向。"
+  },
+  "cpho-2021-semifinal-theory-problem-slice-q8": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B3",
+    "secondary_topics": [
+      "mechanics",
+      "electrostatics_circuits"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "永磁直流电机反电动势驱动电动车：求解一阶指数加速方程，并用电荷元 ∫I dt 秒求电池总耗能与焦耳热损耗。"
+  },
+  "panpho-2019-paper-2-problem-slice-q1": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_2",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_3"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "泛珠经典压轴：双星引力波辐射功率标度与并合倒计时、LIGO 双台站时差圆锥定位及引力波潮汐振子共振。"
+  },
+  "panpho-2019-paper-2-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_5",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_8",
+      "math_3"
+    ],
+    "advanced_models": [
+      "adv_9"
+    ],
+    "study_note": "泛珠神题：利用分段简谐等时性免去冗长余弦展开直接写出极限环庞加莱映射，并推广至惠更斯钟摆与电网 Kuramoto 同步。"
+  },
+  "panpho-2020-paper-2-problem-slice-q1": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [
+      "optics_waves",
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "复现 Parks-Faller 精密测 G 实验：长细线引力场积分构造对称四源场、双单摆微位移传递与 FP 腔拍频误差预算。"
+  },
+  "panpho-2020-paper-2-problem-slice-q2": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_2",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_5",
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "n 维引力有效势轨道稳定性、Kaluza-Klein 紧致化连接不同维度常数，以及 2+1 维圆锥时空宇宙弦双像引力透镜。"
+  },
+  "panpho-2021-paper-2-problem-slice-q1": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O4",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [
+      "adv_12"
+    ],
+    "study_note": "一维斐波那契准晶物理全景：从高维方格条带投影构造非周期序列，再用相量求和与无理数均匀分布算出 δ 峰衍射结构因子。"
+  },
+  "panpho-2021-paper-2-problem-slice-q2": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_3",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "由 Bekenstein-Hawking 黑洞面积熵与能量推演霍金蒸发寿命，再用牛顿有效势环直观类比旋转黑洞彭罗斯过程取能。"
+  },
+  "panpho-2022-paper-2-problem-slice-q1": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O5",
+    "secondary_topics": [
+      "magnetism_em",
+      "astro_relativity"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_5",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_10"
+    ],
+    "advanced_models": [
+      "adv_11"
+    ],
+    "study_note": "时空变介电常数：统一空间界面传输矩阵、时间突跳界面（频率跳变但波矢守恒、D/B 连续！）及移动超光速界面的多普勒色散。"
+  },
+  "panpho-2022-paper-2-problem-slice-q2": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T5",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "分形几何与复杂网络重整化群：从 Sierpinski 毯与函数交点计盒维数，到标度网络按图距离粗粒化的长程连接重整化不动点。"
+  },
+  "panpho-2023-paper-2-problem-slice-q1": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [
+      "astro_relativity"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_5",
+      "math_10"
+    ],
+    "advanced_models": [
+      "adv_12"
+    ],
+    "study_note": "场论宇宙学顶峰题：相对论标量场畴壁孤子、薄壁近似假真空衰变泡泡膨胀与 Wick 转动四维欧氏瞬子隧穿成核率。"
+  },
+  "panpho-2023-paper-2-problem-slice-q2": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B5",
+    "secondary_topics": [
+      "astro_relativity"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_5"
+    ],
+    "study_note": "静磁洛伦兹互易定理推导、运动导体电磁场洛伦兹变换与有限电导率趋肤层的广义电磁混合偶极镜像法。"
+  },
+  "panpho-2024-paper-2-problem-slice-q1": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A2",
+    "secondary_topics": [
+      "optics_waves",
+      "magnetism_em"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_8",
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_9"
+    ],
+    "advanced_models": [
+      "adv_6"
+    ],
+    "study_note": "“天琴”空间引力波探测系统误差全评估（注意原 PDF 沿用2022旧标题错配！实考地球多极摄动、太阳风冷等离子体色散与散粒噪声）。"
+  },
+  "panpho-2024-paper-2-problem-slice-q2": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T4",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [],
+    "study_note": "可展圆锥面测地线（Clairaut 守恒量）、球面立体投影共形不变性与偏心圆域稳态热传导的阿波罗尼斯镜像/莫比乌斯变换解。"
+  },
+  "panpho-2025-paper-2-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_2",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "高尔夫球入洞弹跳机制：竖直圆筒内刚体球非完整纯滚动陀螺耦合竟产生简谐竖直升降！盲解用惯量张量对称性跳过冗长切片积分。"
+  },
+  "panpho-2025-paper-2-problem-slice-q2": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O6",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9",
+      "math_10"
+    ],
+    "advanced_models": [
+      "adv_11"
+    ],
+    "study_note": "飞秒到阿秒超快光学：高斯脉冲时频演化、洛伦兹振子色散 GDD 展宽（注意半高全宽因子及官方 A2 笔误）、棱镜补偿与强场高次谐波。"
+  },
+  "panpho-2026-paper-2-problem-slice-q1": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B5",
+    "secondary_topics": [
+      "astro_relativity"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_6"
+    ],
+    "advanced_models": [
+      "adv_5"
+    ],
+    "study_note": "由直流导线磁箍缩与霍尔电荷重新分布连接相对论长度收缩消解静电中性佯谬，再求解良导体交流趋肤到高频位移电流驻波过渡。"
+  },
+  "panpho-2026-paper-2-problem-slice-q2": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B5",
+    "secondary_topics": [
+      "optics_waves",
+      "thermo_stat"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_2",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [
+      "adv_6"
+    ],
+    "study_note": "强激光有质动力势三级近似链：快慢时间尺度分离推有质动力、玻尔兹曼排空形成等离子体耗尽道，等价为自聚焦渐变折射率 GRIN 透镜。"
+  },
+  "physicscup-2019-q1-reader": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F4",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_7"
+    ],
+    "study_note": "经典流体-静电精确对偶：利用不可压无旋势流速度势与静电场电势满足同一拉普拉斯方程，借椭球退极化因子直接秒出附加质量。"
+  },
+  "physicscup-2019-q2-reader": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "变比热容冰块与冰水混合物之间运行可逆热机/制冷机：全过程紧抓总熵增量 ΔS=0 唯一极值界限一步到底。"
+  },
+  "physicscup-2019-q3-reader": {
+    "primary_topic": "mechanics",
+    "subtopic": "M1",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "斜面弹性弹跳抛物线族：用机械能定共同准线，借助圆锥曲线焦点光学反射定理发现各次轨迹焦点共线之绝妙几何不变量。"
+  },
+  "physicscup-2019-q4-reader": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E4",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "各向异性无穷方格电阻网络：跳出对称求法，巧妙联合四端网络互易定理、电流叠加原理与微扰短路求出远端电势响应。"
+  },
+  "physicscup-2019-q5-reader": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O4",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "二维阶梯闪耀光栅（Echelle Grating）：精细处理反射单缝包络、几何遮挡效应以及整数衍射级次 m 取整跳变造就的白光色散轨线。"
+  },
+  "physicscup-2020-q0-reader": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E2",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [
+      "adv_7"
+    ],
+    "study_note": "二维薄层方阻圆盘的诺伊曼边界条件边值问题：使用圆反演镜像电荷与流函数共轭调和函数彻底简化接触电阻计算。"
+  },
+  "physicscup-2020-q1-reader": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E3",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_2",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "匀强电场中绝缘轻杆连接双导体球微摆：仅看单独外偶极矩会漏掉相互诱导偶极修正！利用总静电能 U(θ) 对角度二阶导算回复力矩。"
+  },
+  "physicscup-2020-q2-reader": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F3",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_2",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "零重力晶体平衡晶面形状：由微观原子台阶排斥能与表面自由能泛函变分（含拉格朗日乘子等效压强）导出 Landau-Andreev 棱面剖面。"
+  },
+  "physicscup-2020-q3-reader": {
+    "primary_topic": "mechanics",
+    "subtopic": "M1",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_1",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "圆周运动轻绳松弛转为斜抛并再次绷紧拉断：巧用密切抛物线与圆的四次交点重根特征导得简洁三倍角冲击断裂定理。"
+  },
+  "physicscup-2020-q4-reader": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T4",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_7"
+    ],
+    "study_note": "稳恒热传导完全等同于静电边值问题：用格林互易/Shockley-Ramo 定理结合平行板间无穷镜像偶极子求极微球腔引起的热流变化。"
+  },
+  "physicscup-2020-q5-reader": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O2",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "近乎纯粹的射影几何艺术：将圆经倾斜薄透镜成像为椭圆视为中心同素变换，利用共轭极点极线、消隐线与泰勒斯圆尺规还原光心。"
+  },
+  "physicscup-2021-q1-reader": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B5",
+    "secondary_topics": [
+      "mechanics",
+      "electrostatics_circuits"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_3",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4",
+      "math_5"
+    ],
+    "advanced_models": [
+      "adv_5"
+    ],
+    "study_note": "8位无提示参赛者有6位漏掉自身诱导极化自能！运动导体哑铃激发球面极化电荷产生电磁有效质量，再用磁广义动量守恒定轨迹。"
+  },
+  "physicscup-2021-q2-reader": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "无需解复杂微分方程：把轨道切入速度矢端图（Hodograph）化为一个圆，用阿波罗尼斯圆与几何包络极值秒杀偏心率与发射角问题。"
+  },
+  "physicscup-2021-q3-reader": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_2",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "正八边形铰接刚杆平面振动：运用循环对称群（离散傅里叶模式分解）将 16 自由度力学系统分解为互不耦合的低维本征模求解。"
+  },
+  "physicscup-2021-q4-reader": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [
+      "thermo_stat",
+      "magnetism_em"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_5",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_5"
+    ],
+    "advanced_models": [
+      "adv_4"
+    ],
+    "study_note": "强磁场量子化最低朗道能级使电子气维度冻结为一维，利用相空间绝热不变量精确求解运动势垒激波导致的费米加速。"
+  },
+  "physicscup-2021-q5-reader": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O6",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_3",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [],
+    "study_note": "非线性光学环形谐振腔二次谐波倍频（SHG）：在基波耗尽与波导损耗间应用临界耦合阻抗匹配与均值不等式使转换效率最大化。"
+  },
+  "physicscup-2022-q1-reader": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B1",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_7"
+    ],
+    "study_note": "均匀磁化铁磁球：写出球内退磁场 H = -M/3 负载线，与非线性的磁滞回线图解求交点分析剩磁与热退磁极限。"
+  },
+  "physicscup-2022-q2-reader": {
+    "primary_topic": "mechanics",
+    "subtopic": "M6",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_5",
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "绕正三角形最快一圈（|a|≤μg）：切换速度空间后时间微元等价速度弧长，位移极值变分瞬间对偶成经典的静力悬链线！"
+  },
+  "physicscup-2022-q3-reader": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A4",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "相对论光子火箭两阶段加速转弯：在四维动量内积空间或快度双曲空间用双曲余弦定理替代繁琐连续坐标变换。"
+  },
+  "physicscup-2022-q4-reader": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O2",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "已知共线等距三点的透镜成像点，借射影交比不变性构造调和点列与完全四边形，仅用无刻度直尺即可完成光路与光心定位。"
+  },
+  "physicscup-2022-q5-reader": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T2",
+    "secondary_topics": [
+      "astro_relativity"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "向阳与背阳双涂层灰体太阳能板卫星内置可逆卡诺热机：在热平衡约束下对中间工作温度与表面涂敷比做多变量无量纲极值优化。"
+  },
+  "physicscup-2023-q1-reader": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F4",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "底面窄缝挤压水膜形成随间隙急速发散的变有效质量；直接用机械能守恒积分即可规避非简谐振动频率被当作常数的常见误区。"
+  },
+  "physicscup-2023-q2-reader": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T4",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "相变电阻丝电热双稳态与一维热传导畴壁（麦克斯韦等面积法则平衡点），揭示恒流稳压效应及过冷/过热迟滞回线。"
+  },
+  "physicscup-2023-q3-reader": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B5",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "理想磁流体力学（MHD）：不可压缩体积守恒叠加磁通冻结导致磁通管被极度拉伸、磁能按长度平方放大并产生巨大张力反应。"
+  },
+  "physicscup-2023-q4-reader": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A3",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_7",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "固有加速度飞船四阶段正交巡航：利用四维速度矩阵与洛伦兹不变量严密计算纯加速环路遗留的纯空间旋转——托马斯-维格纳转动。"
+  },
+  "physicscup-2023-q5-reader": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O3",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "三点相干光源干涉极大条件即波程差常数的双曲线交点：由光强极值特征点出共焦双曲线渐近线进而尺规锁定三光源位置。"
+  },
+  "physicscup-2024-q1-reader": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F4",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_7"
+    ],
+    "study_note": "平底圆柱触水瞬态流体脉冲：把自由表面反对称边界延拓为全空间扁圆盘垂直势流，由静电/超导圆盘退磁因子极限立即得半边附加质量。"
+  },
+  "physicscup-2024-q2-reader": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "倾斜椭圆为薄透镜射影对圆之像：应用圆锥曲线极点-极线关系、消隐交点与焦平面正交光束张角定理完成纯几何光心还原。"
+  },
+  "physicscup-2024-q3-reader": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B1",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [
+      "adv_7"
+    ],
+    "study_note": "废铁分选磁力分选机：铁球与薄铁片在相同偶极梯度场下的吸力比取决于各自形状退磁因子在高磁导率软磁极限下的响应幂律。"
+  },
+  "physicscup-2024-q4-reader": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "双卫星共焦点开普勒轨道最大相对速度：切换为两个偏心速度矢端圆后，由无理周期比触发克罗内克遍历性转为纯粹几何双圆最远距问题。"
+  },
+  "physicscup-2024-q5-reader": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T4",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "地下热水管径向二维圆柱热传导呈对数渗透深度随时间缓慢扩张，与轴向流水对流耦合，界定短管平方律与长管指数等待时间的临界长度。"
+  },
+  "physicscup-2025-q1-reader": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E1",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "磁场中旋转导体球内部动生场被静电场平衡产生球外轴对称电四极势，进而在远处小导体球处感应出高阶电偶极梯度吸力（注意磁扩散判据）。"
+  },
+  "physicscup-2025-q2-reader": {
+    "primary_topic": "mechanics",
+    "subtopic": "M5",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "三维正四面体追逐问题：将正四面体嵌入正方体交错顶点识别四阶旋转反射不变群 S₄，柱坐标变量分离一步求出与一等奖同款最简弧长解。"
+  },
+  "physicscup-2025-q3-reader": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T3",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "振荡活塞加热一维气体（费米加速）：紧抓运动壁碰撞通量的多普勒速度不对称因子，导出独立于速度的单次碰撞平均能量增益率。"
+  },
+  "physicscup-2025-q4-reader": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O2",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "已知薄透镜中心透视成像点与圆锥曲线像，通过构造光心位似圆与切线角平分线不变量，无需试错即可用纯尺规作图定出透镜主光轴。"
+  },
+  "physicscup-2025-q5-reader": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "已知轨道三点速率及速度夹角求偏心率：避开正反三角硬算，切换到速度端图圆并套用初等相交弦（圆幂）定理两行秒出！"
+  },
+  "physicscup-2026-q1-reader": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_7",
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "双接触面干摩擦砖块：速度空间满足共焦双曲线族守恒量，切换到椭圆坐标直接积分即可绕开时间参数精确求得总位移。"
+  },
+  "physicscup-2026-q2-reader": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F4",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "一维正弦速度场气体波破发生三阶折叠焦散（Fold Catastrophe）时密度发散，但用拉格朗日柱密度守恒（及玻尔兹曼碰撞修正）揭示总光学透明性。"
+  },
+  "physicscup-2026-q3-reader": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E4",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "无限八边形 LC 晶格网络：反对称点零电位降维与径向自相似重整化递推外，更有平面图 L-C 自对偶定理直接给出全频段恒定纯实特征阻抗！"
+  },
+  "physicscup-2026-q4-reader": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F4",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_2",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_6"
+    ],
+    "advanced_models": [
+      "adv_7"
+    ],
+    "study_note": "旋转带孔圆盘容器内离心瑞利-泰勒失稳：圆周边界二维对数点源势流利用格林恒等式化为循环矩阵（Circulant Matrix）直接对角化求本征模。"
+  },
+  "physicscup-2026-q5-reader": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O1",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "紧贴水晶球内壁点光源：利用克莱罗角动量光学守恒计算双向全反射囚禁、球差折叠焦散亮环与基于图片像素比值的临界角反演。"
+  },
+  "plancks-2019-final-problem-slice-q1": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T5",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "细致平衡原理导出单层 Langmuir 吸附，再以几何级数求和推广至多层 BET 吸附等温线。"
+  },
+  "plancks-2019-final-problem-slice-q10": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T4",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "湖水结冰前沿 Stefan 移动边界相变导热方程：用准稳态线性温度分布结合 Stefan 数判别近似适用区间。"
+  },
+  "plancks-2019-final-problem-slice-q2": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q5",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [
+      "adv_10"
+    ],
+    "study_note": "分束器矩阵幺正性约束反射/透射相移差为 π/2，自然导出双光子 Hong-Ou-Mandel 相消干涉与玻色子聚束。"
+  },
+  "plancks-2019-final-problem-slice-q3": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q5",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "自由基对自旋化学：通过超精细耦合下总角动量算符分解求解单重态-三重态拉比振荡概率（解释鸟类磁导航）。"
+  },
+  "plancks-2019-final-problem-slice-q4": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "狭义相对论库仑/引力开普勒问题：从相对论拉格朗日量导出修正 Binet 方程并解得微扰进动角。"
+  },
+  "plancks-2019-final-problem-slice-q5": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T5",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "高分子无规行走构型熵（熵弹性）与仿射形变自由能导出的橡胶 Joule-Gough 加热反常收缩效应。"
+  },
+  "plancks-2019-final-problem-slice-q6": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T6",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_1"
+    ],
+    "study_note": "2D XY 模型：从连续自旋波弹性自由能到拓扑涡旋环绕数能量对数发散，直观标度论证 Kosterlitz-Thouless 相变温度。"
+  },
+  "plancks-2019-final-problem-slice-q7": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B4",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_3"
+    ],
+    "study_note": "超导伦敦穿透深度与迈斯纳效应对应有质量规范场 Proca 方程，直观展示凝聚态中的阿贝尔 Higgs 机制。"
+  },
+  "plancks-2019-final-problem-slice-q8": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "量纲定出史瓦西半径、光子球 r=1.5 r_s 引力透镜放大视半径及事件视界望远镜 EHT 地球口径衍射分辨率。"
+  },
+  "plancks-2019-final-problem-slice-q9": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_4"
+    ],
+    "study_note": "各向异性有效质量张量在 k 空间的等能椭圆截面轨道，推导一般回旋共振频率（只取决于费米面截面积导数）。"
+  },
+  "plancks-2020-final-problem-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M6",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "恒定降雪、恒定除雪体积速率下的扫雪车常微分方程（留意官方第 3 页黄金分割二次方程正负号印刷笔误）。"
+  },
+  "plancks-2020-final-problem-slice-q2": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T5",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "六色骰子集齐概率（赠券收集问题）：几何分布期望分解为调和级数，并用马尔可夫链交叉验证。"
+  },
+  "plancks-2020-final-problem-slice-q3": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A3",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_7"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "经典光子钟（Light Clock）推导洛伦兹因子，务必防止把水平往返半程 VT'/2 漏除以 2。"
+  },
+  "plancks-2020-final-problem-slice-q4": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "半导体飞行时间法（ToF）测量迁移率：严守 μm→cm 单位换算（纠出官方解答漏乘 10⁻⁸ 的量纲大错）。"
+  },
+  "plancks-2020-final-problem-slice-q5": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E4",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "2D 声子辅助跳跃电导（费米黄金定则 + 二维态密度）与无穷方格电阻网络等效宏观电阻率结合。"
+  },
+  "plancks-2020-final-problem-slice-q6": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T2",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "纽科门大气式蒸汽机的单循环力平衡、静水抽水载荷与机械热效率工程物理估算。"
+  },
+  "plancks-2020-final-problem-slice-q7": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T1",
+    "secondary_topics": [
+      "mechanics",
+      "optics_waves"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "1888 年悉尼大学物理数学历史试卷十问：涵盖浮力、气体热机、经典光学与含参高斯积分训练。"
+  },
+  "plancks-2020-final-problem-slice-q8": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_1",
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "多米诺骨牌重力倾倒势垒与大摆幅单摆在倒立平衡点附近周期对数发散的拓扑连续性直观论证。"
+  },
+  "plancks-2020-final-problem-slice-q9": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "地心房间中的牛顿球壳定理与微重力多效应量级估算（潮汐梯度、地核非均匀、科里奥利力与辐射压）。"
+  },
+  "plancks-2021-final-combined-slice-q1": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q4",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "3D 谐振子磁微扰：用满壳层反对称性与角动量零期待值一步证得顺磁项为零并求抗磁磁化率（纠出官方 60ℏω₀→87ℏω₀ 笔误）。"
+  },
+  "plancks-2021-final-combined-slice-q10": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T5",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "从正则系综与软球探针极限严格定义外势场中的局域热力学压强，微观推导阿基米德浮力并分析肥皂泡气压计。"
+  },
+  "plancks-2021-final-combined-slice-q11": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q3",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_10"
+    ],
+    "study_note": "医学核磁共振（NMR）：利用旋转参考系变换消除快旋拉莫尔进动，直观演示 π/2 射频脉冲自旋拉比翻转。"
+  },
+  "plancks-2021-final-combined-slice-q12": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O6",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_10"
+    ],
+    "advanced_models": [
+      "adv_11"
+    ],
+    "study_note": "光纤热光干涉、群速度色散展宽极限与克尔非线性自相位调制（SPM）光孤子平衡（纠出官方开方与多普勒两处数值笔误）。"
+  },
+  "plancks-2021-final-combined-slice-q2": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_5",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_6",
+      "math_3"
+    ],
+    "advanced_models": [
+      "adv_4"
+    ],
+    "study_note": "磁场晶格 Peierls 代换导出 Harper 方程与 Hofstadter 蝴蝶自相似谱，衔接石墨烯无质量狄拉克朗道能级。"
+  },
+  "plancks-2021-final-combined-slice-q3": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F1",
+    "secondary_topics": [
+      "astro_relativity",
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "天体吸积盘垂向静水力标高、粘滞角动量扩散方程与盘自引力 Toomre 失稳判据。"
+  },
+  "plancks-2021-final-combined-slice-q4": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F4",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "Rayleigh 球形空泡坍缩（用虚质量功能原理替代复杂积分并用 Beta 函数闭式求时）+ Lorentz 振子傅里叶阶跃响应（纠官方阻尼项笔误）。"
+  },
+  "plancks-2021-final-combined-slice-q5": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A2",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_8",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "系外行星视向速度、黑体平衡温度、Jeans 逃逸与亚开普勒气体拖曳（识别并纠正官方静流体压强梯度的负号笔误）。"
+  },
+  "plancks-2021-final-combined-slice-q6": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "牛顿宇宙学球壳近似推导弗里德曼方程，利用有效势能量图像完整讨论闭、平、开三种宇宙几何演化。"
+  },
+  "plancks-2021-final-combined-slice-q7": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [
+      "adv_4"
+    ],
+    "study_note": "莫特双电流 GMR 巨磁阻（检查量纲纠出官方并联电阻倒置）、WKB Simmons 隧穿公式与量子点三维限域蓝移。"
+  },
+  "plancks-2021-final-combined-slice-q8": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "宇宙学标量场 Quintessence/快子场慢滚近似与精细结构常数随红移演化（联立连续方程可比官方更快积分）。"
+  },
+  "plancks-2021-final-combined-slice-q9": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "带电粒子穿入半无限匀强磁场与电势垒：用正则动量守恒结合圆弧几何反射求出重返轨迹角条件。"
+  },
+  "plancks-2021-preliminary-problem-slice-q1": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A1",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "二体径向自由落体可视为偏心率 e→1 的退化开普勒椭圆（半长轴 a=R₀/2），一步按开普勒第三定律秒杀坠落时间。"
+  },
+  "plancks-2021-preliminary-problem-slice-q10": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T5",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "一维半无限格点有偏随机游走（赌徒破产问题）：首达 x=+N 概率呈 (q/p)^N 指数衰减，对应势垒下的玻尔兹曼因子。"
+  },
+  "plancks-2021-preliminary-problem-slice-q2": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F1",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "帕斯卡流体静力学桶悖论（侧壁反力分解）串联斜面上空心与实心刚体的无滑纯滚动比较。"
+  },
+  "plancks-2021-preliminary-problem-slice-q3": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q4",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [],
+    "study_note": "仅含正动量分量的双平面波叠加竟然能产生局部负概率流密度——令人惊奇的量子回流效应（Quantum Backflow）。"
+  },
+  "plancks-2021-preliminary-problem-slice-q4": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E2",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [],
+    "study_note": "借助复变解析函数 w=z^(1/2) 保角映射将半无限平面与抛物面尖端化为平凡均匀场，定量刻画避雷针尖端场强发散。"
+  },
+  "plancks-2021-preliminary-problem-slice-q5": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T5",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "巨正则配分函数推导允许单态最多占据 2 个粒子的 Gentile 仲统计（Parastatistics），插值连接费米与玻色分布。"
+  },
+  "plancks-2021-preliminary-problem-slice-q6": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_1",
+      "math_9"
+    ],
+    "advanced_models": [
+      "adv_4"
+    ],
+    "study_note": "统一推导任意空间维数 d 与任意幂律色散 ε∝k^s 下的凝聚态电子态密度与基态总平均能量（囊括普通金属与石墨烯）。"
+  },
+  "plancks-2021-preliminary-problem-slice-q7": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F1",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L1",
+    "archetypes": [
+      "arch_2",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "旋转水杯离心有效势等势面一步得抛物面自由液面，严整把握容器盛液量守恒决定最低液面高度。"
+  },
+  "plancks-2021-preliminary-problem-slice-q8": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E5",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "耦合双 LC 谐振器本征频率求解并匹配十二平均律纯五度音程比 2^(7/12)，体会声学与电网络本征值的对应。"
+  },
+  "plancks-2021-preliminary-problem-slice-q9": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F2",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_3",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "阿基米德浮力与伯努利破洞泄流联立估算飞艇安全窗口，并分析假想真空球壳抗外压薄壳屈曲的致命材料极限。"
+  },
+  "plancks-2022-preliminary-problem-slice-q1": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A2",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "什卡多夫恒星推进器（Statite 静星体帆）：太阳辐射光压与万有引力同呈 1/r² 衰减，导出质量面积比临界平衡极限。"
+  },
+  "plancks-2022-preliminary-problem-slice-q10": {
+    "primary_topic": "mechanics",
+    "subtopic": "M5",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1",
+      "arch_2"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "匀加速列车（非惯性系）中谐振子突然加/减速引起的平衡点移动与整周期无残余振荡（Zero-Residual）相干归零策略。"
+  },
+  "plancks-2022-preliminary-problem-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M6",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "齐奥尔科夫斯基火箭方程结合化学反应最大热能转化率与宇宙可见原子数极限，证明纯粹化学燃料跨越光速的不可能性。"
+  },
+  "plancks-2022-preliminary-problem-slice-q3": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "经典电子静电场自能积分结合爱因斯坦质能关系推出经典电子半径 r_e，体会点电荷场自能发散与重整化历史起点。"
+  },
+  "plancks-2022-preliminary-problem-slice-q4": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F1",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "倒扣半球罩液体静压顶起边界条件（必须画隔离体扣除外部大气压！）、旋转抛物面球冠微积分与汽化速率估算。"
+  },
+  "plancks-2022-preliminary-problem-slice-q5": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_2",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "平面正交/三角多弹簧网络微振动：用泰勒二阶展开捕捉横向预张力贡献并证明多向弹簧有效刚度具有各向同性。"
+  },
+  "plancks-2022-preliminary-problem-slice-q6": {
+    "primary_topic": "mechanics",
+    "subtopic": "M4",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_8"
+    ],
+    "advanced_models": [
+      "adv_9"
+    ],
+    "study_note": "萤火虫闪光同步（Adler 方程 φ̇=μ-sinφ）：研究锁相带宽、鞍结分岔临界点及失锁拍频周期积分（同源约瑟夫森结）。"
+  },
+  "plancks-2022-preliminary-problem-slice-q7": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "从费马最短时间泛函变分（欧拉-拉格朗日方程与 Beltrami 第一积分）严格推出非均匀介质中的连续斯涅尔定律。"
+  },
+  "plancks-2022-preliminary-problem-slice-q8": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T5",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "热浴中双磁偶极子高温正则系综微扰：虽一阶球面角平均为零，二阶加权平均却产生普遍吸力（磁 Keesom 相互作用）。"
+  },
+  "plancks-2022-preliminary-problem-slice-q9": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F3",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "微重力液滴瑞利表面张力脉动频率与地球悬挂液滴最大尺度所对应的毛细长度（Capillary Length）量纲对比。"
+  },
+  "plancks-2023-final-combined-slice-q1": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q4",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [
+      "adv_12"
+    ],
+    "study_note": "同轴空腔径向贝塞尔波函数叠加最小耦合磁通：磁通只改变角向量子数产生 Aharonov-Bohm 能谱周期调制。"
+  },
+  "plancks-2023-final-combined-slice-q10": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4",
+      "math_10"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "弱场 TT 规范下积分光子零测地线推导脉冲星计时阵列（PTA）引力波频移响应函数与 Hellings-Downs 前导结构。"
+  },
+  "plancks-2023-final-combined-slice-q2": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T2",
+    "secondary_topics": [
+      "electrostatics_circuits",
+      "fluids_continua"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "带电肥皂泡双界面表面张力+静电排斥：借助麦克斯韦关系与热力学可用能（Availability）极值严谨判别平衡稳定性。"
+  },
+  "plancks-2023-final-combined-slice-q3": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q5",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [
+      "adv_10"
+    ],
+    "study_note": "二能级原子 SU(2) 演化算符演绎拉比振荡与双分离脉冲场 Ramsey 干涉条纹（揭示原子钟线宽反比自由演化时间 T）。"
+  },
+  "plancks-2023-final-combined-slice-q4": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [
+      "adv_4"
+    ],
+    "study_note": "纳米金属颗粒零温费米气体比较周期边界条件与零边界条件态密度差异，导至 Stoner 巡游铁磁相变条件。"
+  },
+  "plancks-2023-final-combined-slice-q5": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [],
+    "study_note": "球形腔内球对称刚体纯滚动（关注空心/实心球转动惯量系数 k=I/mR²）及静摩擦约束下的不打滑临界角与初速。"
+  },
+  "plancks-2023-final-combined-slice-q6": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B5",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L4",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_5"
+    ],
+    "study_note": "稳恒同轴电缆外部的纵向电场来自导线表面电荷，坡印廷能流从外部空间垂直灌入焦耳热，并深入分析隐藏电磁动量。"
+  },
+  "plancks-2023-final-combined-slice-q7": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q2",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_7",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "放疗物理综合：康普顿散射反冲极值、Bragg 峰与射程标度（严查官方计算碳核 ¹²C 动量比时漏乘核子数 A=12 之误）。"
+  },
+  "plancks-2023-final-combined-slice-q8": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F1",
+    "secondary_topics": [
+      "astro_relativity",
+      "thermo_stat"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "原行星盘竖直高斯标高静力平衡、径向气压梯度导致的亚开普勒切速以及斜压热成风垂直速度切变。"
+  },
+  "plancks-2023-final-combined-slice-q9": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A4",
+    "secondary_topics": [
+      "magnetism_em"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_7",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_2",
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "银河系磁场对磁星宇宙线小角偏转时间延迟、K 介子两体衰变运动学与赤道面地磁偏转刚度几何。"
+  },
+  "plancks-2024-final-combined-slice-q1": {
+    "primary_topic": "mechanics",
+    "subtopic": "M2",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4",
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "刚体平面转动惯量二重积分及利用三角形质点等效法从正多边形 N→∞ 极限优雅推得圆盘转动惯量（需留意原 PDF 跨届误植标题）。"
+  },
+  "plancks-2024-final-combined-slice-q10": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T4",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_9",
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "将普朗克黑体辐射与维恩位移定律推广至 d=4 维空间（注意频率表象与波长表象峰值因雅可比因子并不一一对应！）。"
+  },
+  "plancks-2024-final-combined-slice-q2": {
+    "primary_topic": "mechanics",
+    "subtopic": "M5",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_4",
+      "math_6"
+    ],
+    "advanced_models": [],
+    "study_note": "哈密顿四元数反对易乘法统一生出三维点积/叉积及刚体姿态旋转；警惕非对易算符不可直接套用一阶 BCH 截断展开。"
+  },
+  "plancks-2024-final-combined-slice-q3": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q4",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [
+      "adv_12"
+    ],
+    "study_note": "莫比乌斯带边界条件强制 ψ(x+L, y) = ψ(x, -y) 形成宇称-波矢联合选择定则，通分最小公倍数即定量子波包复原时间。"
+  },
+  "plancks-2024-final-combined-slice-q4": {
+    "primary_topic": "mechanics",
+    "subtopic": "M1",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_1",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_2"
+    ],
+    "advanced_models": [],
+    "study_note": "半球光滑屋顶滑落脱离后斜下抛落点对参数微扰的病态边界敏感性：对比刚体纯滚动与质点模型的临界修正。"
+  },
+  "plancks-2024-final-combined-slice-q5": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B4",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_3"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_3"
+    ],
+    "study_note": "超导圆环在非均匀轴对称磁场中由 div B = 0 联系径向磁场与轴向梯度，结合磁通守恒算出简谐平衡平移与频率。"
+  },
+  "plancks-2024-final-combined-slice-q6": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q2",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [],
+    "study_note": "核医学 SPECT 指数衰减拉东变换：千万警惕把椭圆参数方程离心角 φ 当成极坐标极角 θ 代入半径公式的经典陷阱！"
+  },
+  "plancks-2024-final-combined-slice-q7": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A2",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [],
+    "study_note": "由星系平坦旋转曲线用球壳定理反推暗物质晕 ρ∝r⁻² 分布，并用扫掠截面估算原初黑洞碰撞平均自由程。"
+  },
+  "plancks-2024-final-combined-slice-q8": {
+    "primary_topic": "electrostatics_circuits",
+    "subtopic": "E4",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_5"
+    ],
+    "math_tools": [
+      "math_8"
+    ],
+    "advanced_models": [],
+    "study_note": "正二十面体电阻网络：利用对称群镜像等势折叠与单进总出电流线性叠加原理，一步算清任意节点对等效电阻（结合 Foster 定理）。"
+  },
+  "plancks-2024-final-combined-slice-q9": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T6",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [
+      "adv_12"
+    ],
+    "study_note": "DNA Kittel 分子拉链模型：单链有序拉链配分函数有限几何级数在 N→∞ 时发生内能与构型熵竞争的一维相变。"
+  },
+  "plancks-2025-final-combined-slice-q1": {
+    "primary_topic": "magnetism_em",
+    "subtopic": "B1",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_4"
+    ],
+    "advanced_models": [
+      "adv_7"
+    ],
+    "study_note": "反亥姆霍兹线圈四极场展开结合球体退磁因子计算抗磁磁悬浮力学刚度矩阵，验证恩肖定理对抗磁物质的豁免条件。"
+  },
+  "plancks-2025-final-combined-slice-q2": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T5",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_9"
+    ],
+    "advanced_models": [],
+    "study_note": "从微正则与正则系综（斯特林公式 + 化学势平衡）双重途径严格导出固体表面气体的朗缪尔吸附等温线。"
+  },
+  "plancks-2025-final-combined-slice-q3": {
+    "primary_topic": "thermo_stat",
+    "subtopic": "T4",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "半导体的第二声（热波）：麦克斯韦-卡塔尼奥弛豫方程消元得电报方程，解释热波传播与非平衡熵产生。"
+  },
+  "plancks-2025-final-combined-slice-q4": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "平坦 ΛCDM 宇宙学：由理想流体状态方程 w 与弗里德曼方程联系减速参数 q₀ 并解析积分求宇宙年龄。"
+  },
+  "plancks-2025-final-combined-slice-q5": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_2",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "史瓦西有效势极值给出最内稳定圆轨道 ISCO（r=3r_s）与光子球表观黑洞阴影半径，接入 EHT VLBI 甚长基线干涉角分辨分析。"
+  },
+  "plancks-2025-final-combined-slice-q6": {
+    "primary_topic": "mechanics",
+    "subtopic": "M6",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "恒力竖直提拉链条的上升-下降不对称变质量力学：上升非弹性并入耗能（需积分因子法），下降静力脱离形成耗散振荡。"
+  },
+  "plancks-2025-final-combined-slice-q7": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O4",
+    "secondary_topics": [],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "夫琅禾费方形孔/屏衍射（巴比涅互补）与迈克耳孙恒星干涉仪空间相干性：条纹可见度恰为光源强度的傅里叶变换模。"
+  },
+  "plancks-2025-final-combined-slice-q8": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q6",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_5",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_6"
+    ],
+    "advanced_models": [
+      "adv_4"
+    ],
+    "study_note": "扶手椅型石墨烯纳米带紧束缚 TBA 与横向量子化波矢条件：直观说明宽度如何决定金属/半导体能隙及 1D 范霍夫奇点。"
+  },
+  "plancks-2025-final-combined-slice-q9": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q5",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_4",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_3",
+      "math_7"
+    ],
+    "advanced_models": [
+      "adv_12"
+    ],
+    "study_note": "Galperin 一维台球碰撞计数 π 与量子 Grover 搜索算法在动能重标度空间中均对应同一 SO(2) 旋转算符的深刻同构！"
+  },
+  "plancks-2026-final-problem-slice-q1": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F3",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "麦圈效应（Cheerios Effect）：修正贝塞尔函数 K₀(r/l_c) 弯月面形变与广义浮力耦合解释同类漂浮球为何相吸。"
+  },
+  "plancks-2026-final-problem-slice-q2": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O3",
+    "secondary_topics": [
+      "quantum_modern"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_6",
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [
+      "adv_11"
+    ],
+    "study_note": "光学相干断层扫描（OCT）：通过维纳-辛钦定理将光源洛伦兹光谱宽度转换为迈克耳孙干涉仪时间相干长度与轴向分辨率。"
+  },
+  "plancks-2026-final-problem-slice-q3": {
+    "primary_topic": "fluids_continua",
+    "subtopic": "F5",
+    "secondary_topics": [
+      "electrostatics_circuits"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_4",
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_6"
+    ],
+    "advanced_models": [],
+    "study_note": "木管乐器声学：从圆柱管与圆锥管球面声波谐频（圆锥管竟产生全整数倍泛音！），到喇叭口辐射匹配与侧孔高通声电类比。"
+  },
+  "plancks-2026-final-problem-slice-q4": {
+    "primary_topic": "mechanics",
+    "subtopic": "M3",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_1",
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "利用轮胎总静摩擦圆约束在自然坐标系下积分解出直线刹车、纯转向圆弧与后轮抱死转向复合机动的最短避障距离。"
+  },
+  "plancks-2026-final-problem-slice-q5": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [
+      "optics_waves"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_8"
+    ],
+    "math_tools": [
+      "math_1"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "量纲分析推导双星四极引力波功率中的啁啾质量组合与 LIGO 应变幅值标度（核查官方表格超级双黑洞一行输入笔误）。"
+  },
+  "plancks-2026-final-problem-slice-q6": {
+    "primary_topic": "astro_relativity",
+    "subtopic": "A5",
+    "secondary_topics": [],
+    "tier": "L3",
+    "archetypes": [
+      "arch_7",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_5"
+    ],
+    "advanced_models": [
+      "adv_8"
+    ],
+    "study_note": "克尔（Kerr）旋转黑洞能层内的参考系拖拽允许存在负能量轨道，彭罗斯过程由此从黑洞转动能中净提取能量至极端效率。"
+  },
+  "plancks-2026-final-problem-slice-q7": {
+    "primary_topic": "mechanics",
+    "subtopic": "M6",
+    "secondary_topics": [
+      "fluids_continua"
+    ],
+    "tier": "L3",
+    "archetypes": [
+      "arch_6"
+    ],
+    "math_tools": [
+      "math_3"
+    ],
+    "advanced_models": [],
+    "study_note": "旋转弹性绳非均匀拉伸：用拉格朗日物质坐标直接写简谐特征值方程完胜欧拉空间坐标，并求出离心失稳临界角速度。"
+  },
+  "plancks-2026-final-problem-slice-q8": {
+    "primary_topic": "quantum_modern",
+    "subtopic": "Q4",
+    "secondary_topics": [
+      "mechanics"
+    ],
+    "tier": "L2",
+    "archetypes": [
+      "arch_8",
+      "arch_9"
+    ],
+    "math_tools": [
+      "math_10"
+    ],
+    "advanced_models": [],
+    "study_note": "宏观振子基态零点涨落（ZPF）与波函数坍缩（CSL/DP）微弱加热效应检验：帕塞瓦尔定理连结时间噪声与位移功率谱。"
+  },
+  "plancks-2026-final-problem-slice-q9": {
+    "primary_topic": "optics_waves",
+    "subtopic": "O1",
+    "secondary_topics": [],
+    "tier": "L1",
+    "archetypes": [
+      "arch_4"
+    ],
+    "math_tools": [
+      "math_7"
+    ],
+    "advanced_models": [],
+    "study_note": "多层平板光波导几何光学导模全内反射条件与数值孔径（务必分清端面入射角与侧壁全反射角互余关系）。"
+  }
+}

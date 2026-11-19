@@ -80,10 +80,16 @@ def main():
         base=ROOT/"sites"/mode;dist=base/"dist";dist.mkdir(parents=True,exist_ok=True)
         for name in ("index.html","app.css","app.js","reader.css"):shutil.copyfile(ROOT/"web"/name,dist/name)
         html=(dist/'index.html').read_text().replace('<!-- MATH_SCRIPTS -->','<script defer src="math-config.js"></script><script defer src="vendor/tex-svg-full.js"></script>' if mode=='internal' else '')
+        if mode=='public':
+            html=re.sub(r'<div class="side-study private-only">.*?</div>','',html,flags=re.S)
+            html=re.sub(r'<a class="study-tag private-only"[^>]*>.*?</a>','',html,flags=re.S)
         (dist/'index.html').write_text(html)
         if mode=='internal':
             shutil.copytree(ROOT/'web/vendor',dist/'vendor',dirs_exist_ok=True)
             shutil.copyfile(ROOT/'web/math-config.js',dist/'math-config.js')
+            for study_asset in ("study.html","study.css","study.js","study-data.js"):
+                src=ROOT/"web"/study_asset
+                if src.is_file():shutil.copyfile(src,dist/study_asset)
         css=(dist/"app.css").read_text().replace("@import url('');\n","");(dist/"app.css").write_text(css)
         file_map={}
         def internal(r):

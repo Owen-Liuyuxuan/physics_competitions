@@ -36,6 +36,9 @@
      - **模型主线与问题拆解**；
      - **完整 Phase 1 盲解原始推导流程**（默认展开，展示不看答案时的完整破题与演算过程，并对 49 道**盲解路径更优或纠出官方印刷/计算笔误**的题目给出专门标注）；
      - **参考解答对照、核心难点、高频易错点与教练迁移总结**（综合总结见 [TEACHING_ANALYSIS_SUMMARY.md](notes/TEACHING_ANALYSIS_SUMMARY.md)）。
+3. **专题备赛 · 学生版自学系统（[study.html](web/study.html)）**：
+   - 从主页顶部或侧栏「专题备赛 · 学生版」标签页进入独立专题自复习工作台（同时支持点击「题库主页 ↗」随时返回 `index.html` 题库）。
+   - 将全库 283 题结构化映射至 **8 大专题、44 个复赛→决赛→大学前沿子考纲、9 大跨专题题型母版、10 套大学数学工具箱与 12 个本科/研究生特种模型**，配套 16 道诊断微例题、防剧透三层提示抽屉与本地刷题状态记录（同步导出为 [CPHO_FINAL_SYLLABUS_AND_STUDY_GUIDE.md](notes/CPHO_FINAL_SYLLABUS_AND_STUDY_GUIDE.md)）。
 
 ---
 
@@ -60,9 +63,11 @@ catalog/
   teaching-batches/        分批次结构化教学拆解 JSON
   teaching-analysis.json   合并后的全库教学数据（含盲解流程）
 notes/
-  TEACHING_ANALYSIS_SUMMARY.md  283 题难点与易错点综合报告
-  problems/batch-*.md      分批次两阶段解析笔记
-web/                       共用静态前端与本地 MathJax bundle
+  TEACHING_ANALYSIS_SUMMARY.md       283 题难点与易错点综合报告
+  CPHO_FINAL_SYLLABUS_AND_STUDY_GUIDE.md  专题备赛考纲与复习指南（Markdown 版）
+  problems/batch-*.md                分批次两阶段解析笔记
+curriculum/                专题考纲、数学工具箱、前沿模型与 283 题映射数据
+web/                       共用静态前端（index.html 题库主页 + study.html 学生版）与本地 MathJax bundle
 docs/                      GPT 公开站同步目录（受 PUBLIC_KEYS 白名单隔离）
 scripts/                   采集（含 collect_cpho_early.py 官网 .doc/.docx 解包转 PDF）、切分、合并、构建与隔离检查脚本
 ```
@@ -74,12 +79,14 @@ scripts/                   采集（含 collect_cpho_early.py 官网 .doc/.docx 
 依赖 Python 3.10+（`pymupdf`、`beautifulsoup4`、`requests`）及 Node.js：
 
 ```bash
-python3 scripts/merge_teaching.py      # 合并教学数据与完整盲解流程
-python3 scripts/build_sites.py         # 构建 sites/public/dist、sites/internal/dist 与 docs/
-python3 scripts/check_sites.py         # 校验文件哈希、切片与前端约束
-python3 scripts/check_translations.py  # 校验译文、PLANCKS 切分与公私隔离
+python3 scripts/merge_teaching.py       # 合并教学数据与完整盲解流程
+python3 scripts/build_study.py          # 构建专题备赛数据 web/study-data.js 与导览文档
+python3 scripts/build_sites.py          # 构建 sites/public/dist、sites/internal/dist 与 docs/
+python3 scripts/check_study.py          # 校验 283 题专题映射、LaTeX 定界与公私隔离
+python3 scripts/check_sites.py          # 校验文件哈希、切片与前端约束
+python3 scripts/check_translations.py   # 校验译文、PLANCKS 切分与公私隔离
 python3 scripts/check_public_release.py # 校验 docs/ 公开发布白名单
-node --check web/app.js
+node --check web/app.js && node --check web/study.js && node --check web/study-data.js
 ```
 
 本地预览可在仓库根目录启动 `python3 -m http.server -d sites/internal/dist --bind 127.0.0.1 8080`；向 `main` 分支推送后，GitHub Actions（[pages.yml](.github/workflows/pages.yml)）会自动执行上述构建与全部检查，并将 `sites/internal/dist` 部署至 GitHub Pages。

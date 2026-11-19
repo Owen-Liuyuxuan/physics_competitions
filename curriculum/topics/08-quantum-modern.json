@@ -1,0 +1,274 @@
+{
+  "id": "quantum_modern",
+  "order": 8,
+  "code": "TOPIC 08",
+  "title": "量子力学、近代物理与凝聚态前沿",
+  "subtitle": "从“玻尔能级与质能亏损”跃迁至“定态边值、二能级拉比/量子热机、紧束缚石墨烯与假真空瞬子”",
+  "tagline": "本库主属 33 题，直接破解竞赛中最具“高校/科研陌生感”的现代量子、凝聚态、核医学与量子信息压轴题。",
+  "bridge_summary": "以往中学竞赛近代物理只停留在光电效应、康普顿公式、氢原子玻尔半径和核衰变算质量亏损。但在如今的 CPhO 决赛与国际赛（PLANCKS / PanPhO / Physics Cup）中，现代物理已经全面推进到：**① 光子力学前沿（光镊动量流、冷原子多普勒冷却与塞曼减速器）**；**② 二能级量子操控与量子热力学（SU(2) 演化、拉比振荡、拉姆齐干涉、量子奥托/卡诺循环、Grover 搜索同构）**；**③ 定态量子力学的非平凡边界（莫比乌斯拓扑边界、AB 磁通效应、自由谐振子抗磁微扰、量子回流）**；**④ 凝聚态能带与高能场论前沿（非抛物有效质量、紧束缚石墨烯纳米带、Peierls-Harper 蝴蝶及假真空欧氏瞬子）**。本专题让你提前备好全套“翻译字典”，看到新背景照样按基本步骤平稳拿分。",
+  "recommended_math_ids": [
+    "math_2",
+    "math_6",
+    "math_9",
+    "math_10"
+  ],
+  "recommended_adv_ids": [
+    "adv_4",
+    "adv_10",
+    "adv_12"
+  ],
+  "syllabus_matrix": [
+    {
+      "code": "Q1",
+      "name": "量子基础、光电/康普顿效应、光压动量与穆斯堡尔效应",
+      "tier_a_semifinal": "爱因斯坦光电方程、康普顿散射能量极值、$^{57}\\mathrm{Fe}$ 核反冲能量损失与自然线宽多普勒补偿（穆斯堡尔效应）。",
+      "tier_b_final": "光子动量流驱动光学分束阱三棱柱振动与运动镜面多普勒耗散、圆偏振光光子自旋角动量力矩脉冲驱动旋转。",
+      "tier_c_frontier": "辐射光压做功的非经典散射与光镊微粒调控。",
+      "exam_focus": "算光压或光子角动量转移时，以垂直光束投影面积计算单位时间入射光子数 $N = \\frac{I A_\\perp}{h\\nu}$，乘以单个光子动量/自旋矢量变化量即刻出结果。",
+      "common_blindspots": "算斜入射反射光压时错加额外投影 $\\cos\\theta$ 系数两次；或算核跃迁反冲时忽略相对论效应或忘记束缚于晶格使有效质量趋无穷大。"
+    },
+    {
+      "code": "Q2",
+      "name": "核物理反应能谱、粒子探测器物理与放疗能量沉积",
+      "tier_a_semifinal": "太阳 CNO 聚变循环配平与质量亏损计算（小心原子质量与裸核质量电子扣数！）。",
+      "tier_b_final": "pp 链核聚变、三体衰变动力学能谱边界与多次康普顿散射级联、电子偶素约化质量修正基态及高/低速双光子湮灭。",
+      "tier_c_frontier": "放射治疗物理（Bethe-Bloch Bragg 峰射程标度律、重离子 $^{12}\\mathrm{C}$ 漏乘核子数防范与 Highland 多重散射）及核医学 SPECT 指数衰减拉东变换反演。",
+      "exam_focus": "核反应质量亏损遇到 $\\beta^+$ 正电子衰变时，**用中性原子质量计算必须额外减去 $2 m_e c^2$**（电子俘获则不减！）。",
+      "common_blindspots": "把重离子 $\\text{MeV/u}$ 当成总动能而忘乘核子数 $A$（`plancks-2023-q7` 官方踩坑）；将 SPECT 椭圆方程离心角误当成极坐标极角（`plancks-2024-q6`）。"
+    },
+    {
+      "code": "Q3",
+      "name": "玻尔原子、激光冷却、光镊与核磁共振（NMR）",
+      "tier_a_semifinal": "氢原子巴耳末识谱、弗兰克-赫兹实验电子与质子轰击氢原子质心反冲阈值巨大差异。",
+      "tier_b_final": "冷原子物理多普勒激光冷却极限与塞曼减速器非均匀空间磁场分布反推、诺奖光镊水中光动量流捕获。",
+      "tier_c_frontier": "核磁共振（NMR）拉莫尔进动旋转参考系消除快变项与 $\\pi/2$ 射频脉冲自旋翻转。",
+      "exam_focus": "牢记弗兰克-赫兹碰撞最大内能转化公式 $\\Delta E_{\\max} = \\frac{1}{2}\\mu v_{\\text{rel}}^2 = \\frac{M}{M+m} K_{\\text{lab}}$；塞曼减速即用磁能级分裂 $\\mu_B B(z)$ 恰好补偿原子匀减速减小的多普勒频移 $k v(z)$。",
+      "common_blindspots": "在液中光镊问题里弄错水中光子动量定义（闵可夫斯基 vs 亚伯拉罕动量在介质折射率 $n$ 下对有效推力的体现：`cpho-2019-final-q5`）。"
+    },
+    {
+      "code": "Q4",
+      "name": "薛定谔方程、量子隧穿、AB 效应与拓扑边界 / 量子回流",
+      "tier_a_semifinal": "一维无限深势阱能级、氢原子简并度概念与一维势垒指数隧穿估算。",
+      "tier_b_final": "三维各向同性谐振子磁微扰及满壳层抗磁性（$L_z$ 期望抵消顺磁项）、莫比乌斯带拓扑边界条件与量子复原时间（Quantum Revival）。",
+      "tier_c_frontier": "柱坐标贝塞尔波函数与 Aharonov-Bohm 磁通最小耦合周期能谱、双平面波量子回流（负概率流密度）及宏观振子零点涨落与波函数坍缩加热噪谱检验。",
+      "exam_focus": "面对抽象拓扑边界或复原问题，一步步写清连续性条件：莫比乌斯带扭转即 $\\psi(x+L, y) = \\psi(x, -y)$，立刻分离出 $y$ 方向宇称与波矢 $k_x$ 的联合奇偶配对！",
+      "common_blindspots": "算多费米子系统抗磁磁化率时忘记泡利不相容原理使满壳层总轨道角动量为零（`plancks-2021-final-q1`）。"
+    },
+    {
+      "code": "Q5",
+      "name": "二能级系统、拉比振荡、拉姆齐干涉与量子信息 / 热机",
+      "tier_a_semifinal": "两能级玻尔兹曼分布热力学性质与一般量子态叠加测量概率。",
+      "tier_b_final": "二能级原子量子奥托热机与量子卡诺循环（严格区分广义功 $P\\mathrm{d}E$ 与广义热 $E\\mathrm{d}P$）。",
+      "tier_c_frontier": "无损光学分束器幺正性与双光子 Hong-Ou-Mandel 聚束、自由基对超精细拉比自旋化学、双分离脉冲场 Ramsey 干涉线宽与 Grover 搜索量子旋转同构经典弹性碰撞。",
+      "exam_focus": "所有二能级量子系统在共振/近共振外场下时间演化都在布洛赫球面上做绕有效场轴的圆周进动——直接用 $2\\times 2$ 泡利矩阵旋转公式 $\\exp(-i \\frac{\\theta}{2}\\hat{\\mathbf{n}}\\cdot\\boldsymbol{\\sigma}) = \\cos\\frac{\\theta}{2} I - i \\sin\\frac{\\theta}{2}(\\hat{\\mathbf{n}}\\cdot\\boldsymbol{\\sigma})$ 秒写演化算符！",
+      "common_blindspots": "在量子热机计算中混淆“恒能级间距调节（绝热膨胀/压缩改 $E_n$）”与“等温热接触（改布居数 $P_n$）”在温熵/能分布图上的斜率对应。"
+    },
+    {
+      "code": "Q6",
+      "name": "凝聚态能带、自旋电子学与场论瞬子前沿",
+      "tier_a_semifinal": "自由电子气费米能级基本概念与半导体载流子迁移率测算（ToF 注意 $\\mu\\text{m}\\leftrightarrow\\text{cm}$！）。",
+      "tier_b_final": "非抛物色散 $K(p)$ 群速度与各向异性逆有效质量张量非共线电磁加速、纳米金属颗粒 PBC vs NBC 态密度与 Stoner 铁磁判据。",
+      "tier_c_frontier": "任意 $d$ 维幂律态密度、紧束缚模型石墨烯与扶手椅纳米带能隙（1D 范霍夫奇点）、Peierls-Harper 蝴蝶与朗道能级、GMR 莫特双电流模型以及假真空衰变薄壁欧氏瞬子。",
+      "exam_focus": "突破凝聚态能带只需抓紧三条公式：**群速度 $\\mathbf{v}_g = \\nabla_{\\mathbf{p}} E$、晶格运动 $\\dot{\\mathbf{p}}=\\mathbf{F}$、紧束缚布洛赫波代换 $\\psi_{\\mathbf{R}} = e^{i\\mathbf{k}\\cdot\\mathbf{R}}u$**。",
+      "common_blindspots": "算电子各向异性加速时错写标量 $F/m^*$ 而非完整二阶海森矩阵张量求导；纳米粒态密度计数混淆周期边界（PBC）与驻波零边界（NBC）相差 2 倍间隔（`plancks-2023-q4`）。"
+    }
+  ],
+  "core_models": [
+    {
+      "name": "固体非抛物色散与有效质量张量半经典模型",
+      "tier": "L3 · 决赛现代物理模板",
+      "prototype": "某二维准粒子/石墨烯电子具有非抛物各向同性能量动量色散（如 $K(p)=\\frac{p^2}{2m} + \\alpha p$），在垂直磁场及交叉电场下运动。",
+      "assumptions": "电磁场缓变（不引起带间齐纳跃迁），遵循半经典波包运动定理。",
+      "key_equations": [
+        "群速度：$\\mathbf{v} = \\frac{\\partial K}{\\partial \\mathbf{p}} = \\left(\\frac{p}{m} + \\alpha\\right)\\hat{\\mathbf{p}}$",
+        "逆有效质量张量：$(M^{-1})_{ij} = \\frac{\\partial^2 K}{\\partial p_i \\partial p_j} \\implies m_\\parallel^{-1} = \\frac{1}{m},\\quad m_\\perp^{-1} = \\frac{1}{m} + \\frac{\\alpha}{p}$"
+      ],
+      "evolution_semi_to_final": "令人惊奇的是：即使色散关系完全各向同性，沿着垂直于当前动量方向施力时有效惯性质量依然变小（出现方向依赖的逆质量张量），导致外力与加速度不再共线！",
+      "sample_problem_ids": [
+        "cpho-2018-final-theory-problem-slice-q7",
+        "plancks-2019-final-problem-slice-q9",
+        "plancks-2025-final-combined-slice-q8"
+      ]
+    },
+    {
+      "name": "二能级量子奥托与量子卡诺热机模型",
+      "tier": "L3 · 决赛压轴热门",
+      "prototype": "单个二能级原子（基态 $0$、激发态 $\\Delta$）交替连接高温热库 $T_H$ 与低温热库 $T_C$ 并由外场绝热调节能隙 $\\Delta_1 \\leftrightarrow \\Delta_2$ 完成循环。",
+      "assumptions": "绝热冲程耗时短/无跃迁（布居概率 $P_e$ 保持恒定）；热化过程足够充分达到对应库温玻尔兹曼分布。",
+      "key_equations": [
+        "单原子统计态内能：$U = \\Delta \\cdot P_e = \\frac{\\Delta}{e^{\\Delta / k_B T} + 1}$",
+        "量子奥托效率：$\\eta_{\\mathrm{Otto}} = 1 - \\frac{\\Delta_1}{\\Delta_2}$；运行热机正功判据：$\\frac{\\Delta_1}{T_C} > \\frac{\\Delta_2}{T_H}$"
+      ],
+      "evolution_semi_to_final": "把常规气体活塞的压强 $P$ 和体积 $V$ 直接翻译成能级间距 $\\Delta$ 和激发态布居数 $P_e$：绝热调节改变 $\\Delta$ 保持 $P_e$ 不变（对应绝热做功），等间距热弛豫只改 $P_e$（对应定容吸放热）！",
+      "sample_problem_ids": [
+        "cpho-2020-final-theory-problem-slice-q3",
+        "plancks-2023-final-combined-slice-q3"
+      ]
+    },
+    {
+      "name": "核衰变 β⁺/EC 质量亏损与粒子物理能量阈值",
+      "tier": "L2/L3 · 复赛到决赛衔接",
+      "prototype": "恒星核聚变 CNO 循环及电子偶素（Positronium）高能正反电子对双光子湮灭。",
+      "assumptions": "通常核数据表提供的是**中性原子静质量**（包含核外全部 $Z$ 个电子），而非裸核质量。",
+      "key_equations": [
+        "$\\beta^+$ 衰变：$^A_Z X \\to {^A_{Z-1}Y} + e^+ + \\nu_e$，使用中性原子质量算释放核能时必须扣除 $2 m_e c^2$（$Q = [M(X) - M(Y) - 2 m_e]c^2$）！",
+        "电子偶素两光子湮灭：基态总静质量须减去结合能亏损：$M_{\\mathrm{Ps}} = 2m_e - |E_0|/c^2$"
+      ],
+      "evolution_semi_to_final": "从简单的原子核配平升级到严格区分中性原子表质量与裸核质量，并在计算湮灭光子能量/夹角时精密计入束缚能对有效静质量的微小亏损（`cpho-2016-final-q8`）。",
+      "sample_problem_ids": [
+        "cpho-2015-semifinal-theory-problem-slice-q1",
+        "cpho-2016-final-theory-problem-slice-q8",
+        "cpho-2014-final-theory-problem-slice-q8"
+      ]
+    },
+    {
+      "name": "定态量子拓扑边界（莫比乌斯 / AB 效应）与紧束缚石墨烯能带模型",
+      "tier": "L3/L4 · 现代凝聚态前沿",
+      "prototype": "在莫比乌斯带几何扭转面或含磁通同轴圆柱腔中运动的二维量子粒子能谱，以及单层石墨烯纳米带的紧束缚色散与范霍夫奇点态密度。",
+      "assumptions": "单粒子定态薛定谔方程与近邻跃迁紧束缚近似（TBA），忽略电子间多体库仑关联。",
+      "key_equations": [
+        "最小耦合 AB 磁通与莫比乌斯边界：$l_{\\mathrm{eff}} = m - \\frac{\\Phi}{\\Phi_0},\\qquad \\psi(x+L, y) = \\psi(x, -y) \\implies k_x L = 2\\pi n + \\pi p_y$",
+        "石墨烯紧束缚纳米带色散与 1D 态密度：$E(k) \\approx \\pm \\sqrt{(\\Delta E)^2 + (\\hbar v_F k)^2}, \\qquad g(E) \\propto \\frac{|E|}{\\sqrt{E^2 - \\Delta E^2}}$"
+      ],
+      "evolution_semi_to_final": "无需硬解难懂的偏微分特解，重点训练考生利用拓扑单值性条件（$0 \\to 2\\pi$ 或扭转匹配）与周期性布洛赫波代换推导出量子数分裂与能隙打开条件。",
+      "sample_problem_ids": [
+        "plancks-2023-final-combined-slice-q1",
+        "plancks-2024-final-combined-slice-q3",
+        "plancks-2025-final-combined-slice-q8",
+        "plancks-2021-final-combined-slice-q2"
+      ]
+    }
+  ],
+  "secondary_conclusions": [
+    {
+      "title": "核反应质量亏损中性原子查表 $2m_e$ 规则",
+      "source_type": "经典定理",
+      "formula": "$Q_{\\beta^-} = [M_{\\text{atom}}(Z) - M_{\\text{atom}}(Z+1)]c^2,\\qquad Q_{\\beta^+} = [M_{\\text{atom}}(Z) - M_{\\text{atom}}(Z-1) - 2m_e]c^2$",
+      "derivation_skeleton": "若母核释放一个正电子使核电荷数减 1，子原子中性态比母原子少 1 个电子，外加排出的 1 个正电子恰好合计多出 $2m_e$ 未抵消（$e^- + e^+$ 最终湮灭放能恰好另算）。",
+      "validity_boundaries": "忽略原子核外电子数十 eV 级别的电离结合能差异；若给定的是裸核质量则需显式写出所有电子质量。",
+      "pitfall_warning": "这是 CPhO 复赛送分第一题最容易被暗算丢掉 $1.022\\,\\mathrm{MeV}$ 的重灾区（`cpho-2015-semi-q1`）！",
+      "related_problem_ids": [
+        "cpho-2015-semifinal-theory-problem-slice-q1"
+      ]
+    },
+    {
+      "title": "二能级自旋与量子态 SU(2) 布洛赫球旋转演化公式",
+      "source_type": "经典定理",
+      "formula": "$\\hat{U}(t) = \\exp\\!\\left(-i\\frac{\\Omega t}{2}\\hat{\\mathbf{n}}\\cdot\\boldsymbol{\\sigma}\\right) = I\\cos\\frac{\\Omega t}{2} - i(\\hat{\\mathbf{n}}\\cdot\\boldsymbol{\\sigma})\\sin\\frac{\\Omega t}{2}$",
+      "derivation_skeleton": "因为任意方向单位泡利矩阵满足 $(\\hat{\\mathbf{n}}\\cdot\\boldsymbol{\\sigma})^2 = I$，将其指数泰勒级数按奇偶项拆开即得欧拉矩阵公式，一口气算出任何复合脉冲（Ramsey 双脉冲、NMR 自旋回波或 Grover 旋转）的跃迁概率。",
+      "validity_boundaries": "适用于旋转波近似（RWA）成立且无退相干弛豫的理想相干二能级演化。",
+      "pitfall_warning": "注意指数角里有一个关键的半角因子 $1/2$：旋转角度为 $2\\pi$ 时波函数本身反号（$-1$），要转 $4\\pi$ 才严格复原（自旋 $1/2$ 旋量特征：`plancks-2023-q3`）。",
+      "related_problem_ids": [
+        "plancks-2023-final-combined-slice-q3",
+        "plancks-2021-final-combined-slice-q11",
+        "plancks-2025-final-combined-slice-q9"
+      ]
+    },
+    {
+      "title": "任意 $d$ 维、任意色散 $E \\propto k^s$ 电子气态密度统一标度",
+      "source_type": "跨界方法",
+      "formula": "$N(k) \\propto k^d,\\; E \\propto k^s \\implies g(E) = \\frac{\\mathrm{d}N}{\\mathrm{d}E} \\propto E^{\\frac{d}{s}-1},\\qquad \\langle E\\rangle_0 = \\frac{d}{d+s}E_F$",
+      "derivation_skeleton": "直接在动量 $k$ 空间计算体积元 $\\mathrm{d}^d k \\propto k^{d-1}\\mathrm{d}k$，利用微分链式替换 $k\\propto E^{1/s}$，即刻通吃三维金属（$d=3,s=2 \\Rightarrow \\frac{3}{5}E_F$）与二维石墨烯狄拉克费米子（$d=2,s=1 \\Rightarrow \\frac{2}{3}E_F$）！",
+      "validity_boundaries": "零温绝对简并极限且导带/价带色散严格各向同性。",
+      "pitfall_warning": "计算总态数绝对不可漏掉自旋简并度 $g_s=2$（和石墨烯额外谷简并度 $g_v=2$：`plancks-2021-prelim-q6`）。",
+      "related_problem_ids": [
+        "plancks-2021-preliminary-problem-slice-q6",
+        "plancks-2023-final-combined-slice-q4",
+        "plancks-2025-final-combined-slice-q8"
+      ]
+    },
+    {
+      "title": "质心系两体非弹性碰撞激发阈值通式",
+      "source_type": "经典定理",
+      "formula": "$K_{\\mathrm{lab, min}} = \\frac{m + M}{M} \\Delta E_{\\mathrm{exc}}$",
+      "derivation_skeleton": "总动能可划分为整体质心动能（无法转化为内能！）与质心系相对动能 $\\frac{1}{2}\\mu v_{\\text{rel}}^2 = \\frac{M}{m+M}K_{\\text{lab}}$。激发能 $\\Delta E$ 最大只能动用全部相对动能。",
+      "validity_boundaries": "非相对论范围适用；相对论情况改为四动量不变量求质心总静能增量。",
+      "pitfall_warning": "电子打氢原子 $m \\ll M$ 几乎全部动能可激发；而质子打氢原子 $m=M$ 必须提供整整 $2\\Delta E$ 才足够激发！（`cpho-2017-semi-q6`）。",
+      "related_problem_ids": [
+        "cpho-2017-semifinal-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "title": "莫比乌斯带与 Aharonov-Bohm 边界条件量子数重构",
+      "source_type": "前沿模板",
+      "formula": "$\\psi(x+L, y) = \\psi(x, -y) \\implies k_x L = 2\\pi n + \\pi p_y\\;\\text{（奇宇称多出半整数 }\\pi\\text{ 相位）}$",
+      "derivation_skeleton": "莫比乌斯带沿环绕一圈横坐标上下翻转，强迫在宽度方向取偶宇称（$p_y=0$）与取奇宇称（$p_y=1$）的模式分别服从周期或反周期纵向边界条件，犹如自然界自带的 $\\pi$ 拓扑相位（类比穿过半个磁通量子的 AB 效应）。",
+      "validity_boundaries": "薄带忽略弯曲空间曲率带来的几何诱导有效标量势修正。",
+      "pitfall_warning": "计算莫比乌斯量子波包复原时间（Quantum Revival）时，必须在**全部分枝奇偶能级差**上取最小公倍数通分（`plancks-2024-q3`）。",
+      "related_problem_ids": [
+        "plancks-2024-final-combined-slice-q3",
+        "plancks-2023-final-combined-slice-q1"
+      ]
+    }
+  ],
+  "virtual_examples": [
+    {
+      "id": "ve_quan_1",
+      "title": "微例 1 · 单个二能级原子“量子奥托热机”为什么比卡诺热机效率低却能稳拿全分？",
+      "difficulty_tag": "决赛量子热力学解码",
+      "scenario": "工作物质仅包含一个二能级系统（基态能量 $0$，激发态能量 $\\Delta$）。循环四步：① 固定 $\\Delta_1$ 与低温库 $T_C$ 热平衡；② 与热库隔离，将能级缓慢拉宽到 $\\Delta_2 > \\Delta_1$（绝热压缩，无布居数跃迁）；③ 固定 $\\Delta_2$ 与高温库 $T_H$ 接触吸热至平衡；④ 隔离后将能级放窄回 $\\Delta_1$（绝热做功）。求热机净出力判定条件及热效率。",
+      "intuition_trap": "很多高中选手一看“量子”“奥托”就发懵放弃——其实只需把“每个微状态平均能量 $U = \\sum P_n E_n$”写开，连任何薛定谔方程都不用解！",
+      "solution_steps": [
+        "对二能级系统在温度 $T$ 平衡时，激发态布居概率为玻尔兹曼分布：$P_e(T, \\Delta) = \\frac{1}{e^{\\Delta / k_B T} + 1}$，系统内能（平均能量）$U = \\Delta \\cdot P_e$。",
+        "步骤 ② 与 ④ 完全绝热，布居概率不变，因此只有能级间距变化做功（无传热！）；步骤 ① 与 ③ 能级间距固定不变，只有布居数跳转，因此纯吸放热不做功！",
+        "高温吸热 $Q_{\\mathrm{in}} = \\Delta_2 [P_e(T_H, \\Delta_2) - P_e(T_C, \\Delta_1)]$，低温放热 $Q_{\\mathrm{out}} = \\Delta_1 [P_e(T_H, \\Delta_2) - P_e(T_C, \\Delta_1)]$。净作功 $W = Q_{\\mathrm{in}} - Q_{\\mathrm{out}} = (\\Delta_2 - \\Delta_1)(P_H - P_C)$。",
+        "要保证正向循环做正功（$W>0, Q_{\\mathrm{in}}>0$），必须要求 $P_H > P_C \\iff \\frac{\\Delta_2}{T_H} < \\frac{\\Delta_1}{T_C}$。循环效率立即一笔消出：$\\eta_{\\mathrm{Otto}} = \\frac{W}{Q_{\\mathrm{in}}} = 1 - \\frac{\\Delta_1}{\\Delta_2} < 1 - \\frac{T_C}{T_H} = \\eta_{\\mathrm{Carnot}}$！"
+      ],
+      "limit_dimension_check": "效率完全无量纲，且绝热条件 $\\Delta_1/\\Delta_2 < T_C/T_H$ 自动保证它永远严格不违背热力学第二定律卡诺上限！（参见 `cpho-2020-final-q3`）。",
+      "transfers_to_ids": [
+        "cpho-2020-final-theory-problem-slice-q3",
+        "plancks-2023-final-combined-slice-q3"
+      ]
+    },
+    {
+      "id": "ve_quan_2",
+      "title": "微例 2 · 为什么石墨烯能带会造出“无质量”线性电子和不同的朗道能级？",
+      "difficulty_tag": "前沿凝聚态直通车",
+      "scenario": "普通金属二维自由电子抛物色散为 $E(\\mathbf{p}) = \\frac{p^2}{2m}$，而单层石墨烯电子在狄拉克点附近近似满足无质量线性色散 $E(\\mathbf{p}) = v_F |\\mathbf{p}|$。当存在垂直匀强磁场 $B$ 时，应用半经典 Bohr-Sommerfeld 轨道面积量子化法则推导两种材料回旋轨道的朗道能级能量对磁场 $B$ 与量子数 $n$ 的不同标度依赖。",
+      "intuition_trap": "如果直接把 $E = (n+1/2)\\hbar \\omega_c$（$\\omega_c = eB/m$）死记套用到石墨烯，因为石墨烯里静质量 $m=0$ 立刻得出无穷大的荒谬结论！",
+      "solution_steps": [
+        "回归统一物理源头——在垂直磁场 $B$ 中，带电粒子动量空间闭合等能轨道面积 $S_p = \\pi p^2$ 满足量子化规则：$S_p \\approx 2\\pi e \\hbar B (n + \\gamma_{\\text{Berry}})$（普通抛物电子 $\\gamma_{\\text{Berry}} = 1/2$，石墨烯因赝自旋 $\\pi$ 贝里相位取 $\\gamma_{\\text{Berry}} = 0$）。",
+        "因此对于任意各向同性材料，磁场把允许动量半径锁定为 $p_n = \\sqrt{2 e \\hbar B (n + \\gamma)}$！",
+        "将 $p_n$ 代入普通金属 $E_n = p_n^2/(2m)$ 得等距标度 $E_n = \\hbar\\frac{eB}{m}(n+1/2)$；代回石墨烯线性色散 $E_n = v_F p_n$，瞬间推得著名标志性 $\\sqrt{n B}$ 非等距能谱：$E_n = \\pm v_F\\sqrt{2 e \\hbar B n}$！"
+      ],
+      "limit_dimension_check": "检查量纲：$[v_F \\sqrt{e\\hbar B}] = (\\mathrm{m/s})\\sqrt{(\\mathrm{C})(\\mathrm{J\\cdot s})(\\mathrm{N/(A\\cdot m)})} = \\mathrm{J}$。$n=0$ 时竟存在不随磁场移动的零能量量子霍尔态！",
+      "transfers_to_ids": [
+        "plancks-2021-final-combined-slice-q2",
+        "plancks-2025-final-combined-slice-q8",
+        "cpho-2018-final-theory-problem-slice-q7"
+      ]
+    }
+  ],
+  "topic_pitfalls": [
+    {
+      "title": "中性原子质量表直接算 β⁺ 衰变忘减 2m_e c²",
+      "detail": "凡是用中性原子质量计算释放 $\\beta^+$ 正电子核反应能 $Q$，必定要额外减去两个电子的静能 $1.022\\,\\mathrm{MeV}$。",
+      "ref_ids": [
+        "cpho-2015-semifinal-theory-problem-slice-q1"
+      ]
+    },
+    {
+      "title": "纳米粒子/半导体系综单位换算与核子数漏乘",
+      "detail": "计算载流子迁移率（$\\mu\\text{m}\\leftrightarrow\\text{cm}$）与 $^{12}\\mathrm{C}$ 离子能量（$\\text{MeV/u}$）务必先统一度量衡到标准 SI 再代数字。",
+      "ref_ids": [
+        "plancks-2020-final-problem-slice-q4",
+        "plancks-2023-final-combined-slice-q7"
+      ]
+    },
+    {
+      "title": "各向异性色散硬套标量有效质量公式",
+      "detail": "非抛物或各向异性电子动量受垂直外场作用时加速度并不共线，必须用能量梯度求群速度后对时间微商得出二阶质量张量。",
+      "ref_ids": [
+        "cpho-2018-final-theory-problem-slice-q7",
+        "plancks-2019-final-problem-slice-q9"
+      ]
+    },
+    {
+      "title": "谐振子满壳层顺磁项误算导致抗磁性算错",
+      "detail": "封闭满壳层自旋与轨道总角动量均抵消为零，一阶塞曼顺磁项严格消失，仅存二阶 $B^2$ 朗道/拉莫尔抗磁极化项。",
+      "ref_ids": [
+        "plancks-2021-final-combined-slice-q1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="全国中学生物理竞赛专题备赛考纲、大学前沿模型、数学工具箱与 283 题防剧透自复习系统。">
+  <title>物理竞赛专题备赛与自学系统 · CPhO Final Study Guide</title>
+  <link rel="stylesheet" href="study.css">
+  <script defer src="study-data.js"></script>
+  <script defer src="data.js" onerror="window.__ATLAS_MISSING=true"></script>
+  <script defer src="math-config.js"></script>
+  <script defer src="vendor/tex-svg-full.js"></script>
+  <script defer src="study.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#app-main">跳至正文</a>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-top">
+      <div class="brand-line">
+        <span class="brand-glyph" aria-hidden="true">φ</span>
+        <span class="eyebrow">CPHO SEMIFINAL → FINAL · SELF-STUDY MONOGRAPH</span>
+      </div>
+      <div class="masthead-actions">
+        <a class="back-link" href="./index.html">← 返回 Physics Atlas 题库主页</a>
+      </div>
+    </div>
+    <h1 class="site-title">物理竞赛专题备赛与自学系统</h1>
+    <p class="site-lead" id="site-lead">立足复赛根基 · 贯通决赛建模 · 桥接大学与国际赛前沿模型</p>
+    <div class="stat-strip" id="stat-strip" aria-label="题库与个人进度概览"></div>
+  </div>
+</header>
+
+<nav class="primary-nav" aria-label="自学系统模块导航">
+  <div class="primary-nav-inner">
+    <div class="primary-tabs" id="primary-tabs">
+      <button class="tab-btn active" data-view="overview"><span>01</span> 备赛导图与流程</button>
+      <button class="tab-btn" data-view="syllabus"><span>02</span> 考纲与九大题型</button>
+      <button class="tab-btn" data-view="topics"><span>03</span> 八大专题讲义</button>
+      <button class="tab-btn" data-view="math"><span>04</span> 数学工具箱</button>
+      <button class="tab-btn" data-view="models"><span>05</span> 前沿特种模型</button>
+      <button class="tab-btn" data-view="workbench"><span>06</span> 283题刷题与诊所</button>
+    </div>
+    <a class="nav-atlas-link" href="./index.html" title="返回 Physics Atlas 题库主页">题库主页 ↗</a>
+  </div>
+</nav>
+
+<main id="app-main" class="app-main">
+  <div id="view-root" class="view-root">
+    <p class="loading-note">正在载入专题讲义与 283 题结构化索引…</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <strong>PHYSICS ATLAS · 专题自学系统</strong>
+      <p id="footer-disclaimer"></p>
+    </div>
+    <div class="footer-meta">
+      <a href="./index.html">切换至单题阅读器 ↗</a>
+    </div>
+  </div>
+</footer>
+
+<dialog id="study-drawer" class="drawer" aria-labelledby="drawer-title">
+  <div class="drawer-head">
+    <div class="drawer-title-wrap">
+      <p class="eyebrow" id="drawer-meta"></p>
+      <h2 id="drawer-title"></h2>
+      <p class="drawer-subtitle" id="drawer-subtitle" lang="en"></p>
+    </div>
+    <div class="drawer-head-right">
+      <a id="drawer-atlas-link" class="outline-btn" href="./index.html" target="_blank" rel="noopener">在 Atlas 中查看 ↗</a>
+      <button id="drawer-close" class="close-btn" aria-label="关闭题目抽屉">×</button>
+    </div>
+  </div>
+
+  <div class="drawer-status-bar">
+    <span class="status-label">训练状态：</span>
+    <div class="status-pills" id="drawer-status-pills"></div>
+    <span class="drawer-tier-info" id="drawer-tier-info"></span>
+  </div>
+
+  <div class="drawer-tabs" id="drawer-tabs" role="tablist">
+    <button class="dtab active" data-dtab="problem">① 题面与原图</button>
+    <button class="dtab" data-dtab="hints">② 渐进提示（防剧透）</button>
+    <button class="dtab" data-dtab="blind">③ 盲解推导与对比</button>
+    <button class="dtab" data-dtab="solution">④ 参考解答原卷</button>
+    <button class="dtab" data-dtab="notes">⑤ 我的复盘笔记</button>
+  </div>
+
+  <div class="drawer-body" id="drawer-body"></div>
+</dialog>
+
+<div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
