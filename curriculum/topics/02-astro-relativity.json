@@ -1,0 +1,265 @@
+{
+  "id": "astro_relativity",
+  "order": 2,
+  "code": "TOPIC 02",
+  "title": "天体力学、有心力场与相对论时空",
+  "subtitle": "从“开普勒三定律与时间膨胀公式”跃迁至“速度端图圆几何、四动量不变量与黑洞/引力波前沿”",
+  "tagline": "本库包含 45 道主属题（横跨太空电梯、轨道交会、LIGO 引力波、EHT 黑洞阴影与克尔黑洞彭罗斯过程），最适合用几何变换与四维不变量降维秒杀。",
+  "bridge_summary": "复赛天体与相对论常考椭圆能量-半长轴公式、近远地点速度比与一维洛伦兹速度叠加。而在决赛与国际赛中，硬解椭圆极坐标微分方程会迅速掉进泥潭——必须熟练运用**哈密顿速度矢端图圆（Hodograph）**和**四动量洛伦兹内积 $P_\\mu P^\\mu = m^2 c^2$**。同时，近年考纲强烈向**广义相对论有效势（ISCO、引力红移）、脉冲星计时与弱场引力波四极辐射（啁啾质量）**延伸，本专题帮你把它们无缝接回牛顿能量与量纲法。",
+  "recommended_math_ids": [
+    "math_1",
+    "math_4",
+    "math_7",
+    "math_10"
+  ],
+  "recommended_adv_ids": [
+    "adv_8"
+  ],
+  "syllabus_matrix": [
+    {
+      "code": "A1",
+      "name": "开普勒轨道、速度端图圆与宇宙速度判据",
+      "tier_a_semifinal": "三定律与能量-半长轴公式 $E = -GMm/2a$、第一/二宇宙速度、退化直线落体时间与抛物线彗星过地球轨道。",
+      "tier_b_final": "太空电梯地球自转非惯性系同步势垒、行星“留”点相对矢量叉积判据、非对称抛射坠地边界与径向落体时间积分。",
+      "tier_c_frontier": "哈密顿速度矢端图圆（Hodograph）结合圆幂定理/阿波罗尼斯圆、双星遍历最大相对速度与广义相对论 Binet 方程进动。",
+      "exam_focus": "不解时间方程，只通过速度空间端图圆的几何弦与原点位置直接读出偏心率 $e$ 与轨道极大/极小距离。",
+      "common_blindspots": "在速度矢端图里把过原点（速度反向）的任意弦错当成近/远地点连线；计算椭圆运动时间忘掉周期与面积之比。"
+    },
+    {
+      "code": "A2",
+      "name": "冲量变轨交会、双星演化与暗物质引力",
+      "tier_a_semifinal": "经典两切点霍曼（Hohmann）椭圆变轨、双星质心运动约化质量公式。",
+      "tier_b_final": "超新星各向同性瞬间抛射质量后的双星解体判据、航天器广义斜切变轨及交会对接相位窗口极值容错。",
+      "tier_c_frontier": "金星凌日与太阳辐射失质量绝热变轨、系外行星视向速度探测与暗物质晕旋转曲线反推密度。",
+      "exam_focus": "瞬间变质量/变轨时记住质点位置 $\\mathbf{r}$ 不变但约化质量或总能量突变；多体系统总结合能从质心系写最简。",
+      "common_blindspots": "在超新星瞬间抛壳题中错用原质心系速度直接求相对能，或搞反极角逆时针与拱线偏角顺时针的方向约定（`cpho-2021-final-q2`）。"
+    },
+    {
+      "code": "A3",
+      "name": "狭义相对论时空图、同时性与多参考系变换",
+      "tier_a_semifinal": "经典时间膨胀、长度收缩、洛伦兹坐标正逆变换与一维光钟思想实验。",
+      "tier_b_final": "接力传递同时性事件链（张王李拍手模型）、多惯性系光信号雷达测距追及与二维相对论速度变换。",
+      "tier_c_frontier": "四阶段双曲固有加速度正交巡航闭环后的托马斯-维格纳（Thomas-Wigner）空间纯旋转角计算。",
+      "exam_focus": "给每个时刻地点明确命名**四维时空事件 $E_k(x_k, t_k)$**，严格按事件下标代入洛伦兹变换。",
+      "common_blindspots": "光钟水平位移漏除 $2$；把“不同参考系的两地同时性”与单个时钟的时间膨胀混为一谈（`cpho-2013-final-q8`）。"
+    },
+    {
+      "code": "A4",
+      "name": "相对论动力学、四动量不变量与粒子散射衰变",
+      "tier_a_semifinal": "相对论质能关系 $E=\\gamma mc^2$、基本粒子磁偏转磁刚度 $p=qBR$ 与标准两体衰变能谱。",
+      "tier_b_final": "四动量不变量 $(P_1+P_2)^2 = M_{\\mathrm{inv}}^2c^2$ 秒算高能产反质子阈能、部分子对撞聚束张角、逆康普顿极端微扰大数相消及三体 Dalitz 相空间边界。",
+      "tier_c_frontier": "相对论火箭质量亏损四动量严格积分（快度相加律）与两阶段光子火箭最小燃料转向角双曲余弦定理。",
+      "exam_focus": "高能粒子对撞/衰变全程禁止用繁琐速度合成，强制用四动量守恒平方消元与质心系共速判据。",
+      "common_blindspots": "把高能粒子总能量（含静能 $m_0c^2$）误当作纯动能代入；静止质量在非弹性反应中不守恒！"
+    },
+    {
+      "code": "A5",
+      "name": "弱场广义相对论、黑洞与引力波物理",
+      "tier_a_semifinal": "爱因斯坦等效原理直接导出弱场引力红移（庞德-雷布卡实验）与史瓦西半径量纲认识。",
+      "tier_b_final": "线性化平面引力波 TT 规范度规微扰在环状自由质点上的拉伸几何、双星四极二倍频辐射功率及旋近并合时间积分。",
+      "tier_c_frontier": "史瓦西有效势最内稳定圆轨道（$r_{\\mathrm{ISCO}}=3r_s$）、光子球阴影半径 $\\frac{3\\sqrt{3}}{2}r_s$、霍金蒸发寿命、宇宙学牛顿弗里德曼方程及克尔黑洞能层彭罗斯能量提取。",
+      "exam_focus": "利用题干给出的度规或有效势修正项 $-\\frac{GML^2}{mc^2 r^3}$，配合量纲法锁定啁啾质量并做分离变量积分。",
+      "common_blindspots": "忘记引力波四极对称导致波频是双星公转频率的 **2 倍**；混淆宇宙弦圆锥亏角与平直空间视差。"
+    }
+  ],
+  "core_models": [
+    {
+      "name": "开普勒轨道哈密顿速度矢端图圆模型",
+      "tier": "L3/L4 · 几何降维神器",
+      "prototype": "平方反比引力场中任意圆锥曲线轨道，已知某几点的速度大小、夹角或要求极大相对速度/最小发射速度。",
+      "assumptions": "严格有心平方反比引力（$F=-GMm/r^2$），轨道角动量 $L \\ne 0$。",
+      "key_equations": [
+        "$\\mathbf{v}(\\theta) = \\frac{GM}{L/m}\\left[(\\cos\\theta + e)\\hat{\\mathbf{j}} - \\sin\\theta\\hat{\\mathbf{i}}\\right] = \\mathbf{v}_c + \\mathbf{v}_0$（偏离原点距离 $d_c = e R_h$，半径 $R_h = \\frac{GM}{L/m}$）",
+        "圆幂不变量：$R_h^2 - d_c^2 = v_{\\min}v_{\\max} = v_1 v_3$（任意反向速度弦乘积等于半通径速度平方！）"
+      ],
+      "evolution_semi_to_final": "从常规极坐标轨迹公式演化到纯速度空间圆幂定理、阿波罗尼斯圆以及双星不共期遍历极值，可将 2 页繁琐三角消元压成 4 行圆几何。",
+      "sample_problem_ids": [
+        "physicscup-2025-q5-reader",
+        "physicscup-2024-q4-reader",
+        "physicscup-2021-q2-reader"
+      ]
+    },
+    {
+      "name": "相对论火箭与四动量不变量运动学模型",
+      "tier": "L2/L3 · 决赛核心",
+      "prototype": "光子火箭或变静质量热核火箭两阶段加速，以及高能粒子散射阈值与三体衰变 Dalitz 图边界。",
+      "assumptions": "瞬时局部惯性系守恒、喷射静止质量不为零或零质量光子四动量满足 $E=pc$。",
+      "key_equations": [
+        "四动量不变量：$P_\\mu P^\\mu = (E/c)^2 - p^2 = m^2c^2$",
+        "相对论火箭快度方程：$\\Delta \\eta = \\operatorname{artanh}\\beta = \\frac{u_{\\mathrm{ex}}}{c}\\ln\\frac{M_0}{M}$（对光子火箭 $u_{\\mathrm{ex}}=c \\Rightarrow M_0/M = \\sqrt{\\frac{1+\\beta}{1-\\beta}}$）"
+      ],
+      "evolution_semi_to_final": "从牛顿齐奥尔科夫斯基公式引入快度叠加律与三阶展开修正（`cpho-2015-final-q3`），进而在二维转弯时直接套用快度双曲三角公式或四动量不变量（`physicscup-2022-q3`）。",
+      "sample_problem_ids": [
+        "cpho-2015-final-theory-problem-slice-q3",
+        "cpho-2020-final-theory-problem-slice-q6",
+        "cpho-2020-semifinal-theory-problem-slice-q4",
+        "physicscup-2022-q3-reader"
+      ]
+    },
+    {
+      "name": "弱场引力波四极辐射与黑洞有效势模型",
+      "tier": "L3/L4 · 前沿融合",
+      "prototype": "双黑洞/双脉冲星旋近辐射引力波导致轨道衰减，及史瓦西/克尔黑洞周围光子球与能层能量提取。",
+      "assumptions": "非强场并合之前可用开普勒圆轨道准稳态演化，辐射损耗能量等于引力机械能下降率。",
+      "key_equations": [
+        "$-\\frac{\\mathrm{d}}{\\mathrm{d}t}\\left(-\\frac{Gm_1m_2}{2r}\\right) = P_{\\mathrm{GW}} = \\frac{32}{5}\\frac{G^4}{c^5}\\frac{m_1^2m_2^2(m_1+m_2)}{r^5}$",
+        "史瓦西有效势极值：$\\frac{\\mathrm{d}V_{\\mathrm{eff}}}{\\mathrm{d}r}=0$ 与 $\\frac{\\mathrm{d}^2 V_{\\mathrm{eff}}}{\\mathrm{d}r^2}=0 \\implies r_{\\mathrm{ISCO}} = 3 r_s$"
+      ],
+      "evolution_semi_to_final": "以量纲分析定出功率对质量和轨道角频率的组合（啁啾质量 $\\mathcal{M}_c$），通过分离变量积分计算剩余合并时间与累计旋转相位（`cpho-2020-semi-q7`, `plancks-2026-q5`）。",
+      "sample_problem_ids": [
+        "cpho-2020-semifinal-theory-problem-slice-q7",
+        "cpho-2016-final-theory-problem-slice-q7",
+        "panpho-2019-paper-2-problem-slice-q1",
+        "plancks-2025-final-combined-slice-q5"
+      ]
+    },
+    {
+      "name": "广义时空接力与多参考系同时性映射",
+      "tier": "L2/L3 · 概念陷阱重灾区",
+      "prototype": "多人相对高速运动并通过互相约定“同时拍手/发射雷达波”传递时空坐标。",
+      "assumptions": "所有惯性系均服从光速不变与标准洛伦兹变换，注意相互同时性仅对各自选定参照系成立。",
+      "key_equations": [
+        "洛伦兹坐标变换：$ct' = \\gamma(ct - \\beta x),\\quad x' = \\gamma(x - \\beta ct)$",
+        "同时性偏移 $\\Delta t = \\frac{\\gamma v \\Delta x'}{c^2}$；事件间隔不变量 $\\Delta s^2 = c^2\\Delta t^2 - \\Delta x^2$"
+      ],
+      "evolution_semi_to_final": "当三名以上观测者互相追及或往返传递“在自己系同时”的指令时，事件间隔每次经过一个惯性系变换就多乘一个常数公比从而生成时空等比级数（`cpho-2013-final-q8`）。",
+      "sample_problem_ids": [
+        "cpho-2013-final-theory-problem-slice-q8",
+        "cpho-2020-semifinal-theory-problem-slice-q5",
+        "plancks-2020-final-problem-slice-q3"
+      ]
+    }
+  ],
+  "secondary_conclusions": [
+    {
+      "title": "二体自由落体“退化椭圆”时间公式",
+      "source_type": "经典定理",
+      "formula": "$T_{\\mathrm{fall}} = \\frac{\\pi}{\\sqrt{8G(M+m)}}R_0^{3/2} = \\frac{1}{4\\sqrt{2}}T_{\\mathrm{circ}}(R_0)$",
+      "derivation_skeleton": "相距 $R_0$ 静止释放的两质点沿直线相向坠落，可视为半长轴 $a = R_0/2$、偏心率 $e\\to 1$ 的扁平开普勒椭圆的半个周期。",
+      "validity_boundaries": "质点间必须只有平方反比万有引力且初速为零；若存在初始切向速度则 $a > R_0/2$。",
+      "pitfall_warning": "计算总质量时务必写 $M+m$ 而非只写中心天体质量 $M$（尤其双等质量星体相差 $\\sqrt{2}$ 倍：`plancks-2021-prelim-q1`）。",
+      "related_problem_ids": [
+        "plancks-2021-preliminary-problem-slice-q1",
+        "cpho-2018-semifinal-theory-problem-slice-q1"
+      ]
+    },
+    {
+      "title": "行星视运动“留”点矢量叉积充要判据",
+      "source_type": "真题提炼",
+      "formula": "$(\\mathbf{r}_2 - \\mathbf{r}_1)\\times (\\mathbf{v}_2 - \\mathbf{v}_1) = \\mathbf{0} \\iff \\cos\\Delta\\phi = \\frac{r_1 v_1 + r_2 v_2}{r_1 v_2 + r_2 v_1} = \\frac{\\sqrt{r_1 r_2}(r_1+r_2)}{\\dots}$",
+      "derivation_skeleton": "行星在天球上停止顺逆行（留点）当且仅当地球到该行星的相对视线矢 $\\Delta\\mathbf{r}$ 与相对速度 $\\Delta\\mathbf{v}$ 共线。",
+      "validity_boundaries": "假设两大行星共面同向圆轨道运行；非圆轨道需用各自瞬时速度矢量代入叉积。",
+      "pitfall_warning": "顺逆行间隔须用会合周期 $\\omega_{\\mathrm{syn}} = |\\omega_1 - \\omega_2|$ 换算夹角，不可错用单星恒星周期！",
+      "related_problem_ids": [
+        "cpho-2015-final-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "title": "质心系阈能与部分子对撞不变质量秒杀式",
+      "source_type": "经典定理",
+      "formula": "$E_{\\mathrm{th}} = \\frac{(\\sum m_{\\mathrm{out}})^2 - \\sum m_{\\mathrm{in}}^2}{2 m_{\\mathrm{target}}} c^2\\;\\text{（打静止靶）},\\qquad M_{\\mathrm{inv}}^2 c^4 = 4 E_1 E_2$（无质量迎头对撞）",
+      "derivation_skeleton": "利用总四动量平方 $(P_1+P_2)^2$ 在实验室系与质心系严格相等，阈值时所有末态产物以相等速度聚于质心。",
+      "validity_boundaries": "对固定靶实验若反应存在中间强耦合角动量壁垒则需另算；极端相对论无质量近似要求粒子静能远小于碰撞能量。",
+      "pitfall_warning": "记住总能 $E_{\\mathrm{th}}$ 与入射动能 $K_{\\mathrm{th}} = E_{\\mathrm{th}} - m_{\\mathrm{proj}}c^2$ 的差值！",
+      "related_problem_ids": [
+        "cpho-2020-semifinal-theory-problem-slice-q4",
+        "cpho-2016-semifinal-theory-problem-slice-q8"
+      ]
+    },
+    {
+      "title": "极端相对论大数相消展开式",
+      "source_type": "真题提炼",
+      "formula": "$1 - \\beta = \\frac{1}{\\gamma^2(1+\\beta)} \\approx \\frac{1}{2\\gamma^2},\\qquad \\sqrt{\\frac{1+\\beta}{1-\\beta}} \\approx 2\\gamma$",
+      "derivation_skeleton": "利用平方差恒等式 $\\gamma^{-2} = (1-\\beta)(1+\\beta)$ 消去减法奇异性。",
+      "validity_boundaries": "需要能量比静能高出至少 1–2 个数量级（$\\gamma \\gg 1$）才使用领头阶近似 $\\approx 1/(2\\gamma^2)$；中低能仍保留精确恒等式。",
+      "pitfall_warning": "做相对论多普勒微扰时切忌丢掉 $1-$ 前导常数项或错把近似精度降级（`cpho-2013-semi-q8`）。",
+      "related_problem_ids": [
+        "cpho-2013-semifinal-theory-problem-slice-q8",
+        "cpho-2019-semifinal-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "title": "开普勒轨道能量变化与超新星解体临界质量损失",
+      "source_type": "经典定理",
+      "formula": "$\\Delta M > \\frac{1}{2}(M_1 + M_2)$（圆轨道双星瞬间各向同性抛壳必解体）",
+      "derivation_skeleton": "瞬时各向同性抛射不改变留存双星的相对速度和间距 $r$，仅使约化有效总质量由 $M_0$ 降至 $M'$。原圆轨道动能 $K = \\frac{G\\mu' M_0}{2r}$，抛壳后新总能 $E' = K - \\frac{G\\mu' M'}{r} = \\frac{G\\mu'}{r}\\left(\\frac{M_0}{2}-M'\\right) \\ge 0 \\iff M' \\le \\frac{M_0}{2}$。",
+      "validity_boundaries": "严格假定抛壳时间远短于轨道周期、壳层球对称抛离瞬间离开系统且伴星未受喷射物推力冲量碰撞。",
+      "pitfall_warning": "若初轨道原本为高偏心率椭圆，解体临界质量损失取决于爆炸时刻正好处于近星点还是远星点！",
+      "related_problem_ids": [
+        "cpho-2017-final-theory-problem-slice-q2",
+        "cpho-2016-semifinal-theory-problem-slice-q3"
+      ]
+    }
+  ],
+  "virtual_examples": [
+    {
+      "id": "ve_astro_1",
+      "title": "微例 1 · 从地面“垂直向东斜抛”最小发射速度到速度矢端图圆",
+      "difficulty_tag": "复赛→决赛速度空间入门",
+      "scenario": "从半径为 $R$、表面第一宇宙速度为 $v_1 = \\sqrt{GM/R}$ 的不自转均匀球形行星表面发射一枚炮弹，使炮弹恰好打中行星地球对面（即圆心角 $\\Delta\\phi = 180^\\circ$ 的对跖点）。问最小发射速率 $v_0$ 及此时发射仰角。",
+      "intuition_trap": "常人直接拿极坐标椭圆方程 $\\frac{p}{r}=1+e\\cos(\\theta-\\theta_0)$ 对发射角硬求导，陷入冗长三角化简；而切换到速度空间或聚焦对称性几乎不需微积分！",
+      "solution_steps": [
+        "最小速率即对应半长轴 $a$ 最小的椭圆（因 $E = \\frac{1}{2}mv_0^2 - \\frac{GMm}{R} = -\\frac{GMm}{2a}$）。",
+        "椭圆两个焦点之一在地心 $F_1=O$，要求椭圆经过发射点 $P$ 和其对跖点 $Q$（$OP = OQ = R$ 且 $P,O,Q$ 共线）。由对称性，第二焦点 $F_2$ 必落在 $PQ$ 的垂直平分线上——为使总长 $2a = PF_1 + PF_2 = R + \\sqrt{R^2 + OF_2^2}$ 最小，显见 $F_2$ 必与 $O$ 重合（$OF_2 = 0$）！",
+        "此时 $2a = R + R = 2R \\implies a = R$，即轨道退化为恰好贴着地面的整圆！故最小发射速率即第一宇宙速度 $v_0 = v_1 = \\sqrt{GM/R}$，仰角为水平 $0^\\circ$（切向平抛）。",
+        "**迁移变式**：若目标改为距发射点张角 $\\Delta\\phi = 90^\\circ$ 处，则第二焦点落在线段 $PQ$ 中点（最小总长），得 $2a_{\\min} = R + R\\sin 45^\\circ$，秒出最小速率！"
+      ],
+      "limit_dimension_check": "若令 $\\Delta\\phi \\to 0$，最小 $2a \\to R+0=R$ 得 $v_0 \\to 0$（原地静止落下）；量纲始终为 $[\\sqrt{GM/R}] = \\mathrm{m/s}$。",
+      "transfers_to_ids": [
+        "physicscup-2025-q5-reader",
+        "physicscup-2021-q2-reader",
+        "cpho-2018-semifinal-theory-problem-slice-q1"
+      ]
+    },
+    {
+      "id": "ve_astro_2",
+      "title": "微例 2 · 高能反质子对撞的总能量 vs 动能、以及多普勒“一阶零头陷阱”",
+      "difficulty_tag": "相对论高频失分诊所",
+      "scenario": "某加速器束流中质子（静能 $E_0 = m_p c^2 \\approx 0.938\\,\\mathrm{GeV}$）标称动能 $K = 6.0\\,\\mathrm{GeV}$。① 求它的洛伦兹因子 $\\gamma$；② 若该质子向正前方发射一束垂直于静止系光路的切伦科夫光子或衰变出向前极低能光子，在高速 $\\gamma \\gg 1$ 下如何精准评估相对速度差 $1-\\beta$？",
+      "intuition_trap": "两个高发硬伤：① 直接算 $\\gamma = K / E_0 = 6.40$（漏加静能 $E_0$！）；② 计算 $1-\\beta$ 时直接用计算器算 $\\beta = \\sqrt{1-1/\\gamma^2}$ 再用 $1$ 去减，在更高能 $\\gamma=10^5$ 下计算器直接输出 $0$！",
+      "solution_steps": [
+        "质子**总能量** $E = K + m_p c^2 = 6.0 + 0.938 = 6.938\\,\\mathrm{GeV}$，故准确的 $\\gamma = \\frac{E}{m_p c^2} = 1 + \\frac{K}{E_0} \\approx 7.40$（差了整整 $1.0$！）。",
+        "用有理化恒等式避免大数相消：$1 - \\beta = \\frac{1-\\beta^2}{1+\\beta} = \\frac{1}{\\gamma^2(1+\\beta)}$。因 $\\gamma = 7.40$，$\\beta \\approx 1 - \\frac{1}{2\\gamma^2} \\approx 0.9908$，准确算出 $1-\\beta \\approx \\frac{1}{7.40^2 \\times 1.9908} \\approx 0.00918$。",
+        "若在质子与正电子迎头对撞或逆康普顿散射中，利用 $(E - pc)$ 时也一律改写为 $\\frac{m^2c^4}{E+pc}$ 保全全部有效数字。"
+      ],
+      "limit_dimension_check": "令 $K \\ll E_0$，$\\gamma = 1 + K/m_pc^2$ 且 $\\frac{1}{2}m_p v^2 = E_0(\\gamma - 1) = K$ 回到经典动能。",
+      "transfers_to_ids": [
+        "cpho-2020-final-theory-problem-slice-q6",
+        "cpho-2013-semifinal-theory-problem-slice-q8",
+        "plancks-2021-final-combined-slice-q12"
+      ]
+    }
+  ],
+  "topic_pitfalls": [
+    {
+      "title": "6.8 GeV 总能量误作动能陷阱",
+      "detail": "凡出现加速器粒子能量（如反质子探测、正电子湮灭）先核实题面是总能 $E$ 还是动能 $K$，差一个静能 $mc^2$ 即差之千里。",
+      "ref_ids": [
+        "cpho-2020-final-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "title": "轨道极角与拱线偏角正方向反向",
+      "detail": "顺时针偏转角度与逆时针极角不可混入同一个 $\\cos(\\theta-\\omega)$ 表达式中，画极图必须标明增角箭头。",
+      "ref_ids": [
+        "cpho-2021-final-theory-problem-slice-q2"
+      ]
+    },
+    {
+      "title": "速度矢端图共线弦误认作近/远地点",
+      "detail": "过速度原点 $O_v$ 的弦对应轨道上速度反向的两个一般点，仅过端图圆心 $C_h$ 与原点 $O_v$ 连线才是真正的近远地点。",
+      "ref_ids": [
+        "physicscup-2025-q5-reader"
+      ]
+    },
+    {
+      "title": "引力波二倍频与双星啁啾质量指数",
+      "detail": "引力波频率等于轨道公转频率的 2 倍；并合时间积分时务必先检验功率标度指数 $\\mathrm{d}r/\\mathrm{d}t \\propto r^{-3}$ 是否正确。",
+      "ref_ids": [
+        "cpho-2020-semifinal-theory-problem-slice-q7",
+        "panpho-2019-paper-2-problem-slice-q1",
+        "plancks-2026-final-problem-slice-q5"
+      ]
+    }
+  ]
+}

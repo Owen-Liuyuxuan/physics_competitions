@@ -1,0 +1,261 @@
+{
+  "id": "electrostatics_circuits",
+  "order": 3,
+  "code": "TOPIC 03",
+  "title": "静电场、电介质、电路与网络",
+  "subtitle": "从“高斯对称与基尔霍夫方程”跃迁至“孤立球补偿电像、无穷网络重整化、耗损介质与二维保角变换”",
+  "tagline": "本库主属 21 题（交叉涵盖极多），专治无穷镜像漏球心电荷、极化自能漏算、电路节点数差 1 及二维方阻/电容边值问题。",
+  "bridge_summary": "复赛静电与电路侧重对称球柱高斯定理、简单电像法和直流基尔霍夫网络。到了决赛与国际赛，真正拉开差距的是四道槛：**① 孤立（非接地）导体的无穷电像递推补偿电荷**；**② 电容/电介质静电能量求虚功力与多极感应自能修正**；**③ 耗损电介质界面的“双时间常数 RC 耦合弛豫”**；**④ 利用对称折叠、电流叠加原理、Foster 定理与平面图对偶求解正二十面体及无限晶格 LC/电阻网络**。",
+  "recommended_math_ids": [
+    "math_3",
+    "math_4",
+    "math_6",
+    "math_8"
+  ],
+  "recommended_adv_ids": [
+    "adv_7",
+    "adv_2"
+  ],
+  "syllabus_matrix": [
+    {
+      "code": "E1",
+      "name": "静电场对称性、高斯反演与拉普拉斯唯一性",
+      "tier_a_semifinal": "球/柱/板对称高斯求场、带电粒子在静电场中偏转、经典电荷自能积分。",
+      "tier_b_final": "已知场强反推空间体电荷分布（雷暴柱电荷高斯反演）、唯一性定理拼凑轴对称多极外部电势解。",
+      "tier_c_frontier": "磁场中旋转导体球内部动生场被静电平权后在球外激发的四极静电势与远场感应偶极作用。",
+      "exam_focus": "掌握拉普拉斯唯一性定理的威力：只要球面上电势能匹配成勒让德多项式（偶极 $\\cos\\theta$ 或四极 $P_2(\\cos\\theta)$），外部解即刻唯一锁定。",
+      "common_blindspots": "计算经典球面自能（`plancks-2022-prelim-q3`）或介质能量时忘乘 $1/2$，或忘记用梯度方向确定极板感应电荷符号。"
+    },
+    {
+      "code": "E2",
+      "name": "导体静电平衡、屏蔽、电像法与保角变换",
+      "tier_a_semifinal": "同心球壳接地屏蔽、点电荷对无限大接地平板或单个接地导球电像法。",
+      "tier_b_final": "孤立不接地导体球（或偶极子）的球心补偿电荷法、双导体球接近时的无穷次迭代反射级数与圆盘镜像电场。",
+      "tier_c_frontier": "二维薄层方阻圆盘 Neumann 边界圆反演镜像、半无限尖端导板 $w=\\sqrt{z}$ 保角映射与复势求解。",
+      "exam_focus": "区分“接地导体（$\\varphi=0$ 无需补中心电荷）”与“孤立带定电荷导体（每加一镜像必须回补 $-q'$ 于球心）”的铁律。",
+      "common_blindspots": "双导球无穷电像漏掉球心补偿电荷致使外力/最大场强发散阶数错判（`cpho-2020-final-q2`）。"
+    },
+    {
+      "code": "E3",
+      "name": "电介质极化、多极展开与虚功静电压强",
+      "tier_a_semifinal": "有介质电容器电容计算、均匀外场介质球极化面电荷与退极化因子初步。",
+      "tier_b_final": "运动电介质伽利略极化与退极化场、双扇形转动电容器分段平台与虚功力矩、电容极板静电压力与带电导板碰撞周期。",
+      "tier_c_frontier": "匀强电场中双导体球感应偶极相互诱导修正（利用总静电能二阶导求微振动频率）、双层膜静电双电层耦合。",
+      "exam_focus": "极板静电压强牢记仅取**自身以外**场强均值 $p = \\frac{1}{2}\\sigma E = \\frac{\\sigma^2}{2\\varepsilon_0}$；多导体微扰摆动优先由总能量对角求导而非单独算偶极力矩。",
+      "common_blindspots": "错把极板表面总合场强直接乘面电荷密度当受力（整整大一倍！）；恒压源与孤立定电荷虚功求力正负号写反。"
+    },
+    {
+      "code": "E4",
+      "name": "稳恒电路、耗损介质等效与对称 / 无穷晶格网络",
+      "tier_a_semifinal": "基尔霍夫定律、对称立方体/梯形直流网络等效电阻、稳态电容分压节点电位。",
+      "tier_b_final": "“田”字导电网框电磁感应与戴维南等效、双层耗损电介质柱壳微元并行与界面自由/束缚电荷双指数 RC 弛豫。",
+      "tier_c_frontier": "正二十面体等势折叠与单进总出电流叠加原理、各向异性无穷方格电阻网络互易微扰、无限八边形 LC 晶格自对偶纯实特征阻抗。",
+      "exam_focus": "对耗损电介质（同时有 $\\varepsilon$ 与 $\\sigma$）牢记串联稳态必须由电流密度连续 $\\sigma_1 E_1 = \\sigma_2 E_2$ 定场比，从而在交界面必攒自由面电荷 $(\\varepsilon_2/\\sigma_2 - \\varepsilon_1/\\sigma_1)J$！",
+      "common_blindspots": "串联绝缘漏电双介质错把电位移 $D_1=D_2$ 当成通用稳态条件（只有在无自由面电荷、即瞬间加压 $t=0^+$ 时才成立！）。"
+    },
+    {
+      "code": "E5",
+      "name": "动态电路、非线性元件与交流谐振匹配",
+      "tier_a_semifinal": "RL/RC 一阶暂态过程、RLC 串联谐振复阻抗与功率因数匹配。",
+      "tier_b_final": "隧道二极管负微分电阻导致的 RLC 回路等幅自激振荡与最大交流输出功率、交直流隔离扼流圈滤波。",
+      "tier_c_frontier": "耦合双 LC 谐振器调谐十二平均律纯五度本征频率、电光调制器高频并联谐振阻抗匹配。",
+      "exam_focus": "面对含直流偏置的非线性器件（如二极管），先画直流工作点，再对交流小信号展开做线性等效负阻。",
+      "common_blindspots": "复数并联阻抗计算错写为电导倒置致使量纲崩溃（参见 `plancks-2021-q7` 官方勘误）；混用有效值与峰值振幅。"
+    }
+  ],
+  "core_models": [
+    {
+      "name": "孤立导体双球无穷电像递推模型",
+      "tier": "L4 · 决赛极难压轴",
+      "prototype": "匀强电场中两个靠近的孤立中性（或带定电荷）导体球之间的无穷电像序列与间隙最大场强。",
+      "assumptions": "两球保持静平衡等势但总电荷守恒（非接地！）。",
+      "key_equations": [
+        "单次球反演：$r' = \\frac{R^2}{d},\\quad q' = -q\\frac{R}{d}$；孤立球球心补尝：$q_{\\text{center}} = -q'$",
+        "双球间距 $\\delta \\ll R$ 时无穷级数逐级放大近端感应场强呈 $E_{\\max} \\propto E_0 (R/\\delta)^{\\alpha}$ 发散"
+      ],
+      "evolution_semi_to_final": "复赛考单点电荷对单一接地/孤立球的一次镜像；决赛考两球对彼此镜像的无限次反演迭代链，需建立双序列递推并通过通项放缩严谨证明当缝隙趋零时场强发散。",
+      "sample_problem_ids": [
+        "cpho-2020-final-theory-problem-slice-q2"
+      ]
+    },
+    {
+      "name": "耗损电介质（Leaky Dielectric）交界面自由电荷与双指数弛豫模型",
+      "tier": "L3 · 决赛核心",
+      "prototype": "同轴或平行板之间填有两层不同 $(\\varepsilon_1, \\sigma_1)$ 与 $(\\varepsilon_2, \\sigma_2)$ 的不完美绝缘介质，加直流电压后断路或闭合开关。",
+      "assumptions": "准静态欧姆定律 $\\mathbf{J}=\\sigma\\mathbf{E}$ 成立，总电流 $\\mathbf{J} + \\partial\\mathbf{D}/\\partial t$ 连续。",
+      "key_equations": [
+        "$t=0^+$ 瞬间无自由面电荷：$D_{1n} = D_{2n}$；$t\\to\\infty$ 稳态电流连续：$\\sigma_1 E_{1n} = \\sigma_2 E_{2n}$",
+        "界面稳态自由电荷密度：$\\sigma_f = \\varepsilon_2 E_2 - \\varepsilon_1 E_1 = \\left(\\frac{\\varepsilon_2}{\\sigma_2} - \\frac{\\varepsilon_1}{\\sigma_1}\\right)J$",
+        "等价串并联双 RC 回路产生特征弛豫时间 $\\tau_{\\mathrm{open}} = \\frac{\\varepsilon_1 d_2 + \\varepsilon_2 d_1}{\\sigma_1 d_2 + \\sigma_2 d_1}$ 与开路双指数衰减"
+      ],
+      "evolution_semi_to_final": "从理想无损耗电容串联分压跃迁到同时包含漏电导与介电常数的实际工程边界模型，要求把场论语言（界面 $\\sigma_f$ 与极化束缚电荷 $\\sigma_b$ 分离）与电路语言（并联 RC 等效模型）无缝对译。",
+      "sample_problem_ids": [
+        "cpho-2019-final-theory-problem-slice-q2",
+        "cpho-2018-final-theory-problem-slice-q2"
+      ]
+    },
+    {
+      "name": "高对称性与无限晶格网络重整化模型",
+      "tier": "L3/L4 · 离散拓扑技巧",
+      "prototype": "正多面体电阻（正二十面体）、各向异性方格无穷网格或无限八边形 LC 网络输入阻抗。",
+      "assumptions": "网络元件线性、时不变，满足基尔霍夫或平面图对偶拓扑。",
+      "key_equations": [
+        "电流叠加：$\\mathbf{I}_{A\\to B} = \\mathbf{I}_{A\\to \\text{all}} + \\mathbf{I}_{\\text{all}\\to B}$",
+        "Foster 第一定理：所有图边有效电阻总和 $\\sum_{e=(u,v)} \\frac{R_{uv}}{R_e} = V - 1$（极佳校验！）",
+        "平面图自对偶纯阻定律：$Z_{\\mathrm{in}}(\\omega) Z_{\\mathrm{dual}}(\\omega) = \\frac{L}{C} \\implies Z_{\\mathrm{self-dual}} = \\sqrt{\\frac{L}{C}}$"
+      ],
+      "evolution_semi_to_final": "超越常规星-三角（Y-Δ）变换与梯形递推，掌握对称群体折叠、Foster 校验定理和复频率域自对偶定理（`physicscup-2026-q3`）。",
+      "sample_problem_ids": [
+        "plancks-2024-final-combined-slice-q8",
+        "physicscup-2019-q4-reader",
+        "physicscup-2026-q3-reader"
+      ]
+    },
+    {
+      "name": "二维保角变换（尖端放电）与偏心圆域共形映射模型",
+      "tier": "L4 · 二维场论破局点",
+      "prototype": "半无限薄金属板尖端附近静电场分布，或两个偏心平行金属圆柱/偏心导热圆域的稳态电势/温度解析求解。",
+      "assumptions": "严格二维平移不变区域，介质各向同性均匀，边界维持固定 Dirichlet 或 Neumann 条件。",
+      "key_equations": [
+        "半无限导体板映射：$w = u + iv = z^{1/2} = \\sqrt{r}e^{i\\theta/2} \\implies \\varphi(r,\\theta) = C\\sqrt{r}\\sin(\\theta/2), \\; E \\propto r^{-1/2}$",
+        "偏心双圆共形映射：莫比乌斯分式线性变换 $w = \\frac{z-a}{1-\\bar{a}z}$ 将偏心双圆变回同心圆环，电容直接读 $C = \\frac{2\\pi\\varepsilon_0}{\\ln(R_{\\text{out}}/R_{\\text{in}})}$"
+      ],
+      "evolution_semi_to_final": "突破只能在同心圆/无限大平板上写分离变量的局限，掌握通过共形映射或阿波罗尼斯反演圆一秒拉平奇异边界的能力。",
+      "sample_problem_ids": [
+        "plancks-2021-preliminary-problem-slice-q4",
+        "panpho-2024-paper-2-problem-slice-q2",
+        "physicscup-2020-q0-reader"
+      ]
+    }
+  ],
+  "secondary_conclusions": [
+    {
+      "title": "球对称导体电容串联梯形节点电压等差求和",
+      "source_type": "真题提炼",
+      "formula": "$C_{\\text{shielded}} = \\frac{4\\pi\\varepsilon_0 r r_0}{r_0 - r},\\qquad \\sum_{k=0}^{N} k = \\frac{N(N+1)}{2}$",
+      "derivation_skeleton": "同心接地外球壳将内球电势完全屏蔽，消除全部球间互电容，仅剩孤立对地自电容。先去容算直流稳态电流，再标定各节点对地电势成等差数列。",
+      "validity_boundaries": "仅当屏蔽壳足够接近或明确接地完全包覆时互电容为零；务必用最小特例 $N=1$ 检验起始节点是否接地。",
+      "pitfall_warning": "仔细检查原卷电路图电源正负极性绘画错误或接地标号（`cpho-2013-final-q4`）。",
+      "related_problem_ids": [
+        "cpho-2013-final-theory-problem-slice-q4"
+      ]
+    },
+    {
+      "title": "孤立导体球与电偶极子的镜像法则",
+      "source_type": "经典定理",
+      "formula": "$q' = -\\frac{R}{d}q,\\; d' = \\frac{R^2}{d};\\qquad p'_r = +\\left(\\frac{R}{d}\\right)^3 p_r,\\; p'_\\perp = -\\left(\\frac{R}{d}\\right)^3 p_\\perp$",
+      "derivation_skeleton": "把电偶极子拆成距离 $\\Delta d\\to 0$ 的正负点电荷对分别做球反演；注意径向偶极子镜像时由于两个像电荷绝对值不等，在球心之外还产生一个净像偶极矩与一个反号单极点电荷！",
+      "validity_boundaries": "严格适用真空均匀无界外空间的球面导体；非球面或非接地必须补正中心电荷。",
+      "pitfall_warning": "径向偶极子的球像并不是单纯的反向偶极子，还必须附带与 $p_r R / d^2$ 成正比的点像电荷（`cpho-2020-final-q2`）。",
+      "related_problem_ids": [
+        "cpho-2020-final-theory-problem-slice-q2",
+        "physicscup-2020-q0-reader"
+      ]
+    },
+    {
+      "title": "导体自身表面平均静电压强与虚功微扰力",
+      "source_type": "经典定理",
+      "formula": "$P_e = \\frac{\\sigma^2}{2\\varepsilon_0} = \\frac{1}{2}\\varepsilon_0 E_{\\text{surf}}^2,\\qquad F_x = -\\left.\\frac{\\partial U}{\\partial x}\\right|_Q = +\\left.\\frac{\\partial U}{\\partial x}\\right|_V$",
+      "derivation_skeleton": "导体自身面元处电场有一半来自本面元，故只受其余部分贡献的平均场 $\\frac{1}{2}E_{\\text{surf}}$；接恒压电源移动极板时电源供给 $2\\Delta U$ 功，故机械功符号取正。",
+      "validity_boundaries": "适用线性无色散介质及理想光滑界面；有介电常数突变时须改用麦克斯韦应力张量或计入介质体积力。",
+      "pitfall_warning": "接电源（恒压）求静电力切忌写成 $-\\partial U/\\partial x$——漏了电源做功直接弄反引力斥力！",
+      "related_problem_ids": [
+        "cpho-2018-final-theory-problem-slice-q2",
+        "cpho-2014-semifinal-theory-problem-slice-q6",
+        "physicscup-2020-q1-reader"
+      ]
+    },
+    {
+      "title": "二维薄膜方阻与圆反演（阿波罗尼斯等势圆）",
+      "source_type": "跨界方法",
+      "formula": "$R_{\\square} = \\frac{\\rho}{d},\\qquad \\mathbf{J} = \\sigma \\mathbf{E} = -\\sigma \\nabla \\varphi \\implies \\nabla^2\\varphi = 0$（边界法向无流 Neumann 条件）",
+      "derivation_skeleton": "薄层电流场与二维静电势满足完全相同的调和方程；为了满足圆盘边界法向电流为零（$\\partial \\varphi / \\partial n = 0$），将圆内点源按同号镜像放在圆心反演点 $(R^2/r_0)$ 处，并在圆心补逆号点源保总流守恒。",
+      "validity_boundaries": "仅限厚度远小于横向尺寸的均匀二维薄片与点状电极接触区外区域。",
+      "pitfall_warning": "莫把接地导体圆盘的 Dirichlet 异号电像与绝缘空气边界的 Neumann 同号镜像搞反（`physicscup-2020-q0`）。",
+      "related_problem_ids": [
+        "physicscup-2020-q0-reader",
+        "panpho-2024-paper-2-problem-slice-q2"
+      ]
+    },
+    {
+      "title": "匀强外场下微弱偶极互作用系统的总能量微扰法",
+      "source_type": "真题提炼",
+      "formula": "$U(\\theta) = -\\frac{1}{2}\\sum_i \\mathbf{p}_i\\cdot\\mathbf{E}_0 + \\text{交叉互作用修正} \\implies k_\\theta = U''(\\theta_0)$",
+      "derivation_skeleton": "对于可极化导体系统（如两根绝缘相连金属球），外部电场诱导的偶极矩反过来产生作用于另一球的附加局部场，使二球自身势能耦合于方位角 $\\theta$。直接写出包含互感的 $2\\times 2$ 极化势能矩阵，求二阶角导即出微小摆动周期。",
+      "validity_boundaries": "当两球距 $d \\gg R$ 时，偶极展开截断到 $O((R/d)^3)$ 即可；近距离需多极或电像修正。",
+      "pitfall_warning": "单看每个球各自的外场极化能，会漏掉球间互相极化激发出的主导扭矩项（`physicscup-2020-q1`）。",
+      "related_problem_ids": [
+        "physicscup-2020-q1-reader",
+        "physicscup-2025-q1-reader"
+      ]
+    }
+  ],
+  "virtual_examples": [
+    {
+      "id": "ve_elec_1",
+      "title": "微例 1 · 带电绝缘轻杆两金属球系统“谁贡献了极化扭矩”？",
+      "difficulty_tag": "决赛隐含自能与耦合诊断",
+      "scenario": "真空中存在匀强水平电场 $\\mathbf{E}_0$。一根长度为 $d$（$d \\gg R$）的绝缘刚性轻杆两端固定两个相同的不带电金属小球（半径均为 $R$），系统整体可绕轻杆中点自由转动。求小幅度偏离电场方向时的微振动回复力矩（保留至领头阶 $(R/d)^3$）。",
+      "intuition_trap": "初级错误：单个金属球在匀强电场中感应电偶极矩为 $\\mathbf{p}_0 = 4\\pi\\varepsilon_0 R^3 \\mathbf{E}_0$，既然 $\\mathbf{p}_0 \\parallel \\mathbf{E}_0$，那单个球不受外力矩且二球互相平行，难道完全没有回复力矩？错！正因为二球靠近，$A$ 球偶极场改变了 $B$ 球所在处合电场，打破了局域场与杆轴的对称！",
+      "solution_steps": [
+        "设杆与外电场 $\\mathbf{E}_0$ 夹角为 $\\theta$。单球孤立极化率 $\\alpha = 4\\pi\\varepsilon_0 R^3$。利用能量视角：外场加上双球诱导静电场的总系统自由能（含诱导偶极自能开销 $\\frac{1}{2}$ 因子）等于 $U_{\\text{tot}}(\\theta) = -\\frac{1}{2}(\\mathbf{p}_A + \\mathbf{p}_B)\\cdot\\mathbf{E}_0$。",
+        "因为 $\\mathbf{p}_A = \\mathbf{p}_B = \\alpha(\\mathbf{E}_0 + \\mathbf{E}_{\\text{dipole}}(B\\to A))$，一阶修正由 $B$ 在 $A$ 处产生的偶极场 $\\mathbf{E}_{\\text{dip}} = \\frac{1}{4\\pi\\varepsilon_0 d^3}[3(\\mathbf{p}_0\\cdot\\hat{\\mathbf{d}})\\hat{\\mathbf{d}} - \\mathbf{p}_0]$ 贡献。",
+        "代入点乘立即得角度相关项：$\\Delta U(\\theta) = -\\frac{\\alpha^2 E_0^2}{4\\pi\\varepsilon_0 d^3}(3\\cos^2\\theta - 1)$！注意由于 $\\alpha = 4\\pi\\varepsilon_0 R^3$，系统具有两个在 $\\theta=0$ 稳定的势阱，回复力矩 $\\tau = -\\frac{\\mathrm{d}U}{\\mathrm{d}\\theta} = -\\frac{3 \\alpha^2 E_0^2}{2\\pi\\varepsilon_0 d^3}\\sin\\theta\\cos\\theta \\approx -24\\pi\\varepsilon_0 \\frac{R^6}{d^3} E_0^2 \\theta$（系数精度校验完全自洽）。"
+      ],
+      "limit_dimension_check": "量纲：$[\\varepsilon_0 R^6 E_0^2 / d^3] = (\\mathrm{C}^2/(\\mathrm{N\\cdot m^2})) \\cdot \\mathrm{m}^3 \\cdot (\\mathrm{N/C})^2 = \\mathrm{N\\cdot m}$（力矩！）；$d \\to \\infty$ 时力矩按 $d^{-3}$ 消失，回复到孤立球各向同性自由态。",
+      "transfers_to_ids": [
+        "physicscup-2020-q1-reader",
+        "physicscup-2025-q1-reader",
+        "cpho-2020-final-theory-problem-slice-q2"
+      ]
+    },
+    {
+      "id": "ve_elec_2",
+      "title": "微例 2 · 漏电双层介质开关接通与断开的自由电荷“记忆效应”",
+      "difficulty_tag": "复赛过渡→决赛经典混淆题",
+      "scenario": "平行板电容器板面积 $S$、间距 $2d$，上下两半分别填满介电常数与电导率不同的均匀漏电介质 $(\\varepsilon_1, \\sigma_1)$ 与 $(\\varepsilon_2, \\sigma_2)$，各厚 $d$。$t=0$ 时突然接入恒压直流电源 $U_0$；待充分稳态后在 $t=t_1$ 突然断开电源并短路外极板。简述界面自由电荷 $\\sigma_f(t)$ 在两个阶段的演化规律。",
+      "intuition_trap": "混淆点：一上来就写“$\\varepsilon_1 E_1 = \\varepsilon_2 E_2$”或断路短路瞬间以为极板电荷瞬间清零——实际上只要有漏电介质且 $\\varepsilon_1/\\sigma_1 \\ne \\varepsilon_2/\\sigma_2$，接通瞬间和稳态的电场分配完全由不同法则主宰！",
+      "solution_steps": [
+        "**$t = 0^+$ 刚接通**：有限电流来不及在界面积累电荷，$\\sigma_f(0^+) = 0$，故电位移连续 $\\varepsilon_1 E_1(0^+) = \\varepsilon_2 E_2(0^+)$ 决定初始分压（纯粹串联电容模型）。",
+        "**$t \\to \\infty$ 直流稳态**：电容支路充完电无电流，流过两层介质的稳恒传导电流密度相等：$J = \\sigma_1 E_1(\\infty) = \\sigma_2 E_2(\\infty)$（纯粹串联电阻分压！）。由高斯定理读出交界面不得不攒下的自由电荷密度 $\\sigma_f(\\infty) = \\varepsilon_2 E_2(\\infty) - \\varepsilon_1 E_1(\\infty) = J\\left(\\frac{\\varepsilon_2}{\\sigma_2} - \\frac{\\varepsilon_1}{\\sigma_1}\\right) \\ne 0$！",
+        "**短路放电影子**：当 $t=t_1$ 把外极板直接短接（$E_1 d + E_2 d = 0 \\Rightarrow E_1 = -E_2$），界面上的自由电荷 $\\sigma_f(\\infty)$ 无法瞬间穿墙消失，只能按联合特征时间 $\\tau = \\frac{\\varepsilon_1 + \\varepsilon_2}{\\sigma_1 + \\sigma_2}$ 单指数衰减为零（若悬空开路而非短路且为柱面双区则可能出现双指数弛豫：`cpho-2019-final-q2`）。"
+      ],
+      "limit_dimension_check": "$[\\varepsilon / \\sigma] = (\\mathrm{F/m}) / (\\mathrm{S/m}) = \\Omega\\cdot\\mathrm{F} = \\mathrm{s}$（RC 时间常数）；若 $\\varepsilon_1/\\sigma_1 = \\varepsilon_2/\\sigma_2$ 则全程 $\\sigma_f \\equiv 0$。",
+      "transfers_to_ids": [
+        "cpho-2019-final-theory-problem-slice-q2",
+        "cpho-2018-final-theory-problem-slice-q2"
+      ]
+    }
+  ],
+  "topic_pitfalls": [
+    {
+      "title": "孤立球电像忘补球心电荷",
+      "detail": "非接地导体球做一次反演会产生净多余镜像 $-qR/d$，必须在球心放置 $+qR/d$ 维持孤立导体总电荷不变。",
+      "ref_ids": [
+        "cpho-2020-final-theory-problem-slice-q2"
+      ]
+    },
+    {
+      "title": "恒压电源接电容用错虚功公式符号",
+      "detail": "恒压条件下移动极板，电源做了 $V\\mathrm{d}Q = 2\\mathrm{d}U$ 功，机械力方向使总储能增大（$F = +\\partial U/\\partial x|_V$）。",
+      "ref_ids": [
+        "cpho-2018-final-theory-problem-slice-q2",
+        "cpho-2014-semifinal-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "title": "节点与元件计数差 1 错位",
+      "detail": "$N$ 个串联电阻有 $N+1$ 个抽头节点，其中 1 个接地时只有 $N$ 个非零节点；计算等差求和先拿 $N=1$ 试代。",
+      "ref_ids": [
+        "cpho-2013-final-theory-problem-slice-q4"
+      ]
+    },
+    {
+      "title": "并联电导与并联电阻倒置",
+      "detail": "代公式计算总电阻前先用两个相同电阻 $r=R$ 验算是否等于 $R/2$，立刻查出 $(r+R)/(2rR)$ 式低级反转。",
+      "ref_ids": [
+        "plancks-2021-final-combined-slice-q7"
+      ]
+    }
+  ]
+}

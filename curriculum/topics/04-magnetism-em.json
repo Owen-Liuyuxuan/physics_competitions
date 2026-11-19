@@ -1,0 +1,265 @@
+{
+  "id": "magnetism_em",
+  "order": 4,
+  "code": "TOPIC 04",
+  "title": "磁场、电磁感应、超导与电动力学进阶",
+  "subtitle": "从“常规切割电动势与洛伦兹圆周”跃迁至“超导磁通守恒、电磁场角动量与电动力学边界前沿”",
+  "tagline": "本库主属 32 题，核心打通变电感导轨炮、正则动量、超导磁悬浮/涡旋、等离子体色散与电磁场动量佯谬。",
+  "bridge_summary": "电磁学下半场是 CPhO 决赛最重磅的拉开差距阵地。复赛重点是载流直导线/螺线管安培力、带电粒子圆弧轨迹以及基础法拉第定律；而决赛要求掌握**变电感回路的磁能虚功分配**、**带电粒子在组合场中基于正则动量的回旋界限**、**超导细圆环磁通守恒振动（与 $\\nabla\\cdot\\mathbf{B}=0$ 径向场结合）**，并逐步引入 **第 II 类超导涡旋流阻、磁流体磁通冻结、趋肤效应、冷等离子体色散以及费曼圆筒电磁场角动量**等电动力学模型。",
+  "recommended_math_ids": [
+    "math_3",
+    "math_4",
+    "math_5",
+    "math_6"
+  ],
+  "recommended_adv_ids": [
+    "adv_3",
+    "adv_5",
+    "adv_6"
+  ],
+  "syllabus_matrix": [
+    {
+      "code": "B1",
+      "name": "载流磁场、磁偶极子、退磁场与磁阱稳定性",
+      "tier_a_semifinal": "毕奥-萨伐尔、安培环路、圆环轴上磁场及纯几何法证明柱壳内部零磁场（Z-箍缩）。",
+      "tier_b_final": "Ioffe-Pritchard 四线磁阱复势展开与二维逃逸鞍点、磁偶极子远场相互作用势能、角/径向二阶导平衡判稳。",
+      "tier_c_frontier": "反亥姆霍兹四极磁阱与球体退磁因子抗磁悬浮刚度矩阵（豁免恩肖定理）、铁磁球退磁场负载线图解与软磁分选幂律。",
+      "exam_focus": "轴对称场中直接用 $\\nabla\\cdot\\mathbf{B}=0$ 由轴线场 $B_z(z)$ 读出近轴径向场 $B_r = -\\frac{r}{2}\\partial_z B_z$；四线磁阱可用二维复势秒算。",
+      "common_blindspots": "混淆磁偶极子力 $\\mathbf{F} = \\nabla(\\mathbf{m}\\cdot\\mathbf{B})$ 中“永磁矩恒定”与“顺/抗磁感应磁矩 $m\\propto B$”求导时的因子 $1/2$ 差异。"
+    },
+    {
+      "code": "B2",
+      "name": "带电粒子在电磁场中的轨道、聚焦与磁约束",
+      "tier_a_semifinal": "匀速直线边界回旋圆弧半径与偏转角、常规质谱仪与回旋加速器共振条件。",
+      "tier_b_final": "30° 平行板静电分析器二阶角聚焦、飞行时间质谱仪（TOFMS）双级时间聚焦、磁控管正则角动量截止条件及单向电场折返漂移整除约束。",
+      "tier_c_frontier": "柱形正交电磁场沉降微粒立体角与螺旋弧长等比级数、强磁场量子化朗道能级一维电子气冲击波费米加速。",
+      "exam_focus": "遇到圆柱对称或平移对称场时，优先写正则广义动量守恒 $p_\\varphi = m r^2 \\dot{\\varphi} + q r A_\\varphi = \\mathrm{const}$ 代替硬画几何圆心。",
+      "common_blindspots": "回旋加速器变体避碰几何约束忽略上界条件（`cpho-2017-semi-q5`）；粒子束发散角展开在二阶聚焦点漏查二阶微商为零条件（`cpho-2014-final-q5`）。"
+    },
+    {
+      "code": "B3",
+      "name": "法拉第电磁感应、变电感导轨炮与机电耦合",
+      "tier_a_semifinal": "定常磁场滑杆切割电动势、单回路阻尼停驻与基本自感互感方程。",
+      "tier_b_final": "变电感导轨炮（Railgun）全回路电感梯度推力与磁能/动能二分分配、非匀强磁场转动线框双解法与内切半圆变电阻滑杆。",
+      "tier_c_frontier": "Hyperloop 涡流制动与直线电机闭合端安培推力、永磁直流电机指数加速与电荷元积分求焦耳总耗能。",
+      "exam_focus": "记住万能校验式：闭合回路中总磁力 $F_x = +\\frac{1}{2} I^2 \\frac{\\mathrm{d}L}{\\mathrm{d}x}$（电流不变或任意瞬时皆成立！），绝不会漏算闭环端导线力。",
+      "common_blindspots": "算导轨炮推力忽略了电源端连接导线产生的横向排斥贡献；或者漏掉了变电感造成的感应电动势项 $I\\frac{\\mathrm{d}L}{\\mathrm{d}t}$（`cpho-2015-final-q2`）。"
+    },
+    {
+      "code": "B4",
+      "name": "超导磁通守恒悬浮、伦敦方程与第 II 类超导体",
+      "tier_a_semifinal": "理想零阻圆环感生电流抵消外磁通变化的基本概念与完全抗磁性定性。",
+      "tier_b_final": "非均匀轴对称磁场中超导圆环磁通量守恒耦合安培恢复力构成简谐振子（带入自感 $L$ 修正）。",
+      "tier_c_frontier": "超导伦敦穿透深度与有质量 Proca 场阿贝尔 Higgs 机制、第 II 类超导 Abrikosov 三角磁通格子、$B_{c2}$ 估算及磁通流阻率。",
+      "exam_focus": "对于超导线圈永远先写 $\\Phi_{\\mathrm{ext}}(z) + L I(z) = \\Phi_0$ 解出 $I(z)$，再求系统磁能 $U(z) = \\frac{1}{2}L I^2$ 或用 $F_z = I \\frac{\\partial\\Phi_{\\mathrm{ext}}}{\\partial z}$ 判稳求频。",
+      "common_blindspots": "求磁通守恒振子刚度时忘掉电流 $I(z)$ 自身也是位移 $z$ 的函数（遗漏 $I' \\frac{\\partial \\Phi_{\\mathrm{ext}}}{\\partial z}$ 产生主导刚度项！）。"
+    },
+    {
+      "code": "B5",
+      "name": "麦克斯韦应力、坡印廷能流、电磁动量与磁流体",
+      "tier_a_semifinal": "平面电磁波能流密度坡印廷矢量平均值与直流导体内焦耳热宏观计算。",
+      "tier_b_final": "费曼圆筒佯谬中的涡旋电场角冲量与空间电磁场角动量 $\\mathbf{r}\\times(\\varepsilon_0\\mathbf{E}\\times\\mathbf{B})$ 精确对等。",
+      "tier_c_frontier": "运动导体球在强磁场中的极化电磁有效质量自能、磁化冷等离子体色散与激光自聚焦、良导体趋肤效应、同轴电缆隐藏动量、洛伦兹互易定理及 MHD 磁通冻结拉伸。",
+      "exam_focus": "当体系中电场 $\\mathbf{E}$ 与磁场 $\\mathbf{B}$ 正交共存并发生改变时，务必将电磁场动量/角动量计入总守恒账本。",
+      "common_blindspots": "忽略稳恒电流系统中来自导线表面电荷的外部电场，从而误以为能量只在导线金属内部“顺着水管道”流动（`plancks-2023-q6`）。"
+    }
+  ],
+  "core_models": [
+    {
+      "name": "超导细圆环非均匀磁场悬浮与微振动模型",
+      "tier": "L3 · 决赛高频模板",
+      "prototype": "总自感为 $L$ 的超导细圆环置于轴对称非均匀磁场中平衡悬浮，受竖直小扰动后做简谐振动。",
+      "assumptions": "零电阻完美超导，总磁通 $\\Phi_0$ 严格守恒；圆环半径远小于磁场特征变化尺度（近轴展开有效）。",
+      "key_equations": [
+        "$\\pi a^2 B_z(z) + L I(z) = \\Phi_0 \\implies I(z) = I_0 - \\frac{\\pi a^2}{L}[B_z(z) - B_z(z_0)]$",
+        "$F_z = I(z)\\pi a^2 \\frac{\\partial B_z}{\\partial z}\\Big|_{z} \\approx m g - \\frac{(\\pi a^2)^2}{L}\\left(\\frac{\\partial B_z}{\\partial z}\\right)^2 \\Delta z + I_0 \\pi a^2 \\frac{\\partial^2 B_z}{\\partial z^2} \\Delta z$"
+      ],
+      "evolution_semi_to_final": "普通金属环仅靠稳恒恒流或感应阻尼停滞，超导环直接依靠自感磁通闭环锁定把磁通梯度变成无损“磁弹簧”，注意刚度包含两项之和！",
+      "sample_problem_ids": [
+        "cpho-2013-final-theory-problem-slice-q5",
+        "cpho-2019-final-theory-problem-slice-q3",
+        "plancks-2024-final-combined-slice-q5"
+      ]
+    },
+    {
+      "name": "变电感电路、电磁导轨炮与能量分配模型",
+      "tier": "L2/L3 · 复赛→决赛",
+      "prototype": "由恒流源、电池或预充电容驱动的平行导轨炮加速金属电枢弹丸。",
+      "assumptions": "单位长度导轨自感梯度为常数 $L'$，忽略高频辐射损耗。",
+      "key_equations": [
+        "安培推进力：$F = \\frac{1}{2} L' I^2$（恒等于虚功变化率 $\\frac{1}{2}I^2\\frac{\\mathrm{d}L}{\\mathrm{d}x}$）",
+        "回路电压方程：$\\mathcal{E}_0 - I R - \\frac{\\mathrm{d}}{\\mathrm{d}t}(L(x) I) = 0 \\implies \\mathcal{E}_0 = I R + L \\frac{\\mathrm{d}I}{\\mathrm{d}t} + \\underbrace{L' v I}_{\\text{动生反电动势}}$",
+        "恒流推进能量二分定理：电源除去电阻之外多输出的功 $W_{\\text{extra}} = \\int (L'v I)I\\,\\mathrm{d}t = \\Delta E_{\\text{kin}} + \\Delta U_{\\text{mag}}$ 严格对半平分！"
+      ],
+      "evolution_semi_to_final": "由恒流、定常 $B$ 下滑杆升级为自感变化且无外部背景场的自激轨道炮；若进一步考虑有限长度直导线三维磁场积分即对应 `cpho-2019-semi-q3` 与 `cpho-2015-final-q2`。",
+      "sample_problem_ids": [
+        "cpho-2015-final-theory-problem-slice-q2",
+        "cpho-2016-final-theory-problem-slice-q6",
+        "cpho-2019-semifinal-theory-problem-slice-q3"
+      ]
+    },
+    {
+      "name": "电磁场角动量与运动导体极化有效质量模型",
+      "tier": "L3/L4 · 决赛/国际高难",
+      "prototype": "费曼圆筒（绝缘盘边缘固定带电球、中间螺线管退磁后圆盘反常起转）以及强磁场中运动的纯金属哑铃。",
+      "assumptions": "低速准静态，场扩散远快于机械运动时间；注意全部场域能量与动量贡献。",
+      "key_equations": [
+        "圆盘感生涡旋电冲量矩：$L_{\\mathrm{mech}} = \\int r q E_\\varphi \\mathrm{d}t = \\frac{q \\Phi_0}{2\\pi} = L_{\\mathrm{EM}}$（精确相等）",
+        "匀强磁场运动金属球极化附加电磁质量：$U_{\\text{self}} = \\frac{1}{2} m_{\\text{EM}} v^2 \\sim 4\\pi\\varepsilon_0 B^2 R^3 v^2$"
+      ],
+      "evolution_semi_to_final": "Physics Cup 2021 Q1 统计显示，无提示下 75% 的顶尖竞赛选手漏掉了单球自身在磁场运动激发的静电极化自能，从而把哑铃的加速度和摆动周期彻底算错——此题必做！",
+      "sample_problem_ids": [
+        "cpho-2021-semifinal-theory-problem-slice-q6",
+        "physicscup-2021-q1-reader",
+        "plancks-2023-final-combined-slice-q6"
+      ]
+    },
+    {
+      "name": "磁化冷等离子体色散与强激光有质动力自聚焦模型",
+      "tier": "L3/L4 · 等离子体与激光物理",
+      "prototype": "脉冲星射电信号穿透磁化星际电子气产生的频率色散延迟与法拉第偏振旋转，或强高斯激光在等离子体中引发的自聚焦等效透镜。",
+      "assumptions": "无碰撞冷电子气（离子静止不动，电子频率远高于碰撞率）；激光自聚焦处快慢时间尺度显著分离。",
+      "key_equations": [
+        "纵向圆偏振波色散：$n_\\pm^2 = 1 - \\frac{\\omega_p^2}{\\omega(\\omega \\mp \\omega_c)}, \\qquad \\Delta t \\propto \\mathrm{DM}\\left(\\frac{1}{f_1^2}-\\frac{1}{f_2^2}\\right)$",
+        "有质动力势排空响应：$U_p = \\frac{e^2 |E_0|^2}{4 m_e \\omega^2} \\implies n_e(r) = n_0 e^{-U_p/k_B T_e}$（轴心折射率升高，呈现凸透镜自聚焦！）"
+      ],
+      "evolution_semi_to_final": "从单一自由空间麦克斯韦方程组进阶到多级耦合近似链：写受迫电子方程 $\\to$ 代入介电函数 $\\to$ 对多级小量（强度、光斑、频比）做二阶泰勒展开。",
+      "sample_problem_ids": [
+        "cpho-2020-final-theory-problem-slice-q5",
+        "panpho-2024-paper-2-problem-slice-q1",
+        "panpho-2026-paper-2-problem-slice-q2"
+      ]
+    }
+  ],
+  "secondary_conclusions": [
+    {
+      "title": "轴对称磁场的近轴径向分量通用关系式",
+      "source_type": "经典定理",
+      "formula": "$B_r(r, z) = -\\frac{r}{2}\\frac{\\partial B_z(0, z)}{\\partial z} + O(r^3)$",
+      "derivation_skeleton": "对半径为 $r$、高 $\\mathrm{d}z$ 的小柱体列写磁通散度为零 $\\nabla\\cdot\\mathbf{B}=0$，保留至一阶半径项即出。",
+      "validity_boundaries": "适用任何轴对称无电流穿轴区域（$r$ 远小于线圈特征半径）；偏离轴线较远须用完整椭圆积分。",
+      "pitfall_warning": "切记前面有个负号！如果 $B_z$ 沿 $+z$ 减弱（$\\partial B_z/\\partial z < 0$），磁感线向外散开，$B_r > 0$（径向向外）。",
+      "related_problem_ids": [
+        "cpho-2013-final-theory-problem-slice-q5",
+        "plancks-2024-final-combined-slice-q5",
+        "plancks-2025-final-combined-slice-q1"
+      ]
+    },
+    {
+      "title": "平行板二阶角聚焦条件（Green-Proca 30° 定理）",
+      "source_type": "真题提炼",
+      "formula": "$\\theta_0 = 30^\\circ,\\qquad X(\\theta) = \\frac{2E_k}{qE}\\sin(2\\theta) + 2d_{\\text{drift}}\\cot\\theta$",
+      "derivation_skeleton": "无场区斜向漂移距离加上匀强垂直电场抛物线水平射程对入射角求一阶导并令二阶导也为零（特定漂移距比例恰选定在 $30^\\circ$ 实现无一阶和二阶像差聚焦）。",
+      "validity_boundaries": "要求入射粒子单能非相对论、忽略极板边缘漏场效应。",
+      "pitfall_warning": "考卷原图与官方解答在漂移距离定义上曾出现过双处笔误，务必独自用抛体方程重推验证（`cpho-2014-final-q5`）。",
+      "related_problem_ids": [
+        "cpho-2014-final-theory-problem-slice-q5"
+      ]
+    },
+    {
+      "title": "良导体交流趋肤深度与高频驻波过渡",
+      "source_type": "经典定理",
+      "formula": "$\\delta = \\sqrt{\\frac{2}{\\mu_0 \\sigma \\omega}}$（$\\sigma \\gg \\varepsilon\\omega$），复波数 $k = \\sqrt{\\mu_0\\varepsilon\\omega^2 + i\\mu_0\\sigma\\omega}$",
+      "derivation_skeleton": "联立麦克斯韦旋度方程得有损媒质亥姆霍兹波动方程 $\\nabla^2\\mathbf{E} + (\\mu_0\\varepsilon\\omega^2 + i\\mu_0\\sigma\\omega)\\mathbf{E} = 0$，低频导通项主导得衰减深度 $\\delta$，超高频位移电流项主导恢复无耗驻波。",
+      "validity_boundaries": "假设频率尚未超越电子散射碰撞率 $\\omega\\tau \\ll 1$（否则电导率呈现 Drude 虚部等离子体响应，直接过渡到紫外透明）。",
+      "pitfall_warning": "计算良导体电阻损耗时等效流过厚度恰等于 $\\delta$（而不是 $2\\delta$ 或 $\\delta/2$）的均匀截面积！",
+      "related_problem_ids": [
+        "panpho-2026-paper-2-problem-slice-q1",
+        "panpho-2023-paper-2-problem-slice-q2"
+      ]
+    },
+    {
+      "title": "直流电机机械特性与电荷元求耗能捷径",
+      "source_type": "经典定理",
+      "formula": "$U = I R + k\\omega,\\quad \\tau = k I,\\quad \\int I^2 R\\,\\mathrm{d}t \\text{（注意电源输入 } U\\int I\\,\\mathrm{d}t = U\\Delta q \\text{ 与动能差）}$",
+      "derivation_skeleton": "不必硬积复杂的 $\\int I^2(t)\\mathrm{d}t$！对常数电压源 $U$，通过总能量守恒先算机械能与电感，再借助 $\\Delta q = \\int I\\,\\mathrm{d}t$ 由角动量冲量方程 $J\\Delta\\omega = k\\Delta q$ 一步倒推总电量，从而直接读取电池总输出功 $U\\Delta q$ 与焦耳损耗。",
+      "validity_boundaries": "假设恒压源且直流电机空载阻尼忽略或与角速度线性相关。",
+      "pitfall_warning": "不能认为启动加速过程焦耳损耗恒等于机械动能（只有电容恒压充电才精确二分！电机由电阻与反电动势共同分担，且往往随着转速接近稳态效率趋向 100%）。",
+      "related_problem_ids": [
+        "cpho-2021-semifinal-theory-problem-slice-q8"
+      ]
+    },
+    {
+      "title": "理想磁流体（MHD）磁通冻结与不可压缩形变放大",
+      "source_type": "经典定理",
+      "formula": "$B\\cdot A_{\\perp} = \\mathrm{const},\\quad A_{\\perp}\\cdot L = V_0 = \\mathrm{const} \\implies B \\propto L,\\quad U_B \\propto L^2$",
+      "derivation_skeleton": "无限大电导率流体中磁感线随流体质点共同移动；当流体沿磁场方向拉伸为原长的 $\\lambda$ 倍而保持体积不变，横截面缩小为 $1/\\lambda$，迫使磁感应强度增至 $\\lambda$ 倍、磁能密度增至 $\\lambda^2$ 倍！",
+      "validity_boundaries": "要求磁雷诺数 $R_m = \\mu_0\\sigma v L \\gg 1$，磁扩散时间远大于流体拉伸时间。",
+      "pitfall_warning": "只记住磁场放大而忘记磁能密度增长带来的反向“磁张力”阻碍拉伸形变（`physicscup-2023-q3`）。",
+      "related_problem_ids": [
+        "physicscup-2023-q3-reader"
+      ]
+    }
+  ],
+  "virtual_examples": [
+    {
+      "id": "ve_mag_1",
+      "title": "微例 1 · 铜球穿过垂直匀强磁场时的“隐身有效质量”",
+      "difficulty_tag": "决赛 / Physics Cup 自能觉醒",
+      "scenario": "真空中存在沿 $z$ 轴方向的强匀强磁场 $\\mathbf{B} = B\\hat{\\mathbf{z}}$。一个质量为 $m$、半径为 $R$ 的不带电理想导体金属球沿垂直磁场的 $x$ 轴以速度 $v$（非相对论）自由滑行。计算因磁场引起的球体“有效附加质量” $\\Delta m$。",
+      "intuition_trap": "表面直觉：金属球既不带净电荷又在做匀速直线运动，匀强磁场中净磁通也没变，岂非毫无相互作用？错！自由电子在球内感受到向右的洛伦兹力，立刻跑到一侧直到内部激发出稳态静电场 $\\mathbf{E}_{\\text{in}} = -\\mathbf{v}\\times\\mathbf{B}$ 来平衡洛伦兹力——球外随之布满电偶极场！",
+      "solution_steps": [
+        "由于球内部合场力为零，内部电势 $\\varphi_{\\text{in}} = (vB) y$（设速度沿 $x$、磁场沿 $z$）。因此导体球表面电势呈极角分布 $\\varphi(R,\\theta) = v B R \\cos\\theta'$（此处 $\\theta'$ 自 $y$ 轴算起）。",
+        "由球谐函数唯一性定理，球外满足 $\\nabla^2\\varphi = 0$ 且无穷远归零的电势解必定是标准电偶极势 $\\varphi_{\\text{out}}(r,\\theta') = v B R \\left(\\frac{R}{r}\\right)^2\\cos\\theta'$，对应的等效表面极化电偶极矩为 $p = 4\\pi\\varepsilon_0 R^3 (v B)$。",
+        "该偶极静电场所储存的全部空间总能量 $U_E = \\frac{1}{2}\\int_{\\text{all space}}\\varepsilon_0 E^2 \\mathrm{d}V$（注意球内部均匀场 $\\frac{1}{2}\\varepsilon_0 (vB)^2 \\cdot \\frac{4}{3}\\pi R^3$ 与球外部偶极场 $\\frac{1}{2} \\cdot \\frac{p^2}{4\\pi\\varepsilon_0 R^3} \\cdot \\frac{2}{3}$ 之和！算一下：$U_{\\text{in}} = \\frac{2}{3}\\pi\\varepsilon_0 B^2 R^3 v^2$，$U_{\\text{out}} = \\frac{4}{3}\\pi\\varepsilon_0 B^2 R^3 v^2$，合计 $U_{\\text{tot}} = 2\\pi\\varepsilon_0 B^2 R^3 v^2$！）。",
+        "将其写为动能增量 $\\frac{1}{2}\\Delta m v^2 = U_{\\text{tot}}$，立即得到 $\\Delta m = 4\\pi\\varepsilon_0 B^2 R^3$！当你加速铜球时，必须额外花力气建立这份感应极化静电能！"
+      ],
+      "limit_dimension_check": "量纲：$[\\varepsilon_0 B^2 R^3] = (\\mathrm{C^2 N^{-1} m^{-2}})(\\mathrm{N^2 C^{-2} m^{-2} s^2})\\mathrm{m^3} = \\mathrm{N\\cdot s^2/m} = \\mathrm{kg}$；这正是 `physicscup-2021-q1`（6/8 参赛者栽跟头！）最核心的第一步物理机理。",
+      "transfers_to_ids": [
+        "physicscup-2021-q1-reader",
+        "physicscup-2025-q1-reader",
+        "cpho-2021-semifinal-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "id": "ve_mag_2",
+      "title": "微例 2 · 变电感单匝回路中为什么不能漏算电源端面安培力？",
+      "difficulty_tag": "复赛→决赛电磁力自洽校验",
+      "scenario": "两根平行无阻半无限长直导轨间距 $d$，右端接一恒流源提供稳恒电流 $I$，中间架有一可滑动无阻直金属棒（距左电源端为 $x$）。已知单位长度导轨对自身的有效电感梯度为 $L'$。求金属棒所受电磁推力 $F$。",
+      "intuition_trap": "死记陷阱：有些同学只画两根导轨产生磁场作用于金属棒 $F = I d B$，但在算对称双导轨时往往把电源那侧闭合直导线生成的磁场完全当成无穷远忽略掉了——如果在算近距离导轨炮（$x \\sim d$）时这样做会差出一大截！",
+      "solution_steps": [
+        "保持回路稳恒电流 $I$ 令金属棒向右微小平移 $\\mathrm{d}x$，回路总自感增量为 $\\mathrm{d}L = L'\\mathrm{d}x$。",
+        "由感生电动势 $\\mathcal{E} = -\\frac{\\mathrm{d}(LI)}{\\mathrm{d}t} = -I L' v$，外部恒流源为了维持 $I$ 恒定必须额外输入功率 $P_{\\text{src}} = I|\\mathcal{E}| = I^2 L' v$。",
+        "与此同时，空间总磁能增长率 $\\frac{\\mathrm{d}U_m}{\\mathrm{d}t} = \\frac{\\mathrm{d}}{\\mathrm{d}t}(\\frac{1}{2}LI^2) = \\frac{1}{2} I^2 L' v$。由能量守恒，另一半能量必然转化为安培力做机械功 $F v = P_{\\text{src}} - \\frac{\\mathrm{d}U_m}{\\mathrm{d}t} = \\frac{1}{2} I^2 L' v$。",
+        "因此推力严格等于 $F = \\frac{1}{2} L' I^2$——而实际上这一结果完全自动计入了双长轨和闭环电源连接导线对移动棒的全部三维磁场矢量积分！（参见 `cpho-2016-final-q6` 闭合回路电源端边不可忽略的教训）。"
+      ],
+      "limit_dimension_check": "$L'$ 量纲为 $\\mathrm{H/m}$，故 $[L' I^2] = (\\mathrm{J/A^2 m})\\cdot \\mathrm{A}^2 = \\mathrm{J/m} = \\mathrm{N}$；若两导轨间距远小于棒长，$L' \\approx \\frac{\\mu_0}{\\pi}\\ln(d/r_0)$。",
+      "transfers_to_ids": [
+        "cpho-2015-final-theory-problem-slice-q2",
+        "cpho-2016-final-theory-problem-slice-q6",
+        "cpho-2019-semifinal-theory-problem-slice-q3"
+      ]
+    }
+  ],
+  "topic_pitfalls": [
+    {
+      "title": "导轨炮总长度与数字量级代入级联错误",
+      "detail": "在多步电感导轨炮数值核算时，务必对照原题 SI 单位（如 500 m 误代入 5.0 m 会导致速度电流全盘错乱）。",
+      "ref_ids": [
+        "cpho-2015-final-theory-problem-slice-q2"
+      ]
+    },
+    {
+      "title": "圆极化冷等离子体色散正负号反号",
+      "detail": "区分左旋与右旋圆偏振波相对于磁场矢量 $\\mathbf{B}_0$ 方向定义，符号反写会让法拉第旋转方向整个颠倒。",
+      "ref_ids": [
+        "cpho-2020-final-theory-problem-slice-q5"
+      ]
+    },
+    {
+      "title": "超导磁悬浮微振动遗漏自感电流线性调制",
+      "detail": "不能假定振动期间环内电流固定为平衡电流 $I_0$；恰恰是 $\\Delta I = -\\Delta\\Phi_{\\text{ext}}/L$ 贡献了恢复刚度的主导正值项。",
+      "ref_ids": [
+        "cpho-2013-final-theory-problem-slice-q5",
+        "plancks-2024-final-combined-slice-q5"
+      ]
+    },
+    {
+      "title": "闭合供电端导轨安培力贡献漏算",
+      "detail": "即便电源体积可忽略，只要电流闭合，电源横跨两导轨的端边必然产生强烈的推斥安培力；用 $\\frac{1}{2}I^2\\mathrm{d}L/\\mathrm{d}x$ 最保险。",
+      "ref_ids": [
+        "cpho-2016-final-theory-problem-slice-q6"
+      ]
+    }
+  ]
+}

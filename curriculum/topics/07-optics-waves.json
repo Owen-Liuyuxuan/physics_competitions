@@ -1,0 +1,273 @@
+{
+  "id": "optics_waves",
+  "order": 7,
+  "code": "TOPIC 07",
+  "title": "几何光学、波动光学与现代激光 / 介质光学",
+  "subtitle": "从“高斯公式与双缝干涉”跃迁至“费马变分非均匀光线、射影几何作图、波导复相移与超快色散脉冲”",
+  "tagline": "本库主属 35 题，重点攻克光学-力学变分类比、射影交比调和作图、色散薄膜夹逼及激光外差/光孤子/准晶结构因子。",
+  "bridge_summary": "光学是最容易在复赛丢细节分、在决赛遭遇全盘降维打击的模块。复赛重视球面/薄透镜近轴成像、渐晕光阑、干涉半波损失与基本衍射。但在决赛与 Physics Cup / PanPhO 中，命题已大步跃向：① **非近轴精确光线与连续梯度介质 $n(y)$ 变分轨迹（光学-力学类比）**；② **纯射影几何视角下的薄透镜三维立体成像尺规还原**；③ **现代导波与光子晶体光学（非对称平板波导复相移、时空突变介质、负折射超材料、激光多普勒外差与超短 GDD 脉冲孤子）**。",
+  "recommended_math_ids": [
+    "math_2",
+    "math_5",
+    "math_6",
+    "math_7",
+    "math_10"
+  ],
+  "recommended_adv_ids": [
+    "adv_11",
+    "adv_10",
+    "adv_12"
+  ],
+  "syllabus_matrix": [
+    {
+      "code": "O1",
+      "name": "费马原理、非球面透镜与非均匀介质光线轨迹",
+      "tier_a_semifinal": "折射/反射斯涅尔定律、平面界面傍轴聚焦虚像深度、球面单折射全反射临界孔径与正弦定理非近轴设计。",
+      "tier_b_final": "费马等光程条件直推无球差双曲面非球面透镜（`cpho-2021-semi-q1`）、层状/平方渐变折射率介质抛物线轨迹及平板光波导导模数值孔径。",
+      "tier_c_frontier": "梯度折射率泛函变分 Beltrami 第一积分（连续斯涅尔定律）、镀增透膜水晶球克莱罗不变量全反射囚禁及球差折叠焦散亮环反演。",
+      "exam_focus": "在平缓连续渐变折射率中（$n = n(y)$），沿对称平直轴立刻写出连续斯涅尔守恒 $n(y)\\sin\\theta(y) = \\mathrm{const}$；再改写为 $\\mathrm{d}y/\\mathrm{d}x$ 微分方程，完全等同于保守力场牛顿质点轨迹！",
+      "common_blindspots": "在光波导问题里把入射端面折射角与侧壁全内反射角混为一谈（二者互余！`plancks-2026-q9`）。"
+    },
+    {
+      "code": "O2",
+      "name": "几何光学成像、光阑渐晕与射影几何尺规作图",
+      "tier_a_semifinal": "薄透镜高斯/牛顿公式、厚球透镜逐次折射及孔径光阑与视场光阑判别、边缘光线渐晕暗角计算。",
+      "tier_b_final": "斜入射大柱面反射镜微扰虚像定位、倾斜物平面沙姆定律（Scheimpflug）成像几何。",
+      "tier_c_frontier": "薄透镜二维中心透视射影变换全套尺规重构：共线四点交比不变性（调和点列）、椭圆成像消隐焦平面、极点极线与正交光束泰勒斯圆。",
+      "exam_focus": "处理倾斜薄透镜二维成像时记住三条射影铁律：**共线仍共线、交比严格守恒、物平面无穷远点的像必然落在像方焦平面的消隐直线上**。",
+      "common_blindspots": "习惯性以为薄透镜把“圆心”映射成椭圆的“中心”——由于透视放缩倍率随物距变化，圆心绝对不在像椭圆中心！"
+    },
+    {
+      "code": "O3",
+      "name": "相干干涉、色散薄膜、多光束腔与时间 / 空间相干性",
+      "tier_a_semifinal": "杨氏双缝、劈尖/牛顿环（含正交柱面三维空气膜近似）及空气-玻璃界面的半波损失判别。",
+      "tier_b_final": "色散介质薄膜白光/多波长级次单调夹逼测厚（`cpho-2017-final-q8`）、阶梯斜劈二次相位等间距干涉与多光源干涉双曲线族焦线定位。",
+      "tier_c_frontier": "法布里-珀罗腔自由光谱区传感、光学相干断层扫描（OCT 维纳-辛钦定理与洛伦兹光谱时间相干长度）与迈克耳孙恒星干涉仪空间可见度。",
+      "exam_focus": "算光学厚度先查光密/光疏界面的**反射相移（半波损失）**并分别写清反射与透射的相干极大/极小条件；宽带光源相干长度由光谱宽度傅里叶倒数决定。",
+      "common_blindspots": "数多层膜（如光纤布拉格光栅 `cpho-2014-final-q4`）时混淆“膜层数”与“反射界面数”；多波段干涉漏掉色散效应 $n(\\lambda)$ 随波长变化带来的附加相位导数项。"
+    },
+    {
+      "code": "O4",
+      "name": "夫琅禾费 / 菲涅耳衍射、巴比涅原理、光栅与准晶衍射",
+      "tier_a_semifinal": "单缝/圆孔衍射艾里斑瑞利分辨角判据、基础光栅方程与巴比涅互补屏等光强性质。",
+      "tier_b_final": "螺旋弹簧激光 X 形衍射层线反演 DNA 双螺旋结构（51 号照片）、菲涅耳半波带与四级相位型波带片多焦点及虚像焦点分析。",
+      "tier_c_frontier": "二维阶梯闪耀反射光栅（Echelle 遮挡与单缝包络及整数取整跳变色散）与一维斐波那契准晶高维投影结构因子相量求和。",
+      "exam_focus": "面对多级阶梯光栅、双螺旋或准晶衍射，核心动作永远是**分别写“基元衍射包络因子”与“周期/准周期晶格相位因子 $\\sum e^{i\\mathbf{q}\\cdot\\mathbf{r}_n}$”之积**。",
+      "common_blindspots": "计算四级相位波带片聚焦时误将波带半径按线性取整舍入，引发后续所有焦距和副焦点比值失真（`cpho-2021-final-q1`）。"
+    },
+    {
+      "code": "O5",
+      "name": "偏振、电光调制、负折射率超材料与平板波导",
+      "tier_a_semifinal": "马吕斯定律、布儒斯特角、波片相位延迟与基本圆/椭圆偏振光检验。",
+      "tier_b_final": "电光 Pockels 调制器利用 $\\lambda/4$ 波片偏置至线性最大灵敏区并匹配并联谐振电路、三层非对称平板波导全反射复相移截止波长。",
+      "tier_c_frontier": "负折射率超材料（相速度反向、负光程与凸板成正立实像）、有界阻尼弦受迫双端同/反相选模以及时空突变介电常数界面传输矩阵。",
+      "exam_focus": "在时间突变介质界面的考题中（`panpho-2022-q1`），牢记**空间平移对称性保持波矢 $\\mathbf{k}$ 守恒、而频率 $\\omega = ck/n(t)$ 发生跳变**（且连续的物理量是 $\\mathbf{D}$ 与 $\\mathbf{B}$，而非 $\\mathbf{E}, \\mathbf{H}$）！",
+      "common_blindspots": "处理负折射率透镜光路作图时未注意能流矢 $\\mathbf{S}$ 虽折射向同侧但等相位面波矢 $\\mathbf{k}$ 倒退反向引起的相位补偿。"
+    },
+    {
+      "code": "O6",
+      "name": "多普勒 / 萨格纳克效应、超短脉冲与非线性光学",
+      "tier_a_semifinal": "运动光源/镜面一维声光多普勒频移、雷达（SAR）三维斜距相位时间求导求多普勒带宽。",
+      "tier_b_final": "介质中激光多普勒测速仪（LDV 双光束散射差频外差拍频，消去观测角依赖！）与旋转光纤陀螺仪 Sagnac 相移（折射率 $n$ 竟因菲涅耳拖拽完美消去！）。",
+      "tier_c_frontier": "群延迟色散（GDD）下飞秒高斯脉冲时频展宽与棱镜/光栅色散补偿、强场高次谐波阿秒脉冲及非线性克尔自相位调制（SPM）光孤子 / 环形腔倍频（SHG）临界耦合。",
+      "exam_focus": "计算含介质多普勒与光学拍频时，永远记住光在折射率 $n$ 介质中**波矢变为 $n k_0$** 而**真空频率/外差电信号频率不变**！",
+      "common_blindspots": "Sagnac 效应推导出错多乘了折射率 $n$（忘算运动介质相对论菲涅耳拖拽效应的抵消贡献：`cpho-2020-semi-q6`）；超快光脉宽混用 FWHM 与 $e^{-2}$ 定义（`panpho-2025-q2`）。"
+    }
+  ],
+  "core_models": [
+    {
+      "name": "非均匀介质“光学-力学变分类比”模型",
+      "tier": "L3 · 决赛高技巧捷径",
+      "prototype": "折射率随纵坐标连续分层变化 $n(y)$（例如平方梯度大气 $n^2(y) = n_0^2 - \\alpha y$），求弯曲光线精确方程与极限包络。",
+      "assumptions": "几何光学波长远小于介质变化尺度，介质各向同性。",
+      "key_equations": [
+        "连续斯涅尔守恒：$n(y)\\sin\\theta(y) = n(y)\\frac{1}{\\sqrt{1+(y')^2}} = C \\implies \\left(\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)^2 = \\frac{n^2(y)}{C^2} - 1$",
+        "对比保守力学质点在势能 $V(y) = -\\frac{1}{2}n^2(y)$ 中的能量守恒 $\\frac{1}{2}(\\dot{x}^2 + \\dot{y}^2) + V(y) = 0$（以光学类比参数 $\\mathrm{d}\\tau = \\mathrm{d}s/n$ 代入瞬间化为自由抛物线！）"
+      ],
+      "evolution_semi_to_final": "一旦建立 $n^2(y) \\leftrightarrow -2V(y)$ 的等价关系，所有线性 $n^2(y)$ 介质里弯折光线就直接变成高中最熟的匀强重力平抛/斜抛抛物线，可利用包络抛物线一击定出照射盲区与安全速度窗（`cpho-2015-final-q8`）。",
+      "sample_problem_ids": [
+        "cpho-2015-final-theory-problem-slice-q8",
+        "plancks-2022-preliminary-problem-slice-q7",
+        "physicscup-2026-q5-reader"
+      ]
+    },
+    {
+      "name": "薄透镜射影几何同素变换（透视重构）模型",
+      "tier": "L4 · Physics Cup 纯几何杰作",
+      "prototype": "已知空间中一圆圈、直线上若干等距点或坐标方格经理想薄透镜在倾斜屏幕上成椭圆或歪斜投影，仅用直尺与圆规反求透镜光心、主光轴或焦距。",
+      "assumptions": "严格理想薄透镜共线成像模型（无像差与场曲畸变）。",
+      "key_equations": [
+        "空间中心透视交比不变性：共线四点 $(A,B;C,D) = (A',B';C',D')$，若 $D\\to\\infty$ 化为调和比与消隐点定位",
+        "光学泰勒斯正交定理：凡是物平面内相互垂直的无穷远点，在像面上映射为后焦面消隐线上的两个点 $V_1, V_2$，它们对光心 $O$ 的张角严格等于 $90^\\circ$（故光心 $O$ 必落以 $V_1 V_2$ 为直径的圆周上！）"
+      ],
+      "evolution_semi_to_final": "放弃建立三维空间倾斜坐标系求解非线性联立方程！利用调和点列、圆锥曲线极点极线找圆心透视像，再用两对正交无穷远消隐点做两个泰勒斯正交圆求交点，纯尺规 5 步直接锁定透镜光心三维位置！",
+      "sample_problem_ids": [
+        "physicscup-2020-q5-reader",
+        "physicscup-2022-q4-reader",
+        "physicscup-2024-q2-reader",
+        "physicscup-2025-q4-reader"
+      ]
+    },
+    {
+      "name": "飞秒高斯脉冲色散展宽与激光外差传感模型",
+      "tier": "L3 · 现代光子学主力",
+      "prototype": "激光多普勒双光束外差测速（LDV）以及飞秒高斯脉冲经色散玻璃/洛伦兹振子介质后的时间脉宽展宽与光孤子补偿。",
+      "assumptions": "傍轴激光波束或慢变包络近似（SVEA），非线性效应在一阶克尔系数下处理。",
+      "key_equations": [
+        "双光束 LDV 差频外差（与散射接收器角度彻底无关！）：$f_{\\mathrm{beat}} = |\\Delta f_1 - \\Delta f_2| = \\frac{2 n v \\sin\\alpha}{\\lambda_0}$",
+        "高斯强度半高全宽 $\\Delta t_{\\mathrm{FWHM}} = 2\\sqrt{\\ln 2}\\,\\tau_p$，经二阶色散 $D_2 = \\phi''(\\omega_0)$ 展宽后脉宽 $\\tau_{\\mathrm{out}} = \\tau_0\\sqrt{1 + (D_2/\\tau_0^2)^2}$"
+      ],
+      "evolution_semi_to_final": "将单一多普勒公式升级为矢量波矢差 $\\mathbf{v}\\cdot(\\mathbf{k}_2 - \\mathbf{k}_1)/(2\\pi)$ 及空间干涉条纹物理图像互验；高斯脉冲复积分则通过配方法一步解决全部色散脉冲演化。",
+      "sample_problem_ids": [
+        "cpho-2020-final-theory-problem-slice-q4",
+        "panpho-2025-paper-2-problem-slice-q2",
+        "plancks-2021-final-combined-slice-q12",
+        "plancks-2026-final-problem-slice-q2"
+      ]
+    },
+    {
+      "name": "非对称平板波导复相移、负折射率超材料与时空界面模型",
+      "tier": "L3/L4 · 现代波动光学",
+      "prototype": "三层非对称折射率介质平板波导（TE 模）导模色散与截止波长、负折射率平板成像与时域突变介电常数电磁波反射。",
+      "assumptions": "各向同性单色均匀介质层；时空突变界面的突变时间远短于电磁周期。",
+      "key_equations": [
+        "波导往返相干条件：$2 k_0 n_1 d\\cos\\theta + \\phi_{12}(\\theta) + \\phi_{13}(\\theta) = 2m\\pi$（带入菲涅耳全反射复数相移）",
+        "时间突变界面不变量：$\\mathbf{k} = \\mathrm{const}$ 守恒，$\\omega_2 = \\frac{n_1}{n_2}\\omega_1$ 发生跳变，界面瞬间 $\\mathbf{D}, \\mathbf{B}$ 连续"
+      ],
+      "evolution_semi_to_final": "突破常规几何光路画法，开始运用复数菲涅耳系数读出倏逝波透射附加相移（导致非对称波导连基模都会截止！），并将边界连续从空间界面推广至时间维。",
+      "sample_problem_ids": [
+        "cpho-2015-semifinal-theory-problem-slice-q8",
+        "cpho-2018-final-theory-problem-slice-q6",
+        "panpho-2022-paper-2-problem-slice-q1"
+      ]
+    }
+  ],
+  "secondary_conclusions": [
+    {
+      "title": "非近轴费马等光程非球面消球差曲面方程",
+      "source_type": "真题提炼",
+      "formula": "$n r + \\Delta z = \\text{const} \\implies \\text{扁/长椭球（物在空气焦）或 双曲面（无穷远入玻璃焦）}$",
+      "derivation_skeleton": "利用直角坐标写出平行光经过平界面进入折射率 $n$ 介质汇聚于焦点 $F$ 的总光程等于中心轴光程，整理即出标准圆锥曲线方程（离心率 $e=n$ 时是双曲面，$e=1/n$ 时是椭球面）。",
+      "validity_boundaries": "仅消除给定点对之间所有孔径角的球差，对于偏离光轴的离轴物点仍存在彗差（不满足阿贝正弦条件）。",
+      "pitfall_warning": "用极坐标方程写出双曲线后务必核实汇聚焦点处于哪个分支（`cpho-2021-semi-q1`）。",
+      "related_problem_ids": [
+        "cpho-2021-semifinal-theory-problem-slice-q1"
+      ]
+    },
+    {
+      "title": "Sagnac 效应中折射率的“奇迹抵消定律”",
+      "source_type": "经典定理",
+      "formula": "$\\Delta t_{\\text{Sagnac}} = \\frac{4 A \\Omega}{c^2},\\qquad \\Delta\\phi = \\frac{8\\pi A \\Omega}{\\lambda_0 c}$（与介质折射率 $n$ 严格无关！）",
+      "derivation_skeleton": "随光纤环形腔转动时，顺向光和逆向光在实验室系看来不仅要走更长/更短的旋转弧长，还同时受到运动介质相对论菲涅耳拖拽系数 $1 - 1/n^2$ 的拖拽；代入相对论速度合成后 $n$ 项与 $1/n^2$ 项刚好完全消去！",
+      "validity_boundaries": "适用低速旋转 $\\Omega R \\ll c$ 且光波色散 $\\mathrm{d}n/\\mathrm{d}\\omega$ 可忽略；若需高阶色散修正需保留 $\\lambda\\frac{\\mathrm{d}n}{\\mathrm{d}\\lambda}$ 项。",
+      "pitfall_warning": "经典直觉错误：以为加了光纤折射率 $n$ 光速变慢 $c/n$ 会让时间差放大 $n^2$ 倍——恰恰因为忘记菲涅耳拖拽系数！（`cpho-2020-semi-q6`）。",
+      "related_problem_ids": [
+        "cpho-2020-semifinal-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "title": "电光调制的 $\\lambda/4$ 线性工作点偏置原理",
+      "source_type": "真题提炼",
+      "formula": "$T(V) = \\sin^2\\!\\left(\\frac{\\phi_0 + \\pi V / V_\\pi}{2}\\right) \\xrightarrow{\\phi_0 = \\pi/2} \\frac{1}{2}\\left[1 + \\sin\\left(\\frac{\\pi V}{V_\\pi}\\right)\\right]$",
+      "derivation_skeleton": "未加偏置时，$\\sin^2(\\Delta\\phi/2)$ 在零电压附近导数为零呈二次非线性平方律失真；串联一块四分之一波片引入常数相位 $\\pi/2$ 移到曲线最陡峭拐点处，立刻实现最佳线性与最大交流调制深度。",
+      "validity_boundaries": "要求调制信号电压振幅远小于半波电压 $V_\\pi$（小信号线性区）。",
+      "pitfall_warning": "区分强度调制半波电压 $V_\\pi$ 与场振幅相位偏移定义差异，切勿把正交偏振检偏器角位置算反（`cpho-2020-semi-q8`）。",
+      "related_problem_ids": [
+        "cpho-2020-semifinal-theory-problem-slice-q8"
+      ]
+    },
+    {
+      "title": "球面内光源折射的克莱罗光学守恒与球差折叠焦散",
+      "source_type": "跨界方法",
+      "formula": "$n(r)\\,r\\sin\\alpha = \\text{const}$（球对称介质克莱罗光学角动量定理）；$r_{\\min} \\to R/n$（全反射囚禁阈值）",
+      "derivation_skeleton": "利用光学球对称性，类比有心力场角动量守恒，光线在均匀水晶球体内/界面的冲击参数 $n r \\sin\\alpha$ 恒定。紧贴内壁发射角满足 $\\sin\\alpha > 1/n$ 的光线将永远受全反射囚禁绕球壁滑行（除非镀膜破坏边界或弯曲逃逸）；其余出射光线在像方因球差交叉形成包络高亮折叠焦散环。",
+      "validity_boundaries": "镀膜若为完美增透则仅改变透射率不改变几何临界角；一旦考虑多层波动全内反射，倏逝波透射须单独算。",
+      "pitfall_warning": "紧贴水晶球壁内向半球与外向半球的逃逸锥是双向对称存在的，不可只积分单侧出射立体角（`physicscup-2026-q5`）。",
+      "related_problem_ids": [
+        "physicscup-2026-q5-reader"
+      ]
+    },
+    {
+      "title": "一维准晶（斐波那契序列）投影结构因子判据",
+      "source_type": "前沿模板",
+      "formula": "$S(q) = \\left|\\frac{1}{N}\\sum_{n=1}^N e^{-i q x_n}\\right|^2$ 出现稠密 $\\delta$ 尖峰条件：$q = 2\\pi \\frac{m + n\\tau}{\\text{晶格参数}}$",
+      "derivation_skeleton": "将二维正方格子沿黄金分割率斜率 $1/\\tau$ 划出固定宽度窄条带，条带内格点投影到一维直线上形成非周期但高度长程有序的斐波那契序列（两间距比等于 $\\tau$）；计算结构因子求和等价于在投影互补垂直带内的均匀积分，傅里叶变换得 $\\mathrm{sinc}$ 包络调制下的两个独立整数生成布拉格峰！",
+      "validity_boundaries": "只有条带投影宽度恰好等于二维晶胞在垂直方向的投影全宽时，垂直空间相位分布才严格均匀。",
+      "pitfall_warning": "准晶布拉格峰虽然看起来稠密遍布各处，但它绝不是连续光谱，而是可数的两组不可公度倒格矢生成的尖锐分立峰（`panpho-2021-q1`）。",
+      "related_problem_ids": [
+        "panpho-2021-paper-2-problem-slice-q1"
+      ]
+    }
+  ],
+  "virtual_examples": [
+    {
+      "id": "ve_opt_1",
+      "title": "微例 1 · 光波导端面入射角与侧壁全反射角的“互余致命坑”",
+      "difficulty_tag": "复赛/PLANCKS 高频几何坑",
+      "scenario": "折射率 $n_1 = 1.50$ 的平板光波导芯层水平放置于空气中（$n_0=1.0$），上下包层折射率均为 $n_2 = 1.40$。一束光线从空气以倾角 $\\alpha$ 入射至平直垂直左端面后进入芯层，试求能被波导通过上下壁全内反射无损导行的最大空气入射角 $\\alpha_{\\max}$（即数值孔径 $\\mathrm{NA}$）。",
+      "intuition_trap": "考场最常发生的低级手滑：一看到全反射临界角公式 $\\sin\\theta_c = n_2 / n_1$，直接把内部与端面法线的折射角 $\\beta$ 代成 $\\theta_c$，导出 $n_0\\sin\\alpha = n_1\\sin\\theta_c = n_2$——把 $\\sin$ 和 $\\cos$ 彻底写反！",
+      "solution_steps": [
+        "画出清楚几何折线：光线从空气以入射角 $\\alpha$ 打到垂直端面，经折射与中心水平轴成角 $\\beta$，满足 $n_0\\sin\\alpha = n_1\\sin\\beta$。",
+        "光线继续前行撞到**水平上下包层界面**，它与上界**法线**（竖直方向）所成的入射角为 $\\theta_i = \\frac{\\pi}{2} - \\beta$（互余关系！）。",
+        "要求在上下包层界面发生全内反射：$\\sin\\theta_i = \\cos\\beta \\ge \\frac{n_2}{n_1} \\implies \\sin\\beta = \\sqrt{1 - \\cos^2\\beta} \\le \\sqrt{1 - \\left(\\frac{n_2}{n_1}\\right)^2}$。",
+        "回代空气折射斯涅尔方程得数值孔径精确式：$\\mathrm{NA} = n_0\\sin\\alpha_{\\max} = \\sqrt{n_1^2 - n_2^2} = \\sqrt{1.5^2 - 1.4^2} \\approx 0.539$（对应 $\\alpha_{\\max} \\approx 32.6^\\circ$）。如果没取余角就会算出完全错误的 $n_2 = 1.4 > 1$（所有角全导通）！"
+      ],
+      "limit_dimension_check": "令包层和芯层相等 $n_2 \\to n_1$，全反射无法发生，公式漂亮给出 $\\mathrm{NA}\\to 0$（最大入射角 $0^\\circ$）；而若误用 $\\sin$ 就会变成 $\\mathrm{NA}\\to n_1$ 荒谬结论！",
+      "transfers_to_ids": [
+        "plancks-2026-final-problem-slice-q9",
+        "cpho-2019-semifinal-theory-problem-slice-q5",
+        "cpho-2020-semifinal-theory-problem-slice-q6"
+      ]
+    },
+    {
+      "id": "ve_opt_2",
+      "title": "微例 2 · 运动反射面多普勒 + 水中激光光束夹角（别忘介质 n ！）",
+      "difficulty_tag": "决赛外差测速与脉冲星色散陷阱",
+      "scenario": "在折射率为 $n$ 的静止流动水中有一粒极微散射粒子，以速度 $v \\ll c$ 水平向右移动。两束频率均为 $f_0$（真空波长 $\\lambda_0$）的相干激光以对称角度 $\\pm\\alpha$ 从左右两侧斜向下照射到流体水面并会聚于该微粒（所给角 $\\alpha$ 为**水中**光束与竖直法线夹角）。远处固定探测器在水中某方向同时收集两束光的散射光产生差频拍频。求探测器测得的拍频 $f_{\\mathrm{beat}}$。",
+      "intuition_trap": "三大易错陷阱：① 不知所措乱猜探测器的接收方向；② 在流体折射率 $n$ 里用错真空光速 $c$ 代替相速度 $c/n$ 计算波矢；③ 忘记把双次多普勒（粒子先作为接收者、再作为重发射源）写成波矢改变差！",
+      "solution_steps": [
+        "在非相对论极限 $v \\ll c/n$ 下，一束波矢为 $\\mathbf{k}_i$ 的光被以速度 $\\mathbf{v}$ 运动的微粒散射到波矢 $\\mathbf{k}_s$（向着静止探测器方向），其多普勒频移为 $\\Delta f_i = \\frac{1}{2\\pi}\\mathbf{v}\\cdot(\\mathbf{k}_s - \\mathbf{k}_i)$（因为“追迎波源少/多迎波面，重发射推/压波面”，合并起来精确就是出射与入射波矢差点乘速度！）。",
+        "虽然单束散射光频移依赖未知探测器观察方向 $\\mathbf{k}_s$，但当**两束光散射进同一个探测器**进行外差混频时，拍频恰好是两者频率之差：$f_{\\mathrm{beat}} = |(f_0 + \\Delta f_1) - (f_0 + \\Delta f_2)| = \\frac{1}{2\\pi}|\\mathbf{v}\\cdot(\\mathbf{k}_2 - \\mathbf{k}_1)|$——探测器观察角 $\\mathbf{k}_s$ 奇迹般彻底消掉！",
+        "由于在折射率为 $n$ 的水中光波矢大小为 $|\\mathbf{k}_{1,2}| = \\frac{2\\pi n}{\\lambda_0}$，且水平方向分别朝右与朝左成 $\\pm\\alpha$ 角，故 $|\\mathbf{k}_2 - \\mathbf{k}_1| = \\frac{4\\pi n\\sin\\alpha}{\\lambda_0}$。立即出结果：$f_{\\mathrm{beat}} = \\frac{2 n v \\sin\\alpha}{\\lambda_0}$。",
+        "**干涉条纹物理验证**：两束水中光相交产生间距为 $d = \\frac{\\lambda_0}{2 n\\sin\\alpha}$ 的静止明暗干涉条纹，粒子以速度 $v$ 扫过条纹产生的明暗闪烁频率 $v/d$ 严丝合缝等于拍频 $f_{\\mathrm{beat}}$！"
+      ],
+      "limit_dimension_check": "如果题干给的是**空气中的入射角** $\\alpha_{\\mathrm{air}}$，由斯涅尔定律 $n\\sin\\alpha = \\sin\\alpha_{\\mathrm{air}}$ 代入发现空气角模式下 $n$ 又神奇消去！正因如此考题必先看清角标在空气还是水中（`cpho-2020-final-q4`）。",
+      "transfers_to_ids": [
+        "cpho-2020-final-theory-problem-slice-q4",
+        "cpho-2015-final-theory-problem-slice-q4",
+        "cpho-2015-semifinal-theory-problem-slice-q4"
+      ]
+    }
+  ],
+  "topic_pitfalls": [
+    {
+      "title": "波导入射端角与侧壁全反射角未取互余角",
+      "detail": "垂直端面进入后折射角 $\\beta$ 与侧壁法线入射角互余（$\\theta_i = 90^\\circ - \\beta$），切忌直接把 $\\sin\\beta$ 令等于 $n_2/n_1$。",
+      "ref_ids": [
+        "plancks-2026-final-problem-slice-q9"
+      ]
+    },
+    {
+      "title": "激光测速仪（LDV）混用空气角与水中折射率",
+      "detail": "介质中干涉条纹间距与波矢均需计入折射率 $n$；由空气界面跨入流体时恰好满足 $n\\sin\\theta_{\\text{water}} = \\sin\\theta_{\\text{air}}$。",
+      "ref_ids": [
+        "cpho-2020-final-theory-problem-slice-q4"
+      ]
+    },
+    {
+      "title": "飞秒高斯脉冲宽度 FWHM 与 e⁻² 强度定义混淆",
+      "detail": "半高全宽 $\\Delta t_{\\text{FWHM}} = 2\\sqrt{\\ln 2}\\,\\sigma_t$ 与电场包络方差之间相差 $\\sqrt{2}$ 或 $\\sqrt{\\ln 2}$ 系数，不可直接套错公式。",
+      "ref_ids": [
+        "panpho-2025-paper-2-problem-slice-q2"
+      ]
+    },
+    {
+      "title": "薄透镜射影把圆心当作像椭圆中心",
+      "detail": "中心透视放缩是非线性的，圆的中心投影并不落到椭圆中心；必须借助公切线、极点极线或消隐焦平面还原。",
+      "ref_ids": [
+        "physicscup-2020-q5-reader",
+        "physicscup-2024-q2-reader"
+      ]
+    }
+  ]
+}

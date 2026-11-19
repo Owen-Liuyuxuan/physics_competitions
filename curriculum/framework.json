@@ -1,0 +1,799 @@
+{
+  "meta": {
+    "title": "全国中学生物理竞赛专题备赛与自学系统",
+    "subtitle": "立足复赛根基 · 贯通决赛建模 · 桥接大学与国际赛前沿模型",
+    "audience": "已完成一轮/复赛基础训练、计划按专题冲刺 CPhO 决赛并向 PanPhO / Physics Cup / PLANCKS 拓展的自学学生与竞赛教练。",
+    "repo_scope": "全系统索引并逐题映射当前 main 分支题库全部 283 道独立试题（CPhO 2013–2021 复赛 71 题 + 决赛 66 题、PanPhO 2019–2026 卷二 16 题、Physics Cup 2019–2026 41 题、PLANCKS 2019–2026 89 题），包含 49 道独立盲解高亮/官方勘误题。",
+    "disclaimer": "本备赛导图、考纲三级映射、数学工具箱、16 道诊断微例题及 283 题结构化拆解均由 AI 教练团队基于原题与仓内教学数据整理，供专题化自主复习使用；正式考纲条款与评分标准请以当年全国中学生物理竞赛委员会官方发布为准，所有公式与数值勘误请对照原始 PDF / 图文复核。"
+  },
+  "tier_definitions": [
+    {
+      "id": "L1",
+      "label": "L1 · 复赛筑基",
+      "summary": "单物理主线、标准微积分与清晰对称性建模（27 题），用于确认基础无死角、建立量纲与极限习惯。"
+    },
+    {
+      "id": "L2",
+      "label": "L2 · 复赛压轴→决赛过渡",
+      "summary": "多过程临界讨论、约束消元、非平凡热力/电磁耦合与常规技巧融合（96 题），复赛高分与决赛保底分水岭。"
+    },
+    {
+      "id": "L3",
+      "label": "L3 · 决赛核心攻坚",
+      "summary": "CPhO 决赛级难点：隐含自能/多体修正、微分方程/边值构造、光学/力学空间变换及多级泰勒展开链（110 题）。"
+    },
+    {
+      "id": "L4",
+      "label": "L4 · 集训队与国际前沿拓展",
+      "summary": "本科高年级与研究生模型下放（相变、群对称、保角变换、假真空瞬子、黑洞物理、势流对偶）与极强几何直觉（50 题）。"
+    }
+  ],
+  "workflow_steps": [
+    {
+      "step": 1,
+      "code": "STEP 01",
+      "title": "考纲定位与前置体检",
+      "duration": "每次切换新专题时 · 30–45 分钟",
+      "goal": "看清“复赛考什么”到“决赛加什么”的跃迁边界，杜绝漫无目的刷散题。",
+      "actions": [
+        "打开「考纲与九大题型」或本专题讲义的**三级能力矩阵表**，逐行自测复赛标准栏与决赛跃迁栏。",
+        "把每条子考纲标记为“已稳固 / 需补推导 / 盲区”，优先锁定标记为盲区的子专题。",
+        "先做该专题的 **2 道虚拟诊断微例题**：不看提示在草稿纸上做 10 分钟，精准暴露直觉误区后再展开剖析。"
+      ],
+      "exit_criterion": "能口述本专题 5–6 个子考纲的核心物理图像，并明确复赛→决赛在数学深度和边界条件上的 2 个关键增量。"
+    },
+    {
+      "step": 2,
+      "code": "STEP 02",
+      "title": "数学工具前置通关",
+      "duration": "专题攻坚前 · 45–60 分钟",
+      "goal": "先磨刀后砍柴：保证遇到微分方程、变分、复势、泰勒分级或速度端图时，数学不拖物理思路的后腿。",
+      "actions": [
+        "查阅当前专题关联的「数学工具箱」模块（如力学偏重 `math_5` 拉格朗日、`math_7` 速度端图；电热偏重 `math_2` 多级展开、`math_6` 复势）。",
+        "亲手推演每个工具页中的 **Worked Mini-Example**，重点记住“何时不适用”（如非完整纯滚不能无脑写标量拉氏量、非对易算符不能套普通 BCH 截断）。",
+        "若是含大学/研究生模型专题（如 2D XY、双电层 PB 方程、超导伦敦方程），先去「前沿特种模型」读通‘高中物理桥梁’一节。"
+      ],
+      "exit_criterion": "合上讲义能独立默写该工具的标准操作流程（SOP）与 1 个失效反例。"
+    },
+    {
+      "step": 3,
+      "code": "STEP 03",
+      "title": "二级结论边界反推与模型拆解",
+      "duration": "专题讲义精读 · 60 分钟",
+      "goal": "绝不死记“秒杀公式”——决赛专门打击脱离前提乱套二级结论的考生。",
+      "actions": [
+        "对讲义中每条二级结论（如打击中心、Wiley-McLaren 一阶聚焦、速度端图圆半径 $R_h=GM/L$、附加质量椭球极化映射），盖住公式从第一性原理重新推一遍。",
+        "用红笔圈出每条结论的 **适用前提与失效红线**（例如：等温 vs 绝热声速、孤立球电像必加球心补偿电荷、平行轴定理仅对质心轴成立）。",
+        "建立“原题题眼 $\\to$ 九大题型母版 $\\to$ 核心物理模型”的三步条件反射。"
+      ],
+      "exit_criterion": "面对任意二级结论，能立即说出它是由哪条守恒律+哪项近似假设推出来的。"
+    },
+    {
+      "step": 4,
+      "code": "STEP 04",
+      "title": "阶梯式防剧透盲刷（L1→L4）",
+      "duration": "核心训练期 · 每题 35–60 分钟",
+      "goal": "用「防剧透阅读抽屉」训练真正的独立破题耐力，严禁边看解析边点头。",
+      "actions": [
+        "按梯次选题：先做 **1 道 L1/L2** 校准速度，再集中攻坚 **3–4 道 L3（CPhO 决赛真题）**，最后选 **1–2 道 L4（PanPhO / Physics Cup）** 拔高模型迁徙力。",
+        "打开题目只看「① 题面与原图」独立草稿演算 ≥ 25 分钟；彻底卡死再依次点开「② 渐进提示」第 1 级（模型切入）与第 2 级（关键数学工具），切勿直接翻答案。",
+        "做完对照「③ 盲解推导与对比」及「④ 参考解答原卷」，注意标注为 **★ 盲解亮点 / 官方勘误** 的 49 题，体会更短路径并练习挑官方解答毛病。"
+      ],
+      "exit_criterion": "每道 L3 题均独立写出完整符号推导并标出状态标记（独立盲解 / 提示通关 / 待二刷）。"
+    },
+    {
+      "step": 5,
+      "code": "STEP 05",
+      "title": "五维自检与错题诊所间隔复盘",
+      "duration": "每题收尾 5 分钟 + 第 3/7/21 天复盘",
+      "goal": "把考场上的粗心失分（正负号、1/2 双计数、单位、中途取整）压缩到零，并用间隔重复固化物理直觉。",
+      "actions": [
+        "每题得出最终表达式后，强制执行 **五维自检仪式**：量纲齐次性、极端参数退化极限、对称性与符号约定、能量/动量交叉验算、中间不取整。",
+        "在抽屉「⑤ 我的复盘笔记」用一两句话记下自己当时卡壳的**认知盲点**（不要抄答案过程），将未独立完成的题标为「待二刷」。",
+        "第 3 天、第 7 天在「283 题刷题与诊所」筛选出「待二刷」列表，只看题干 5 分钟快速口述破题模型与易错红线。"
+      ],
+      "exit_criterion": "待二刷清单中的题能不看提示在 3 分钟内讲出破题关键转换与全部边界分支。"
+    }
+  ],
+  "study_plans": [
+    {
+      "id": "sprint_4w",
+      "name": "方案 A · 复赛后 4 周冲刺决赛方案",
+      "badge": "考前高强度",
+      "target": "刚考完复赛或距 CPhO 决赛仅剩 1 个月，需要快速弥补决赛压轴专题、数学工具与隐含陷阱的高效路线。",
+      "daily_rhythm": "每日 2.5–3 小时：30 分钟专题讲义+公式反推 + 2 道 L2/L3 真题限时盲刷 + 20 分钟五维验算复盘。",
+      "focus_tiers": [
+        "L2",
+        "L3"
+      ],
+      "focus_contests": [
+        "CPhO",
+        "PanPhO"
+      ],
+      "phases": [
+        {
+          "week": "第 1 周 · 力学与天体相对论攻坚",
+          "topics": [
+            "mechanics",
+            "astro_relativity"
+          ],
+          "goal": "拿下刚体碰撞/纯滚临界（CPhO 2018–2021 决赛力学）、变质量、开普勒变轨与相对论四动量/时钟链，确保前两道大题稳拿满分。",
+          "recommended_filter": {
+            "tiers": [
+              "L2",
+              "L3"
+            ],
+            "topics": [
+              "mechanics",
+              "astro_relativity"
+            ]
+          }
+        },
+        {
+          "week": "第 2 周 · 电磁双线与电路网络",
+          "topics": [
+            "electrostatics_circuits",
+            "magnetism_em"
+          ],
+          "goal": "突破电像补球心电荷、耗损介质边界、电磁导轨炮与超导磁通守恒微振动；用 Physics Cup 2025 Q5/2021 Q1 补强场自能意识。",
+          "recommended_filter": {
+            "tiers": [
+              "L2",
+              "L3"
+            ],
+            "topics": [
+              "electrostatics_circuits",
+              "magnetism_em"
+            ]
+          }
+        },
+        {
+          "week": "第 3 周 · 热统压轴、流体与光学波导",
+          "topics": [
+            "thermo_stat",
+            "fluids_continua",
+            "optics_waves"
+          ],
+          "goal": "专攻负热容直线过程、多组分绝热指数、泊松-玻尔兹曼方程、外斯平均场、非均匀折射率光程与薄膜/波带片。",
+          "recommended_filter": {
+            "tiers": [
+              "L2",
+              "L3"
+            ],
+            "topics": [
+              "thermo_stat",
+              "fluids_continua",
+              "optics_waves"
+            ]
+          }
+        },
+        {
+          "week": "第 4 周 · 近代量子前沿与全真模考",
+          "topics": [
+            "quantum_modern"
+          ],
+          "goal": "吃透量子奥托/卡诺热机、非抛物能带与拉比干涉引导题；集中重刷「待二刷清单」并限时做 2 套 CPhO 2020/2021 决赛全卷。",
+          "recommended_filter": {
+            "tiers": [
+              "L3",
+              "L4"
+            ],
+            "topics": [
+              "quantum_modern"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "deep_12w",
+      "name": "方案 B · 12 周八大专题系统通关方案",
+      "badge": "稳扎稳打推荐",
+      "target": "距离省赛/决赛还有 3 个月以上，希望彻底打通八大物理专题、全部 10 个数学工具箱与高频大学下放模型的长线系统自学方案。",
+      "daily_rhythm": "每专题约 1.5 周（每周精研 6–8 题）：按 L1→L2→L3→L4 严格递进，完成讲义微例题 + 二级结论独立重推。",
+      "focus_tiers": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "focus_contests": [
+        "CPhO",
+        "PanPhO",
+        "Physics Cup",
+        "PLANCKS"
+      ],
+      "phases": [
+        {
+          "week": "第 1–3 周 · 力学基石与天体时空",
+          "topics": [
+            "mechanics",
+            "astro_relativity"
+          ],
+          "goal": "系统打通刚体平面/三维运动、非完整纯滚、拉格朗日变分、速度端图圆及相对论四动量/引力波基础。",
+          "recommended_filter": {
+            "tiers": [
+              "L1",
+              "L2",
+              "L3"
+            ],
+            "topics": [
+              "mechanics",
+              "astro_relativity"
+            ]
+          }
+        },
+        {
+          "week": "第 4–6 周 · 静电场网络与电磁场进阶",
+          "topics": [
+            "electrostatics_circuits",
+            "magnetism_em"
+          ],
+          "goal": "打通电像与保角变换、对称与无穷网络、超导磁通守恒、等离子体色散与电磁场动量/隐藏动量。",
+          "recommended_filter": {
+            "tiers": [
+              "L1",
+              "L2",
+              "L3"
+            ],
+            "topics": [
+              "electrostatics_circuits",
+              "magnetism_em"
+            ]
+          }
+        },
+        {
+          "week": "第 7–9 周 · 流体连续介质与热学统计相变",
+          "topics": [
+            "fluids_continua",
+            "thermo_stat"
+          ],
+          "goal": "掌握流体静力、毛细变分、势流-静电对偶附加质量、配分函数与平均场/BKT 拓扑相变。",
+          "recommended_filter": {
+            "tiers": [
+              "L1",
+              "L2",
+              "L3"
+            ],
+            "topics": [
+              "fluids_continua",
+              "thermo_stat"
+            ]
+          }
+        },
+        {
+          "week": "第 10–12 周 · 现代光学、量子凝聚态与综合诊断",
+          "topics": [
+            "optics_waves",
+            "quantum_modern"
+          ],
+          "goal": "攻克射影几何作图、波导/超快脉冲/非线光学、量子力学拓扑边界与紧束缚能带；最后 1 周扫清全库错题。",
+          "recommended_filter": {
+            "tiers": [
+              "L2",
+              "L3",
+              "L4"
+            ],
+            "topics": [
+              "optics_waves",
+              "quantum_modern"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "frontier_all",
+      "name": "方案 C · 拔尖集训与国际赛建模拓展方案",
+      "badge": "国集 / 国际视角",
+      "target": "CPhO 复赛已稳居前列，目标直指决赛金牌/国家集训队，或准备参加 PanPhO、Physics Cup、PLANCKS 的高阶选手。",
+      "daily_rhythm": "每次 1 道 D4/D5 长题：强制 45–90 分钟无提示深入建模，重点练习几何对偶变换、多级近似链与理论自洽验算。",
+      "focus_tiers": [
+        "L3",
+        "L4"
+      ],
+      "focus_contests": [
+        "PanPhO",
+        "Physics Cup",
+        "PLANCKS",
+        "CPhO"
+      ],
+      "phases": [
+        {
+          "week": "模块 I · 几何变换与空间对偶（Physics Cup 核心）",
+          "topics": [
+            "mechanics",
+            "optics_waves",
+            "astro_relativity"
+          ],
+          "goal": "精研速度端图悬链线/双曲线、射影交比调和作图、S₄ 群对称性降维与椭圆坐标分离变量。",
+          "recommended_filter": {
+            "tiers": [
+              "L4"
+            ],
+            "topics": [
+              "mechanics",
+              "optics_waves",
+              "astro_relativity"
+            ]
+          }
+        },
+        {
+          "week": "模块 II · 场类比、多体自能与奇异微扰",
+          "topics": [
+            "electrostatics_circuits",
+            "magnetism_em",
+            "fluids_continua"
+          ],
+          "goal": "吃透附加质量椭球退极化映射、格林互易定理热流微扰、运动导体极化自能、MHD 磁通拉伸与圆盘势流循环矩阵。",
+          "recommended_filter": {
+            "tiers": [
+              "L3",
+              "L4"
+            ],
+            "topics": [
+              "electrostatics_circuits",
+              "magnetism_em",
+              "fluids_continua"
+            ]
+          }
+        },
+        {
+          "week": "模块 III · 本科/研究生前沿模型下放全通",
+          "topics": [
+            "thermo_stat",
+            "quantum_modern"
+          ],
+          "goal": "系统推演 12 个前沿模型：平均场与 BKT 相变、Peierls-Harper 蝴蝶、石墨烯能带、假真空欧氏瞬子与黑洞彭罗斯过程。",
+          "recommended_filter": {
+            "tiers": [
+              "L3",
+              "L4"
+            ],
+            "topics": [
+              "thermo_stat",
+              "quantum_modern"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "archetypes": [
+    {
+      "id": "arch_1",
+      "code": "T1",
+      "name": "约束临界与多过程分段动力学",
+      "tagline": "过程在某一瞬时发生“脱离、锁死、打滑反转或碰撞重建”，必须精准切断阶段边界。",
+      "frequency_note": "CPhO 复赛/决赛第一大题最高频题型（库内 48 题）",
+      "signal_cues": [
+        "题干出现“恰好脱离”“刚好不打滑”“某时刻突然锁死/撤轴/剪断”“分类讨论不同摩擦系数下的运动状态”。",
+        "物理量随角度或位移出现绝对值、分段函数或单侧不等式约束（如 $N \\ge 0$、$|f| \\le \\mu N$、$T \\ge 0$）。"
+      ],
+      "five_step_template": [
+        "**列全约束反力表达式**：不要只写运动方程，第一时间把支持力 $N(\\theta)$、静摩擦力 $f(\\theta)$ 或绳张力 $T(\\theta)$ 用状态参数显式表出。",
+        "**定位切换瞬间守恒量**：如碰撞瞬间外冲量垂直或过参考点，则对接触点角动量守恒；脱离瞬间满足 $N=0$ 且法向加速度仍由外部几何决定。",
+        "**验证临界之后的状态跃迁**：静摩擦变为滑动摩擦后方向未必与原加速方向一致；特别注意存在中间逆转或倒滑窗口（如 `cpho-2019-semi-q2` 的 $\\mu$ 区间分支）。",
+        "**先定性分段、再分段积分**：切忌一个方程套全程，把参数区间在数轴上画出再逐段求解析解。",
+        "**端点连续性与极限复核**：检查切换瞬间速度/位置是否连续、动量/动能突变是否符合冲量定理。"
+      ],
+      "signature_traps": [
+        "误判静摩擦方向或漏掉中间倒滑分支（`cpho-2019-semifinal-theory-problem-slice-q2`）。",
+        "混淆光滑曲面脱离瞬间质点加速度与曲线曲率半径关系（尤其是曲面本身可水平反冲时，脱离瞬间曲面水平加速度归零：`cpho-2018-final-theory-problem-slice-q1`）。"
+      ],
+      "benchmark_problem_ids": [
+        "cpho-2013-final-theory-problem-slice-q2",
+        "cpho-2018-final-theory-problem-slice-q1",
+        "cpho-2019-semifinal-theory-problem-slice-q2",
+        "physicscup-2020-q3-reader"
+      ]
+    },
+    {
+      "id": "arch_2",
+      "code": "T2",
+      "name": "微扰线性化、有效势与简正微振动",
+      "tagline": "不直接硬解非线性微分方程，而是构造平衡位置附近二阶有效势或线性化耦合矩阵。",
+      "frequency_note": "复赛/决赛压轴与热统/电磁耦合通用核心（库内 48 题）",
+      "signal_cues": [
+        "题干询问“微幅振动周期”“平衡位置的稳定性判据”“低阶小扰动下的耦合本征频率”。",
+        "系统同时存在重力、弹簧、静电力、磁力、离心力或表面张力等多种相互作用。"
+      ],
+      "five_step_template": [
+        "**识别守恒量消除循环坐标**：先用角动量或磁通量守恒把非平衡自由度表示为广义坐标 $q$ 的函数。",
+        "**写出完整总有效势 $U_{\\mathrm{eff}}(q)$**：包含惯性离心势、磁自能 $\\frac{1}{2}LI^2$ 或电场极化能（切勿只看外场漏自能）。",
+        "**求一阶导找平衡态、二阶导判稳并求频**：$U'_{\\mathrm{eff}}(q_0)=0$ 确定平衡，$U''_{\\mathrm{eff}}(q_0)>0$ 决定稳定性且有效劲度 $k_{\\mathrm{eff}} = U''_{\\mathrm{eff}}(q_0)$。",
+        "**多自由度先对动能和势能做二阶展开**：写出广义质量矩阵 $\\mathbf{M}$ 与刚度矩阵 $\\mathbf{K}$，求解 $\\det(\\mathbf{K}-\\omega^2\\mathbf{M})=0$。",
+        "**对称群解耦快捷键**：若具有正多边形或双体对称，用对称/反对称坐标（或循环矩阵离散傅里叶模）直接拆成一维振子。"
+      ],
+      "signature_traps": [
+        "对含恒压源电容或超导磁通环直接求导时，混淆“恒电荷/恒磁通”与“恒电压/恒电流”对应的勒让德变换热力学势符号。",
+        "忘记将平衡位置本身因微扰发生的一阶偏移计入刚度修正（如非均匀场中电流线性修正产生额外 $\\mathrm{d}I/\\mathrm{d}z$ 项）。"
+      ],
+      "benchmark_problem_ids": [
+        "cpho-2014-final-theory-problem-slice-q1",
+        "cpho-2015-final-theory-problem-slice-q1",
+        "cpho-2017-semifinal-theory-problem-slice-q1",
+        "physicscup-2021-q3-reader"
+      ]
+    },
+    {
+      "id": "arch_3",
+      "code": "T3",
+      "name": "多物理场耦合与能量/动量守恒记账",
+      "tagline": "跨越力、热、电、光、流体多个领域，胜负全在于不漏记任意一项隐蔽的能量或动量载体。",
+      "frequency_note": "CPhO 决赛中后段及 PanPhO 综合建模主旋律（库内 61 题）",
+      "signal_cues": [
+        "装置同时出现电路与力学运动（导轨炮、电机、电容板弹跳），或辐射光压与热机/力学耦合。",
+        "系统能量出现明显“二分分配”（如充电电容、毛细上升、导轨炮加速），或存在隐蔽的场动量/热耗散。"
+      ],
+      "five_step_template": [
+        "**划定封闭控制体与全要素清单**：列出粒子、刚体、电源、电容器、自感线圈、电磁场乃至热库与辐射场。",
+        "**画出清晰的能量流与动量流箭图**：标明外源总输入功 $W_{\\mathrm{src}}$、机械能 $\\Delta E_{\\mathrm{mech}}$、场储能 $\\Delta U_{\\mathrm{EM}}$ 及焦耳/粘滞耗散 $Q$。",
+        "**优先使用广义虚功原理**：当力或力矩难直接积分时，固定广义电荷或磁通计算 $F = -\\partial U/\\partial x$（警惕电源做功项）。",
+        "**警惕 $1/2$ 双计数与双向效率陷阱**：多体互作用总能须乘 $1/2$；机电双向能量转化发电乘 $\\eta_1$、驱动除 $\\eta_2$。",
+        "**用正则动量或电磁场角动量做最终闭环**：检查是否存在 $\\mathbf{E}\\times\\mathbf{B}$ 隐含动量/角动量流（如费曼圆筒佯谬）。"
+      ],
+      "signature_traps": [
+        "忘记闭合电源导线或端边段在非均匀/自场中贡献的安培力（`cpho-2016-final-theory-problem-slice-q6`）。",
+        "计算旋转导体球或电磁哑铃惯性质量时漏掉自身极化激发的反作用自能（`physicscup-2021-q1-reader`）。"
+      ],
+      "benchmark_problem_ids": [
+        "cpho-2015-final-theory-problem-slice-q2",
+        "cpho-2016-final-theory-problem-slice-q6",
+        "cpho-2021-semifinal-theory-problem-slice-q6",
+        "physicscup-2021-q1-reader"
+      ]
+    },
+    {
+      "id": "arch_4",
+      "code": "T4",
+      "name": "空间变换、几何作图与对偶类比破题",
+      "tagline": "在普通空间里硬算陷入死胡同的超越方程，换到速度空间、共形复平面或静电对偶空间瞬间迎刃而解。",
+      "frequency_note": "Physics Cup 灵魂题型与 CPhO 高区分度捷径（库内 82 题）",
+      "signal_cues": [
+        "加速度恒定或平方反比有心力场中的复杂轨迹/极值问题，但题目只给初末速度与角度约束。",
+        "无旋势流、稳恒导热、二维电阻方阻或薄透镜对圆锥曲线成像的尺规几何重构。"
+      ],
+      "five_step_template": [
+        "**诊断“代数硬算不可行信号”**：若位置坐标 $x(t)$ 产生耦合三角/四次方程，立即切换思维表象。",
+        "**匹配四大空间变换工具**：平方反比轨道 $\\to$ **速度端图圆（Hodograph）**；恒定加速率最优控制 $\\to$ **速度空间悬链线**；薄透镜歪斜圆椭圆成像 $\\to$ **射影交比/消隐面/泰勒斯圆**；二维拉普拉斯边界 $\\to$ **保角映射或电像圆反演**。",
+        "**挖掘隐藏几何不变量**：寻找共焦准线、极点极线、交比不变或阿波罗尼斯圆。",
+        "**利用物理场对偶借用现成结论**：把势流附加质量映射为椭球退极化因子，把热阻网络映射为电容储能。",
+        "**反演回原空间检验几何物理可行性**：确保所求焦点、圆心或交点满足实际光路方向与物理区间。"
+      ],
+      "signature_traps": [
+        "在速度端图中把任意反向速度弦当作近远地点（只有过端图圆心的弦才对应近/远地点！`physicscup-2025-q5-reader`）。",
+        "误把椭圆参数方程的离心角当成极坐标极角代入求解（`plancks-2024-final-combined-slice-q6`）。"
+      ],
+      "benchmark_problem_ids": [
+        "physicscup-2025-q5-reader",
+        "physicscup-2022-q2-reader",
+        "physicscup-2019-q1-reader",
+        "physicscup-2020-q5-reader"
+      ]
+    },
+    {
+      "id": "arch_5",
+      "code": "T5",
+      "name": "级数递推、不动点与无穷网络重整化",
+      "tagline": "面对成百上千次碰撞、无穷多个电像、多层介质膜或无限晶格网络，建立单步递推算符而非逐项蛮算。",
+      "frequency_note": "决赛压轴与 PLANCKS/PanPhO 离散数学建模高发区（库内 34 题）",
+      "signal_cues": [
+        "题目出现无穷次弹跳、序列正碰、多级倍增、无穷晶格网络、嵌套镜像电荷或周期方波脉冲驱动。",
+        "只问 $n\\to\\infty$ 极限状态或第 $n$ 步的封闭表达式。"
+      ],
+      "five_step_template": [
+        "**提取单步状态转移算符**：写出由第 $k$ 步到第 $k+1$ 步的线性/非线性映射 $x_{k+1}=f(x_k)$ 或传递矩阵 $\\mathbf{T}$。",
+        "**识别对称性折叠与叠加原理**：对于高对称电阻网络（正二十面体、八边形晶格），先通过等势折叠、单进总出电流叠加或平面图自对偶大幅降维。",
+        "**求不动点或利用自相似重整化**：若 $x_{k+1} = ax_k + b$，用不动点 $x^* = ax^*+b$ 化简为等比数列；若网络径向自相似，令等效阻抗 $Z(Z_{\\text{sub}})=Z$。",
+        "**检验有限项与边界补偿**：双导体球电像递推时每步必须补回球心抵消电荷以维持孤立球总电量守恒（`cpho-2020-final-theory-problem-slice-q2`）。",
+        "**用级数发散/收敛准则与极简 $N=1,2$ 试算验错**：防止下标错位差 1 项。"
+      ],
+      "signature_traps": [
+        "忽略孤立导体的球心补偿像电荷导致无穷电像级数缺失主导单极项（`cpho-2020-final-theory-problem-slice-q2`）。",
+        "混淆阶梯反射或等比碰撞的次数索引起点（$N$ 个间隔对应 $N+1$ 个节点：`cpho-2013-final-theory-problem-slice-q4`）。"
+      ],
+      "benchmark_problem_ids": [
+        "cpho-2020-final-theory-problem-slice-q2",
+        "cpho-2021-semifinal-theory-problem-slice-q3",
+        "plancks-2024-final-combined-slice-q8",
+        "physicscup-2026-q3-reader"
+      ]
+    },
+    {
+      "id": "arch_6",
+      "code": "T6",
+      "name": "非均匀介质与连续场微分方程/边值问题",
+      "tagline": "空间或时间参数连续变化（折射率梯度、变重力大气、柔性链条、双电层电势、热扩散方程），须从微元平衡切入。",
+      "frequency_note": "区分离散思维与连续场论思维的分水岭（库内 59 题）",
+      "signal_cues": [
+        "密度、温度、折射率、电导率、电流密度或绳张力随空间坐标/时间连续分布。",
+        "涉及热传导、拉普拉斯方程、泊松-玻尔兹曼方程、水动力学流体连续方程或波破问题。"
+      ],
+      "five_step_template": [
+        "**选准微元与坐标系**：例如旋转弹性绳用拉格朗日物质坐标比欧拉空间坐标简捷十倍（`plancks-2026-final-problem-slice-q7`）；一维折射梯度沿不变方向写出斯涅尔守恒量。",
+        "**由微元通量守恒或平衡写出 ODE/PDE**：务必仔细检查正负号（例如静电中 $E=-\\mathrm{d}\\varphi/\\mathrm{d}x$、大气中 $\\mathrm{d}P/\\mathrm{d}r < 0$）。",
+        "**寻找第一积分或降阶对称性**：借助 Beltrami 恒等式、能量积分或积分因子将二阶方程化为一阶。",
+        "**严格代入物理边界条件**：区分 Dirichlet 固定势/温、Neumann 绝热/零法向流及界面连续条件（$D_\\perp$ 跳变 vs 连续）。",
+        "**解析渐近匹配检验**：检查短时/长时或弱耦合/强耦合区间的幂律与对数标度是否自洽。"
+      ],
+      "signature_traps": [
+        "静电与统计耦合写泊松-玻尔兹曼方程时把电势符号搞反（`cpho-2021-final-theory-problem-slice-q4`）。",
+        "对旋转弹性体误用未拉伸空间密度而非拉格朗日线密度做平衡积分（`plancks-2026-final-problem-slice-q7`）。"
+      ],
+      "benchmark_problem_ids": [
+        "cpho-2015-final-theory-problem-slice-q8",
+        "cpho-2021-final-theory-problem-slice-q4",
+        "plancks-2026-final-problem-slice-q7",
+        "physicscup-2024-q5-reader"
+      ]
+    },
+    {
+      "id": "arch_7",
+      "code": "T7",
+      "name": "相对论时空事件与高能四动量运动学",
+      "tagline": "放弃低速“绝对同时”直觉与冗长三角坐标系；用四维时空事件不变量和四动量内积一刀劈开。",
+      "frequency_note": "CPhO 必考固定阵地与高能粒子交叉核心（库内 21 题）",
+      "signal_cues": [
+        "多惯性系往返追及、同时性检验、高能粒子的衰变/对撞阈能、火箭加速或相对论多普勒。",
+        "题干给出 GeV 级粒子能量、半衰期飞行距离或要求计算辐射偏振/四动量守恒角。"
+      ],
+      "five_step_template": [
+        "**时空问题先编号“时空事件 $(x, ct)$”**：不要笼统谈“时间”，每个事件明确写清发生地点、发生者及参考系下标。",
+        "**粒子反应严禁硬套 $\\mathbf{v}$ 变换——直接用四动量 $P^\\mu=(E/c, \\mathbf{p})$**：利用 $P_\\mu P^\\mu = m^2c^2$ 洛伦兹不变性。",
+        "**算阈能直接切到质心系末态共速条件**：$(\\sum P_{\\text{in}})^2 = (\\sum m_{\\text{out}}c)^2$。",
+        "**连续加速首选快度（Rapidity）$\\eta = \\operatorname{artanh}\\beta$**：共线速度合成化为简单加法，非共线转弯套用双曲余弦定理。",
+        "**区分总能量 $E$ 与动能 $K=E-mc^2$、固有时与协调时**：并在 $\\beta \\ll 1$ 处展开检验牛顿极限。"
+      ],
+      "signature_traps": [
+        "把高能加速器的总能量 $E=6.8\\,\\text{GeV}$ 误当成动能 $K$ 代入（`cpho-2020-final-theory-problem-slice-q6`）。",
+        "光钟往返或相对论多普勒展开时弄错水平位移半程因子 2 或漏减 1（`plancks-2020-final-problem-slice-q3`, `plancks-2021-final-combined-slice-q12`）。"
+      ],
+      "benchmark_problem_ids": [
+        "cpho-2013-final-theory-problem-slice-q8",
+        "cpho-2016-semifinal-theory-problem-slice-q8",
+        "cpho-2020-final-theory-problem-slice-q6",
+        "physicscup-2022-q3-reader"
+      ]
+    },
+    {
+      "id": "arch_8",
+      "code": "T8",
+      "name": "精密实验测量、误差传递与分级近似链",
+      "tagline": "依托诺奖装置或现代天文测量（光镊、激光测距、天琴、LIGO、光谱），考验物理量级敏感度与多级泰勒保留阶数。",
+      "frequency_note": "CPhO 现代物理实验应用与 PanPhO/PLANCKS 科研情景大宗（库内 40 题）",
+      "signal_cues": [
+        "题目提供真实装置参数（纳米/飞秒/GHz/Jy）、要求设计测量光路/磁场或构建系统误差预算（Error Budget）。",
+        "需要连续做 2–3 次泰勒近似才能在领头阶相互抵消或显现微弱信号（如自聚焦透镜、色散延迟）。"
+      ],
+      "five_step_template": [
+        "**第一时间做无量纲比值量级估计**：算出系统内部所有无量纲数（$v/c$、$\\hbar\\omega/k_BT$、$\\omega/\\omega_p$、Stefan 数），定出哪些项可略、哪些必须留二阶。",
+        "**统一量纲与物理常数量级**：建议转化为标准 SI 单位制后再做最终数值代入，严防 $\\mu\\text{m}\\leftrightarrow\\text{cm}$ 或 $\\text{MeV/u}$ 错位。",
+        "**严格记录每一级小量展开阶数**：若主阶相互抵消，所有前置展开都必须保留到至少二阶或三阶，不得提前丢项。",
+        "**分离统计误差与系统漂移误差**：区分脉冲宽度定义（FWHM vs $1/e$ vs $1/e^2$）、分辨率极限（瑞利判据 vs 傅里叶带宽）。",
+        "**利用极端测量点或单调夹逼自检结果**：如光学干涉定级、测量灵敏度区间。"
+      ],
+      "signature_traps": [
+        "中间步骤过早四舍五入截断有效数字，导致相减或高次幂放大严重偏差（`cpho-2021-final-theory-problem-slice-q1`）。",
+        "混淆光学脉宽半高全宽（FWHM）与高斯振幅/强度 $e^{-2}$ 宽度中的 $\\sqrt{2}$ 或 $\\sqrt{\\ln 2}$ 系数（`panpho-2025-paper-2-problem-slice-q2`）。"
+      ],
+      "benchmark_problem_ids": [
+        "cpho-2019-final-theory-problem-slice-q5",
+        "panpho-2020-paper-2-problem-slice-q1",
+        "panpho-2024-paper-2-problem-slice-q1",
+        "panpho-2026-paper-2-problem-slice-q2"
+      ]
+    },
+    {
+      "id": "arch_9",
+      "code": "T9",
+      "name": "跨学科前沿微观/场论引导建模题",
+      "tagline": "题干直接搬出本科凝聚态、量子信息或研究生场论文献，但所有关键方程都藏在高中物理类比与题干脚手架里。",
+      "frequency_note": "CPhO 决赛压轴趋势与 PLANCKS/PanPhO 核心特征（库内 54 题）",
+      "signal_cues": [
+        "出现陌生专业术语（BKT 涡旋、Harper 蝴蝶、假真空瞬子、Abrikosov 格子、分子拉链、量子回流、第二声）。",
+        "题干篇幅较长，前面小问铺垫热力学/单粒子/经典类比，后面小问突然跃迁到宏观量子/相变物理现象。"
+      ],
+      "five_step_template": [
+        "**破除术语恐惧——翻译回三大底层物理**：任何前沿模型在竞赛考卷里本质上只是“守恒律 + 对称性 + 统计/微分方程”。",
+        "**顺着出题人的“小问脚手架”爬梯子**：第（1）（2）问推导的系数或模型几乎 100% 是第（3）（4）问的输入件，务必保持符号上下一致。",
+        "**识别并套用经典类比模板**：量子场论翻势类比牛顿质点滚山谷（`panpho-2023-paper-2-problem-slice-q1`）、超导伦敦方程类比屏蔽库仑势（`plancks-2019-final-problem-slice-q7`）。",
+        "**明确连续极限与离散格点转换**：牢记态密度积分中 $2\\pi/L$ 相空间元因子与维度 $d$ 依赖。",
+        "**对照「前沿特种模型库」提前预习 12 类高频模板**：考试遇到同名背景时直接拥有降维打击视野。"
+      ],
+      "signature_traps": [
+        "被前沿名词吓住直接放弃，实际上前 70% 分数只用到静力学平衡、玻尔兹曼分布或微积分分离变量。",
+        "直接背诵大学教材公式而没注意题目改写的维度、边界条件（如周期边界 vs 零边界：`plancks-2023-final-combined-slice-q4`）或符号约定。"
+      ],
+      "benchmark_problem_ids": [
+        "cpho-2021-final-theory-problem-slice-q5",
+        "plancks-2021-final-combined-slice-q2",
+        "panpho-2023-paper-2-problem-slice-q1",
+        "plancks-2025-final-combined-slice-q9"
+      ]
+    }
+  ],
+  "pitfall_clinics": [
+    {
+      "id": "pit_1",
+      "title": "1. 定理与公式适用前提误用",
+      "mechanism": "只记住结论形式而遗忘了推导时的刚体轴心、参考系惯性性、电势边界或稳态前提。",
+      "symptoms": [
+        "对非质心转轴直接套用平行轴定理 $I = I_0 + md^2$；",
+        "混淆“孤立导体总电荷守恒”（必须补球心补偿像电荷）与“接地导体等势零”；",
+        "在存在外力偶矩或非惯性系中盲目套用实验室系质心动能定理却漏掉惯性力虚功。"
+      ],
+      "examples": [
+        {
+          "id": "cpho-2020-final-theory-problem-slice-q7",
+          "note": "均匀半球绕底面圆心轴转动时不可把底面直接当质心轴使用平行轴定理，须先回到质心轴 $z_c = 3R/8$。"
+        },
+        {
+          "id": "cpho-2020-final-theory-problem-slice-q2",
+          "note": "孤立导体球双电像递推时，每反射一次都必须在球心放置补偿电荷，否则净电荷不守恒。"
+        },
+        {
+          "id": "cpho-2019-semifinal-theory-problem-slice-q2",
+          "note": "官方解答误断 $\\mu \\ge \\tan\\theta$ 即停死，盲解查明在 $\\mu \\in [\\tan\\theta, \\frac{8}{3}\\tan\\theta)$ 仍存在向左倒滑分支。"
+        }
+      ],
+      "remedy_rule": "每次动笔套用定理前，用 3 秒口头核对“参考系—轴心—边界条件”三要素是否全部满足。"
+    },
+    {
+      "id": "pit_2",
+      "title": "2. 几何角、参考方向与符号约定混淆",
+      "mechanism": "多阶段或极坐标/曲线坐标问题中，不同小问隐含了相反的增角方向、互余角或电磁梯度正负号。",
+      "symptoms": [
+        "把椭圆参数方程离心角 $\\phi$ 当成极坐标极角 $\\theta$ 代入极径公式；",
+        "光波导端面入射角与侧壁全反射角互余未取余角（$\\sin$ 与 $\\cos$ 颠倒）；",
+        "在泊松-玻尔兹曼方程、静水压强梯度或极化色散方程中把负号搞反导致指数发散或方向反转。"
+      ],
+      "examples": [
+        {
+          "id": "plancks-2024-final-combined-slice-q6",
+          "note": "第 (b) 问直接把椭圆离心角当极角计算极值半径，盲解阶段已提前标注规避。"
+        },
+        {
+          "id": "cpho-2021-final-theory-problem-slice-q4",
+          "note": "泊松-玻尔兹曼方程必须严守 $\\mathrm{d}\\varphi/\\mathrm{d}x = -E_x$，否则双电层反离子密度号错。"
+        },
+        {
+          "id": "cpho-2020-final-theory-problem-slice-q5",
+          "note": "左/右旋圆极化电磁波在磁化冷等离子体中的色散公式正负号若反写，法拉第旋光角即反号。"
+        }
+      ],
+      "remedy_rule": "在草稿纸角落画出清晰坐标箭头、角度起算射线，并对导出的单调性或受力方向做直观物理符号判别。"
+    },
+    {
+      "id": "pit_3",
+      "title": "3. 多体 $1/2$ 双计数、自由度与脉宽因子遗漏",
+      "mechanism": "平均场理论、电容电感储能与概率分布转换中最隐蔽的常数因子错误，极难通过粗略量纲检出。",
+      "symptoms": [
+        "把单个粒子的有效场能量直接乘粒子数 $N$ 当成系统总内能，漏掉互作用双计数因子 $1/2$；",
+        "漏算辐射空腔内壁多次自反射份额；",
+        "把高斯脉冲的半高全宽（FWHM）与 $e^{-2}$ 强度半宽或电场包络宽度混用，差 $\\sqrt{2}$ 或 $\\sqrt{\\ln 2}$ 倍。"
+      ],
+      "examples": [
+        {
+          "id": "cpho-2021-final-theory-problem-slice-q5",
+          "note": "求分子场铁磁总磁能时，务必加上双计数因子 $1/2$，且反铁磁奈尔温度对应交错磁化特征根。"
+        },
+        {
+          "id": "cpho-2018-semifinal-theory-problem-slice-q6",
+          "note": "官方级数漏算内壁自反射 $(1-k)(1-E)$ 份额算成 $227\\,\\mathrm{K}$，严格辐射度方程解约 $217\\,\\mathrm{K}$。"
+        },
+        {
+          "id": "panpho-2025-paper-2-problem-slice-q2",
+          "note": "飞秒高斯脉冲宽度定义换算叠加官方 A2 小问 $100\\times$ 印刷笔误，务必独立核验 $\\sqrt{\\ln 2}$ 系数。"
+        }
+      ],
+      "remedy_rule": "遇到多体总能量先写两体特例 $N=2$ 检验是 $1$ 项还是 $2$ 项；遇到分布密度或脉宽定义必须写明完整函数形式及积分归一化。"
+    },
+    {
+      "id": "pit_4",
+      "title": "4. 相对论不变量、总能与动能混淆",
+      "mechanism": "在低速牛顿直觉惯性下把高能粒子总能量当动能，或进行洛伦兹微扰展开时丢掉同阶项。",
+      "symptoms": [
+        "将 $E=6.8\\,\\mathrm{GeV}$ 质子能量直接套入动能公式而忘记减去静能 $m_p c^2 \\approx 0.938\\,\\mathrm{GeV}$；",
+        "光钟水平往返总程忘除以 2；",
+        "认为“两粒子动能相同”即“速率或总能相同”，或微扰展开 $1 - \\sqrt{(1-\\beta)/(1+\\beta)}$ 漏减 1。"
+      ],
+      "examples": [
+        {
+          "id": "cpho-2020-final-theory-problem-slice-q6",
+          "note": "区分总能量与动能是算准飞行时间 TOF 与切伦科夫环角度的第一前提。"
+        },
+        {
+          "id": "plancks-2020-final-problem-slice-q3",
+          "note": "光子钟水平移动单程距离为 $VT'/2$，直接决定洛伦兹因子平方根位置。"
+        },
+        {
+          "id": "plancks-2021-final-combined-slice-q12",
+          "note": "官方第 5 问将多普勒相对频移 $1 - \\frac{1}{1+v/c}$ 误印成 $\\frac{c}{c+v}$，由 $\\beta\\to 0$ 极限立即可识破。"
+        }
+      ],
+      "remedy_rule": "所有相对论符号表达式必须在 $\\beta\\to 0$ 时退化出经典非相对论一阶或零阶量，出现违背极限者必有代数笔误。"
+    },
+    {
+      "id": "pit_5",
+      "title": "5. 边界条件、对称镜像与无穷项遗漏",
+      "mechanism": "只画出一侧光线、单重像电荷或忽略无穷多个镜像串联贡献，导致通量或响应系数整整差一倍。",
+      "symptoms": [
+        "平行等温/等势板间放置极微偶极子时只放一次镜像，漏算无限镜像级数导致积分差 2 倍；",
+        "紧贴折射面光源忘记前后双向半球发射与逃逸锥；",
+        "闭合直流电源导轨忽略电源所在闭合端边导线产生的推进安培力。"
+      ],
+      "examples": [
+        {
+          "id": "physicscup-2020-q4-reader",
+          "note": "平行板内球形空腔热流微扰须借助格林互易或无穷镜像偶极子求解，单像近似通量恰错一半。"
+        },
+        {
+          "id": "physicscup-2026-q5-reader",
+          "note": "水晶球壁内光源存在向前与向后双向逃逸锥立体角积分。"
+        },
+        {
+          "id": "cpho-2016-final-theory-problem-slice-q6",
+          "note": "Hyperloop 直线电机推力中闭合回路电源边电流段的推斥贡献不可忽略。"
+        }
+      ],
+      "remedy_rule": "凡有“两块平行面 / 封闭曲面 / 紧贴界面”场景，先用整体守恒（如 Shockley-Ramo、虚功 $\\frac{1}{2}I^2 \\mathrm{d}L/\\mathrm{d}z$）做一次独立互验。"
+    },
+    {
+      "id": "pit_6",
+      "title": "6. 量纲错位、单位换算与中间取整失真",
+      "mechanism": "在多步数值计算或高阶科学单位制（$\\text{MeV/u}$、$\\mu\\text{m}^2$、非对易算符）中产生数量级级联灾难。",
+      "symptoms": [
+        "$\\mu\\text{m} \\to \\text{cm}$ 面积换算漏乘 $10^{-8}$；",
+        "重离子能量标注 $\\text{MeV/u}$ 时漏乘核子数 $A$（如 $^{12}\\text{C}$ 漏乘 12）；",
+        "多步计算时每步取 2–3 位有效数字导致末端相减或指数函数失真。"
+      ],
+      "examples": [
+        {
+          "id": "plancks-2020-final-problem-slice-q4",
+          "note": "官方迁移率计算漏换微米与厘米（量纲差 $10^{-8}$），经量纲查验一眼锁定。"
+        },
+        {
+          "id": "plancks-2023-final-combined-slice-q7",
+          "note": "官方碳核动量比漏乘核子数 12 且将电荷数比倒置，属于典型的核物理单位制陷阱。"
+        },
+        {
+          "id": "cpho-2015-final-theory-problem-slice-q2",
+          "note": "官方第(10)–(12)式误将 $500\\,\\mathrm{m}$ 当作 $5.0/0.50$ 代入引起加速度级联偏差。"
+        }
+      ],
+      "remedy_rule": "坚持“符号推到底、中间不取整、代入先化标准 SI、末尾复查 1 个数量级合理性”；即使看参考解答也要带量纲眼镜审视每一步。"
+    }
+  ],
+  "self_audit_protocol": {
+    "title": "做完每道竞赛题后的 5 项黄金验算仪式",
+    "subtitle": "从「算完就对答案」升级为「考场零失误独立校验」，也是本库盲解在 49 题中跑赢或纠出官方笔误的核心方法。",
+    "checks": [
+      {
+        "id": "chk_dim",
+        "name": "① 量纲齐次性与物理量级直觉核验",
+        "detail": "检查最终表达式每一加项是否具有完全相同的 SI 量纲；若算得数量级结果（如 $227\\,\\mathrm{K}$、迁移率、宇宙学年龄），估测物理合理区间。"
+      },
+      {
+        "id": "chk_limit",
+        "name": "② 极端参数退化与边界特例检验",
+        "detail": "令质量比 $m/M\\to 0$ 或 $1$、倾角 $\\theta\\to 0$ 或 $\\pi/2$、相对论 $\\beta\\to 0$、步数 $N=1,2$，看表达式是否退化为已知初等正确结论。"
+      },
+      {
+        "id": "chk_sign",
+        "name": "③ 对称性、单调性与正负号物理判别",
+        "detail": "验证两体互换对称性（$m_1\\leftrightarrow m_2$）、梯度正负号（力指向低势处、吸放热符号）与极限角趋势（如越大角度应增大还是减小）。"
+      },
+      {
+        "id": "chk_cross",
+        "name": "④ 独立路径交叉验算（全局 vs 微元）",
+        "detail": "用整体能量/动量定理检验牛顿微分方程积分结果，用虚功原理 $\\mathrm{d}U/\\mathrm{d}x$ 检验电磁力积分结果，用费马等光程检验几何作图。"
+      },
+      {
+        "id": "chk_errata",
+        "name": "⑤ 批判性核对参考答案（警惕官方笔误）",
+        "detail": "当自身五维验算全通过却与参考答案数值或系数不符时，切忌立刻推翻自己——回查原卷与参考解答是否漏掉常数（参考本库 49 道 ★盲解亮点/勘误题）。"
+      }
+    ]
+  }
+}
